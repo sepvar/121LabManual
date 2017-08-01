@@ -1,0 +1,84 @@
+% Explicitly include this file in each homework assignment
+
+\newcommand{\partprob}[2]{%
+     \setcounter{section}{#1}%
+     \addtocounter{section}{-1}%
+     \section{#1) #2}}
+\newcommand{\find}[1]{\noindent\newline{\large\bf  #1}\hfill\newline}
+
+
+\newcommand{\extra}[2]{\problem{#1}\label{#2} This might be in the library.}
+\newcommand{\due}[2]{\problem{#1}\label{#2} This will be posted separately.}
+
+\newcommand{\assignment}[4]{ \begin{latexonly}
+                             \begin{center}\begin{tabular}{llc|c|c}
+                                    &    & {\bf Collected} & Expected & Extra \\ \cline{3-5}
+                              Chap.\ #1 & Q: & #2 \\
+                                        & M: & #3 \\
+                                        & P: & #4 \\ \hline
+                              \end{tabular}\end{center}\end{latexonly} }
+
+
+\newcommand{\stepone}{\noindent\newline(1) {\sc Translation:}\ }
+\newcommand{\steptwo}{\noindent\newline(2) {\sc Given:}\ }
+\newcommand{\twostep}{\noindent\newline(2) }
+\newcommand{\stepthr}{\noindent\newline(3) {\sc Problem Type:}\ }
+\newcommand{\stepfou}{\noindent\newline(4) {\sc Procedure:}\ }
+\newcommand{\stepfiv}{\noindent\newline(5) {\sc Calculation:}\ }
+
+\newenvironment{statement}
+               {\begin{quote}\latex{\flushleft\tt}}
+               {\newline\latex{\footnoterule}\html{\htmlrule}\end{quote}}
+
+\newenvironment{setup}{ \[\begin{array}{crclc} }{ \end{array}\] }
+\newenvironment{reasoning}{ \begin{center}\begin{tabular}{cl} }{ \end{tabular}\end{center} }
+\newenvironment{given}{ {\bf Given:}\[\begin{array}{crcll} }{ \end{array}\] }
+
+\newenvironment{eqbox}{ \[\displaystyle\begin{array}{l} }{ \end{array}\] }
+\newenvironment{eqs}{ \begin{array}{rcl} }{ \end{array} }
+\newcommand{\boxeq}[3]{\begin{eqbox}\begin{eqs} #1 \end{eqs} \\ #2 \fbox{$#3$} \end{eqbox}}
+\newcommand{\boxreason}[3]{\begin{eqbox}\begin{array}{rcll} #1 \end{array} \\ #2 \fbox{$#3$} \end{eqbox}}
+\newcommand{\twoboxeq}[6]{\[\displaystyle\begin{array}{lll} \begin{eqs} #1 \end{eqs} & \mbox{\hspace{.25cm}} & \begin{eqs} #4 \end{eqs} \\ #2\fbox{$#3$} && #5\fbox{$#6$}\end{array}\]}
+
+\newenvironment{assignments}{ \begin{center}\begin{tabular}{l|r}\hline }{ \\ \hline \end{tabular}\end{center} }
+\newcommand{\assignset}[4]{ \begin{tabular}{lllll}
+                 & & {\bf Collected} & Expected & Extra \\
+                             Chap.\ #1 & Q: & #2 \\
+                                       & M: & #3 \\
+                                       & P: & #4 \\
+                             \end{tabular} }
+
+\newcommand{\ask}[1]{Ask yourself {\bf ``#1''}}
+
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\sig}[3]{\underline{#1}{#2}\unit{#3}}
+\newcommand{\sigfrac}[4]{\underline{#1}{#2}\unitfrac{#3}{#4}}
+
+
+\newcommand{\unit}[1]{\,{\rm #1}}
+\newcommand{\unfrac}[2]{\mbox{$\phantom{1\!}^{\underline{{\rm #1}}}_{{\rm #2}}$}}
+\newcommand{\unitfrac}[2]{\mbox{$\phantom{1\!}^{{\rm #1}\!\!}/_{\!\!{\rm #2}}$}}
+\newcommand{\txtfrac}[2]{\phantom{1\!}^{#1\!\!}/_{\!\!#2}}
+\newcommand{\boxfrac}[2]{\displaystyle \frac{{#1}^{\phantom{1^1\!\!\!\!}}}{{#2}_{\phantom{1_1\!\!\!\!}}}\!}
+\newcommand{\say}[1]{\mbox{\rm\footnotesize\begin{tabular}{c} #1 \end{tabular}}}
+\newcommand{\imply}[1]{\mbox{\rm\footnotesize ``#1''} \Rightarrow}
+\newcommand{\convert}[2]{\times\left(\frac{#1}{#2}\right)}
+\newcommand{\boxconvert}[2]{\times\left(\boxfrac{#1}{#2}\right)}
+\newcommand{\ten}[1]{\times 10^{#1}}
+\newcommand{\func}[2]{#1\!\left(#2\right)}
+\newcommand{\txtfunc}[2]{#1(#2)}
+
+\newcommand{\ms}{\unitfrac{m}{s}}
+\newcommand{\mss}{\unitfrac{m}{s^2}}
+
+
+\newcommand{\KE}{\mbox{KE}}
+\newcommand{\PE}{\mbox{PE}}
+
+\newcommand{\battery}[2]{\put(#1){\line(1,0){.5}}\put(#2){\line(1,0){1}}}
+\newcommand{\batterx}[2]{\put(#1){\line(0,1){.5}}\put(#2){\line(0,1){1}}}
+\newcommand{\resistorx}[2]{\multiput(#1)(.2,0){3}{\line(1,-4){.1}}
+                           \multiput(#2)(.2,0){3}{\line(1,4){.1}} }
+\newcommand{\ohm}{\Omega}
+\newcommand{\ohms}{\Omega}
+
