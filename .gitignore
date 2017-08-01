@@ -1,0 +1,20 @@
+# Ignore the HTML files; they will be created from the XML source.
+*.html
+# Ignore the prj files as they are for WinEdit
+ManualXML.prj
+ManualXML.prj.bak
+# Ignore the fall-lab-manual files as output from XML
+fall-lab-manual.aux
+fall-lab-manual.bbl
+fall-lab-manual.blg
+fall-lab-manual.html
+fall-lab-manual.log
+fall-lab-manual.out
+fall-lab-manual.pdf
+fall-lab-manual.synctex
+fall-lab-manual.synctex(busy)
+fall-lab-manual.tex
+fall-lab-manual.toc
+# Ignore the PASCO lesson files as they are for CAPSTONE
+PASCO-lesson.pdf
+PASCO-lesson.pptx
