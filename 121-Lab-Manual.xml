@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- editing for github testing -->
+<?xml version="1.0" encoding="UTF-8"?> 
+<!-- editing for github testing --> 
 <mathbook xml:lang="en-US">
 
+	<!-- AAA -->
+
     <docinfo>
-        <macros>
+	    <!-- BBB -->
+	    <!-- BC  -->
+	<macros>
         \newcommand{\JC}[1]{}
         \newcommand{\unit}[1]{\,{\rm #1}}
         \newcommand{\unitfrac}[2]{\mbox{$\phantom{1\!}^{{\rm #1}\!\!}/_{\!\!{\rm #2}}$}}
@@ -94,7 +98,7 @@
     <!-- I've done this as a single section, but we can have a <biography> for each person -->
         <title>About the Authors</title>
 
-
+        <sidebyside>
             <tabular>
             <col width="1%" />
             <col width="90%" />
@@ -118,6 +122,7 @@
                           <line>first came to Thomas More College in 1980</line></cell></row>
                 <row />
             </tabular>
+        </sidebyside>
 
     </biography>
 
@@ -159,8 +164,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="c-meaningful-measurements">
-<title>Meaningful Measurements</title>
+<chapter xml:id="c-meaningful-measurements"> <title>Meaningful Measurements</title>
 
 <!-- Revisions
     \revised{August 25, 2015}
@@ -217,7 +221,8 @@
     <p>
     <ul>
         <li><p> There are several measuring devices at your lab station, a metric ruler, a vernier caliper, and a micrometer caliper.
-        Check these instruments for any zero-point errors.  The use of the caliper and micrometer is outlined below. </p></li>
+        Check these instruments for any <term>zero-point errors</term> (verify that they are <term>calibrated</term>).
+        The use of the caliper and micrometer is outlined below. </p></li>
         <li><p> There are also several solids available: a cylinder, a cube, and a sphere.
         <ul>
             <li><p> Measure the dimensions of two of the objects with each of the following instruments: a metric ruler,
@@ -225,75 +230,78 @@
             <li xml:id="q-measurementerror"><p>   Estimate the experimental uncertainties of your measurements.
             <exercisegroup>
                 <exercise>
-                <title>zero-point errors</title>
-                <statement>
-                    <p>You should verify the calibration of your instruments.
-                    Determine if there are the zero-point errors for each of the measuring instrument.</p>
-                </statement>
-                <hint><p>You might re-read the <xref ref="li-systematic-error">description of systematic error</xref> to remind yourself what a
-                    <term>zero-point error</term> is.</p></hint>
-                <hint><p>Is the meterstick rough on the end?
-                    Is the edge marked as zero actually at the zero value?
-                    Can you think of a way to ensure that the condition of the meterstick does not impact the measurement of length?
-                    How does the distance from zero to five compare to the distance from one to six?
-                    </p></hint>
-                <hint><p>Does the caliper read zero when it is measuring a zero length?</p></hint>
-                <hint><p>Does the micrometer read zero when it is measuring a zero length?</p></hint>
-                <solution>
-                    <p>You should figure out how to make efforts to correct for zero-point errors.</p>
-                    <p>For each instrument, if the measurement you consider to have zero-length is not actually <q>zero</q>,
-                        then you can handle that in the same way that you know the distance from 1 to 6 or from 2 to 7 or from 10 to 15. </p>
-                    <p>You will also need to concern yourself with whether this uncertainty is
-                        <term>systematic</term> (always making the answer slightly too big or always slightly too small) or
-                        <term>random</term> (sometimes making the answer slightly too big and sometimes slightly too small).
-                        (Recall <xref ref="sss-mistakes" />.)</p>
-                </solution>
-                <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
-                    Especially in this week, your report should explain how you accommodated any zero-point errors.</p></answer>
+                        <title>Zero-Point Errors</title>
+                        <statement>
+                            <p>You should verify the calibration of your instruments.
+                            Determine if there are the zero-point errors for each of the measuring instrument.</p>
+                        </statement>
+                        <hint><p>You might re-read the <xref ref="li-systematic-error" text="title">description of systematic error</xref> to remind yourself what a
+                            <term>zero-point error</term> is.</p></hint>
+                        <hint><p>Is the meterstick rough on the end?
+                            Is the edge marked as zero actually at the zero value?
+                            Can you think of a way to ensure that the condition of the meterstick does not impact the measurement of length?
+                            How does the distance from zero to five compare to the distance from one to six?
+                            </p></hint>
+                        <hint><p>Does the caliper read zero when it is measuring a zero length?</p>
+                                <p>You should close the caliper to determine this.</p></hint>
+                        <hint><p>Does the micrometer read zero when it is measuring a zero length?</p>
+                                <p>You should close the micrometer to determine this.</p></hint>
+                        <solution>
+                            <p>You should figure out how to make efforts to correct for zero-point errors.</p>
+                            <p>For each instrument, if the measurement you consider to have zero-length is not actually <q>zero</q>,
+                                then you can handle that in the same way that you know the distance from 1 to 6 (in this case, subtract 1 from any measurement you make) or from 2 to 7  (in this case, subtract 2 from any measurement you make) or from 10 to 15 (in this case, subtract 10 from any measurement you make) . </p>
+                            <p>You will also need to concern yourself with whether this uncertainty is
+                                <term>systematic</term> (always making the answer slightly too big or always slightly too small) or
+                                <term>random</term> (sometimes making the answer slightly too big and sometimes slightly too small).
+                                (Recall <xref ref="sss-mistakes" text="type-global" />.)</p>
+                        </solution>
+                        <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
+                            Especially in this week, your report should explain how you accommodated any zero-point errors.</p></answer>
                 </exercise>
                 <exercise>
-                <title>Parallax</title>
-                <statement>
-                    <p>Determine if the value you are reading depends on the location of your eye.  </p>
-                </statement>
-                <hint><p>For the caliper and the micrometer, the instrument clamps around the item being measured.</p>
-                    <p>For the meterstick, you have to align the edge with a tick-mark.</p></hint>
-                <solution>
-                    <p>You should figure out how to make efforts to correct any parallax errors.
-                        It may help to determine whether this uncertainty is
-                        <term>systematic</term> (always making the answer slightly too big or always slightly too small) or
-                        <term>random</term> (sometimes making the answer slightly too big and sometimes slightly too small).
-                        (Recall <xref ref="sss-mistakes" />.)</p>
-                    <p>For each instrument, if the measurement does depend on the location of your eye,
-                    then you might try measuring it multiple times with your head in different locations each time
-                    to gauge the size of this uncertainty.</p>
-                </solution>
-                <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
-                    Especially in this week, your report should explain how you accommodated any parallax errors.</p></answer>
+                        <title>Parallax</title>
+                        <statement>
+                            <p>Determine if the value you are reading depends on the location of your eye.  </p>
+                        </statement>
+                        <hint><p>For the caliper and the micrometer, the instrument clamps around the item being measured.  Decide if the location of your eye matters in the measurement.</p>
+                            <p>For the meterstick, you have to align the edge with a tick-mark. Does the location of your eye impact the alignment of the tick-mark on the ruler with the edge of the object?</p></hint>
+                        <solution>
+                            <p>You should figure out how to make efforts to correct any parallax errors.
+                                It may help to determine whether this uncertainty is
+                                <term>systematic</term> (always making the answer slightly too big or always slightly too small) or
+                                <term>random</term> (sometimes making the answer slightly too big and sometimes slightly too small).
+                                (Recall <xref ref="sss-mistakes" text="type-global" />.)</p>
+                            <p>For each instrument, if the measurement does depend on the location of your eye,
+                            then you might try measuring it multiple times with your head in different locations each time
+                            to gauge the size of this uncertainty.</p>
+                            <p>In the case of the meterstick, the object being measured should be as close as possible (touching?) the tick-marks of the meterstick in order to minimize parallax.</p>
+                        </solution>
+                        <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
+                            Especially in this week, your report should explain how you accommodated any parallax errors.</p></answer>
                 </exercise>
                 <exercise>
-                <title>Random or Systematic</title>
-                <statement>
-                    <p>When you measure the diameter of a sphere, it might be difficult to get the caliper precisely at the full diameter.
-                    If you are off, then you will necessarily be measuring a smaller value.  This is a systematic error that can be corrected for.
-                    Since any mistake necessarily gives a value that is too small, then measuring it multiple times and finding the largest value
-                    will minimize this uncertainty.</p>
-                    <p>On the other hand, if you measure an egg, you would not expect the diameter to be the same.
-                    Clearly for an egg, there is no reasonable single value to use as The Diameter.
-                    In this case, the question of finding the diameter does not make sense, and by measuring in a systematic pattern,
-                    you can determine that the shape is not spherical.</p>
-                    <p>Determine if the zero-point error and the parallax error are random or systematic.</p>
-                </statement>
-                <hint><p>If a meterstick is worn down at the zero-value, then is it more likely to be measuring too short or too long?
-                Is that systematic or random?</p></hint>
-                <hint><p>For a measurement affected by parallax, is that systematic or random?</p></hint>
-                <solution>
-                    <p>Since random errors might give a result too big or too small,
-                    measuring many times and averaging should minimize these errors.</p>
-                    <p>Since systematic errors tend to be either too big or too small (in a predictable or explainable way),
-                    you should track the uncertainties and recognize if this measurement
-                    causes your result to be more likely too big or more likely too small.</p>
-                </solution>
+                        <title>Random or Systematic</title>
+                        <statement>
+                            <p>When you measure the diameter of a sphere, it might be difficult to get the caliper precisely at the full diameter.
+                            If you are off, then you will necessarily be measuring a smaller value.  This is a systematic error that can be corrected for.
+                            Since any mistake necessarily gives a value that is too small, then measuring it multiple times and finding the largest value
+                            will minimize this uncertainty.</p>
+                            <p>On the other hand, if you measure an egg, you would not expect the diameter to be the same.
+                            Clearly for an egg, there is no reasonable single value to use as The Diameter.
+                            In this case, the question of finding the diameter does not make sense, and by measuring in a systematic pattern,
+                            you can determine that the shape is not spherical.</p>
+                            <p>Determine if the zero-point error and the parallax error are random or systematic.</p>
+                        </statement>
+                        <hint><p>If a meterstick is worn down at the zero-value, then is it more likely to be measuring too short or too long?
+                        Is that systematic or random?</p></hint>
+                        <hint><p>For a measurement affected by parallax, is that systematic or random?</p></hint>
+                        <solution>
+                            <p>Since random errors might give a result too big or too small,
+                            measuring many times and averaging should minimize these errors.</p>
+                            <p>Since systematic errors tend to be either too big or too small (in a predictable or explainable way),
+                            you should track the uncertainties and recognize if this measurement
+                            causes your result to be more likely too big or more likely too small.</p>
+                        </solution>
                 </exercise>
                 </exercisegroup> </p></li>
             <li><p> Repeat the measurements at several positions and orientations around the object, compute the average
@@ -312,7 +320,7 @@
     determine one additional significant figure of precision over that of a straight ruler.</p>
 
     <p>For example, this eliminates the need for estimating to the tenth of a millimeter on the metric ruler.
-    The vernier caliper, shown in <xref ref="f-vernier" />,
+    The vernier caliper, shown in <xref ref="f-vernier" text="type-global" />,
     can measure distances using three different parts of the caliper: outside diameters (large jaws), inside diameters (small jaws),
     and depths (probe).  You should locate these three places on your caliper.  The vernier device consists of the main scale and
     a movable vernier scale.  The fraction of a millimeter can be read off the vernier scale by choosing the mark on the
@@ -334,7 +342,7 @@
     <p> To move the vernier scale relative to the main scale press down on the thumb-lock, this releases the lock and then
     move the vernier scale.   Do not try to move the vernier scale without releasing the lock. </p>
 
-    <aside><title></title><p>The reading of the caliper from <xref ref="f-vernier" /> is <m>1.35 \unit{mm} \pm .01 \unit{mm}</m>
+    <aside><title></title><p>The reading of the caliper from <xref ref="f-vernier" text="type-global" /> is <m>1.35 \unit{mm} \pm .01 \unit{mm}</m>
     because we can distinguish <m>1.35</m> from <m>1.34</m> and <m>1.36</m>, but we cannot gauge the result any more precisely.</p>
     </aside>
 
@@ -343,7 +351,7 @@
     <subsection>
     <title>The Micrometer Caliper</title>
 
-    <p> A micrometer caliper is shown in <xref ref="f-micrometer" />.
+    <p> A micrometer caliper is shown in <xref ref="f-micrometer" text="type-global" />.
     This instrument is used for the precise length measurement of a small object.
     The object is placed with care between the anvil and the rod.  It is very important to not tighten down on the object with a vise-like grip.
     Tightening with force will <term>decalibrate</term> the micrometer (causing a zero-point error).
@@ -367,7 +375,7 @@
         </assemblage>
 
     <aside><title></title><p>
-    The reading of the micrometer from <xref ref="f-micrometer" /> is <m>6.730 \pm .005 \unit{mm}</m>.
+    The reading of the micrometer from <xref ref="f-micrometer" text="type-global" /> is <m>6.730 \pm .005 \unit{mm}</m>.
     Since each mark corresponds to <m>0.01 \unit{mm}</m> and you can probably gauge a distance about half-way between the lines,
     the precision of this instrument is <m>0.005\unit{mm}</m>.</p>
     </aside>
@@ -426,8 +434,7 @@
 
 
 
-<chapter xml:id="c-standard-deviation">
-<title>Standard Deviation</title>
+<chapter xml:id="c-standard-deviation"> <title>Standard Deviation</title>
 
     <!-- Revisions
         \revised{Aug. 28, 2009}
@@ -453,7 +460,7 @@
     <p>Suppose you collect data on a large number of throws, separating the data into categories (bins): The number of darts on
     the line, the number within .5 to 1.5 cm from the center, the number within 1.5 to 2.5 cm, etc.  A plot of this data with the
     dart positions on the x-axis and the number of darts hit within each bin plotted on the y-axis is called a histogram (see
-    <xref ref="f-histogram" />).  The envelope of this graphical data set is bell shaped, and is called a Gaussian or a Normal
+    <xref ref="f-histogram" text="type-global" />).  The envelope of this graphical data set is bell shaped, and is called a Gaussian or a Normal
     distribution curve.</p>
 
         <assemblage>
@@ -595,11 +602,10 @@
 <!-- ********************************************************************************************** -->
 
 <chapter><title>Constant Acceleration</title>
-<!-- Revisions
-\revised{Sept. 14, 2015}
-\revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
-\revision{Sept. 16, 2008}{Created?}
--->
+<!--    Revisions \revised{Sept. 14, 2015}
+        \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
+        \revision{Sept. 16, 2008}{Created?}
+        -->
 
     <objectives><title>Experimental Purpose</title>
     <introduction>
@@ -628,7 +634,7 @@
 
         <subsection xml:id="sss-FlatTrack"><title>Cart and Flat Track</title>
         <p>Log into the computer (so you can save your data to your network drive) and then open Pasco Capstone.
-        (<xref ref="s-Capstone" /> will provide some instructions for setting up the software and connecting the equipment.)
+        (<xref ref="s-Capstone" text="type-global" /> will provide some instructions for setting up the software and connecting the equipment.)
         Connect the motion sensor to the computer interface.
         Set the data rate of the motion sensor at <m>50 \unit{Hz}</m>.
         Place a steel ball on the track and adjust the leveling screw at one end of the track to see if the ball rolls one way or the other.
@@ -637,7 +643,7 @@
         (You might need to use the <q>sail</q> for the sensor to see the cart.)</p>
 
         <p>Place the cart on the track.  Capstone, via the sonic ranger, can measure the position and velocity of the cart as a function of time.
-        (This is explained in <xref ref="s-Capstone" />.)
+        (This is explained in <xref ref="s-Capstone" text="type-global" />.)
             <exercisegroup>
                 <exercise>
                     <statement>
@@ -648,7 +654,7 @@
                     <hint><p>If the track is not level, sending the cart in one direction, it will be going uphill;
                         but in the other direction it will be going downhill.
                         If you measure the motion in both directions, you should be able to see the difference.</p></hint>
-                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-Acc-friction" />.)</p></hint>
+                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-Acc-friction" text="type-global" />.)</p></hint>
                     <hint><p>It is probably useful to describe this using terms such as <q>speeding up</q> or <q>slowing down</q>.
                         You may also want to practice describing this by comparing how the direction of the acceleration
                         compares to the direction of the velocity.</p></hint>
@@ -662,7 +668,7 @@
                         you should be able to see if there is a difference.
                         You should also be able to predict how the motion in each direction for this case is
                         similar or different from the case when the track is not level.</p></hint>
-                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-Acc-friction" />.)</p></hint>
+                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-Acc-friction" text="type-global" />.)</p></hint>
                     <hint><p>It is probably useful to describe this using terms such as <q>speeding up</q> or <q>slowing down</q>.
                         You may also want to practice describing this by comparing how the direction of the acceleration
                         compares to the direction of the velocity.</p></hint>
@@ -781,7 +787,7 @@
 
         <subsection><title>Cart and Flat Track</title>
 
-        <p>Based on the results of <xref ref="sss-FlatTrack" />,
+        <p>Based on the results of <xref ref="sss-FlatTrack" text="type-global" />,
         write a short analysis of the relationship between these two graphs (x and v versus time).
         From the velocity versus time graph (specifically from the trendline) determine the value of the acceleration of the cart down the track;
         be sure to include the uncertainty of the acceleration and the units.
@@ -821,7 +827,7 @@
 
         <subsection><title>Cart and Sloped Track</title>
 
-        <p>Based on the results of <xref ref="sss-SlopedTrack" />, write an analysis of the relationship between the two graphs
+        <p>Based on the results of <xref ref="sss-SlopedTrack" text="type-global" />, write an analysis of the relationship between the two graphs
         (x and v versus time).  From the velocity versus time graph determine the value of the acceleration of the cart down the track.
 <!-- \setcounter{enumi}{\thedave} -->
             <exercisegroup>
@@ -902,13 +908,11 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Newton">
-<title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
-<!-- Revisions
-\revised{Sept. 14, 2015}
-\revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
-\revision{Sept.~23, 2008}{}
--->
+<chapter xml:id="s-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
+<!--    Revisions \revised{Sept. 14, 2015}
+        \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
+        \revision{Sept.~23, 2008}{}
+        -->
 
 <introduction><title>Introduction to Forces</title>
     <p>Forces are related to the natural motion of bodies, where one object can affect the motion of another object.
@@ -985,16 +989,14 @@
     </p></li> <li><p> The carts and tracks need to be handled with care.  Scratches can add friction to the system.
     </p></li> </ul>
 
-</section>
-<section><title>Pre-Lab Work</title>
+</section> <section><title>Pre-Lab Work</title>
 
     <ul>
     <li><p> Draw a free-body force diagram for the cart and for the hanging mass.
     </p></li> <li><p> Derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging body.
     </p></li> </ul>
 
-</section>
-<section><title>Procedure</title>
+</section> <section><title>Procedure</title>
 
     <ul>
     <li><p> If the cart is given an initial push (without the hanging mass and string attached) then the cart should travel
@@ -1017,8 +1019,7 @@
         Determine the acceleration of the cart (and the uncertainty for the acceleration) for each of these 7 runs.</p></li>
     </ul>
 
-</section>
-<section><title>Analysis</title>
+</section> <section><title>Analysis</title>
 
     <ul>
     <li><p> Make a graph of the acceleration of the system (y-axis) versus the weight <m>(mg)</m> of the hanging body (x-axis),
@@ -1040,8 +1041,7 @@
         What parameter held this role in this experiment?</p></li>
     </ul>
 
-</section>
-<exercises><title>Questions</title>
+</section> <exercises><title>Questions</title>
 
     <exercisegroup>
         <exercise><statement>
@@ -1072,15 +1072,13 @@
 </chapter>
 
 
-
 <!-- ********************************************************************************************** -->
 
 <chapter><title>Dry Sliding Friction</title>
-<!-- Revisions
-\revised{Sept.~28, 2015}
-\revision{Sept.~28, 2015}{}
-\revision{Sept.~23, 2008}{}
--->
+<!--    Revisions \revised{Sept.~28, 2015}
+        \revision{Sept.~28, 2015}{}
+        \revision{Sept.~23, 2008}{}
+        -->
 
 <introduction><title>Introduction</title>
 
@@ -1156,8 +1154,7 @@
     </ul></p>
 
 
-</section>
-<section><title>The Experiment</title>
+</section> <section><title>The Experiment</title>
 
     <introduction>
         <p>For the block on the horizontal plane:	
@@ -1199,10 +1196,10 @@
         between the coefficient of friction and the macroscopic area of contact between the block and the surface.
         <ol>
 <!-- \setcounter{enumi}{\thedave} -->
-            <li><p> Place the friction block on its side (felt side down) and repeat <xref ref="i-staticpull" />
-                and <xref ref="i-statictest" /> for three (rather than five) of the previous load forces.</p></li>
+            <li><p> Place the friction block on its side (felt side down) and repeat <xref ref="i-staticpull" text="type-global" />
+                and <xref ref="i-statictest" text="type-global" /> for three (rather than five) of the previous load forces.</p></li>
             <li><p> Add the plot of this <m>F_f</m> versus <m>F_N</m> as a new series to the graph of
-                <xref ref="sss-staticfriction" />.</p></li>
+                <xref ref="sss-staticfriction" text="type-global" />.</p></li>
             </ol>
 <!-- \setcounter{dave}{\theenumi} -->
         </p>
@@ -1216,8 +1213,8 @@
                 Use the Sonic Ranger to collect data.</p></li>
             <li><p> Graph the velocity vs time.  Determine the acceleration of the block from the slope of the line.</p></li>
             <li><p> Repeat this part four or five times with a different normal forces.  (You may use any hanging mass.)</p></li>
-            <li><p> Add the plot of this <m>F_f</m> versus <m>F_N</m> as a new series to the graph of <xref ref="sss-staticfriction" />
-                and <xref ref="sss-friction-area" />.</p></li>
+            <li><p> Add the plot of this <m>F_f</m> versus <m>F_N</m> as a new series to the graph of <xref ref="sss-staticfriction" text="type-global" />
+                and <xref ref="sss-friction-area" text="type-global" />.</p></li>
             <li><p> Calculate the coefficient of kinetic friction from the slope.</p></li>
         </ol>
         </p>
@@ -1238,8 +1235,7 @@
     </ul>
     </p>
 
-</section>
-<exercises><title>Questions</title>
+</section> <exercises><title>Questions</title>
 
         <introduction>
             <p>For all questions, and when possible, use your experimental or theoretical results to demonstrate your answers to the questions.</p>
@@ -1275,9 +1271,9 @@
 <!-- ********************************************************************************************** -->
 
 <chapter><title>Centripetal Force</title>
-<!-- Revisions
-\revised{Fall 2006}
--->
+<!--    Revisions \revised{Fall 2006}
+        -->
+
 <introduction><title>Introduction</title>
 
     <p>We will be investigating the force which is necessary to maintain the circular motion of an object.
@@ -1322,8 +1318,7 @@
     </ol>
     </p>
 
-</section>
-<section><title>The Experiment</title>
+</section> <section><title>The Experiment</title>
 
     <p>The centripetal force is supplied by a spring.  Since we cannot directly measure
     <q>the force exerted by the spring while it is rotating</q> while it is rotating,
@@ -1353,8 +1348,7 @@
     </ul>
     </p>
 
-</section>
-<section><title>Analysis</title>
+</section> <section><title>Analysis</title>
 
     <p>From measurements of <m>m</m>, <m>\omega</m>, and <m>r</m>, calculate the theoretical centripetal force on
     the mass (which experimentally is supplied by the spring).  The (unmeasurable) amount
@@ -1369,11 +1363,11 @@
 <!-- ********************************************************************************************** -->
 
 <chapter><title>Conservation of Energy on a Linear Track <mdash/> (Single Week Version)</title>
-<!-- Revisions
-\revised{October 24, 2015}
-\revision{October 24, 2015}{made it a one week lab}
-\revision{August 24, 2009}{}
--->
+<!--    Revisions
+        \revised{October 24, 2015}
+        \revision{October 24, 2015}{made it a one week lab}
+        \revision{August 24, 2009}{}
+        -->
 
 <introduction><title>Introduction</title>
 
@@ -1444,8 +1438,8 @@
         accelerate the cart along the track -- you might need extra weight in the cart to keep it
         from accelerating too fast.  In order to use this motion to verify the validity of the conservation
         of mechanical energy, we need to measure some variables.
-        Answer <xref ref="q-1KE" /> and <xref ref="q-1PE" /> to decide on the relevant variables.
-        <xref ref="q1-2or1" /> should help you determine how to finish setting up the equipment.</p>
+        Answering <xref ref="q-1KE" text="type-global" /> and <xref ref="q-1PE" text="type-global" /> will help you decide on the relevant variables.
+        <xref ref="q1-2or1" text="type-global" /> should help you determine how to finish setting up the equipment.</p>
 
         <exercise xml:id="q-1KE">
             <statement><p> In order to verify <m>\Delta E=0</m>, we will need to calculate <m>E</m> as <m>E=K+P</m>.
@@ -1468,8 +1462,8 @@
 
         <p>Once you decide what variables to measure, run the experiment for one set of masses while measuring the appropriate variables.
         Put the data into Excel and decide what plot(s) will allow you to verify the validity of the conservation of mechanical energy.
-        <xref ref="q-1plots" /> may help with this.  Decide if you need a trendline.
-        Relate the information in <xref ref="q-1EKP" /> to the statement you are trying to verify.</p>
+        <xref ref="q-1plots" text="type-global" /> may help with this.  Decide if you need a trendline.
+        Relate the information in <xref ref="q-1EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
         <exercise xml:id="q-1plots">
             <statement><p> To verify <m>\Delta E=0</m>, we will need to graph <m>E</m>, the total mechanical energy,
@@ -1484,7 +1478,7 @@
                 <li><p> Assuming that the mechanical energy is conserved, what would a graph look like if it included <m>E</m>, <m>K</m>,
                     and <m>P</m>?  What if the mechanical energy is not conserved?
                     How would <m>K</m> and <m>P</m> be affected in these two cases?</p></li>
-                <li xml:id="q-1bounce"><p> (<xref ref="sss-1sloped" /> only)
+                <li xml:id="q-1bounce"><p> (<xref ref="sss-1sloped" text="type-global" /> only)
                     When the cart is at the bottom of the track during the motion,
                     the values of position become negative (less than zero!).  Why?  Is there some other place where the energy might go?
                     <!-- If you are using the force transducer, then it has a spring and a spring potential energy, <m>\Delta P_{\rm spring}</m>.
@@ -1519,12 +1513,12 @@
     <em>Ask for help from the instructor!</em>  The catch-bar has magnets in it that will repel the magnets in the cart.
     In this case, the cart must not be going so fast as to come into physical contact with the magnets on the catch-bar.</p>
 
-    <p>Raise one end of the dynamics track.  <xref ref="q-1slope" /> should help decide how tilted.
+    <p>Raise one end of the dynamics track.  <xref ref="q-1slope" text="type-global" /> should help decide how tilted.
     Measure the tilt angle of the track with two methods: use a protractor, and measure the vertical rise and track length and
-    calculate the tilt angle using the inverse-sine function.  Answer <xref ref="q-1anglemeasurement" />.
-    As you continue to set up the track for measurements, consider answering <xref ref="q-1KE" />, <xref ref="q-1PE" />,
-    and <xref ref="q1-2or1" /> again for this situation to help you decide on the appropriate accessories (sensors);
-    but note <xref ref="q-1rampangle" /> as you think about the answers to the previous questions.</p>
+    calculate the tilt angle using the inverse-sine function.  Answer <xref ref="q-1anglemeasurement" text="type-global" />.
+    As you continue to set up the track for measurements, consider answering <xref ref="q-1KE" text="type-global" />, <xref ref="q-1PE" text="type-global" />,
+    and <xref ref="q1-2or1" text="type-global" /> again for this situation to help you decide on the appropriate accessories (sensors);
+    but note <xref ref="q-1rampangle" text="type-global" /> as you think about the answers to the previous questions.</p>
 
         <exercise xml:id="q-1slope">
             <statement><p>  We want the cart to accelerate down the track (not too slow), but not to fly off
@@ -1546,17 +1540,16 @@
     so place the cart stationary at the bottom and use the motion sensor to measure this position.
     In order to verify the validity of the conservation of mechanical energy, release the cart from rest near the top of the ramp and
     let it roll down the incline, bouncing three times before you stop the measurement.  Do this for one value of mass.
-<!-- Answer <xref ref="q1-mass" />. -->
+<!-- Answer <xref ref="q1-mass" text="type-global" />. -->
     </p>
 
     <p>Transfer these data to Excel again and decide on the best graph to verify the objective.
-    Again, <xref ref="q-1plots" /> may help with this; however, you will also need to consider
-    <xref ref="q-1bounce" />.  Decide if you need a trendline and where it would be fit.
-    Relate the information in <xref ref="q-1EKP" /> to the statement you are trying to verify.</p>
+    Again, <xref ref="q-1plots" text="type-global" /> may help with this; however, you will also need to consider
+    <xref ref="q-1bounce" text="type-global" />.  Decide if you need a trendline and where it would be fit.
+    Relate the information in <xref ref="q-1EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
     </subsection>
-</section>
-<section><title>Additional Analysis <!-- for the Second Week --></title>
+</section> <section><title>Additional Analysis <!-- for the Second Week --></title>
 
     <p>
 <!-- For the second week, you should already have your graphs from the experiment and you should have written a
@@ -1565,24 +1558,24 @@
     We are now going to take a closer look at the irregularities of the data and investigate some variations to try to
     explain what those data say.
     <ul>
-    <!-- <li><p> One of the factors you were asked to consider last week was <xref ref="q1-mass" />.
-        In order to verify this, re-run <xref ref="sss-1flat" /> with a noticeably different massed cart.
-        Re-create the graph and use this only to note the effect of a different mass.  Answer <xref ref="q1-mass2" />.
+    <!-- <li><p> One of the factors you were asked to consider last week was <xref ref="q1-mass" text="type-global" />.
+        In order to verify this, re-run <xref ref="sss-1flat" text="type-global" /> with a noticeably different massed cart.
+        Re-create the graph and use this only to note the effect of a different mass.  Answer <xref ref="q1-mass2" text="type-global" />.
         </p></li>
         -->
     <li><p> Before drawing conclusions about the validity of the conservation of mechanical energy,
-        consider <xref ref="q-1missing" />. </p></li>
+        consider <xref ref="q-1missing" text="type-global" />. </p></li>
 
     <li><exercise xml:id="q-1missing">
             <statement><p> We need to look for the energy lost in each graph.
             <ol>
-                <li><p> When you look at the graph from <xref ref="sss-1flat" /> for <m>E</m>,
+                <li><p> When you look at the graph from <xref ref="sss-1flat" text="type-global" /> for <m>E</m>,
                     is the energy conserved or is there energy lost?
                     If lost, calculate the energy lost or gained from the graph. (It might help to have a trendline.)
                     If energy is lost, come up with at least two explanations for where this energy goes.</p></li>
-                <li><p> When you look at the graph from <xref ref="sss-1sloped" /> for <m>E</m>, there are jumps in the energy.  Why?
+                <li><p> When you look at the graph from <xref ref="sss-1sloped" text="type-global" /> for <m>E</m>, there are jumps in the energy.  Why?
                     <ol>
-                    <li><p> What is happening between the jumps?  Does <xref ref="sss-1flat" /> help to
+                    <li><p> What is happening between the jumps?  Does <xref ref="sss-1flat" text="type-global" /> help to
                         explain these sections of the graph?
                         Compared to the jumps, can we assume that the mechanical energy is conserved between the jumps?</p></li>
                     <li><p> What is happening at the time of those <q>jumps</q>?
@@ -1597,7 +1590,7 @@
             </ol></p></statement>
         </exercise>
         </li>
-    <!-- <li><p> As you evaluate <xref ref="sss-1sloped" />, you might be asked to re-run the experiment with a force transducer
+    <!-- <li><p> As you evaluate <xref ref="sss-1sloped" text="type-global" />, you might be asked to re-run the experiment with a force transducer
         placed at the bottom of the track.  (This should imply where the motion sensor will go.)
         Make sure that the cart will bounce from the force sensor. Make sure that the force sensor is zeroed before the start.
         There might be some information here based on work as a force-through-a-distance versus work as a change-in-energy.
@@ -1606,11 +1599,11 @@
     <li><p> One explanation of a loss of energy (non-conservation) is friction.
         List all of the places where two pieces of material rub against each other.
         Since <m>F_f = \mu F_N</m>, do any of these locations have a normal force that can be varied?
-        <!-- (Recall <xref ref="q1-mass" /> and <xref ref="q1-mass2" />.) -->
-        (Note <xref ref="q1-mass2" />.)
+        <!-- (Recall <xref ref="q1-mass" text="type-global" /> and <xref ref="q1-mass2" text="type-global" />.) -->
+        (Note <xref ref="q1-mass2" text="type-global" />.)
         As an independent measure of the amount of friction, we can also consider the actual acceleration versus the expected acceleration.
-        <xref ref="q-1accel" /> will help you determine the expected acceleration and the variable necessary to find it.
-        <xref ref="q-1fracc" /> will help decide on the relationship between the friction and the acceleration.
+        <xref ref="q-1accel" text="type-global" /> will help you determine the expected acceleration and the variable necessary to find it.
+        <xref ref="q-1fracc" text="type-global" /> will help decide on the relationship between the friction and the acceleration.
         </p></li>
 
     <li><exercise xml:id="q-1accel">
@@ -1619,7 +1612,7 @@
                 Assuming that there is no friction, what is the net force?  Since <m>F_{\rm net} = m a</m>,
                 the acceleration should be <ellipsis /> ?<fn><m>a=g \sin\theta</m>.</fn>
                 From your expression, what do you need to measure in order to find the expected value of <m>a</m>?
-                (Recall <xref ref="q-1anglemeasurement" />.)</p></statement>
+                (Recall <xref ref="q-1anglemeasurement" text="type-global" />.)</p></statement>
         </exercise></li>
     <li><exercise xml:id="q-1fracc">
             <statement><p> If there is friction, then how do you expect the actual acceleration to
@@ -1670,11 +1663,11 @@
 <!-- ********************************************************************************************** -->
 
 <chapter><title>Conservation of Energy on a Linear Track <mdash/> (Two Week Version)</title>
-<!-- Revisions
-\revised{October 24, 2015}
-\revision{October 24, 2015}{made it a one week lab}
-\revision{August 24, 2009}{}
--->
+<!--    Revisions
+        \revised{October 24, 2015}
+        \revision{October 24, 2015}{made it a one week lab}
+        \revision{August 24, 2009}{}
+        -->
 
 <introduction><title>Introduction</title>
 
@@ -1743,8 +1736,8 @@
         accelerate the cart along the track -- you might need extra weight in the cart to keep it
         from accelerating too fast.  In order to use this motion to verify the validity of the conservation
         of mechanical energy, we need to measure some variables.
-        Answer <xref ref="q-KE" /> and <xref ref="q-PE" /> to decide on the relevant variables.
-        <xref ref="q-2or1" /> should help you determine how to finish setting up the equipment.</p>
+        Answering <xref ref="q-KE" text="type-global" /> and <xref ref="q-PE" text="type-global" /> will help you decide on the relevant variables.
+        <xref ref="q-2or1" text="type-global" /> should help you determine how to finish setting up the equipment.</p>
 
         <exercise xml:id="q-KE">
             <statement><p> In order to verify <m>\Delta E=0</m>, we will need to calculate <m>E</m> as <m>E=K+P</m>.
@@ -1767,8 +1760,8 @@
 
         <p>Once you decide what variables to measure, run the experiment for one set of masses while measuring the appropriate variables.
         Put the data into Excel and decide what plot(s) will allow you to verify the validity of the conservation of mechanical energy.
-        <xref ref="q-plots" /> may help with this.  Decide if you need a trendline.
-        Relate the information in <xref ref="q-EKP" /> to the statement you are trying to verify.</p>
+        <xref ref="q-plots" text="type-global" /> may help with this.  Decide if you need a trendline.
+        Relate the information in <xref ref="q-EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
         <exercise xml:id="q-plots">
             <statement><p> To verify <m>\Delta E=0</m>, we will need to graph <m>E</m>, the total mechanical energy,
@@ -1783,7 +1776,7 @@
                 <li><p> Assuming that the mechanical energy is conserved, what would a graph look like if it included <m>E</m>, <m>K</m>,
                     and <m>P</m>?  What if the mechanical energy is not conserved?
                     How would <m>K</m> and <m>P</m> be affected in these two cases?</p></li>
-                <li xml:id="q-bounce"><p> (<xref ref="sss-sloped" /> only)
+                <li xml:id="q-bounce"><p> (<xref ref="sss-sloped" text="type-global" /> only)
                     When the cart is at the bottom of the track during the motion,
                     the values of position become negative (less than zero!).  Why?  Is there some other place where the energy might go?  </p>
                     <ol>
@@ -1820,12 +1813,12 @@
     <em>Ask for help from the instructor!</em>  The catch-bar has magnets in it that will repel the magnets in the cart.
     In this case, the cart must not be going so fast as to come into physical contact with the magnets on the catch-bar.</p>
 
-    <p>Raise one end of the dynamics track.  <xref ref="q-slope" /> should help decide how tilted.
+    <p>Raise one end of the dynamics track.  <xref ref="q-slope" text="type-global" /> should help decide how tilted.
     Measure the tilt angle of the track with two methods: use a protractor, and measure the vertical rise and track length and
-    calculate the tilt angle using the inverse-sine function.  Answer <xref ref="q-anglemeasurement" />.
-    As you continue to set up the track for measurements, consider answering <xref ref="q-KE" />, <xref ref="q-PE" />,
-    and <xref ref="q-2or1" /> again for this situation to help you decide on the appropriate accessories (sensors);
-    but note <xref ref="q-rampangle" /> as you think about the answers to the previous questions.</p>
+    calculate the tilt angle using the inverse-sine function.  Answer <xref ref="q-anglemeasurement" text="type-global" />.
+    As you continue to set up the track for measurements, consider answering <xref ref="q-KE" text="type-global" />, <xref ref="q-PE" text="type-global" />,
+    and <xref ref="q-2or1" text="type-global" /> again for this situation to help you decide on the appropriate accessories (sensors);
+    but note <xref ref="q-rampangle" text="type-global" /> as you think about the answers to the previous questions.</p>
 
         <exercise xml:id="q-slope">
             <statement><p>  We want the cart to accelerate down the track (not too slow), but not to fly off
@@ -1847,7 +1840,7 @@
     so place the cart stationary at the bottom and use the motion sensor to measure this position.
     In order to verify the validity of the conservation of mechanical energy, release the cart from rest near the top of the ramp and
     let it roll down the incline, bouncing three times before you stop the measurement.  Do this for one value of mass.
-    Answer <xref ref="q-mass" />.
+    Answer <xref ref="q-mass" text="type-global" />.
     </p>
 
         <exercise xml:id="q-mass">
@@ -1867,17 +1860,16 @@
         </exercise>
 
     <p>Transfer these data to Excel again and decide on the best graph to verify the objective.
-    Again, <xref ref="q-plots" /> may help with this; however, you will also need to consider
-    <xref ref="q-bounce" />.  Decide if you need a trendline and where it would be fit.
-    Relate the information in <xref ref="q-EKP" /> to the statement you are trying to verify.</p>
+    Again, <xref ref="q-plots" text="type-global" /> may help with this; however, you will also need to consider
+    <xref ref="q-bounce" text="type-global" />.  Decide if you need a trendline and where it would be fit.
+    Relate the information in <xref ref="q-EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
     <aside><title>NOTE:</title>
         <p>Save your data so that you can do further analysis next week. </p>
     </aside>
 
     </subsection>
-</section>
-<section><title>Additional Analysis for the Second Week </title>
+</section> <section><title>Additional Analysis for the Second Week </title>
 
     <p>
     For the second week, you should already have your graphs from the experiment and you should have written a
@@ -1885,23 +1877,23 @@
     We are now going to take a closer look at the irregularities of the data and investigate some variations to try to
     explain what those data say.
     <ul>
-    <li><p> One of the factors you were asked to consider last week was <xref ref="q-mass" />.
-        In order to verify this, re-run <xref ref="sss-flat" /> with a noticeably different massed cart.
-        Re-create the graph and use this only to note the effect of a different mass.  Answer <xref ref="q-mass2" />.
+    <li><p> One of the factors you were asked to consider last week was <xref ref="q-mass" text="type-global" />.
+        In order to verify this, re-run <xref ref="sss-flat" text="type-global" /> with a noticeably different massed cart.
+        Re-create the graph and use this only to note the effect of a different mass.  Answer <xref ref="q-mass2" text="type-global" />.
         </p></li>
     <li><p> Before drawing conclusions about the validity of the conservation of mechanical energy,
-        consider <xref ref="q-missing" />. </p></li>
+        consider <xref ref="q-missing" text="type-global" />. </p></li>
 
     <li><exercise xml:id="q-missing">
             <statement><p> We need to look for the energy lost in each graph.
             <ol>
-                <li><p> When you look at the graph from <xref ref="sss-flat" /> for <m>E</m>,
+                <li><p> When you look at the graph from <xref ref="sss-flat" text="type-global" /> for <m>E</m>,
                     is the energy conserved or is there energy lost?
                     If lost, calculate the energy lost or gained from the graph. (It might help to have a trendline.)
                     If energy is lost, come up with at least two explanations for where this energy goes.</p></li>
-                <li><p> When you look at the graph from <xref ref="sss-sloped" /> for <m>E</m>, there are jumps in the energy.  Why?
+                <li><p> When you look at the graph from <xref ref="sss-sloped" text="type-global" /> for <m>E</m>, there are jumps in the energy.  Why?
                     <ol>
-                    <li><p> What is happening between the jumps?  Does <xref ref="sss-flat" /> help to
+                    <li><p> What is happening between the jumps?  Does <xref ref="sss-flat" text="type-global" /> help to
                         explain these sections of the graph?
                         Compared to the jumps, can we assume that the mechanical energy is conserved between the jumps?</p></li>
                     <li><p> What is happening at the time of those <q>jumps</q>?
@@ -1916,7 +1908,7 @@
             </ol></p></statement>
         </exercise>
         </li>
-    <li><p> As you evaluate <xref ref="sss-sloped" />, you might be asked to re-run the experiment with a force transducer
+    <li><p> As you evaluate <xref ref="sss-sloped" text="type-global" />, you might be asked to re-run the experiment with a force transducer
         placed at the bottom of the track.  (This should imply where the motion sensor will go.)
         Make sure that the cart will bounce from the force sensor. Make sure that the force sensor is zeroed before the start.
         There might be some information here based on work as a force-through-a-distance versus work as a change-in-energy.
@@ -1924,11 +1916,11 @@
     <li><p> One explanation of a loss of energy (non-conservation) is friction.
         List all of the places where two pieces of material rub against each other.
         Since <m>F_f = \mu F_N</m>, do any of these locations have a normal force that can be varied?
-        (Recall <xref ref="q-mass" /> and <xref ref="q-mass2" />.)
-        <!-- (Note <xref ref="q-mass2" />.) -->
+        (Recall <xref ref="q-mass" text="type-global" /> and <xref ref="q-mass2" text="type-global" />.)
+        <!-- (Note <xref ref="q-mass2" text="type-global" />.) -->
         As an independent measure of the amount of friction, we can also consider the actual acceleration versus the expected acceleration.
-        <xref ref="q-accel" /> will help you determine the expected acceleration and the variable necessary to find it.
-        <xref ref="q-fracc" /> will help decide on the relationship between the friction and the acceleration.
+        <xref ref="q-accel" text="type-global" /> will help you determine the expected acceleration and the variable necessary to find it.
+        <xref ref="q-fracc" text="type-global" /> will help decide on the relationship between the friction and the acceleration.
         </p></li>
 
     <li><exercise xml:id="q-accel">
@@ -1937,7 +1929,7 @@
                 Assuming that there is no friction, what is the net force?  Since <m>F_{\rm net} = m a</m>,
                 the acceleration should be <ellipsis /> ?<fn><m>a=g \sin\theta</m>.</fn>
                 From your expression, what do you need to measure in order to find the expected value of <m>a</m>?
-                (Recall <xref ref="q-anglemeasurement" />.)</p></statement>
+                (Recall <xref ref="q-anglemeasurement" text="type-global" />.)</p></statement>
         </exercise></li>
     <li><exercise xml:id="q-fracc">
             <statement><p> If there is friction, then how do you expect the actual acceleration to
@@ -1966,9 +1958,9 @@
 <!-- ********************************************************************************************** -->
 
 <chapter><title>Peer Review</title>
-<!-- Revisions
-\revised{Sep 1, 2008}
--->
+<!--    Revisions
+        \revised{Sep 1, 2008}
+        -->
 
 <introduction>
     <p>The most important part of doing science is the peer-review process.
@@ -1992,8 +1984,8 @@
         <li><p> Paper goes to Editor, who returns paper to author for grammar, spelling, and formatting corrections.</p></li>
         <li><p> After the author fixes or refuses to fix the editor's <q>suggestions,</q> the paper goes to publication.</p></li>
     </ol>
-    This process can take anywhere from 1-2 months to a year and a half.  This week, we will do <xref ref="i-submit" />.
-    Next week, we will do <xref ref="i-review" />.</p>
+    This process can take anywhere from 1-2 months to a year and a half.  This week, we will do <xref ref="i-submit" text="type-global" />.
+    Next week, we will do <xref ref="i-review" text="type-global" />.</p>
 
     <p>Usually during the review process, the reviewer is not informed of the name of the submission author --
     to minimize influencing the reviewer.  Similarly, the names of the reviewers are not revealed to the submission author.
@@ -2022,10 +2014,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Hooke"><title>Hooke's Law and Simple Harmonic Motion</title>
-<!-- Revisions
-\revised{(Aug 27, 2012)}
--->
+<chapter xml:id="s-Hooke"><title>Hooke's Law and Simple Harmonic Motion</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
 
 <introduction><title>Introduction</title>
 
@@ -2081,13 +2070,13 @@
     <objectives><title>Experimental Purpose</title>
 
     <introduction>
-    <p>Notice that <xref ref="eq-hooke" /> depends not only on the spring constant,
-    but also on the acceleration (due to gravity, <m>g)</m>.  On the other hand, <xref ref="eq-hookeperiod" />
+    <p>Notice that <xref ref="eq-hooke" text="type-global" /> depends not only on the spring constant,
+    but also on the acceleration (due to gravity, <m>g)</m>.  On the other hand, <xref ref="eq-hookeperiod" text="type-global" />
     only depends on <m>k</m>.  You may also recall that when you measured <m>g</m> in a previous lab,
     you did not measure it to be <m>9.81\unitfrac{m}{s^2}</m>.  We would like our measurement of <m>k</m> to not depend on <m>g</m>.</p>
 
-    <p>Because of these two aspects of springs (elasticity, shown by <xref ref="eq-hooke" />, and periodicity
-    shown by <xref ref="eq-hookeperiod" />), we can investigate both the elasticity of a spring, and use the
+    <p>Because of these two aspects of springs (elasticity, shown by <xref ref="eq-hooke" text="type-global" />, and periodicity
+    shown by <xref ref="eq-hookeperiod" text="type-global" />), we can investigate both the elasticity of a spring, and use the
     oscillations to measure <m>g</m> indirectly.
 <!--
     Experimentally determine and compare the spring constant <m>(k)</m> of a spring as determined by Hooke's Law and
@@ -2109,12 +2098,11 @@
     </ul>
     </p>
 
-</section>
-<section><title>Procedure</title>
+</section> <section><title>Procedure</title>
 
     <subsection xml:id="sss-hooke"><title></title>Hooke's law}
 
-        <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" />.
+        <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" text="type-global" />.
         <ul>
             <li><p> With the available spring, attach it rigidly and hang it vertically against the Dynamics Track.
                 Hang various masses and measure the elongation of the spring, to a maximum of 60 cm.
@@ -2132,7 +2120,7 @@
 
     <p>We will next consider the periodicity of an oscillating spring.
     <ul>
-        <li><p> With the same range of masses as in <xref ref="sss-hooke" />,  measure the period of oscillation for each mass.
+        <li><p> With the same range of masses as in <xref ref="sss-hooke" text="type-global" />,  measure the period of oscillation for each mass.
         You <em>can</em> but do not <em>have to</em> use the same values of mass, as long as the set of masses sampled are in the same range.
         </p></li>
         <li><p> You will be graphing the relationship between the mass and the period.
@@ -2146,17 +2134,16 @@
     </p>
 
     </subsection>
-</section>
-<section><title>Analysis</title>
+</section> <section><title>Analysis</title>
 
     <p>
     <ul>
-        <li><p> Graph both data sets (<xref ref="sss-hooke" /> and <xref ref="sss-bounce" />)
+        <li><p> Graph both data sets (<xref ref="sss-hooke" text="type-global" /> and <xref ref="sss-bounce" text="type-global" />)
             in such a way that the spring constant can be determined graphically (from a linear fit model).
         <ul>
-            <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" />
+            <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" text="type-global" />
                 depends on two specific variables.</p></li>
-            <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" />
+            <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" text="type-global" />
                 depends on one specific variable.</p></li>
             <li><p> With some effort, you should be able to recognize the units of the slope and intercept and find the relevant values.</p></li>
             </ul>
@@ -2207,10 +2194,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Pendulum"><title>The Simple Pendulum</title>
-<!-- Revisions
-\revised{(Aug 27, 2012)}
--->
+<chapter xml:id="s-Pendulum"><title>The Simple Pendulum</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
 
 <introduction><title>Introduction</title>
 
@@ -2265,16 +2249,15 @@
         <li><p> In general when testing the mass or the length, it is best to keep the amplitude of oscillation small.</p></li>
         <li><p> When testing any of the relationships, you should measure a few widely-separated values.  If these seem to vary
             significantly, then fill in the gaps between those measurements to make a reliable graph.
-            See <xref ref="q-howmany" />.</p></li>
+            See <xref ref="q-howmany" text="type-global" />.</p></li>
         <li><p> If you can prove that the period is not affected by one of these variables, then you do not need to worry about
             keeping it constant while you measure the other variables.</p></li>
-        <li><p> Your graphical analysis will be better if your graph is linear.  Consider <xref ref="q-linpend" /> for advice on
+        <li><p> Your graphical analysis will be better if your graph is linear.  Consider <xref ref="q-linpend" text="type-global" /> for advice on
             making your graphs.</p></li>
     </ul>
     </p>
 
-</section>
-<exercises><title>Questions</title>
+</section> <exercises><title>Questions</title>
 
     <exercisegroup>
         <exercise>
@@ -2318,10 +2301,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Ballistic Pendulum</title>
-<!-- Revisions
-\revised{(Jack)}
--->
+<chapter><title>Ballistic Pendulum</title> <!-- Revisions \revised{(Jack)} -->
 
 
 <introduction><title>Introduction</title>
@@ -2394,8 +2374,7 @@
     </ul>
     </p>
 
-</section>
-<section><title>Procedure</title>
+</section> <section><title>Procedure</title>
 
     <subsection><title>Projectile Motion</title>
 
@@ -2438,16 +2417,14 @@
     </p>
 
     </subsection>
-</section>
-<section><title>Analysis</title>
+</section> <section><title>Analysis</title>
 
 	<p>Quantitatively compare the two methods. Calculate a percent difference between the two methods.
     Calculate the uncertainties for the velocity in both methods (propagation of error), and also write these
     in a <percent /> form.  Which method is more precise?   Decide whether this experiment has random or
     systematic errors.  Discuss and show  your experimental evidence.</p>
 
-</section>
-<exercises><title>Questions</title>
+</section> <exercises><title>Questions</title>
 
     <exercisegroup>
         <exercise>
@@ -2478,11 +2455,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Conditions of Equilibrium -- Model of a Human Forearm</title>
-<!-- Revisions
-\revised{(Nov 22, 2011)}
-\revised{(Aug 18, 2011)}
--->
+<chapter><title>Conditions of Equilibrium -- Model of a Human Forearm</title> <!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
 
 <introduction><title>Introduction</title>
 
@@ -2525,13 +2498,12 @@
         -->
         <li><p> For a linear function, the slope can be determined from knowing the values of any two points,
             <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>.   Using these two points write out a formula for the slope of the line.</p></li>
-        <li><p> Draw a force diagram for a horizontal forearm as outlined in <xref ref="ss-setup" />.
+        <li><p> Draw a force diagram for a horizontal forearm as outlined in <xref ref="ss-setup" text="type-global" />.
             Label all of the appropriate forces.</p></li>
     </ul>
     </p>
 
-</section>
-<section><title>Procedure</title>
+</section> <section><title>Procedure</title>
 
     <subsection><title>Determine the Spring Constant of the Bicep Muscle</title>
 
@@ -2661,7 +2633,7 @@
     <p>Create a table that allows you to compare the values of force for the elbow, bicep, and
     hand for three different attachment-locations.
     <ul>
-        <li><p> Enter the data from <xref ref="ss-equilib" />.  Record each position and each force.</p></li>
+        <li><p> Enter the data from <xref ref="ss-equilib" text="type-global" />.  Record each position and each force.</p></li>
         <li><p> Predict how the forces will change if the hand is moved a few millimeters closer to the bicep.  </p>
             <hint><p> Imagine carrying grocery bags at different locations on your lower arm while holding your arm in an L-shape.</p></hint></li>
         <li><p> Move the hand in and measure the forces that make it balance.  Compare to your predictions.</p></li>
@@ -2672,11 +2644,10 @@
     </p>
 
     </subsection>
-</section>
-<section><title>Analysis</title>
+</section> <section><title>Analysis</title>
 
     <ul>
-    <li><p> For the forces measured or calculated in <xref ref="ss-equilib" />, test each of the conditions of equilibrium:
+    <li><p> For the forces measured or calculated in <xref ref="ss-equilib" text="type-global" />, test each of the conditions of equilibrium:
         <ul>
             <li><p> Translational Equilibrium: Show that the up forces equal the down forces to within your uncertainty.</p></li>
             <li><p> Rotational Equilibrium: Show that the clockwise torques equal the counterclockwise torques to within your uncertainty.</p></li>
@@ -2686,7 +2657,7 @@
                 should be in the hand and test this value experimentally. Discuss how well this value works.
                 (If you cannot get this to balance, you might check to be sure you included the weight of the forearm itself<ellipsis />)</p></li>
         </ul></p></li>
-    <li><p> Consider the forces in <xref ref="ss-elephant" />.
+    <li><p> Consider the forces in <xref ref="ss-elephant" text="type-global" />.
         <ul>
             <li><p> If you have three shopping bags of food at the grocery store that you want to hang from your
                 arm as you walk to your car, should you hang the heaviest bag closest to your elbow or closest to your hand?  Explain.</p></li>
@@ -2697,8 +2668,7 @@
     </ul>
 
 
-</section>
-<exercises><title>Questions</title>
+</section> <exercises><title>Questions</title>
 
     <exercisegroup>
         <exercise>
@@ -2725,18 +2695,12 @@
     -->
     </exercisegroup>
 
-</exercises>
-</chapter>
+</exercises> </chapter>
 
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Scaling Laws Among Biological Specimens</title>
-<!-- Revisions
-\revised{Oct 12, 2015}
-\revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>}
-\revision{Oct 21, 2008}{}
--->
+<chapter><title>Scaling Laws Among Biological Specimens</title> <!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
 
     <introduction>
     <p>You will be given many animal skulls.  Measure some dimension that can be measured on all skulls.
@@ -2806,8 +2770,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<appendix xml:id="uncertainties">
-<title>Managing Uncertainties</title>
+<appendix xml:id="uncertainties"> <title>Managing Uncertainties</title>
 
     <introduction>
         <p>One of the fundamental aspects of science is knowing the reliability of results.
@@ -3202,18 +3165,18 @@
     </p>
     <p>Study the following examples:
         <table>
-                <tabular>
-                        <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row>
-                        <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row>
-                        <row><cell> <m>0.0524 \unit{m}</m> </cell><cell> 3 significant figures </cell></row>
-                        <row><cell> <m>5.24\ten{4}\unit{\mu m}</m> </cell><cell> 3 significant figures </cell></row>
-                        <row><cell> <m>52.430 \unit{mm}</m> </cell><cell> 5 significant figures </cell></row>
-                        <row><cell> <m>0.052430 \unit{m}</m> </cell><cell> 5 significant figures </cell></row>
-                        <row><cell> <m>5.2430\ten{4}\unit{\mu m}</m> </cell><cell> 5 significant figures </cell></row>
-                        <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row>
-                        <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row>
-                </tabular>
-                <caption>Examples of numbers and how to count significant digits</caption>
+        <tabular>
+                <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>0.0524 \unit{m}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>5.24\ten{4}\unit{\mu m}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>52.430 \unit{mm}</m> </cell><cell> 5 significant figures </cell></row>
+                <row><cell> <m>0.052430 \unit{m}</m> </cell><cell> 5 significant figures </cell></row>
+                <row><cell> <m>5.2430\ten{4}\unit{\mu m}</m> </cell><cell> 5 significant figures </cell></row>
+                <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row>
+                <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row>
+        </tabular>
+        <caption>Examples of numbers and how to count significant digits</caption>
         </table>
     </p>
     <p>Because all measurements are limited in their precision, then all results derived from these measurements are also
@@ -3264,8 +3227,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<appendix xml:id="graphics">
-<title>Discovering Relationships <mdash/> Graphical Analysis</title>
+<appendix xml:id="graphics"> <title>Discovering Relationships <mdash/> Graphical Analysis</title>
 
     <introduction>
     <p>The primary purpose of experimentation is to discover relationships between various physical quantities.
@@ -3404,7 +3366,5 @@
 
     </preface>
 
-</backmatter>
-</book>
-</mathbook>
+</backmatter> </book> </mathbook>
 
