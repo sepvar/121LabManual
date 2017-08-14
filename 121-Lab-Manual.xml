@@ -4,6 +4,7 @@
 
     <docinfo>
 	    <!-- BBB -->
+	    <!-- BC  -->
 	<macros>
         \newcommand{\JC}[1]{}
         \newcommand{\unit}[1]{\,{\rm #1}}
