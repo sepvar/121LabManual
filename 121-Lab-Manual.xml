@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?> <!-- editing for github testing --> <mathbook xml:lang="en-US">
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- editing for github testing -->
+<mathbook xml:lang="en-US">
 
 	<!-- AAA -->
 
@@ -21,6 +23,8 @@
         \usepackage{html,hmwk,color}
         \usepackage{graphicx}
         </latex-image-preamble>
+
+        <cross-references text="type-global" />
 
     </docinfo>
 
@@ -217,7 +221,7 @@
     <p>
     <ul>
         <li><p> There are several measuring devices at your lab station, a metric ruler, a vernier caliper, and a micrometer caliper.
-        Check these instruments for any <term>zero-point errors</term> (verify that they are <term>calibrated</term>).  
+        Check these instruments for any <term>zero-point errors</term> (verify that they are <term>calibrated</term>).
         The use of the caliper and micrometer is outlined below. </p></li>
         <li><p> There are also several solids available: a cylinder, a cube, and a sphere.
         <ul>
@@ -226,7 +230,7 @@
             <li xml:id="q-measurementerror"><p>   Estimate the experimental uncertainties of your measurements.
             <exercisegroup>
                 <exercise>
-                        <title>Zero-point Errors</title>
+                        <title>Zero-Point Errors</title>
                         <statement>
                             <p>You should verify the calibration of your instruments.
                             Determine if there are the zero-point errors for each of the measuring instrument.</p>
@@ -597,10 +601,10 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Constant Acceleration</title> 
-<!--    Revisions \revised{Sept. 14, 2015} 
-        \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone} 
-        \revision{Sept. 16, 2008}{Created?} 
+<chapter><title>Constant Acceleration</title>
+<!--    Revisions \revised{Sept. 14, 2015}
+        \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
+        \revision{Sept. 16, 2008}{Created?}
         -->
 
     <objectives><title>Experimental Purpose</title>
@@ -904,10 +908,10 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title> 
-<!--    Revisions \revised{Sept. 14, 2015} 
-        \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone} 
-        \revision{Sept.~23, 2008}{} 
+<chapter xml:id="s-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
+<!--    Revisions \revised{Sept. 14, 2015}
+        \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
+        \revision{Sept.~23, 2008}{}
         -->
 
 <introduction><title>Introduction to Forces</title>
@@ -1064,16 +1068,16 @@
         </statement></exercise>
     </exercisegroup>
 
-</exercises> 
+</exercises>
 </chapter>
 
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Dry Sliding Friction</title> 
-<!--    Revisions \revised{Sept.~28, 2015} 
-        \revision{Sept.~28, 2015}{} 
-        \revision{Sept.~23, 2008}{} 
+<chapter><title>Dry Sliding Friction</title>
+<!--    Revisions \revised{Sept.~28, 2015}
+        \revision{Sept.~28, 2015}{}
+        \revision{Sept.~23, 2008}{}
         -->
 
 <introduction><title>Introduction</title>
@@ -1260,16 +1264,16 @@
         </exercise>
         </exercisegroup>
 
-</exercises> 
+</exercises>
 </chapter>
 
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Centripetal Force</title> 
-<!--    Revisions \revised{Fall 2006} 
-        --> 
-        
+<chapter><title>Centripetal Force</title>
+<!--    Revisions \revised{Fall 2006}
+        -->
+
 <introduction><title>Introduction</title>
 
     <p>We will be investigating the force which is necessary to maintain the circular motion of an object.
@@ -1353,16 +1357,16 @@
     the force necessary to stretch the spring to a specific radius and compare that with the amount
     of centripetal force calculated above.</p>
 
-</section> 
+</section>
 </chapter>
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Conservation of Energy on a Linear Track <mdash/> (Single Week Version)</title> 
-<!--    Revisions 
-        \revised{October 24, 2015} 
-        \revision{October 24, 2015}{made it a one week lab} 
-        \revision{August 24, 2009}{} 
+<chapter><title>Conservation of Energy on a Linear Track <mdash/> (Single Week Version)</title>
+<!--    Revisions
+        \revised{October 24, 2015}
+        \revision{October 24, 2015}{made it a one week lab}
+        \revision{August 24, 2009}{}
         -->
 
 <introduction><title>Introduction</title>
@@ -1434,7 +1438,7 @@
         accelerate the cart along the track -- you might need extra weight in the cart to keep it
         from accelerating too fast.  In order to use this motion to verify the validity of the conservation
         of mechanical energy, we need to measure some variables.
-        Answer <xref ref="q-1KE" text="type-global" /> and <xref ref="q-1PE" text="type-global" /> to decide on the relevant variables.
+        Answering <xref ref="q-1KE" text="type-global" /> and <xref ref="q-1PE" text="type-global" /> will help you decide on the relevant variables.
         <xref ref="q1-2or1" text="type-global" /> should help you determine how to finish setting up the equipment.</p>
 
         <exercise xml:id="q-1KE">
@@ -1630,7 +1634,7 @@
     </ul>
     </p>
 
-</section> 
+</section>
 <exercises><title>Questions</title>
 
     <exercisegroup>
@@ -1658,11 +1662,11 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Conservation of Energy on a Linear Track <mdash/> (Two Week Version)</title> 
-<!--    Revisions 
-        \revised{October 24, 2015} 
-        \revision{October 24, 2015}{made it a one week lab} 
-        \revision{August 24, 2009}{} 
+<chapter><title>Conservation of Energy on a Linear Track <mdash/> (Two Week Version)</title>
+<!--    Revisions
+        \revised{October 24, 2015}
+        \revision{October 24, 2015}{made it a one week lab}
+        \revision{August 24, 2009}{}
         -->
 
 <introduction><title>Introduction</title>
@@ -1732,7 +1736,7 @@
         accelerate the cart along the track -- you might need extra weight in the cart to keep it
         from accelerating too fast.  In order to use this motion to verify the validity of the conservation
         of mechanical energy, we need to measure some variables.
-        Answer <xref ref="q-KE" text="type-global" /> and <xref ref="q-PE" text="type-global" /> to decide on the relevant variables.
+        Answering <xref ref="q-KE" text="type-global" /> and <xref ref="q-PE" text="type-global" /> will help you decide on the relevant variables.
         <xref ref="q-2or1" text="type-global" /> should help you determine how to finish setting up the equipment.</p>
 
         <exercise xml:id="q-KE">
@@ -1953,9 +1957,9 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Peer Review</title> 
-<!--    Revisions 
-        \revised{Sep 1, 2008} 
+<chapter><title>Peer Review</title>
+<!--    Revisions
+        \revised{Sep 1, 2008}
         -->
 
 <introduction>
@@ -3131,45 +3135,48 @@
     </p>
 
     <p> The rules for <term>significant figures</term>:
+    <!-- These need to be conventions, not asides -->
     <ol>
-    <li><p>Significant figures include all certain digits plus the first of the doubtful digits.
+    <li><p>Significant figures include all certain digits plus the first of the doubtful digits.</p>
 
-    <aside><p>The reading obtained from the meter stick would be written as 52.4 mm;
+    <p><convention><p>The reading obtained from the meter stick would be written as 52.4 mm;
     all digits up to and including the first doubtful digit.  The reading from the micrometer would be written as 52.430 mm.
     The first doubtful digit in the case of the meter stick is .4 mm.  The first doubtful digit in the case of the micrometer
     is zero-thousandths of a millimeter.  Note that the number of significant figures is related to the precision of the
-    measuring instrument -- it is not an abstraction about the number.
-    </p>
+    measuring instrument -- it is not an abstraction about the number.</p>
 
-    <p>Sometimes the character zero is confusing.  In the example above, the reading of the micrometer was given as 52.430 mm.
+    <p>Sometimes the character zero is confusing.  See <xref ref="sig-rule-zero">Rule</xref>.</p>
+    </convention></p>
+    </li>
+    <li xml:id="sig-rule-zero"><p>Zeros to the right of the number are significant; zeros on the left are not.</p>
+
+    <p><convention><p>In the example above, the reading of the micrometer was given as 52.430 mm.
     The zero is a significant figure, it communicates the fact that the micrometer measurement is good to a thousandth of a millimeter.
     Zeros used to the left of significant digits to position the decimal point are not significant.
     They are not communicating the precision of the measurement.  For example, if the measurement from the meter stick were
     written as 0.0524 meter, the zeros would not be significant digits.  Because of the units (meters instead of millimeters),
     the decimal point had to be moved to the left.  This measurement still has only three significant figures.
-    </p></aside></p>
-    </li>
-    <li><p>Zeros to the right of the number are significant; zeros on the left are not.</p>
+    </p></convention></p>
 
-    <aside><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
+    <example><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
     (1 micron = 1 millionth of a meter).   We determined that the meter stick reading has 3 sig. figs.,
     one good way to write this  is to use scientific notation.  Write the number as <m>5.24\ten{4}\unit{microns}</m>.
     The factor of <m>10^4</m> shows the order of magnitude, while the <m>5.24</m> retains the proper number of significant figures.
     </p>
     <p>Study the following examples:
-        <table> 
-        <tabular> 
-                <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row> 
-                <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row> 
-                <row><cell> <m>0.0524 \unit{m}</m> </cell><cell> 3 significant figures </cell></row> 
-                <row><cell> <m>5.24\ten{4}\unit{\mu m}</m> </cell><cell> 3 significant figures </cell></row> 
-                <row><cell> <m>52.430 \unit{mm}</m> </cell><cell> 5 significant figures </cell></row> 
-                <row><cell> <m>0.052430 \unit{m}</m> </cell><cell> 5 significant figures </cell></row> 
-                <row><cell> <m>5.2430\ten{4}\unit{\mu m}</m> </cell><cell> 5 significant figures </cell></row> 
-                <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row> 
-                <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row> 
-        </tabular> 
-        <caption>Examples of declaring the significant figures</caption>
+        <table>
+        <tabular>
+                <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>0.0524 \unit{m}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>5.24\ten{4}\unit{\mu m}</m> </cell><cell> 3 significant figures </cell></row>
+                <row><cell> <m>52.430 \unit{mm}</m> </cell><cell> 5 significant figures </cell></row>
+                <row><cell> <m>0.052430 \unit{m}</m> </cell><cell> 5 significant figures </cell></row>
+                <row><cell> <m>5.2430\ten{4}\unit{\mu m}</m> </cell><cell> 5 significant figures </cell></row>
+                <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row>
+                <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row>
+        </tabular>
+        <caption>Examples of numbers and how to count significant digits</caption>
         </table>
     </p>
     <p>Because all measurements are limited in their precision, then all results derived from these measurements are also
@@ -3177,9 +3184,16 @@
     mislead the reader by reporting their results with more significant figures than their data permits.
     Form the habit of rejecting all figures which will have no influence in the final result and report the result with only
     the number of significant digits allowed by the data.  The following rules will help you do this successfully.
-    </p></aside>
+    </p></example>
     </li>
-    <li><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.</p></li>
+    <li><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.</p>
+
+    <p><convention><p>Because the use of significant digits is meant to be an approximation to the more precise
+    use of measurement uncertainty, the convention for the rounding of the final digit is not critical and is treated a little
+    differently by different scientists.  Some round-up anything five-or-more.  Some round-down anything five-or-less.
+    Some round the five up or down based on whether the next digit is even or odd.  This third choice is intended to express that
+    we don't actually know which way to round it and letting the randomness of the next digit make the determination is like
+    flipping a coin. <alert>You should ask your instructor, which approach they prefer.</alert></p></convention></p></li>
 
     <li><p>In addition and subtraction, carry the result only up to the first doubtful decimal place of any of the starting numbers.</p></li>
 
@@ -3285,7 +3299,8 @@
 
     </section>
 
-</appendix> <appendix xml:id="s-Capstone"><title>Using Capstone</title>
+</appendix>
+<appendix xml:id="s-Capstone"><title>Using Capstone</title>
         <assemblage>
         <figure xml:id="f-capstone">
         <title>Using Capstone</title>

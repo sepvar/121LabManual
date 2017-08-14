@@ -18,3 +18,5 @@ fall-lab-manual.toc
 # Ignore the PASCO lesson files as they are for CAPSTONE
 PASCO-lesson.pdf
 PASCO-lesson.pptx
+# Ignore creation of modified file
+121-Lab-Manual-mod.xml
