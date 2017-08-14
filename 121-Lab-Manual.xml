@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- editing for github testing --> <mathbook xml:lang="en-US">
 
     <docinfo>
-        <macros>
+	    <!-- B -->
+	<macros>
         \newcommand{\JC}[1]{}
         \newcommand{\unit}[1]{\,{\rm #1}}
         \newcommand{\unitfrac}[2]{\mbox{$\phantom{1\!}^{{\rm #1}\!\!}/_{\!\!{\rm #2}}$}}
