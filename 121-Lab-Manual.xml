@@ -24,7 +24,7 @@
         \usepackage{graphicx}
         </latex-image-preamble>
 
-        <cross-references text="type-global" />
+        <cross-references text="global" />
 
     </docinfo>
 
@@ -2070,13 +2070,13 @@
     <objectives><title>Experimental Purpose</title>
 
     <introduction>
-    <p>Notice that <xref ref="eq-hooke" text="type-global" /> depends not only on the spring constant,
-    but also on the acceleration (due to gravity, <m>g)</m>.  On the other hand, <xref ref="eq-hookeperiod" text="type-global" />
+    <p>Notice that <xref ref="eq-hooke" text="type-global">Equation</xref> depends not only on the spring constant,
+    but also on the acceleration (due to gravity, <m>g)</m>.  On the other hand, <xref ref="eq-hookeperiod" text="type-global">Equation</xref>
     only depends on <m>k</m>.  You may also recall that when you measured <m>g</m> in a previous lab,
     you did not measure it to be <m>9.81\unitfrac{m}{s^2}</m>.  We would like our measurement of <m>k</m> to not depend on <m>g</m>.</p>
 
-    <p>Because of these two aspects of springs (elasticity, shown by <xref ref="eq-hooke" text="type-global" />, and periodicity
-    shown by <xref ref="eq-hookeperiod" text="type-global" />), we can investigate both the elasticity of a spring, and use the
+    <p>Because of these two aspects of springs [elasticity, shown by <xref ref="eq-hooke" text="type-global">Equation</xref>, and periodicity
+    shown by <xref ref="eq-hookeperiod" text="type-global">Equation</xref>], we can investigate both the elasticity of a spring, and use the
     oscillations to measure <m>g</m> indirectly.
 <!--
     Experimentally determine and compare the spring constant <m>(k)</m> of a spring as determined by Hooke's Law and
@@ -2102,7 +2102,7 @@
 
     <subsection xml:id="sss-hooke"><title></title>Hooke's law}
 
-        <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" text="type-global" />.
+        <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" text="type-global">Equation</xref>.
         <ul>
             <li><p> With the available spring, attach it rigidly and hang it vertically against the Dynamics Track.
                 Hang various masses and measure the elongation of the spring, to a maximum of 60 cm.
@@ -2141,9 +2141,9 @@
         <li><p> Graph both data sets (<xref ref="sss-hooke" text="type-global" /> and <xref ref="sss-bounce" text="type-global" />)
             in such a way that the spring constant can be determined graphically (from a linear fit model).
         <ul>
-            <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" text="type-global" />
+            <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" text="type-global">Equation</xref>
                 depends on two specific variables.</p></li>
-            <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" text="type-global" />
+            <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" text="type-global">Equation</xref>
                 depends on one specific variable.</p></li>
             <li><p> With some effort, you should be able to recognize the units of the slope and intercept and find the relevant values.</p></li>
             </ul>
