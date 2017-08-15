@@ -406,7 +406,7 @@
                 calculate a percent-difference with the direct measurement of volume.</p>
             </statement>
             <hint><p>When you measure the volume of (let's say the cylinder) with a meterstick, with a caliper, with a micrometer, and with a graduated cylinder, they are all measuring the volume of the same object, which does not change volume.  You <em>expect</em> these to all give the same number.  The question is whether or not <em>your data</em> do actually give the <q>same</q> values.</p></hint>
-            <hint><p>Since you are using measurement techniques that have different precision, you will have different ranges of uncertainty.  Number are considered to be <q>the same</q> when their uncertainty ranges overlap.</p></hint>
+            <hint><p>Since you are using measurement techniques that have different precision, you will have different ranges of uncertainty.  Numbers are considered to be <q>the same</q> when their uncertainty ranges overlap.</p></hint>
             <hint><p>Keep in mind that <q>imprecise</q> means <q>a large range in the uncertainty</q>, whereas <q>inaccurate</q> means <q>inconsistent with the true value</q>.  (You might not know the true value.)</p></hint>
             <answer><p>It is possible that your data do not give consistent results for the volume.  You should notice if one result in particular is different than the others and then speculate on why <em>that</em> measurement is different.  If all of your results are inconsistent with each other, then you might want to check your measurements.  If they are again inconsistent, then you should check your results against a friend or the instructor.</p></answer>
             </exercise>
