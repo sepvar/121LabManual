@@ -167,7 +167,7 @@
 <chapter xml:id="c-meaningful-measurements"> <title>Meaningful Measurements</title>
 
 <!-- Revisions
-    \revised{August 25, 2015}
+    \revision{August 14, 2017}{added answers to questions (now exercises)}
     \revision{August 25, 2015}{Revised the uncertainty measurements to more accurately reflect how these are used.  Clarified the description.  Note: There are seven, not three, fundamental quantities.}
     \revision{August 29, 2011}{Took out ``batteries'' and inserted cylinder, cube, and sphere.}
     \revision{August 25, 2009}{Added JPG pictures.  Changed Procedure such that they only do a cylinder (to get both length and diameter) and stop at stages to consider \%-diff and \%-error.}
@@ -393,8 +393,8 @@
         <li><p> Using the rules of propagation of uncertainty, compute the uncertainty in the volume for each.
             <exercise>
             <statement><p>Which instrument is the most precise?</p></statement>
-            <hint><p>guess?</p></hint>
-            <answer><p>Really?</p></answer>
+            <hint><p>For which instrument can you measure to the most decimal places?</p></hint>
+            <answer><p>Your data should give you this answer.  Your report should indicate how your data tells you the answer to this question.</p></answer>
             </exercise>
             </p></li>
         <li><p> Measure the volume directly with the graduated cylinder.
@@ -405,8 +405,10 @@
                 Using the most precise indirect measurement of volume (those calculated from other measurements),
                 calculate a percent-difference with the direct measurement of volume.</p>
             </statement>
-            <hint><p>guess?</p></hint>
-            <answer><p>Really?</p></answer>
+            <hint><p>When you measure the volume of (let's say the cylinder) with a meterstick, with a caliper, with a micrometer, and with a graduated cylinder, they are all measuring the volume of the same object, which does not change volume.  You <em>expect</em> these to all give the same number.  The question is whether or not <em>your data</em> do actually give the <q>same</q> values.</p></hint>
+            <hint><p>Since you are using measurement techniques that have different precision, you will have different ranges of uncertainty.  Number are considered to be <q>the same</q> when their uncertainty ranges overlap.</p></hint>
+            <hint><p>Keep in mind that <q>imprecise</q> means <q>a large range in the uncertainty</q>, whereas <q>inaccurate</q> means <q>inconsistent with the true value</q>.  (You might not know the true value.)</p></hint>
+            <answer><p>It is possible that your data do not give consistent results for the volume.  You should notice if one result in particular is different than the others and then speculate on why <em>that</em> measurement is different.  If all of your results are inconsistent with each other, then you might want to check your measurements.  If they are again inconsistent, then you should check your results against a friend or the instructor.</p></answer>
             </exercise>
             </p></li>
         <li><p> Measure the mass and then, using the overall most precise measurement of volume, compute the density
@@ -416,8 +418,8 @@
         <li><p> Other considerations that might help with your analysis:
             <exercise>
             <statement><p>What would be the best method to measure the volume of an irregularly shaped object?  Why?</p></statement>
-            <hint><p>guess?</p></hint>
-            <answer><p>Really?</p></answer>
+            <hint><p>To answer this, it might help to think about <em>how</em> you would measure something that is irregularly shaped with each of the instruments you used today.  Is one of them particularly good at conforming to the shape of an irregularly shaped object?</p></hint>
+            <answer><p>You should recognize which of the following objects (a meterstick, a caliper, a micrometer, and water) can touch all edges of an irregularly shaped object simultaneously.  On the other hand, if you are measuring the volume of something that is water-soluble, then you might want to reconsider your reasoning process.</p></answer>
             </exercise>
 <!-- For your cube and for the sphere, to within what degree of accuracy was the object perfectly shaped?
      What is the function of the vernier scale on the vernier caliper?
