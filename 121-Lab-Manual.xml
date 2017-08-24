@@ -429,7 +429,7 @@
     </ul></p>
 
     </section>
-    
+
     <conclusion>
     <p>(Updated: Aug 14, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
     </conclusion>
@@ -533,6 +533,8 @@
 
     <p>Each individual will receive 20 pennies and will then simultaneously toss all of the pennies.
     Count the number of heads, and repeat 25 times.   Each individual will then have collected 25 pieces of data.</p>
+    
+    <p>After doing this, you will 25 <q>counts</q> of the number of heads among that 20 coins.  Your lab partner will also have 25 <q>counts</q>.  The two of you together have access to 50 <q>counts</q>.  You, your partner, and the pair of people near you will together have 100 <q>counts</q> among you.  You will therefore be able to consider a histogram for your <m>N=25</m>, another histogram for your <m>N=50</m>, etc.  After you consider each of these histograms, you will consider how the shape a histogram changes as <m>N</m> increases.</p>
 
     </section>
     <section>
@@ -556,7 +558,7 @@
     Use the standard deviation of the mean  as the error bars for both the mean and the standard deviation,  draw these error bars on
     these two graphs.</p></li>
     <li><p> Describe how the values of the mean, the standard deviation, and the standard deviation of the mean,
-    change as the number of data items in the set increases.  What does this infer about the accuracy and about the precision of the
+    change as the number of data items in the set increases.  What can you infer about the accuracy and about the precision of the
     data as more and more observations are made?</p></li>
     <li><p> Show that the standard deviation of the mean varies inversely as the square root of the number of data items in the sample.
     How well does the data in this lab agree with this prediction?   (Make a graph of the standard deviation of the mean versus the
@@ -572,6 +574,9 @@
             <statement><p> What is the probability of flipping the 20 pennies and getting 5 heads, or 8 heads, or 10 heads, or 15 heads?
             Answer this question by analyzing your data, the entire class' data and the normal distribution curve fit to your data.
             Explain any differences between these sets.</p></statement>
+            <hint><p>Consider the percentage of total throws that produce each number of heads.</p></hint>
+            <hint xml:id="h-percent-thrown"><p>The percentage of total throws that give 5 heads is the number of throws that gave 5 heads divided by the total number of throws.</p></hint>
+            <hint><p>You might consider this percentage (of throws that produces 5 heads) for <m>N=25</m> versus <m>N=50</m> versus other values of <m>N</m> to explore the stability of this percentage.  (Remember that more data is better.)</p></hint>
         </exercise>
         <exercise>
             <statement><p> What percentage of your individual readings fall within plus or minus
@@ -579,6 +584,9 @@
                 two standard deviations?
             Compare your answer to the theoretical answer from a normal distribution curve.
             What are the percentages for the class data?</p></statement>
+            <hint><p><xref ref="h-percent-thrown" text="type-global" /> explains finding a percent of throws.</p></hint>
+            <hint><p>If the mean is <m>10.12</m> and the standard deviation is <m>2.74</m>, then <q>within plus or minus one standard deviation</q> implies that you should consider the percentage of times you get between <m>7.38</m> and <m>12.86</m>.  This is larger than 7 and smaller than 13.  So, consider how many throws gave 8, 9, 10, 11, or 12 heads.</p></hint>
+            <hint><p>To compare to the theoretical answer, you can figure out the actual mathematical formula, but you can also use the <q>Gaussian Prediction</q> column in the Excel spreadsheet for the corresponding range.</p></hint>
         </exercise>
         <exercise>
             <statement><p> Does the height of the histograms change as a function of the number of trials?
@@ -587,11 +595,14 @@
         <exercise>
             <statement><p> How does the width at 1/2 the maximum height for the histograms change as a function of the number of trials?
                 Label this width on your histograms.  Is this width a reasonable estimate of the standard deviation?</p></statement>
+            <hint><p>To get the <q>full-width at half-maximum</q> on your histogram, find the mean on the horizontal axis and note the vertical value of that peak (read the vertical axis).  Half this peak value and then find the smallest number of heads thrown that is at least this half-value and the largest number of heads thrown that is at least this half-value.</p>
+                <p>For example, if the mean of your data is <m>10.12</m>, then perhaps you had <m>6</m> throws that resulted in 10 heads (the number of heads closest to the mean).  Half of the <m>6</m> throws is <m>3</m> throws.  So, you will likely have find that you have fewer than <m>3</m> throws for 6-or-fewer heads but more than <m>3</m> throws for 7-or-more heads.  On the other end, you will likely find that you have fewer than <m>3</m> throws for 14-or-more heads but more than <m>3</m> throws for 13-or-fewer heads.  This says that the <q>full-width at half-maximum</q> is the range from 7 heads to 13 heads, which is a width of 6-heads thrown.  You should consider how this <q>full-width at half-maximum</q> compares to your standard deviation.</p>  
+                <p>(Please remember that you not actually throwing heads, you are throwing coins. Do not decapitate your lab partner.)</p></hint>
         </exercise>
         <exercise>
             <statement><p> Does the standard deviation of a single observation and/or does the standard deviation of the mean change
                 significantly as the number of tosses increase?
-                What does this infer about the accuracy and about the precision of the data as more and more observations are made?</p></statement>
+                What can you infer about the accuracy and about the precision of the data as more and more observations are made?</p></statement>
         </exercise>
         </exercisegroup>
 
