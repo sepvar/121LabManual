@@ -12,7 +12,7 @@
 
         \newcommand{\deq}{\displaystyle}
 <!-- </macros>
-        <latex-preamble> 
+        <latex-preamble>
 -->
         \setlength{\evensidemargin}{0in}
         \setlength{\oddsidemargin}{-.15in}
@@ -26,13 +26,14 @@
         \setlength{\textheight}{9.2in}
         \setlength{\footskip}{0.5in}
 
-        \setcounter{tocdepth}{1}
+<!-- must fix by hand, Mathbook sets it to 1, if you change mathbook-common to 0, then it removes the TOC. -->
+        \setcounter{tocdepth}{0} 
 <!-- <latex-preamble>
 -->
 
 <!-- -->
         </macros>
-        
+
 
         <latex-image-preamble>
         \usepackage{hmwk,color}
@@ -237,7 +238,7 @@
     <p>Three measuring devices: a metric ruler, a vernier caliper, and a micrometer caliper.</p>
     <p>Several objects convenient for measuring the mass and the physical dimensions.</p>
     </paragraphs>
-    
+
     <paragraphs><title>Procedure</title>
     <p>
     <ul>
@@ -555,16 +556,16 @@
         <paragraphs><title>Materials</title>
         <p>A supply of pennies.</p>
         </paragraphs>
-        
+
     <paragraphs><title>Procedure</title>
     <p>Each individual will receive 20 pennies and will then simultaneously toss all of the pennies.
     Count the number of heads, and repeat 25 times.   Each individual will then have collected 25 pieces of data.</p>
 
     <p>After doing this, you will 25 <q>counts</q> of the number of heads among that 20 coins.  Your lab partner will also have 25 <q>counts</q>.  The two of you together have access to 50 <q>counts</q>.  You, your partner, and the pair of people near you will together have 100 <q>counts</q> among you.  You will therefore be able to consider a histogram for your <m>N=25</m>, another histogram for your <m>N=50</m>, etc.  After you consider each of these histograms, you will consider how the shape a histogram changes as <m>N</m> increases.</p>
-    
+
     </paragraphs>
     </section>
-    
+
     <section>
     <title>Analysis</title>
 
@@ -1041,7 +1042,7 @@
     </p></li> <li><p> Derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging body.
     </p></li> </ul>
 
-</section> 
+</section>
 <section><title>Procedure</title>
 
 <subsection xml:id="NII-Setup"><title>The Experimental Setup</title>
@@ -1051,14 +1052,14 @@
 </paragraphs>
 
     <ul>
-    <li><p> A low-friction linear cart and track will be used, this reduces the friction between the cart and the track.</p></li> 
+    <li><p> A low-friction linear cart and track will be used, this reduces the friction between the cart and the track.</p></li>
     <li><p> A string will be connected to the cart and a known mass will be hanging from the end of the string (and over a pulley).
-        The hanging mass will exert a constant horizontal force on the cart as the mass falls all the way to the floor.  This gives a constant acceleration to the cart.</p></li> 
-    <li><p> The sonic motion sensor will be used to measure the position of the cart as a function of time. </p></li> 
-    <li><p> The carts and tracks need to be handled with care.  Scratches can add friction to the system.</p></li> 
+        The hanging mass will exert a constant horizontal force on the cart as the mass falls all the way to the floor.  This gives a constant acceleration to the cart.</p></li>
+    <li><p> The sonic motion sensor will be used to measure the position of the cart as a function of time. </p></li>
+    <li><p> The carts and tracks need to be handled with care.  Scratches can add friction to the system.</p></li>
     </ul>
 
-</subsection> 
+</subsection>
 
 <subsection><title>Procedure</title>
     <ul>
@@ -1082,7 +1083,7 @@
         Determine the acceleration of the cart (and the uncertainty for the acceleration) for each of these 7 runs.</p></li>
     </ul>
 </subsection>
-</section> 
+</section>
 
 <section><title>Analysis</title>
 
@@ -2765,7 +2766,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Scaling Laws Among Biological Specimens</title> 
+<chapter><title>Scaling Laws Among Biological Specimens</title>
 <!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
 
     <paragraphs><title>Procedure</title>
@@ -2775,7 +2776,7 @@
     proportional to the overall size of the animal.  This technique allows mammalogists to gauge the size
     of animals when they can only find partial skeletons.</p>
     </paragraphs>
-    
+
     <paragraphs><title>Analysis</title>
     <p>When you fit this data with a trendline, the relationship might be the familiar linear relationship,
     or it might instead be something else.  Some possibilities are:
@@ -2800,7 +2801,7 @@
     between the variables.  In general, it is true that linear regression is significantly
     easier than a general functional regression.</p>
 
-    <sidebyside widths="50% 50%">
+    <sidebyside widths="47% 47%">
         <p>If your power fit is better then we can apply the logarithm to the geometric relation:
         <md>
             <mrow> \ln y &amp; = \ln\left( a x^b \right) </mrow>
@@ -2888,7 +2889,7 @@
                     &amp;= \left|\mbox{true value} - \mbox{measured value}\right| </mrow>
                 <mrow> \mbox{relative error}
                     &amp;= \left| \frac{\left(\mbox{true value} - \mbox{measured value}\right)}{\mbox{true value}} \right| </mrow>
-                <mrow> \mbox{%-error}
+                <mrow> \%\mbox{-error}
                     &amp;= 100\% * \left| \frac{\left(\mbox{true value} - \mbox{measured value}\right)}{\mbox{true value}} \right| </mrow>
             </md>
             </p></li>
@@ -2899,7 +2900,7 @@
             <md>
                 <mrow> \mbox{relative uncertainty}
                     &amp;= \left| \frac{\left(\mbox{absolute uncertainty}\right)}{\mbox{measured value}} \right| </mrow>
-                <mrow> \mbox{%-uncertainty}
+                <mrow> \%\mbox{-uncertainty}
                     &amp;= 100\% * \left| \frac{\left(\mbox{absolute uncetainty}\right)}{\mbox{measured value}} \right| </mrow>
             </md>
             </p></li>
@@ -2913,7 +2914,7 @@
                     &amp;= \left(\mbox{measurement}_1 - \mbox{measurement}_2\right) </mrow>
                 <mrow>\mbox{relative difference}
                     &amp;= \frac{\left(\mbox{measurement}_1 - \mbox{measurement}_2\right)}{\left[\frac{ \left(\mbox{measurement}_1\right) + \left( \mbox{measurement}_2\right) }{2} \right]} </mrow>
-                <mrow>\mbox{%-difference}
+                <mrow>\%\mbox{-difference}
                     &amp;= 100\% * \frac{\left(\mbox{measurement}_1 - \mbox{measurement}_2\right)}{\left[\frac{ \left(\mbox{measurement}_1\right) + \left( \mbox{measurement}_2\right) }{2} \right]} </mrow>
             </md>
             </p></li>
@@ -3152,9 +3153,9 @@
             <mrow> A &amp;= \underline{2620}4.61 {\rm cm}^2 </mrow>
             <intertext>The rules for <term>significant figures</term> gives a guide for the precision (appropriate number of decimals),
             that is only an approximation.  To know with certainty, we need to compute the uncertainty, which is </intertext>
-            <mrow> \mbox{%-uncertainty} &amp;= \left(\frac{.2{\rm cm}}{176.7 {\rm cm}} 100\%\right) +
+            <mrow> \%\mbox{-uncertainty} &amp;= \left(\frac{.2{\rm cm}}{176.7 {\rm cm}} 100\%\right) +
                                     \left(\frac{0.3{\rm cm}}{148.3 {\rm cm}} 100\%\right) </mrow>
-            <mrow> \mbox{%-uncertainty} &amp;= (.11\%) + (.20\%) = (.31\%) </mrow>
+            <mrow> \%\mbox{-uncertainty} &amp;= (.11\%) + (.20\%) = (.31\%) </mrow>
             </md>
         To find the uncertainty, we calculate
             <me>(.31\%)\times (\underline{2620}4.61 {\rm cm}^2) = 81.23 {\rm cm}^2</me>
@@ -3286,11 +3287,6 @@
 
     </section>
 
-    <conclusion>
-        <p>If you want concluding comments, they go here.</p>
-    </conclusion>
-
-
 </appendix>
 
 <!-- ********************************************************************************************** -->
@@ -3346,7 +3342,7 @@
     linearize a function for you.
     </p>
 
-    <sidebyside widths="47% 50%" >
+    <sidebyside widths="47% 47%" >
         <p>To linearize the <em>power relationship</em>
         <me> Y = Bx^M,</me>
         take the natural logarithms of both sides to obtain
@@ -3368,6 +3364,9 @@
     </section>
 
 </appendix>
+
+<!-- ********************************************************************************************** -->
+
 <appendix xml:id="s-Capstone"><title>Using Capstone</title>
         <assemblage>
         <figure xml:id="f-capstone">
@@ -3385,18 +3384,25 @@
         <image source="Capstone-11.jpg" width="100%" />
         <image source="Capstone-12.jpg" width="100%" />
         <caption>
-        <p>Using Capstone.  [Not available yet: You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version</url> of this document.]</p>
+        <p>Using Capstone.</p>
         </caption>
         <description>This is a PDF of a Power-Point description for how to use the important features of Capstone.
         </description>
         </figure>
         </assemblage>
+        
+        <p>[Not available yet: You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version</url> of this document.]</p>
+        
 </appendix>
 
 <!-- ********************************************************************************************** -->
 
 <backmatter>
     <title>Back Matter</title> <!-- mostly for HTML sectioning -->
+
+<!-- ********************************************************************************************** -->
+
+    <!--
     <appendix>
         <title>Notation</title>
 
@@ -3404,6 +3410,7 @@
 
         <notation-list />
     </appendix>
+    -->
 
     <preface>
         <title>Contributors to the 1<m>^\mathrm{st}</m> XML-Edition</title>
