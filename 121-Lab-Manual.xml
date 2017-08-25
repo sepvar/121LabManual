@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- editing for github testing -->
 <mathbook xml:lang="en-US">
 
-	<!-- AAA -->
-
     <docinfo>
-	    <!-- BBB -->
-	    <!-- BC  -->
 	<macros>
         \newcommand{\JC}[1]{}
         \newcommand{\unit}[1]{\,{\rm #1}}
@@ -16,11 +11,31 @@
         \newcommand{\ten}[1]{\times 10^{#1}}
 
         \newcommand{\deq}{\displaystyle}
+<!-- </macros>
+        <latex-preamble> 
+-->
+        \setlength{\evensidemargin}{0in}
+        \setlength{\oddsidemargin}{-.15in}
+        \setlength{\textwidth}{6.6in}
+        \setlength{\marginparwidth}{.6in}
+        \setlength{\marginparsep}{.15in}
 
+        \setlength{\topmargin}{-0.75in}
+        \setlength{\headheight}{0.1in}
+        \setlength{\headsep}{0.25in}
+        \setlength{\textheight}{9.2in}
+        \setlength{\footskip}{0.5in}
+
+        \setcounter{tocdepth}{1}
+<!-- <latex-preamble>
+-->
+
+<!-- -->
         </macros>
+        
 
         <latex-image-preamble>
-        \usepackage{html,hmwk,color}
+        \usepackage{hmwk,color}
         \usepackage{graphicx}
         </latex-image-preamble>
 
@@ -28,7 +43,7 @@
 
     </docinfo>
 
-    <book xml:id="fall-lab-manual" xmlns:xi="file:///C:/Users/christj/Desktop/Everything/Class/Labs/121%20Elements/ManualXML">
+    <book xml:id="fall-lab-manual" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
         <title>PHY 121 Lab Manual</title>
         <subtitle>Thomas More College, Algebra-based Introductory Physics</subtitle>
 
@@ -56,7 +71,7 @@
         </author>
 
         <credit>
-            <title>MathBookXML</title>
+            <title>Credit for MathBookXML / <pretext /> format:</title>
             <author>
                 <personname>Robert A. Beezer</personname>
                 <department>Department of Mathematics and Computer Science</department>
@@ -65,7 +80,7 @@
             </author>
         </credit>
 
-        <date><today /></date>
+        <date>Latest update: <today /></date>
 
     </titlepage>
 
@@ -218,15 +233,20 @@
     <title>Procedure</title>
 
     <introduction>
+    <paragraphs><title>Materials</title>
+    <p>Three measuring devices: a metric ruler, a vernier caliper, and a micrometer caliper.</p>
+    <p>Several objects convenient for measuring the mass and the physical dimensions.</p>
+    </paragraphs>
+    
+    <paragraphs><title>Procedure</title>
     <p>
     <ul>
-        <li><p> There are several measuring devices at your lab station, a metric ruler, a vernier caliper, and a micrometer caliper.
-        Check these instruments for any <term>zero-point errors</term> (verify that they are <term>calibrated</term>).
+        <li><p>Check the measuring devices for any <term>zero-point errors</term> (verify that they are <term>calibrated</term>).
         The use of the caliper and micrometer is outlined below. </p></li>
         <li><p> There are also several solids available: a cylinder, a cube, and a sphere.
         <ul>
-            <li><p> Measure the dimensions of two of the objects with each of the following instruments: a metric ruler,
-            a vernier caliper, and a micrometer caliper.   Take all measurements minimizing any parallax errors. </p></li>
+            <li><p> Measure the dimensions of two of the objects with each of the three instruments: the ruler,
+            the vernier caliper, and the micrometer caliper.   Take all measurements minimizing any parallax errors. </p></li>
             <li xml:id="q-measurementerror"><p>   Estimate the experimental uncertainties of your measurements.
             <exercisegroup>
                 <exercise>
@@ -310,7 +330,7 @@
         <li><p> As outlined in the <xref ref="measurement-analysis" text="title" />, compute the volume and the density. </p></li>
     </ul>
     </p>
-
+    </paragraphs>
     </introduction>
 
     <subsection>
@@ -414,7 +434,7 @@
         <li><p> Measure the mass and then, using the overall most precise measurement of volume, compute the density
         with its uncertainty. </p></li>
         <li><p> Using your best density value, find the percent-error against the appropriate value given by the text,
-        or the <em>Handbook of Physics &amp; Chemistry</em>.</p></li>
+        or the <em>Handbook of Physics <ampersand /> Chemistry</em>.</p></li>
         <li><p> Other considerations that might help with your analysis:
             <exercise>
             <statement><p>What would be the best method to measure the volume of an irregularly shaped object?  Why?</p></statement>
@@ -432,6 +452,7 @@
 
     <conclusion>
     <p>(Updated: Aug 14, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf</url></p>
     </conclusion>
 </chapter>
 
@@ -515,12 +536,12 @@
 
     </section>
     <section>
-    <title>Pre-Lab Work</title>
+    <title>Pre-Lab Considerations</title>
     <p><ul>
     <li><p> Define the following, both in a sentence and with a mathematical formula:  mean, standard deviation
     (sometimes called the standard deviation of a single observation), and standard deviation of the mean.
     Be sure to describe the difference between these two terms.</p></li>
-    <li><p> Define the following:  histogram, probability, &amp; probability distribution (Normal distribution).</p></li>
+    <li><p> Define the following:  histogram, probability, <ampersand /> probability distribution (Normal distribution).</p></li>
     <li><p> What does the total area under the Normal distribution curve represent?</p></li>
     <li><p> How should the axes of the histogram of the data you will take for this lab be labeled?
     Give a very specific scale for the x-axis.  (Hint: Read the procedure below.)</p></li>
@@ -529,14 +550,21 @@
 
     </section>
     <section>
-    <title>Experimental Procedure</title>
+    <title>Procedure</title>
 
+        <paragraphs><title>Materials</title>
+        <p>A supply of pennies.</p>
+        </paragraphs>
+        
+    <paragraphs><title>Procedure</title>
     <p>Each individual will receive 20 pennies and will then simultaneously toss all of the pennies.
     Count the number of heads, and repeat 25 times.   Each individual will then have collected 25 pieces of data.</p>
-    
-    <p>After doing this, you will 25 <q>counts</q> of the number of heads among that 20 coins.  Your lab partner will also have 25 <q>counts</q>.  The two of you together have access to 50 <q>counts</q>.  You, your partner, and the pair of people near you will together have 100 <q>counts</q> among you.  You will therefore be able to consider a histogram for your <m>N=25</m>, another histogram for your <m>N=50</m>, etc.  After you consider each of these histograms, you will consider how the shape a histogram changes as <m>N</m> increases.</p>
 
+    <p>After doing this, you will 25 <q>counts</q> of the number of heads among that 20 coins.  Your lab partner will also have 25 <q>counts</q>.  The two of you together have access to 50 <q>counts</q>.  You, your partner, and the pair of people near you will together have 100 <q>counts</q> among you.  You will therefore be able to consider a histogram for your <m>N=25</m>, another histogram for your <m>N=50</m>, etc.  After you consider each of these histograms, you will consider how the shape a histogram changes as <m>N</m> increases.</p>
+    
+    </paragraphs>
     </section>
+    
     <section>
     <title>Analysis</title>
 
@@ -596,7 +624,7 @@
             <statement><p> How does the width at 1/2 the maximum height for the histograms change as a function of the number of trials?
                 Label this width on your histograms.  Is this width a reasonable estimate of the standard deviation?</p></statement>
             <hint><p>To get the <q>full-width at half-maximum</q> on your histogram, find the mean on the horizontal axis and note the vertical value of that peak (read the vertical axis).  Half this peak value and then find the smallest number of heads thrown that is at least this half-value and the largest number of heads thrown that is at least this half-value.</p>
-                <p>For example, if the mean of your data is <m>10.12</m>, then perhaps you had <m>6</m> throws that resulted in 10 heads (the number of heads closest to the mean).  Half of the <m>6</m> throws is <m>3</m> throws.  So, you will likely have find that you have fewer than <m>3</m> throws for 6-or-fewer heads but more than <m>3</m> throws for 7-or-more heads.  On the other end, you will likely find that you have fewer than <m>3</m> throws for 14-or-more heads but more than <m>3</m> throws for 13-or-fewer heads.  This says that the <q>full-width at half-maximum</q> is the range from 7 heads to 13 heads, which is a width of 6-heads thrown.  You should consider how this <q>full-width at half-maximum</q> compares to your standard deviation.</p>  
+                <p>For example, if the mean of your data is <m>10.12</m>, then perhaps you had <m>6</m> throws that resulted in 10 heads (the number of heads closest to the mean).  Half of the <m>6</m> throws is <m>3</m> throws.  So, you will likely have find that you have fewer than <m>3</m> throws for 6-or-fewer heads but more than <m>3</m> throws for 7-or-more heads.  On the other end, you will likely find that you have fewer than <m>3</m> throws for 14-or-more heads but more than <m>3</m> throws for 13-or-fewer heads.  This says that the <q>full-width at half-maximum</q> is the range from 7 heads to 13 heads, which is a width of 6-heads thrown.  You should consider how this <q>full-width at half-maximum</q> compares to your standard deviation.</p>
                 <p>(Please remember that you not actually throwing heads, you are throwing coins. Do not decapitate your lab partner.)</p></hint>
         </exercise>
         <exercise>
@@ -613,7 +641,8 @@
         <biblio type="raw">Meyer, <title>Data Analysis for Scientists and Engineers</title>. John Wiley, 1975; p.19-48, 223-253</biblio>
     </references>
 
-        <conclusion><p>Revised: Aug 24, 2017</p>
+        <conclusion>
+        <p>Revised: Aug 24, 2017</p>
         <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf</url></p>
         </conclusion>
 </chapter>
@@ -627,10 +656,10 @@
         \revision{Sept. 16, 2008}{Created?}
         -->
 
-    <objectives><title>Experimental Purpose</title>
+    <objectives><title>Experimental Objectives</title>
     <introduction>
         <p>Using position versus time and velocity versus time graphs, verify that the equations of constant acceleration
-        accurately describes the behavior of objects under constant acceleration and that it is possible to distinguish acceleration due to
+        accurately describe the behavior of objects under constant acceleration and that it is possible to distinguish acceleration due to
         gravity from acceleration due to friction.</p>
     </introduction>
     </objectives>
@@ -641,14 +670,14 @@
         We will only consider the special case where the object experiences constant acceleration.</p>
     </section>
 
-    <section><title>Materials</title>
-        <p>An aluminum track, a low-friction cart, computer interface with PASCO Capstone<m>^{\rm tm}</m> software,
-        a sonic motion sensor, a small steel ball.</p>
-    </section>
-
     <section xml:id="ss-AccProcedure"><title>Procedure</title>
 
         <introduction>
+            <paragraphs><title>Materials</title>
+                <p>An aluminum track, a low-friction cart, computer interface with PASCO Capstone<m>^{\rm tm}</m> software,
+                a sonic motion sensor, a small steel ball.</p>
+            </paragraphs>
+
             <p>You should notice that the subsections in this section parallel the subsections in <xref ref="ss-AccAnalysis" text="title" />.
             </p></introduction>
 
@@ -798,7 +827,7 @@
         </subsection>
     </section>
 
-    <section xml:id="ss-AccAnalysis"><title>Further Analysis and Discussion</title>
+    <section xml:id="ss-AccAnalysis"><title>Analysis</title>
 
         <introduction>
             <p>You should notice that the subsections in this section parallel the subsections in <xref ref="ss-AccProcedure" text="title" />.
@@ -923,6 +952,12 @@
 
         </subsection>
     </section>
+
+    <conclusion>
+    <p>(Updated: Aug 24, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf</url></p>
+    </conclusion>
+
 </chapter>
 
 
@@ -999,25 +1034,33 @@
     </introduction>
     </objectives>
 
-<section><title>The Experimental Setup</title>
+<section><title>Pre-Lab Considerations</title>
 
     <ul>
-    <li><p> A low-friction linear cart and track will be used, this reduces the friction between the cart and the track.
-    </p></li> <li><p> A string will be connected to the cart and a known mass will be hanging from the end of the string (and over a pulley).
-        The hanging mass will exert a constant horizontal force on the cart as the mass falls all the way to the floor.  This gives a constant acceleration to the cart.
-    </p></li> <li><p> The sonic motion sensor will be used to measure the position of the cart as a function of time.
-    </p></li> <li><p> The carts and tracks need to be handled with care.  Scratches can add friction to the system.
-    </p></li> </ul>
-
-</section> <section><title>Pre-Lab Work</title>
-
-    <ul>
-    <li><p> Draw a free-body force diagram for the cart and for the hanging mass.
+    <li><p> Based on your understanding of <xref ref="NII-Setup" text="type-global" />, draw a free-body force diagram for the cart and for the hanging mass.
     </p></li> <li><p> Derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging body.
     </p></li> </ul>
 
-</section> <section><title>Procedure</title>
+</section> 
+<section><title>Procedure</title>
 
+<subsection xml:id="NII-Setup"><title>The Experimental Setup</title>
+
+<paragraphs><title>Materials</title>
+<p>A low-friction linear track with a wheeled cart and a pulley at one end of the track. Weights that can ride in the cart without jostling.  A string connecting the cart to a light-weight support for small masses, which sits over the pulley allowing the masses to fall vertically while pulling the cart horizontally. A <q>sonic ranger</q> that uses sonar to measure the position, velocity, and acceleration of the cart.</p>
+</paragraphs>
+
+    <ul>
+    <li><p> A low-friction linear cart and track will be used, this reduces the friction between the cart and the track.</p></li> 
+    <li><p> A string will be connected to the cart and a known mass will be hanging from the end of the string (and over a pulley).
+        The hanging mass will exert a constant horizontal force on the cart as the mass falls all the way to the floor.  This gives a constant acceleration to the cart.</p></li> 
+    <li><p> The sonic motion sensor will be used to measure the position of the cart as a function of time. </p></li> 
+    <li><p> The carts and tracks need to be handled with care.  Scratches can add friction to the system.</p></li> 
+    </ul>
+
+</subsection> 
+
+<subsection><title>Procedure</title>
     <ul>
     <li><p> If the cart is given an initial push (without the hanging mass and string attached) then the cart should travel
         with a constant velocity down the horizontal track, if there are no other forces acting on the cart.
@@ -1038,8 +1081,10 @@
     <li><p> Collect  7 data runs, where about 5 grams is transferred each time from the cart to the hanging mass.
         Determine the acceleration of the cart (and the uncertainty for the acceleration) for each of these 7 runs.</p></li>
     </ul>
+</subsection>
+</section> 
 
-</section> <section><title>Analysis</title>
+<section><title>Analysis</title>
 
     <ul>
     <li><p> Make a graph of the acceleration of the system (y-axis) versus the weight <m>(mg)</m> of the hanging body (x-axis),
@@ -1159,7 +1204,7 @@
     </introduction>
     </objectives>
 
-<section><title>Pre-Lab Analysis</title>
+<section><title>Pre-Lab Considerations</title>
 
     <p><ul>
     <li><p> Draw force diagrams for the following case:
@@ -1174,7 +1219,7 @@
     </ul></p>
 
 
-</section> <section><title>The Experiment</title>
+</section> <section><title>Procedure</title>
 
     <introduction>
         <p>For the block on the horizontal plane:	
@@ -1320,7 +1365,7 @@
     maintain circular motion.</p>
 
     </introduction>
-    <objectives><title>Purpose</title>
+    <objectives><title>Experimental Objectives</title>
 
     <introduction>
         <p>It is our purpose to verify the above equation experimentally by measuring the applied force
@@ -1329,7 +1374,7 @@
     </introduction>
     </objectives>
 
-<section><title>Pre-Lab</title>
+<section><title>Pre-Lab Considerations</title>
 
     <p><ol>
     <li><p> Why do we say that an object moving with <em>constant speed</em> in a circular path is being accelerated? </p></li>
@@ -1338,7 +1383,7 @@
     </ol>
     </p>
 
-</section> <section><title>The Experiment</title>
+</section> <section><title>Procedure</title>
 
     <p>The centripetal force is supplied by a spring.  Since we cannot directly measure
     <q>the force exerted by the spring while it is rotating</q> while it is rotating,
@@ -1429,7 +1474,7 @@
     </introduction>
     </objectives>
 
-<section><title>The Experiment</title>
+<section><title>Procedure</title>
 
     <introduction>
     <p>We would like for you to verify the conservation of mechanical energy in two different situations;
@@ -1569,7 +1614,7 @@
     Relate the information in <xref ref="q-1EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
     </subsection>
-</section> <section><title>Additional Analysis <!-- for the Second Week --></title>
+</section> <section><title>Analysis</title>
 
     <p>
 <!-- For the second week, you should already have your graphs from the experiment and you should have written a
@@ -1729,7 +1774,7 @@
     </introduction>
     </objectives>
 
-<section><title>The Experiment</title>
+<section><title>Procedure</title>
 
     <introduction>
     <p>We would like for you to verify the conservation of mechanical energy in two different situations;
@@ -1889,7 +1934,7 @@
     </aside>
 
     </subsection>
-</section> <section><title>Additional Analysis for the Second Week </title>
+</section> <section><title>Analysis</title>
 
     <p>
     For the second week, you should already have your graphs from the experiment and you should have written a
@@ -2087,7 +2132,7 @@
     </p>
 
 </introduction>
-    <objectives><title>Experimental Purpose</title>
+    <objectives><title>Experimental Objectives</title>
 
     <introduction>
     <p>Notice that <xref ref="eq-hooke" text="type-global">Equation</xref> depends not only on the spring constant,
@@ -2106,7 +2151,7 @@
     </introduction>
     </objectives>
 
-<section><title>Pre-Lab Work</title>
+<section><title>Pre-Lab Considerations</title>
 
     <p>
     <ul>
@@ -2367,7 +2412,7 @@
     </introduction>
     </objectives>
 
-<section><title>Pre-Lab Work</title>
+<section><title>Pre-Lab Considerations</title>
 
     <p>
     <ul>
@@ -2720,15 +2765,18 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Scaling Laws Among Biological Specimens</title> <!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
+<chapter><title>Scaling Laws Among Biological Specimens</title> 
+<!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
 
-    <introduction>
+    <paragraphs><title>Procedure</title>
     <p>You will be given many animal skulls.  Measure some dimension that can be measured on all skulls.
     Verify graphically (make the plot of mass versus your measured dimension) if this measurement can be
     reliably correlated to the mass of the skull.  We will assume that the mass of the skull is directly
     proportional to the overall size of the animal.  This technique allows mammalogists to gauge the size
     of animals when they can only find partial skeletons.</p>
-
+    </paragraphs>
+    
+    <paragraphs><title>Analysis</title>
     <p>When you fit this data with a trendline, the relationship might be the familiar linear relationship,
     or it might instead be something else.  Some possibilities are:
     <ul>
@@ -2784,7 +2832,7 @@
     are any <q>outliers,</q> which animals those are, and justify why those data points might
     reasonably be excluded.  Re-fit the data after excluding the outliers.</p>
 
-</introduction>
+</paragraphs>
 
 </chapter>
 
@@ -3337,7 +3385,7 @@
         <image source="Capstone-11.jpg" width="100%" />
         <image source="Capstone-12.jpg" width="100%" />
         <caption>
-        Using Capstone
+        <p>Using Capstone.  [Not available yet: You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version</url> of this document.]</p>
         </caption>
         <description>This is a PDF of a Power-Point description for how to use the important features of Capstone.
         </description>
