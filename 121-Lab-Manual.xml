@@ -27,7 +27,7 @@
         \setlength{\footskip}{0.5in}
 
 <!-- must fix by hand, Mathbook sets it to 1, if you change mathbook-common to 0, then it removes the TOC. -->
-        \setcounter{tocdepth}{0} 
+        \setcounter{tocdepth}{0}
 <!-- <latex-preamble>
 -->
 
@@ -453,7 +453,7 @@
 
     <conclusion>
     <p>(Updated: Aug 14, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -644,7 +644,7 @@
 
         <conclusion>
         <p>Revised: Aug 24, 2017</p>
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf</url></p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (232kB)</url></p>
         </conclusion>
 </chapter>
 
@@ -3390,9 +3390,9 @@
         </description>
         </figure>
         </assemblage>
-        
-        <p>[Not available yet: You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version</url> of this document.]</p>
-        
+
+        <p>[Not available yet: You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version (2.5MB)</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version (2.7MB)</url> of this document.]</p>
+
 </appendix>
 
 <!-- ********************************************************************************************** -->
