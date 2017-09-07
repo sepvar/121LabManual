@@ -652,7 +652,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Constant Acceleration</title>
+<chapter xml:id="c-acceleration"><title>Constant Acceleration</title>
 <!--    Revisions \revised{Sept. 14, 2015}
         \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
         \revision{Sept. 16, 2008}{Created?}
