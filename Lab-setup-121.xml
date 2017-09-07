@@ -44,9 +44,9 @@
 
     </docinfo>
 
-    <book xml:id="fall-lab-setup" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
-        <title>PHY 121 Lab Set-up</title>
-        <subtitle>Thomas More College, Algebra-based Introductory Physics</subtitle>
+    <book xml:id="TMC-lab-setup" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
+        <title>Physics Lab Set-up</title>
+        <subtitle>Thomas More College</subtitle>
 
 <frontmatter xml:id="set-up-index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
 
@@ -54,9 +54,9 @@
 
         <author>
             <personname>Joe Christensen</personname>
-            <email>ChristJ@ThomasMore.edu</email>
             <department>Department of Physics and Mathematics</department>
             <institution>Thomas More College</institution>
+            <email>ChristJ@ThomasMore.edu</email>
         </author>
 
         <credit>
@@ -97,7 +97,7 @@
 
         <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions. </p>
 
-        <ul>
+        <p><ul>
             <li><p>Physics adjunct instructors who provided feedback about the labs
                 <ul>
                     <li><p>Tom Neal, Physics Adjunct</p></li>
@@ -109,6 +109,7 @@
                     <li><p>Dr. Jeremy Huber</p></li>
                 </ul></p></li>
         </ul>
+        </p>
 
     </acknowledgement>
 
@@ -116,13 +117,14 @@
 
 </frontmatter>
 
-
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="E-meaningful-measurements"> <title>Meaningful Measurements</title>
+<chapter xml:id="PHY121"> <title>PHY121L: General Physics (algebra-based, fall)</title>
 
-        <table>
-        <caption>Equipment Needed</caption>
+<section xml:id="s-meaningful-measurements"> <title>Meaningful Measurements</title>
+
+        <table xml:id="t-meaningful-measurements">
+        <caption>Equipment Needed: Meaningful Measurements</caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
@@ -152,43 +154,43 @@
 
         <figure xml:id="f-vernier">
         <title>The Vernier Caliper</title>
-        <image source="vernier.JPG" width="100%" />
         <caption>
         The Vernier Caliper
         </caption>
+        <image source="vernier.JPG" width="100%">
         <description>The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
         The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m>.
         </description>
+        </image>
         </figure>
 
         <figure xml:id="f-micrometer">
         <caption><term>The Micrometer Caliper</term></caption>
-        <image source="micrometer.JPG" width="100%" />
+        <image source="micrometer.JPG" width="100%">
         <description>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
         the half-marks (0.5, 1.5, 2.5, <ellipsis /> 6.5 in this picture).  The location of the turning dial tells you where to read the
         coarse scale (6.5 mm).  The center line of the coarse scale tells you where to read the fine scale.
         This is 23.0 (in units of <m>\times 10^{-2}</m> mm), but not 23.5 and not 22.5 so the precision is 0.5 (in these units).
         This measurement in mm reads <m>6.5 \unit{mm} + 0.230\unit{mm} = 6.730 \pm 0.005 \unit{mm}</m>.
         </description>
+        </image>
         </figure>
 
-
-    <conclusion>
-    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>(Updated: September 6, 2017)</p> 
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-meaningful-measurements.html" /></p>
     <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
-    </conclusion>
-</chapter>
+
+</section>
 
 
 <!-- ********************************************************************************************** -->
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="E-standard-deviation"> <title>Standard Deviation</title>
+<section xml:id="s-standard-deviation"> <title>Standard Deviation</title>
 
-        <table>
-        <caption>Equipment Needed</caption>
+        <table xml:id="t-standard-deviation">
+        <caption>Equipment Needed: Standard Deviation</caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
@@ -202,22 +204,19 @@
         </table>
 
 
-
-    <conclusion>
-    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>(Updated: September 6, 2017)</p> 
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-standard-deviation.html" /></p>
     <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (232 kB)</url></p>
-    </conclusion>
-</chapter>
+</section>
 
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="E-acceleration"><title>Constant Acceleration</title>
+<section xml:id="s-acceleration"><title>Constant Acceleration</title>
 
-        <aside><title>Verify:</title> Are the carts at AF22 or AF32?</aside>
-        <table>
-        <caption>Equipment Needed</caption>
+        <aside><title>Verify</title> <p>Are the carts at AF22 or AF32?</p></aside>
+        <table xml:id="t-acceleration">
+        <caption>Equipment Needed: Acceleration</caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
@@ -245,21 +244,25 @@
                                 <cell><p>.</p></cell></row>
                 </tabular>
         </table>
-        <aside><title>Verify:</title> Are the protractors at AA41 or AL14-2?</aside>
+        <aside><title>Verify</title> <p>Are the protractors at AA41 or AL14-2?</p></aside>
         <p> 2-sized blocks???  (AF151-1)</p>
 
-    <conclusion>
-    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+
+    <p>(Updated: September 6, 2017)</p> 
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-acceleration.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf</url></p>
-    </conclusion>
-</chapter>
 
+</section>
+
+</chapter>
 
 <!-- ********************************************************************************************** -->
 
+<chapter xml:id="PHY122"> <title>PHY122L: General Physics (algebra-based, spring)</title>
 
+<p>.</p>
 
+</chapter>
 <!-- ********************************************************************************************** -->
 
 
