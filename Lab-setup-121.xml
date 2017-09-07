@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mathbook xml:lang="en-US">
+
+    <docinfo>
+	<macros>
+        \newcommand{\JC}[1]{}
+        \newcommand{\unit}[1]{\,{\rm #1}}
+        \newcommand{\unitfrac}[2]{\mbox{$\phantom{1\!}^{{\rm #1}\!\!}/_{\!\!{\rm #2}}$}}
+        \newcommand{\sig}[3]{\underline{#1}{#2}\unit{#3}}
+        \newcommand{\sigfrac}[4]{\underline{#1}{#2}\unitfrac{#3}{#4}}
+        \newcommand{\ten}[1]{\times 10^{#1}}
+
+        \newcommand{\deq}{\displaystyle}
+<!-- </macros>
+        <latex-preamble>
+-->
+        \setlength{\evensidemargin}{0in}
+        \setlength{\oddsidemargin}{-.15in}
+        \setlength{\textwidth}{6.6in}
+        \setlength{\marginparwidth}{.6in}
+        \setlength{\marginparsep}{.15in}
+
+        \setlength{\topmargin}{-0.75in}
+        \setlength{\headheight}{0.1in}
+        \setlength{\headsep}{0.25in}
+        \setlength{\textheight}{9.2in}
+        \setlength{\footskip}{0.5in}
+
+<!-- must fix by hand, Mathbook sets it to 1, if you change mathbook-common to 0, then it removes the TOC. -->
+        \setcounter{tocdepth}{0}
+<!-- <latex-preamble>
+-->
+
+<!-- -->
+        </macros>
+
+
+        <latex-image-preamble>
+        \usepackage{hmwk,color}
+        \usepackage{graphicx}
+        </latex-image-preamble>
+
+        <cross-references text="global" />
+
+    </docinfo>
+
+    <book xml:id="fall-lab-setup" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
+        <title>PHY 121 Lab Set-up</title>
+        <subtitle>Thomas More College, Algebra-based Introductory Physics</subtitle>
+
+<frontmatter xml:id="set-up-index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
+
+    <titlepage>
+
+        <author>
+            <personname>Joe Christensen</personname>
+            <email>ChristJ@ThomasMore.edu</email>
+            <department>Department of Physics and Mathematics</department>
+            <institution>Thomas More College</institution>
+        </author>
+
+        <credit>
+            <title>Credit for MathBookXML / <pretext /> format:</title>
+            <author>
+                <personname>Robert A. Beezer</personname>
+                <email>beezer@pugetsound.edu</email>
+            </author>
+        </credit>
+
+        <date>Latest update: <today /></date>
+
+    </titlepage>
+
+    <colophon>
+
+        <edition>Annual Edition 2017</edition>
+
+        <website>
+            <name><c>TMC Physics</c></name>
+            <address>http://www.thomasmore.edu/physics/</address>
+        </website>
+
+        <copyright>
+            <year>2017<ndash />2018</year>
+            <holder>J. Christensen</holder>
+            <minilicense>GFDL License</minilicense>
+            <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the
+            GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation;
+            with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+            A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>
+            All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
+        </copyright>
+
+    </colophon>
+
+    <acknowledgement>
+
+        <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions. </p>
+
+        <ul>
+            <li><p>Physics adjunct instructors who provided feedback about the labs
+                <ul>
+                    <li><p>Tom Neal, Physics Adjunct</p></li>
+                </ul></p></li>
+            <li><p>Physics faculty who designed and contributed to the design of the lab experiments
+                <ul>
+                    <li><p>Jack Wells</p></li>
+                    <li><p>Dr. Wes Ryle</p></li>
+                    <li><p>Dr. Jeremy Huber</p></li>
+                </ul></p></li>
+        </ul>
+
+    </acknowledgement>
+
+
+
+</frontmatter>
+
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-meaningful-measurements"> <title>Meaningful Measurements</title>
+
+        <table>
+        <caption>Equipment Needed</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="minor"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="minor">
+                                <cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>A???</cell><cell>1 metric ruler</cell>
+                                <cell><p>could be a 1-foot ruler or a 0.25-meter stick</p></cell></row>
+                        <row bottom="minor"><cell>Drawer</cell><cell><p>1 Vernier caliper (<xref ref="f-vernier" text="type-global" />)</p></cell>
+                                <cell><p>Ask faculty if they want digit or analog</p>
+                                        <p>before and after lab, verify digital calipers are turned off</p></cell></row>
+                        <row bottom="minor"><cell>Drawer</cell><cell><p>1 micrometer (<xref ref="f-vernier" text="type-global" />)</p></cell>
+                                <cell><p>before and after lab verify jaws are not tight</p></cell></row>
+                        <row bottom="minor"><cell>A-drawer</cell><cell><p>3 objects to measure</p></cell>
+                                <cell><p>Ask faculty which objects they want (smooth sphere, rough sphere, cube, block of metal, irregular shape, etc)</p></cell></row>
+                        <row bottom="minor"><cell>A-shelf</cell><cell><p>1 tall, skinny, graduated cylinder</p></cell>
+                                <cell><p>at least 2 of the 3 objects should fit inside the graduated cylinder</p></cell></row>
+                        <row bottom="minor">
+                                <cell colspan="3" halign="left">At the front for students to share</cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell>at least 1 digital scale</cell>
+                                <cell><p>the available scale(s) should be able to weigh the chosen objects</p></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-vernier">
+        <title>The Vernier Caliper</title>
+        <image source="vernier.JPG" width="100%" />
+        <caption>
+        The Vernier Caliper
+        </caption>
+        <description>The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
+        The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m>.
+        </description>
+        </figure>
+
+        <figure xml:id="f-micrometer">
+        <caption><term>The Micrometer Caliper</term></caption>
+        <image source="micrometer.JPG" width="100%" />
+        <description>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
+        the half-marks (0.5, 1.5, 2.5, <ellipsis /> 6.5 in this picture).  The location of the turning dial tells you where to read the
+        coarse scale (6.5 mm).  The center line of the coarse scale tells you where to read the fine scale.
+        This is 23.0 (in units of <m>\times 10^{-2}</m> mm), but not 23.5 and not 22.5 so the precision is 0.5 (in these units).
+        This measurement in mm reads <m>6.5 \unit{mm} + 0.230\unit{mm} = 6.730 \pm 0.005 \unit{mm}</m>.
+        </description>
+        </figure>
+
+
+    <conclusion>
+    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-meaningful-measurements.html" /></p>
+    <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
+    </conclusion>
+</chapter>
+
+
+<!-- ********************************************************************************************** -->
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-standard-deviation"> <title>Standard Deviation</title>
+
+        <table>
+        <caption>Equipment Needed</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="minor"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="minor">
+                                <cell colspan="3"  halign="left">At the front for students to share</cell></row>
+                        <row bottom="minor"><cell>???</cell><cell>several boxes/bags of pennies</cell>
+                                <cell><p>in sufficient number for each student to have up to 50 pennies</p></cell></row>
+                </tabular>
+        </table>
+
+
+
+    <conclusion>
+    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-standard-deviation.html" /></p>
+    <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (232 kB)</url></p>
+    </conclusion>
+</chapter>
+
+
+<!-- ********************************************************************************************** -->
+
+<chapter><title>Constant Acceleration</title>
+
+        <table>
+        <caption>Equipment Needed</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="minor"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="minor">
+                                <cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor</p></cell>
+                                <cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart with <q>sail</q></p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF15</cell><cell><p>Wood Squares</p></cell>
+                                <cell><p>probably 2-3, used to prop up one end of track</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell>
+                                <cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor">
+                                <cell colspan="3" halign="left">At the front for students to share</cell></row>
+                        <row bottom="minor"><cell><p>AA41 or AA42 (drawers)</p></cell><cell>1 gravity protractor</cell>
+                                <cell><p>This is the large yellow protractor </p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell>1 pendulum bob</cell>
+                                <cell><p>.</p></cell></row>
+                </tabular>
+        </table>
+
+    <conclusion>
+    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/chapter-3.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf</url></p>
+    </conclusion>
+</chapter>
+
+
+<!-- ********************************************************************************************** -->
+
+
+
+<!-- ********************************************************************************************** -->
+
+<backmatter>
+    <title>Back Matter</title> <!-- mostly for HTML sectioning -->
+
+<!-- ********************************************************************************************** -->
+
+    <!--
+    <appendix>
+        <title>Notation</title>
+
+        <p>The following table defines the notation used in this book. Page numbers or references refer to the first appearance of each symbol.</p>
+
+        <notation-list />
+    </appendix>
+    -->
+
+</backmatter> 
+</book> 
+</mathbook>
+

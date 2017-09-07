@@ -142,6 +142,7 @@
 
     </biography>
 
+
     <!-- The following items must be placed in the desired/required order -->
     <!-- This will be checked by a Document Type Definition eventually -->
     <!-- Order: dedication, acknowledgements, forewords, prefaces -->
@@ -162,6 +163,7 @@
 
         <ul>
             <li><p>Tom Neal, Physics Adjunct</p></li>
+            <li><p>Dr. Jeremy Huber, Physics Sabbatical Replacement</p></li>
         </ul>
 
         <p>I would also like to thank <ellipsis /></p>
@@ -174,7 +176,6 @@
         </p>
 
     </preface>
-
 </frontmatter>
 
 
@@ -897,11 +898,11 @@
                 </exercise>
                 <exercise>
                     <statement>
-                        <p> Is there an accuracy<fn xml:id="f-frictionless">If the track were frictionless,
-                                                    then the acceleration should be <m>a=(9.81\unitfrac{m}{s^2})(\sin\theta)</m>,
-                                                    where <m>\theta</m> is the angle that the incline makes.</fn>
-                        that can be computed for this part of the experiment?</p>
+                        <p> Is there an accuracy that can be computed for this part of the experiment?</p>
                     </statement>
+                    <hint xml:id="f-frictionless">
+                        <p>If the track were frictionless, then the acceleration should be <m>a=(9.81\unitfrac{m}{s^2})(\sin\theta)</m>, where <m>\theta</m> is the angle that the incline makes.</p>
+                    </hint>
                 </exercise>
             </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
