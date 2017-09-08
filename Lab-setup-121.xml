@@ -26,8 +26,6 @@
         \setlength{\textheight}{9.2in}
         \setlength{\footskip}{0.5in}
 
-<!-- must fix by hand, Mathbook sets it to 1, if you change mathbook-common to 0, then it removes the TOC. -->
-        \setcounter{tocdepth}{0}
 <!-- <latex-preamble>
 -->
 
@@ -36,7 +34,8 @@
 
 
         <latex-image-preamble>
-        \usepackage{hmwk,color}
+<!--        \usepackage{hmwk,color} -->
+        \usepackage{color}
         \usepackage{graphicx}
         </latex-image-preamble>
 
@@ -113,7 +112,9 @@
 
     </acknowledgement>
 
-
+    <preface><title>Download the PDF here</title>
+    <p>A PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/TMC-lab-setup.pdf" />.</p>
+    </preface>
 
 </frontmatter>
 
@@ -129,8 +130,8 @@
                         <col width="10%" />
                         <col width="30%" />
                         <col width="60%" />
-                        <row bottom="minor"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="minor">
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium">
                                 <cell colspan="3" halign="left">For Each Lab Station</cell></row>
                         <row bottom="minor"><cell>AF34-14</cell><cell>1 metric ruler</cell>
                                 <cell><p>could be a 1-foot ruler or a 0.25-meter stick</p></cell></row>
@@ -145,7 +146,7 @@
                                 <cell><p>sufficient string to tie onto the objects in order to immerse them in the cylinder and retrieve them</p></cell></row>
                         <row bottom="minor"><cell>AF55-19</cell><cell><p>1 tall, skinny, graduated cylinder</p></cell>
                                 <cell><p>at least 2 of the 3 objects should fit inside the graduated cylinder</p></cell></row>
-                        <row bottom="minor">
+                        <row bottom="medium">
                                 <cell colspan="3" halign="left">At the front for students to share</cell></row>
                         <row bottom="minor"><cell><p>S224</p><p>AF36-4</p></cell><cell>at least 1 digital scale</cell>
                                 <cell><p>the available scale(s) should be able to weigh the chosen objects</p></cell></row>
@@ -176,7 +177,7 @@
         </image>
         </figure>
 
-    <p>(Updated: September 6, 2017)</p> 
+    <p>(Updated: September 6, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-meaningful-measurements.html" /></p>
     <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
 
@@ -195,8 +196,8 @@
                         <col width="10%" />
                         <col width="30%" />
                         <col width="60%" />
-                        <row bottom="minor"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="minor">
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium">
                                 <cell colspan="3"  halign="left">At the front for students to share</cell></row>
                         <row bottom="minor"><cell>AL32-5</cell><cell>several boxes/bags of pennies</cell>
                                 <cell><p>in sufficient number for each student to have up to 50 pennies</p></cell></row>
@@ -204,7 +205,7 @@
         </table>
 
 
-    <p>(Updated: September 6, 2017)</p> 
+    <p>(Updated: September 6, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-standard-deviation.html" /></p>
     <p>A PDF version of the write-up might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (232 kB)</url></p>
 </section>
@@ -221,11 +222,11 @@
                         <col width="10%" />
                         <col width="30%" />
                         <col width="60%" />
-                        <row bottom="minor"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="minor"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
                         <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell>
                                 <cell><p>.</p></cell></row>
-                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor</p></cell>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (same as <q>sonic ranger</q>)</p></cell>
                                 <cell><p>Should have a black-yellow plug</p></cell></row>
                         <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart with <q>sail</q></p></cell>
                                 <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
@@ -237,7 +238,7 @@
                                 <cell><p>used to level the track</p></cell></row>
                         <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell>
                                 <cell><p>Computer</p></cell></row>
-                        <row bottom="minor"><cell colspan="3" halign="left">At the front for students to share</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
                         <row bottom="minor"><cell><p>AA41 or AA42 (drawers)</p></cell><cell>1 gravity protractor</cell>
                                 <cell><p>This is the large yellow protractor </p></cell></row>
                         <row bottom="minor"><cell><p>AF44</p></cell><cell>1 pendulum bob</cell>
@@ -248,9 +249,86 @@
         <p> 2-sized blocks???  (AF151-1)</p>
 
 
-    <p>(Updated: September 6, 2017)</p> 
+    <p>(Updated: September 6, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-acceleration.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-Newton"><title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
+
+        <table xml:id="t-Newton">
+        <caption>Equipment Needed: Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (same as <q>sonic ranger</q>)</p></cell>
+                                <cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>2 wooden cart-block</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>???</cell><cell><p>string</p></cell>
+                                <cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell>
+                                <cell><p>These might already be attached to the string</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell>
+                                <cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell>
+                                <cell><p>Computer</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>weights</p></cell>
+                                <cell><p>these are to ride the cart.  Should be an assortment of 100-500 grams to ride the cart and an assortment of very small masses (1-2 grams); pennies work well for the small masses.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell>
+                                <cell><p>used to level the string</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
+                        <row bottom="minor"><cell><p>.</p></cell><cell>.</cell>
+                                <cell><p>.</p></cell></row>
+                </tabular>
+        </table>
+
+
+    <p>(Updated: September 8, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-Newton.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<!-- Search-replace  [labname] with the xml:id
+        Search-replace  [Next Lab] with lab title
+        -->
+<section xml:id="s-labname"><title>Next Lab</title>
+
+        <table xml:id="t-labname">
+        <caption>Equipment Needed: Next Lab</caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
+                        <row bottom="minor"><cell><p>.</p></cell><cell>.</cell>
+                                <cell><p>.</p></cell></row>
+                </tabular>
+        </table>
+
+
+    <p>(Updated: September 8, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-labname.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/labname.pdf">labname.pdf</url></p>
 
 </section>
 
@@ -266,6 +344,6 @@
 <!-- ********************************************************************************************** -->
 
 
-</book> 
+</book>
 </mathbook>
 
