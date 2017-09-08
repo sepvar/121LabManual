@@ -42,6 +42,9 @@
 
         <cross-references text="global" />
 
+        <rename element="chapter" lang="en-US">Lab</rename>
+        <rename element="objectives" lang="en-US">Experimental Objectives</rename>
+
     </docinfo>
 
     <book xml:id="fall-lab-manual" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
@@ -54,9 +57,9 @@
 
         <author>
             <personname>Joe Christensen</personname>
-            <email>ChristJ@ThomasMore.edu</email>
             <department>Department of Physics and Mathematics</department>
             <institution>Thomas More College</institution>
+            <email>ChristJ@ThomasMore.edu</email>
         </author>
         <author>
             <personname>Jack Wells</personname>
@@ -66,18 +69,15 @@
         </author>
         <author>
             <personname>Wes Ryle</personname>
-            <email>RyleW@ThomasMore.edu</email>
             <department>Department of Physics and Mathematics</department>
             <institution>Thomas More College</institution>
+            <email>RyleW@ThomasMore.edu</email>
         </author>
 
         <credit>
             <title>Credit for MathBookXML / <pretext /> format:</title>
             <author>
                 <personname>Robert A. Beezer</personname>
-                <department>Department of Mathematics and Computer Science</department>
-                <institution>University of Puget Sound</institution>
-                <email>beezer@pugetsound.edu</email>
             </author>
         </credit>
 
@@ -136,7 +136,6 @@
                     <cell><line>B.S. Physics, State University of New York at Oneonta, Oneonta, NY (1975) </line>
                           <line>M.S. Physics, University of Toledo, Toledo, OH (1978)</line>
                           <line>first came to Thomas More College in 1980</line></cell></row>
-                <row />
             </tabular>
         </sidebyside>
 
@@ -159,12 +158,11 @@
 
     <acknowledgement>
 
-        <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions. </p>
-
+        <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions.
         <ul>
             <li><p>Tom Neal, Physics Adjunct</p></li>
             <li><p>Dr. Jeremy Huber, Physics Sabbatical Replacement</p></li>
-        </ul>
+        </ul></p>
 
         <p>I would also like to thank <ellipsis /></p>
 
@@ -191,6 +189,11 @@
     \revision{August 24, 2009}{Intro list as an enumerated TeX list.}
     -->
 
+    <objectives>
+    <ul><li><p>Determine the material of the objects by calculating their density and matching it to the accepted values for
+    various common materials.</p></li></ul>
+    </objectives>
+
 
     <introduction>
     <title>Introduction</title>
@@ -214,14 +217,6 @@
     </p>
     </introduction>
 
-    <objectives>
-    <title>Experimental Objectives</title>
-
-    <introduction><p>Determine the material of the objects by calculating their density and matching it to the accepted values for
-    various common materials.</p>
-    </introduction>
-    </objectives>
-
     <section>
     <title>Student Outcomes</title>
 
@@ -235,13 +230,10 @@
     <title>Procedure</title>
 
     <introduction>
-    <paragraphs><title>Materials</title>
-    <p>Three measuring devices: a metric ruler, a vernier caliper, and a micrometer caliper.</p>
+    <p><alert>Materials:</alert> Three measuring devices: a metric ruler, a vernier caliper, and a micrometer caliper.</p>
     <p>Several objects convenient for measuring the mass and the physical dimensions.</p>
-    </paragraphs>
 
-    <paragraphs><title>Procedure</title>
-    <p>
+    <p><alert>Procedure:</alert>
     <ul>
         <li><p>Check the measuring devices for any <term>zero-point errors</term> (verify that they are <term>calibrated</term>).
         The use of the caliper and micrometer is outlined below. </p></li>
@@ -249,7 +241,7 @@
         <ul>
             <li><p> Measure the dimensions of two of the objects with each of the three instruments: the ruler,
             the vernier caliper, and the micrometer caliper.   Take all measurements minimizing any parallax errors. </p></li>
-            <li xml:id="q-measurementerror"><p>   Estimate the experimental uncertainties of your measurements.
+            <li><p>   Estimate the experimental uncertainties of your measurements.
             <exercisegroup>
                 <exercise>
                         <title>Zero-Point Errors</title>
@@ -268,6 +260,8 @@
                                 <p>You should close the caliper to determine this.</p></hint>
                         <hint><p>Does the micrometer read zero when it is measuring a zero length?</p>
                                 <p>You should close the micrometer to determine this.</p></hint>
+                        <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
+                            Especially in this week, your report should explain how you accommodated any zero-point errors.</p></answer>
                         <solution>
                             <p>You should figure out how to make efforts to correct for zero-point errors.</p>
                             <p>For each instrument, if the measurement you consider to have zero-length is not actually <q>zero</q>,
@@ -277,8 +271,6 @@
                                 <term>random</term> (sometimes making the answer slightly too big and sometimes slightly too small).
                                 (Recall <xref ref="sss-mistakes" text="type-global" />.)</p>
                         </solution>
-                        <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
-                            Especially in this week, your report should explain how you accommodated any zero-point errors.</p></answer>
                 </exercise>
                 <exercise>
                         <title>Parallax</title>
@@ -287,6 +279,8 @@
                         </statement>
                         <hint><p>For the caliper and the micrometer, the instrument clamps around the item being measured.  Decide if the location of your eye matters in the measurement.</p>
                             <p>For the meterstick, you have to align the edge with a tick-mark. Does the location of your eye impact the alignment of the tick-mark on the ruler with the edge of the object?</p></hint>
+                        <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
+                            Especially in this week, your report should explain how you accommodated any parallax errors.</p></answer>
                         <solution>
                             <p>You should figure out how to make efforts to correct any parallax errors.
                                 It may help to determine whether this uncertainty is
@@ -298,8 +292,6 @@
                             to gauge the size of this uncertainty.</p>
                             <p>In the case of the meterstick, the object being measured should be as close as possible (touching?) the tick-marks of the meterstick in order to minimize parallax.</p>
                         </solution>
-                        <answer><p>You should make efforts to correct for any zero-point errors in your instrument.
-                            Especially in this week, your report should explain how you accommodated any parallax errors.</p></answer>
                 </exercise>
                 <exercise>
                         <title>Random or Systematic</title>
@@ -332,7 +324,6 @@
         <li><p> As outlined in the <xref ref="measurement-analysis" text="title" />, compute the volume and the density. </p></li>
     </ul>
     </p>
-    </paragraphs>
     </introduction>
 
     <subsection>
@@ -351,13 +342,11 @@
         <assemblage>
         <figure xml:id="f-vernier">
         <title>The Vernier Caliper</title>
-        <image source="vernier.JPG" width="100%" />
         <caption>
-        The Vernier Caliper
-        </caption>
-        <description>The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
+        The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
         The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m>.
-        </description>
+        </caption>
+        <image source="vernier.JPG" width="100%" />
         </figure>
         </assemblage>
 
@@ -385,14 +374,14 @@
 
         <assemblage>
         <figure xml:id="f-micrometer">
-        <caption><term>The Micrometer Caliper</term></caption>
-        <image source="micrometer.JPG" width="100%" />
-        <description>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
+        <title>The Micrometer Caliper</title>
+        <caption>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
         the half-marks (0.5, 1.5, 2.5, <ellipsis /> 6.5 in this picture).  The location of the turning dial tells you where to read the
         coarse scale (6.5 mm).  The center line of the coarse scale tells you where to read the fine scale.
         This is 23.0 (in units of <m>\times 10^{-2}</m> mm), but not 23.5 and not 22.5 so the precision is 0.5 (in these units).
         This measurement in mm reads <m>6.5 \unit{mm} + 0.230\unit{mm} = 6.730 \pm 0.005 \unit{mm}</m>.
-        </description>
+        </caption>
+        <image source="micrometer.JPG" width="100%" />
         </figure>
         </assemblage>
 
@@ -471,6 +460,19 @@
         \revision{Jan. 7, 1997}{Jack}
     -->
 
+    <objectives>
+        <ul>
+        <li><p>The goal of the experiment is to determine how
+                <ul>
+                <li><p>the mean, </p></li>
+                <li><p>the standard deviation, and </p></li>
+                <li><p>the standard deviation of the mean </p></li>
+                </ul>
+                depend on the amount of data (number of samples) taken.  </p></li>
+        <li><p>You should also consider how well the data fit to a normal distribution.</p></li>
+        </ul>
+    </objectives>
+
 
     <introduction>
     <title>Introduction</title>
@@ -495,10 +497,10 @@
         <assemblage>
         <figure xml:id="f-histogram">
         <title>A sample histogram</title>
-        <image source="darthistogram.jpg" width="100%" />
         <caption>
         A sample histogram for the number of darts binned by distance from the centerline.
         </caption>
+        <image source="darthistogram.jpg" width="100%" />
         </figure>
         </assemblage>
 
@@ -515,14 +517,6 @@
     involved with flipping pennies.</p>
 
     </introduction>
-
-    <objectives>
-    <title>Experimental Objectives</title>
-
-    <introduction><p>The goal of the experiment is to determine how the mean, standard deviation, and standard deviation of the mean depend on
-    the amount of data (number of samples) taken.  You should also consider how well the data fit to a normal distribution.</p>
-    </introduction>
-    </objectives>
 
     <section>
     <title>Student Outcomes</title>
@@ -658,12 +652,14 @@
         \revision{Sept. 16, 2008}{Created?}
         -->
 
-    <objectives><title>Experimental Objectives</title>
-    <introduction>
-        <p>Using position versus time and velocity versus time graphs, verify that the equations of constant acceleration
-        accurately describe the behavior of objects under constant acceleration and that it is possible to distinguish acceleration due to
-        gravity from acceleration due to friction.</p>
-    </introduction>
+    <objectives>
+    <ul>
+        <li><p>Using position versus time and velocity versus time graphs, verify
+        <ul>
+                <li><p>that the equations of constant acceleration accurately describe the behavior of objects under constant acceleration and </p></li>
+                <li><p>that it is possible to distinguish acceleration due to gravity from acceleration due to friction.</p></li>
+        </ul></p></li>
+    </ul>
     </objectives>
 
     <section><title>Student Outcomes</title>
@@ -675,15 +671,13 @@
     <section xml:id="ss-AccProcedure"><title>Procedure</title>
 
         <introduction>
-            <paragraphs><title>Materials</title>
-                <p>An aluminum track, a low-friction cart, computer interface with PASCO Capstone<m>^{\rm tm}</m> software,
-                a sonic motion sensor, a small steel ball.</p>
-            </paragraphs>
+                <p><alert>Materials</alert>An aluminum track, a low-friction cart, computer interface with PASCO Capstone<m>^{\rm tm}</m> software, a sonic motion sensor, a small steel ball.</p>
 
-            <p>You should notice that the subsections in this section parallel the subsections in <xref ref="ss-AccAnalysis" text="title" />.
-            </p></introduction>
+                <p>You should notice that the subsections in this section parallel the subsections in <xref ref="ss-AccAnalysis" text="title" />.</p>
+        </introduction>
 
         <subsection xml:id="sss-FlatTrack"><title>Cart and Flat Track</title>
+        <aside><title>Note</title> <p>The Pasco Capstone interface is also used in <xref ref="c-Newton" text="type-hybrid" />, <xref ref="c-friction" text="type-hybrid" />, and <xref first="c-energy-1" last="c-energy-2" text="global">Labs</xref>.  You should start becoming familiar with the hardware and software.</p></aside>
         <p>Log into the computer (so you can save your data to your network drive) and then open Pasco Capstone.
         (<xref ref="s-Capstone" text="type-global" /> will provide some instructions for setting up the software and connecting the equipment.)
         Connect the motion sensor to the computer interface.
@@ -965,11 +959,23 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
+<chapter xml:id="c-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
 <!--    Revisions \revised{Sept. 14, 2015}
         \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
         \revision{Sept.~23, 2008}{}
         -->
+
+    <objectives>
+    <introduction><p>In this experiment, we will assume that Newton's first law is true and focus on Newton's second law.</p></introduction>
+    <ul>
+    <li><p>By measuring
+        <ul>
+        <li><p>the velocity versus time for a cart being pulled down a track and</p></li>
+        <li><p>the applied force that is pulling it, </p></li>
+        </ul>
+        we can plot the acceleration versus the force and verify the validity of Newton's second law of motion: <m>\vec F_{\rm net} = m \vec a</m>.</p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction to Forces</title>
     <p>Forces are related to the natural motion of bodies, where one object can affect the motion of another object.
@@ -989,18 +995,14 @@
     This type of force is sometimes called an <q>action at a distance</q> force.
     All other forces are in a second category called <q>contact forces.</q></p>
 
-    <subsection><title>Newton's First law</title>
-
-        <p><quote>
-        If there are no forces acting, then objects will remain at rest or, if not at rest, will maintain their velocity.
-        </quote>
-        If this is true, then we can study the forces acting on a body based on the motion of the body,
+        <p><alert>Newton's First Law:</alert></p>
+        <blockquote>
+        <p>If there are no forces acting, then objects will remain at rest or, if not at rest, will maintain their velocity.</p>
+        </blockquote>
+        <p>If this is true, then we can study the forces acting on a body based on the motion of the body,
         specifically through the change in the velocity of an object.</p>
 
-    </subsection>
-    <subsection><title>Newton's Second Law</title>
-
-        <p>Not only is a force necessary to change the motion (to cause an acceleration),
+        <p><alert>Newton's Second Law:</alert> Not only is a force necessary to change the motion (to cause an acceleration),
         the amount of acceleration that a force causes is predictable and is inversely proportional to the mass.
         The same sized force causes a small mass to accelerate a lot and a large mass to accelerate a little.
         This is expressed by the equation:
@@ -1011,37 +1013,25 @@
         So long as both objects accelerate at the same rate, we do not need to consider the <q>internal</q> tension that
         the string exerts between the connected bodies.</p>
 
-    </subsection>
-    <subsection><title>Newton's Third Law</title>
-
-    <p>Inherent in the description of a force is that it is an interaction between objects:
-    there must always be two objects that interact.  These objects exert equal and opposite forces on each other.  That is,
-    <quote>
+    <p><alert>Newton's Third Law:</alert> Inherent in the description of a force is that it is an interaction between objects:
+    there must always be two objects that interact.  These objects exert equal and opposite forces on each other.  That is,</p>
+    <blockquote>
         <p>If there is a force exerted on object 1 by object 2, then there is necessarily and simultaneously
         a force exerted on object 2 by object 1 that is equal (in magnitude) and opposite (in direction) to the original force.</p>
-    </quote>
-    Remember that these two forces are on different objects and that the two bodies in direct contact exert forces on each other.
+    </blockquote>
+    <p>Remember that these two forces are on different objects and that the two bodies in direct contact exert forces on each other.
     Remember then that if there is contact between the object (any part of the system) and anything else then there is an
     outside force on the object (system) and that if there is no contact (the two bodies break contact) then there is no force.</p>
 
-    </subsection>
 </introduction>
 
-    <objectives><title>Experimental Objective</title>
-
-    <introduction><p>In this experiment, we will assume that the first law is true and focus on the second law.
-    By measuring (a) the velocity versus time for a cart being pulled down a track and
-    (b) the applied force that is pulling it, we can plot the acceleration versus the force
-    and verify the validity of Newton's second law of motion: <m>\vec F_{\rm net} = m \vec a</m>.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Pre-Lab Considerations</title>
 
-    <ul>
-    <li><p> Based on your understanding of <xref ref="NII-Setup" text="type-global" />, draw a free-body force diagram for the cart and for the hanging mass.
-    </p></li> <li><p> Derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging body.
-    </p></li> </ul>
+    <p><ul>
+    <li><p> Based on your understanding of <xref ref="NII-Setup" text="type-global" />, draw a free-body force diagram for the cart and for the hanging mass.</p></li>
+    <li><p> Derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging body.   </p></li>
+    </ul></p>
 
 </section>
 <section><title>Procedure</title>
@@ -1052,17 +1042,18 @@
 <p>A low-friction linear track with a wheeled cart and a pulley at one end of the track. Weights that can ride in the cart without jostling.  A string connecting the cart to a light-weight support for small masses, which sits over the pulley allowing the masses to fall vertically while pulling the cart horizontally. A <q>sonic ranger</q> that uses sonar to measure the position, velocity, and acceleration of the cart.</p>
 </paragraphs>
 
-    <ul>
+    <p><ul>
     <li><p> A low-friction linear cart and track will be used, this reduces the friction between the cart and the track.</p></li>
     <li><p> A string will be connected to the cart and a known mass will be hanging from the end of the string (and over a pulley).
         The hanging mass will exert a constant horizontal force on the cart as the mass falls all the way to the floor.  This gives a constant acceleration to the cart.</p></li>
     <li><p> The sonic motion sensor will be used to measure the position of the cart as a function of time. </p></li>
     <li><p> The carts and tracks need to be handled with care.  Scratches can add friction to the system.</p></li>
-    </ul>
+    </ul></p>
 
 </subsection>
 
 <subsection><title>Procedure</title>
+    <p>
     <ul>
     <li><p> If the cart is given an initial push (without the hanging mass and string attached) then the cart should travel
         with a constant velocity down the horizontal track, if there are no other forces acting on the cart.
@@ -1077,18 +1068,20 @@
         The hanging mass and the mass of the cart should vary, but their total must be kept constant, by moving small mass
         amounts from the cart to the hanging cup.  Record the mass of the cart, the hanging cup mass, and the extra masses
         which are to be transferred from the cart to the cup.</p></li>
-    <li><p> Take data with Capstone and the motion sensor as the cart travels with constant acceleration down the track.
+    <li><aside><title>Note</title> <p>The Pasco Capstone interface is also used in <xref ref="c-acceleration" text="type-hybrid" />, <xref ref="c-friction" text="type-hybrid" />, and <xref first="c-energy-1" last="c-energy-2" text="global">Labs</xref>.  You should start becoming familiar with the hardware and software.</p></aside>
+        <p> Take data with Capstone and the motion sensor as the cart travels with constant acceleration down the track.
         Determine the acceleration of the cart from a linear regression using the velocity vs time data (a linear fit line in Capstone).
         Record the acceleration value and its uncertainty.</p></li>
     <li><p> Collect  7 data runs, where about 5 grams is transferred each time from the cart to the hanging mass.
         Determine the acceleration of the cart (and the uncertainty for the acceleration) for each of these 7 runs.</p></li>
     </ul>
+    </p>
 </subsection>
 </section>
 
 <section><title>Analysis</title>
 
-    <ul>
+    <p><ul>
     <li><p> Make a graph of the acceleration of the system (y-axis) versus the weight <m>(mg)</m> of the hanging body (x-axis),
         should include 7 data points.    Do this in Excel.   Carry out a linear regression for this data set.
         Quote the  slope and intercept values, their uncertainties, their p-values, and the <m>R^2</m> value.
@@ -1106,7 +1099,7 @@
         That is, would the slope be expected to increase or decrease slightly because of the effects of friction?</p></li>
     <li><p> When designing experiments, it is important to keep control parameters; in this case a parameter which is kept constant.
         What parameter held this role in this experiment?</p></li>
-    </ul>
+    </ul></p>
 
 </section> <exercises><title>Questions</title>
 
@@ -1141,11 +1134,21 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Dry Sliding Friction</title>
+<chapter xml:id="c-friction"><title>Dry Sliding Friction</title>
 <!--    Revisions \revised{Sept.~28, 2015}
         \revision{Sept.~28, 2015}{}
         \revision{Sept.~23, 2008}{}
         -->
+
+    <objectives>
+    <ul>
+    <li><p>In this experiment you will devise methods
+        <ul>
+        <li><p>to investigate the nature of both the frictional force and the coefficient of friction and </p></li>
+        <li><p>to test the validity of da Vinci's empirical rule.</p></li>
+        </ul></p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -1154,13 +1157,13 @@
     directed opposite to the direction of motion.  The phenomenon of friction is rather complicated, especially
     at the microscopic level, because it is dependent on the nature of the materials of both contacting surfaces.
     The frictional force depends on the roughness or the irregularities of both surfaces.
-    At the macroscopic level, the nature of this force can be described by a simple empirical law, first given by Leonardo da Vinci:
-    <quote>
-    The magnitude of the force of friction between unlubricated, dry surfaces sliding one over the other is
+    At the macroscopic level, the nature of this force can be described by a simple empirical law, first given by Leonardo da Vinci:</p>
+    <blockquote>
+    <p>The magnitude of the force of friction between unlubricated, dry surfaces sliding one over the other is
     proportional to the normal force pressing the surfaces together and is independent of the (macroscopic) area of contact
-    and of the relative speed.
-    </quote>
-    At the microscopic level, the frictional force <m>(F_f)</m> does depend on the actual area of contact of the
+    and of the relative speed.</p>
+    </blockquote>
+    <p>At the microscopic level, the frictional force <m>(F_f)</m> does depend on the actual area of contact of the
     irregularities of the surfaces.  This actual area of contact then increases as the force pressing the two surfaces
     together increases, this force is called the load.  Using Newton's <m>2^{\rm nd}</m> Law in this perpendicular
     direction we can conclude that the magnitude of the load is equal to the Normal force <m>(F_N)</m> of the surface pushing on the object.
@@ -1200,11 +1203,6 @@
 
 
     </introduction>
-    <objectives><title>Experimental Objective</title>
-
-    <introduction><p>In this experiment you will devise methods to investigate the nature of both the frictional force and the coefficient of friction, and to test the validity of da Vinci's empirical rule.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Pre-Lab Considerations</title>
 
@@ -1235,6 +1233,7 @@
 
     <subsection xml:id="sss-staticfriction"><title>Break Static Friction <mdash/> pull until moves</title>
 
+        <aside><title>Note</title> <p>By this time, you should already be familiar with the Pasco Capstone interface, which is also used in <xref ref="c-acceleration" text="type-hybrid" />, <xref ref="c-Newton" text="type-hybrid" />, and <xref first="c-energy-1" last="c-energy-2" text="global">Labs</xref>.  You may remind yourself of the format by reading <xref ref="s-capstone" text="type-global" /></p></aside>
         <p><ol>
 <!-- \setcounter{enumi}{\thedave} -->
         <li><p> Set up the Dynamics Track, cart, force transducer and friction block.
@@ -1337,9 +1336,19 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Centripetal Force</title>
+<chapter xml:id="c-centripetal"><title>Centripetal Force</title>
 <!--    Revisions \revised{Fall 2006}
         -->
+
+    <objectives>
+    <ul>
+    <li><p>It is our purpose to experimentally verify the equation for centripetal force by
+        <ul>
+        <li><p>measuring the applied force and </p></li>
+        <li><p>comparing it to the specific combination of variables expressed as either <m>\displaystyle \frac{mv^2}{r}</m> or <m>m\omega^2r</m>.</p></li>
+        </ul></p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -1367,14 +1376,6 @@
     maintain circular motion.</p>
 
     </introduction>
-    <objectives><title>Experimental Objectives</title>
-
-    <introduction>
-        <p>It is our purpose to verify the above equation experimentally by measuring the applied force
-        and comparing it to the specific combination of variables expressed as either
-        <m>\frac{mv^2}{r}</m> or <m>m\omega^2r</m>.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Pre-Lab Considerations</title>
 
@@ -1393,11 +1394,11 @@
     when the spring is not rotating.</p>
 
     <p><ul>
-    <li xml:id="i-r"><p> By means of the lab apparatus, a mass <m>m</m> can be made to rotate with a constant (and measurable)
+    <li><p> By means of the lab apparatus, a mass <m>m</m> can be made to rotate with a constant (and measurable)
         angular speed <m>\omega</m>.  With some practice, it is possible to adjust the speed so that the radius of the path remains constant.
         The value of the radius, <m>r</m>, is marked on the apparatus and so can be measured easily.</p></li>
-    <li xml:id="i-m"><p> Measuring the mass should be an obvious task.</p></li>
-    <li xml:id="i-w"><p> Measuring the angular speed <m>\omega</m> is straightforward, but may not be obvious.  To do so, consider the following:
+    <li><p> Measuring the mass should be an obvious task.</p></li>
+    <li><p> Measuring the angular speed <m>\omega</m> is straightforward, but may not be obvious.  To do so, consider the following:
         <ul>
         <li><p> Angular speed <m>(\omega)</m> is measured in
 <quantity><unit base="radian" /><per base="second" /></quantity>.</p></li>
@@ -1429,12 +1430,19 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Conservation of Energy on a Linear Track <mdash/> (Single Week Version)</title>
+<chapter xml:id="c-energy-1"><title>Conservation of Energy on a Linear Track <mdash/> (Single Week Version)</title>
 <!--    Revisions
         \revised{October 24, 2015}
         \revision{October 24, 2015}{made it a one week lab}
         \revision{August 24, 2009}{}
         -->
+
+    <objectives>
+    <ul>
+    <li><p>The purpose of this experiment will be to verify the validity of the law of conservation of mechanical energy,
+    which says that <m>\Delta E = 0</m> as a cart runs along a track.</p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -1469,12 +1477,6 @@
     total energy of the system at point B.</p>
 
     </introduction>
-    <objectives><title>Experimental Objective</title>
-
-    <introduction><p>The purpose of this experiment will be to verify the validity of the law of conservation of mechanical energy,
-    that <m>\Delta E = 0</m> as a cart runs along a track.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Procedure</title>
 
@@ -1729,12 +1731,19 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Conservation of Energy on a Linear Track <mdash/> (Two Week Version)</title>
+<chapter xml:id="c-energy-2"><title>Conservation of Energy on a Linear Track <mdash/> (Two Week Version)</title>
 <!--    Revisions
         \revised{October 24, 2015}
         \revision{October 24, 2015}{made it a one week lab}
         \revision{August 24, 2009}{}
         -->
+
+    <objectives>
+    <ul>
+    <li><p>The purpose of this experiment will be to verify the validity of the law of conservation of mechanical energy,
+    which says that <m>\Delta E = 0</m> as a cart runs along a track.</p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -1769,12 +1778,6 @@
     total energy of the system at point B.</p>
 
     </introduction>
-    <objectives><title>Experimental Objective</title>
-
-    <introduction><p>The purpose of this experiment will be to verify the validity of the law of conservation of mechanical energy,
-    that <m>\Delta E = 0</m> as a cart runs along a track.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Procedure</title>
 
@@ -1845,7 +1848,7 @@
                     How would <m>K</m> and <m>P</m> be affected in these two cases?</p></li>
                 <li xml:id="q-bounce"><p> (<xref ref="sss-sloped" text="type-global" /> only)
                     When the cart is at the bottom of the track during the motion,
-                    the values of position become negative (less than zero!).  Why?  Is there some other place where the energy might go?  </p>
+                    the values of position become negative (less than zero!).  Why?  Is there some other place where the energy might go?
                     <ol>
                     <li><p>
                         If you are using the force transducer, then it has a spring and a spring potential energy, <m>\Delta P_{\rm spring}</m>.
@@ -1856,7 +1859,7 @@
                         <m>\Delta x</m> is the distance from the spring's equilibrium position, not the height (derivable from the position data).
                         Be sure to match up the force values and the <m>x</m> values at those same times.
                         </p></li>
-                    </ol>
+                    </ol></p>
                     </li>
                 </ol></p></statement>
         </exercise>
@@ -2024,7 +2027,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Peer Review</title>
+<chapter xml:id="c-peer"><title>Peer Review</title>
 <!--    Revisions
         \revised{Sep 1, 2008}
         -->
@@ -2070,8 +2073,8 @@
     (personally selected) code name.  Do not tell anybody what you selected and do not use a nickname that is easily
     recognizable by others -- the point of a secret identity is to keep the secret!</p>
 
-    <p>In this week's lab, one lab section will do <xref ref="s-Hooke" text="title" /> and the other lab section will do
-    <xref ref="s-Pendulum" text="title" />.  The underlying ideas are similar to each other and will help you next week when you
+    <p>In this week's lab, one lab section will do <xref ref="c-Hooke" text="title" /> and the other lab section will do
+    <xref ref="c-pendulum" text="title" />.  The underlying ideas are similar to each other and will help you next week when you
     review an article submitted by a colleague who did the other experiment.  When you submit your lab this week,
     you will submit your notebook and two (almost identical) copies of your report.  One copy will have your name
     <em>and</em> your secret code name.  The other copy will have <em>only</em> your secret identity.</p>
@@ -2081,7 +2084,25 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Hooke"><title>Hooke's Law and Simple Harmonic Motion</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+<chapter xml:id="c-Hooke"><title>Hooke's Law and Simple Harmonic Motion</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+
+    <objectives>
+    <introduction>
+    <p>The stiffness of springs can be measured by stretching or by bouncing.  Because we do not have an independent verification of the value of the stiffness of the spring, we will need to be clever about how to verify the relevant equations.  It turns out that the measurement of stiffness through bouncing gives a value for the spring constant, whereas the measurement of stiffness by hanging involves both the spring constant and the acceleration due to gravity.  </p>
+    </introduction>
+    <ul>
+    <li><p>By measuring and graphing
+        <ul>
+        <li><p>the relationship between mass and elongation when stretching a spring and</p></li>
+        <li><p>the relationship between mass and the period of a bouncing spring, </p></li>
+        </ul>
+        we can compute the value of the acceleration due to gravity and thereby verify the relationships describing the stretch of a spring.</p></li>
+    </ul>
+<!--
+    Experimentally determine and compare the spring constant <m>(k)</m> of a spring as determined by Hooke's Law and
+    also with the SHM period formula.
+-->
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -2105,16 +2126,20 @@
     <men xml:id="eq-hooke">
     \vec F= -k\vec x \hspace{.5cm} \mbox{or as} \hspace{.5cm}  a= \frac{d^2x}{dt^2} = -\frac{kx}{m}
     </men>
-    where <m>F</m> is the restoring force, <m>x</m> is the displacement from the equilibrium position
-    (or zero position), <m>k</m> is a proportionality constant, and the minus sign indicates that the
+    where <m>F</m> is the <term>restoring force</term>, <m>x</m> is the <term>elongation</term> (the displacement from the equilibrium position, which is also called the <q>zero position</q>), <m>k</m> is a proportionality constant, and the minus sign indicates that the
     restoring force is always opposite the direction of the displacement.  For a spring system, <m>k</m>
-    is called the spring constant, and represents the ratio of the applied force to the elongation.
+    is called the <term>spring constant</term>, and represents the ratio of the applied force to the elongation.
     The spring constant is an inherent physical property of the spring itself (an elastic property).
     The value of <m>k</m> gives a relative indication of the stiffness of the spring.  If the spring
     system is in equilibrium  <m>(\sum F_i =0)</m>  then the restoring force is equal to the force
     pulling on the spring, and this force is proportional to the extension of the spring from its equilibrium
-    position.  This relationship for elastic behavior is known as Hooke's Law, after Robert Hooke (1635-1703).
+    position.  This relationship for elastic behavior is known as Hooke's law, after Robert Hooke (1635-1703).
     </p>
+
+        <p>We can investigate Hooke's law by hanging a mass on a spring, measuring the stretch, and plotting the mass versus the elongation.
+        If we rewrite <xref ref="eq-hooke" text="type-global" /> relating the mass to the elongation
+        <me> m = \left[ \frac{k}{g} \right] x </me>
+        then we see an equation of the form <m>y=mx+\cancelto{0}{b}</m>, where the slope depends on both <m>k</m> and <m>g</m>.</p>
 
 <!-- <p>Notice that for the previous equation to be valid,  the acceleration must have the same functional form as the displacement.
     One function for which this would be true is the cosine function, that is, that both the acceleration and the displacement
@@ -2133,25 +2158,14 @@
     <men xml:id="eq-hookeperiod"> T=2\pi \sqrt{\frac{m}{k}} </men>
     </p>
 
+        <p>We can investigate this relationship by bouncing a mass on a spring, measuring the period, and plotting the mass versus the period.
+        If we rewrite <xref ref="eq-hookeperiod" text="type-global" /> relating the mass to the period
+        <me> m = \left[ k \right] \left( \frac{T}{2\pi} \right)^2 </me>
+        then we see an equation of the form <m>y=ax^2+\cancelto{0}{b}x+\cancelto{0}{c}</m>, where the coefficient only depends on <m>k</m>.</p>
+
+        <p>When you compare these relationships of the spring, you should be able to find a value for the acceleration due to gravity as a verification of these two equations.</p>
+
 </introduction>
-    <objectives><title>Experimental Objectives</title>
-
-    <introduction>
-    <p>Notice that <xref ref="eq-hooke" text="type-global">Equation</xref> depends not only on the spring constant,
-    but also on the acceleration (due to gravity, <m>g)</m>.  On the other hand, <xref ref="eq-hookeperiod" text="type-global">Equation</xref>
-    only depends on <m>k</m>.  You may also recall that when you measured <m>g</m> in a previous lab,
-    you did not measure it to be <m>9.81\unitfrac{m}{s^2}</m>.  We would like our measurement of <m>k</m> to not depend on <m>g</m>.</p>
-
-    <p>Because of these two aspects of springs [elasticity, shown by <xref ref="eq-hooke" text="type-global">Equation</xref>, and periodicity
-    shown by <xref ref="eq-hookeperiod" text="type-global">Equation</xref>], we can investigate both the elasticity of a spring, and use the
-    oscillations to measure <m>g</m> indirectly.
-<!--
-    Experimentally determine and compare the spring constant <m>(k)</m> of a spring as determined by Hooke's Law and
-    also with the SHM period formula.
--->
-    </p>
-    </introduction>
-    </objectives>
 
 <section><title>Pre-Lab Considerations</title>
 
@@ -2167,7 +2181,7 @@
 
 </section> <section><title>Procedure</title>
 
-    <subsection xml:id="sss-hooke"><title></title>Hooke's law}
+    <subsection xml:id="sss-hooke"><title>Hooke's law</title>
 
         <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" text="type-global">Equation</xref>.
         <ul>
@@ -2261,7 +2275,19 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="s-Pendulum"><title>The Simple Pendulum</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+<chapter xml:id="c-pendulum"><title>The Simple Pendulum</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+
+    <objectives>
+    <ul>
+        <li><p> Determine the relationship between the period of the pendulum and its amplitude.</p></li>
+        <li><p> Determine the relationship between the period of the pendulum and its mass.</p></li>
+        <li><p> Determine the relationship between the period of the pendulum and the length of the pendulum.</p></li>
+        <li><p> Use a graphical analysis to investigate these relationships, and from the best linear graph
+            determine an empirical equation for the period of a pendulum.</p></li>
+        <li><p> Gravity also plays a part in this experiment, so include gravity into your empirical equation,
+            and use unit analysis to help figure out this relationship.</p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -2286,21 +2312,6 @@
     the physical characteristics of the pendulum and the period of the pendulum.</p>
 
 </introduction>
-    <objectives><title>Experimental Objectives</title>
-
-    <introduction><p>
-    <ul>
-        <li><p> Determine the relationship between the period of the pendulum and its amplitude.</p></li>
-        <li><p> Determine the relationship between the period of the pendulum and its mass.</p></li>
-        <li><p> Determine the relationship between the period of the pendulum and the length of the pendulum.</p></li>
-        <li><p> Use a graphical analysis to investigate these relationships, and from the best linear graph
-            determine an empirical equation for the period of a pendulum.</p></li>
-        <li><p> Gravity also plays a part in this experiment, so include gravity into your empirical equation,
-            and use unit analysis to help figure out this relationship.</p></li>
-    </ul>
-    </p>
-    </introduction>
-    </objectives>
 
 <section><title>Procedure</title>
 
@@ -2368,8 +2379,17 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Ballistic Pendulum</title> <!-- Revisions \revised{(Jack)} -->
+<chapter xml:id="c-ballistic"><title>Ballistic Pendulum</title> <!-- Revisions \revised{(Jack)} -->
 
+    <objectives>
+    <ul>
+    <li><p>To verify that the equations of conservation of momentum and conservation of mechanical energy give the same results as the equations of two-dimensional motion by comparing the initial velocity of the ballistic projectile from two different sets of experimental measurements:
+        <ul>
+            <li><p>the range and vertical height measurements of the projectile motion, and</p></li>
+            <li><p>through the use of the ballistic pendulum.</p></li>
+        </ul></p></li>
+    </ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -2406,13 +2426,6 @@
     these physics topics.</p>
 
     </introduction>
-    <objectives><title>Experimental Objectives</title>
-
-    <introduction><p>To determine the initial velocity of the ballistic projectile from two different sets of experimental measurements,
-    1) the range and vertical height measurements of the projectile motion, and
-    2) through the use of the ballistic pendulum.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Pre-Lab Considerations</title>
 
@@ -2522,7 +2535,12 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Conditions of Equilibrium -- Model of a Human Forearm</title> <!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
+<chapter xml:id="c-equilibrium"><title>Conditions of Equilibrium -- Model of a Human Forearm</title> <!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
+
+    <objectives>
+    <ul><li><p>You will verify the equations for translational and rotational equilibrium by
+    experimentally balancing the system and comparing the measurements to the results from these equations.</p></li></ul>
+    </objectives>
 
 <introduction><title>Introduction</title>
 
@@ -2547,12 +2565,6 @@
     density, such as a half-meter stick, the center of mass is at the center of the stick.</p>
 
     </introduction>
-    <objectives><title>Experimental Objectives</title>
-
-    <introduction><p>You will verify the equations for translational and rotational equilibrium by
-    experimentally balancing the system and comparing the measurements to the results from these equations.</p>
-    </introduction>
-    </objectives>
 
 <section><title>Prelab Work</title>
 
@@ -2634,9 +2646,10 @@
     at the elbow, exerting a downward force on the forearm at the joint.</p>
 
     <table>
+        <caption>Building the model of the human forearm</caption>
         <tabular top="major">
         <col width="25%" /><col width="25%" /><col width="50%" />
-            <row top="major" bottom="medium">
+            <row bottom="medium">
                 <cell> Human Arm </cell>
                 <cell> Model </cell>
                 <cell> Force Location </cell></row>
@@ -2657,7 +2670,6 @@
                 <cell> clamp, hanger, weights </cell>
                 <cell> <p>as near as possible to the elbow end (about <m>1\unit{cm}</m> from the elbow-end) </p></cell></row>
         </tabular>
-        <caption>Building the model of the human forearm</caption>
     </table>
 
     <p> Be sure to include the weight of the clamps at each location where one is used.
@@ -2673,7 +2685,7 @@
     <p>You are going to do the following procedure for two different locations of the bicep muscle:
     First set the bicep, as mentioned above, in the human location of about <m>4\unit{cm}</m> from the elbow.
     Second, set the bicep at about <m>10\unit{cm}</m> from the elbow.  You should consider which location
-    gives more leverage to lift the hand.</p>
+    gives more leverage to lift the hand.
 
     <ul>
         <li><p> With your model completely set up, place a <m>50 \unit{g}</m> mass in the <q>hand.</q>
@@ -2692,28 +2704,31 @@
         <li><p> Since the hand is so sensitive, you should estimate roughly the sensitivity of the value of force at the hand.</p></li>
     </ul>
 
-    <p>With this data, you will verify the equations of equilibrium.</p>
+    With this data, you will verify the equations of equilibrium.</p>
 
-    </subsection>
-    <subsection xml:id="ss-elephant"><title>Comparative Anatomy</title>
+    <activity xml:id="ss-elephant"><title>Comparative Anatomy</title>
 
+    <statement>
     <p>Create a table that allows you to compare the values of force for the elbow, bicep, and
     hand for three different attachment-locations.
     <ul>
         <li><p> Enter the data from <xref ref="ss-equilib" text="type-global" />.  Record each position and each force.</p></li>
-        <li><p> Predict how the forces will change if the hand is moved a few millimeters closer to the bicep.  </p>
-            <hint><p> Imagine carrying grocery bags at different locations on your lower arm while holding your arm in an L-shape.</p></hint></li>
+        <li><p> Predict how the forces will change if the hand is moved a few millimeters closer to the bicep.  (<xref ref="h-grocery" text="type-local" /> might help.) </p></li>
         <li><p> Move the hand in and measure the forces that make it balance.  Compare to your predictions.</p></li>
-        <li><p> Predict how the forces will change if the bicep is moved a few millimeters further from the elbow.   </p>
-            <hint><p>  Imagine sitting at different locations on a teeter-totter.</p></hint></li>
+        <li><p> Predict how the forces will change if the bicep is moved a few millimeters further from the elbow.   (<xref ref="h-teeter" text="type-local" /> might help.) </p></li>
         <li><p> Move the bicep away from the elbow and measure the forces that make it balance.  Compare to your predictions.</p></li>
     </ul>
     </p>
+    </statement>
+    <hint xml:id="h-grocery"><p> Imagine carrying grocery bags at different locations on your lower arm while holding your arm in an L-shape.</p></hint>
+    <hint xml:id="h-teeter"><p>  Imagine sitting at different locations on a teeter-totter.</p></hint>
+    </activity>
 
     </subsection>
+
 </section> <section><title>Analysis</title>
 
-    <ul>
+    <p><ul>
     <li><p> For the forces measured or calculated in <xref ref="ss-equilib" text="type-global" />, test each of the conditions of equilibrium:
         <ul>
             <li><p> Translational Equilibrium: Show that the up forces equal the down forces to within your uncertainty.</p></li>
@@ -2732,7 +2747,7 @@
                 (or for a quadruped move their feet forward for the next step).  Do you expect fast animals to have their
                 leg muscles attached close to the joint or far from the joint?  Explain.</p></li>
         </ul></p></li>
-    </ul>
+    </ul></p>
 
 
 </section> <exercises><title>Questions</title>
@@ -2767,7 +2782,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter><title>Scaling Laws Among Biological Specimens</title>
+<chapter xml:id="c-scaling"><title>Scaling Laws Among Biological Specimens</title>
 <!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
 
     <paragraphs><title>Procedure</title>
@@ -2839,7 +2854,7 @@
 </chapter>
 
 <!-- ********************************************************************************************** -->
-
+<backmatter>
 <appendix xml:id="uncertainties"> <title>Managing Uncertainties</title>
 
     <introduction>
@@ -3032,6 +3047,8 @@
         <subsection xml:id="sss-single-precision">
         <title>Uncertainty of a single measurement</title>
 
+        <p>.</p>
+
         </subsection>
 
         <subsection xml:id="sss-multiple-precision">
@@ -3158,21 +3175,22 @@
                                     \left(\frac{0.3{\rm cm}}{148.3 {\rm cm}} 100\%\right) </mrow>
             <mrow> \%\mbox{-uncertainty} &amp;= (.11\%) + (.20\%) = (.31\%) </mrow>
             </md>
+        </p>
+                <aside><title>Insignificant</title>
+                        <p>Please be aware that the reason some digits are called <term>insignificant</term> is that they are <em>insignificant</em>:
+                        <md>
+                            <mrow> (.31548\%) \times (26204.61) &amp;= 82.67 </mrow>
+                            <mrow> (.31\%) \times (26204.61) &amp;= 81.23 </mrow>
+                            <mrow> (.31\%) \times (26200) &amp;= 81.22 </mrow>
+                            <mrow> (.3\%) \times (26204.61) &amp;= 78.61 </mrow>
+                            <mrow> (.3\%) \times (26200) &amp;= 78.60 </mrow>
+                        </md>
+                        All of these round to an uncertainty of <m>80\unit{cm^2}</m>. </p>
+                </aside>
+        <p>
         To find the uncertainty, we calculate
             <me>(.31\%)\times (\underline{2620}4.61 {\rm cm}^2) = 81.23 {\rm cm}^2</me>
         This tells us that we need to round at the <q>ten's place</q>.
-        </p>
-        <note>
-        <p>Please be aware that the reason some digits are called <term>insignificant</term> is that they are <em>insignificant</em>:
-        <md>
-            <mrow> &amp;= (.31548\%) \times (26204.61) &amp;= 82.67 </mrow>
-            <mrow> &amp;= (.31\%) \times (26204.61) &amp;= 81.23 </mrow>
-            <mrow> &amp;= (.31\%) \times (26200) &amp;= 81.22 </mrow>
-            <mrow> &amp;= (.3\%) \times (26204.61) &amp;= 78.61 </mrow>
-            <mrow> &amp;= (.3\%) \times (26200) &amp;= 78.60 </mrow>
-        </md>
-        All of these round to an uncertainty of <m>80\unit{cm^2}</m>. </p></note>
-        <p>
         We can write the area in a variety of ways:
             <md>
             <mrow> A &amp;= (2.620\ten{4} \unit{cm^2}) \pm 0.3\% </mrow>
@@ -3228,13 +3246,13 @@
     the decimal point had to be moved to the left.  This measurement still has only three significant figures.
     </p></convention></p>
 
-    <example><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
+    <example>
+    <statement><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
     (1 micron = 1 millionth of a meter).   We determined that the meter stick reading has 3 sig. figs.,
     one good way to write this  is to use scientific notation.  Write the number as <m>5.24\ten{4}\unit{microns}</m>.
     The factor of <m>10^4</m> shows the order of magnitude, while the <m>5.24</m> retains the proper number of significant figures.
-    </p>
-    <p>Study the following examples:
-        <table>
+    Study the following examples:</p>
+        <sidebyside width="75%">
         <tabular>
                 <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row>
                 <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row>
@@ -3246,15 +3264,13 @@
                 <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row>
                 <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row>
         </tabular>
-        <caption>Examples of numbers and how to count significant digits</caption>
-        </table>
-    </p>
+        </sidebyside>
     <p>Because all measurements are limited in their precision, then all results derived from these measurements are also
     limited in their precision.  Many students get carried away with the number of digits produced by a calculator and
     mislead the reader by reporting their results with more significant figures than their data permits.
     Form the habit of rejecting all figures which will have no influence in the final result and report the result with only
     the number of significant digits allowed by the data.  The following rules will help you do this successfully.
-    </p></example>
+    </p></statement></example>
     </li>
     <li><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.</p>
 
@@ -3372,6 +3388,8 @@
         <assemblage>
         <figure xml:id="f-capstone">
         <title>Using Capstone</title>
+        <caption>This is a PDF of a Power-Point description for how to use the important features of Capstone.</caption>
+        <sidebyside width="100%">
         <image source="Capstone-1.jpg" width="100%" />
         <image source="Capstone-2.jpg" width="100%" />
         <image source="Capstone-3.jpg" width="100%" />
@@ -3384,11 +3402,7 @@
         <image source="Capstone-10.jpg" width="100%" />
         <image source="Capstone-11.jpg" width="100%" />
         <image source="Capstone-12.jpg" width="100%" />
-        <caption>
-        <p>Using Capstone.</p>
-        </caption>
-        <description>This is a PDF of a Power-Point description for how to use the important features of Capstone.
-        </description>
+        </sidebyside>
         </figure>
         </assemblage>
 
@@ -3397,50 +3411,6 @@
 </appendix>
 
 <!-- ********************************************************************************************** -->
-
-<backmatter>
-    <title>Back Matter</title> <!-- mostly for HTML sectioning -->
-
-<!-- ********************************************************************************************** -->
-
-    <!--
-    <appendix>
-        <title>Notation</title>
-
-        <p>The following table defines the notation used in this book. Page numbers or references refer to the first appearance of each symbol.</p>
-
-        <notation-list />
-    </appendix>
-    -->
-
-    <preface>
-        <title>Contributors to the 1<m>^\mathrm{st}</m> XML-Edition</title>
-
-        <contributors>
-            <contributor xml:id="jchrist">
-                <personname>Joe Christensen</personname>
-                <department>Department of Mathematics and Physics</department>
-                <institution>Thomas More College</institution>
-                <email>ChristJ@ThomasMore.edu</email>
-            </contributor>
-
-            <contributor xml:id="wryle">
-                <personname>Wes Ryle</personname>
-                <department>Department of Mathematics and Physics</department>
-                <institution>Thomas More College</institution>
-                <email>RyleW@ThomasMore.edu</email>
-            </contributor>
-
-            <contributor xml:id="jwells">
-                <personname>Jack Wells</personname>
-                <department>Department of Mathematics and Physics</department>
-                <institution>Thomas More College</institution>
-                <email>WellsJ@ThomasMore.edu</email>
-            </contributor>
-
-        </contributors>
-
-    </preface>
-
-</backmatter> </book> </mathbook>
+</backmatter>
+</book> </mathbook>
 

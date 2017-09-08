@@ -41,6 +41,9 @@
 
         <cross-references text="global" />
 
+        <rename element="chapter" lang="en-US">Class</rename>
+        <rename element="section" lang="en-US">Lab</rename>
+
     </docinfo>
 
     <book xml:id="TMC-lab-setup" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
@@ -120,7 +123,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="PHY121"> <title>PHY121L: General Physics (algebra-based, fall)</title>
+<chapter xml:id="PHY121"> <title>PHY 121L: General Physics (algebra-based, fall)</title>
 
 <section xml:id="s-meaningful-measurements"> <title>Meaningful Measurements</title>
 

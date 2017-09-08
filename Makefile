@@ -59,6 +59,10 @@ setup: setup-h setup-l
 
 121: 121-h 121-l
 
+html: setup-h 121-h
+
+latex: setup-l 121-l
+
 images: 121-Lab-Manual.xml Lab-setup-121.xml
 	${BEE}/script/mbx -v -c latex-image -f svg -d images ${AIY}/121-Lab-Manual.xml
 #	${BEE}/script/mbx -v -c latex-image -r [specific image reference] -f svg -d images ${AIY}/121-Lab-Manual.xml
