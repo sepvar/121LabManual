@@ -241,7 +241,7 @@
         <ul>
             <li><p> Measure the dimensions of two of the objects with each of the three instruments: the ruler,
             the vernier caliper, and the micrometer caliper.   Take all measurements minimizing any parallax errors. </p></li>
-            <li><p>   Estimate the experimental uncertainties of your measurements.
+            <li><sidebyside><paragraphs><p>   Estimate the experimental uncertainties of your measurements.</p>
             <exercisegroup>
                 <exercise>
                         <title>Zero-Point Errors</title>
@@ -317,7 +317,8 @@
                             causes your result to be more likely too big or more likely too small.</p>
                         </solution>
                 </exercise>
-                </exercisegroup> </p></li>
+                </exercisegroup>
+                </paragraphs></sidebyside></li>
             <li><p> Repeat the measurements at several positions and orientations around the object, compute the average
             and the relative uncertainty. </p></li>
         </ul></p></li>
@@ -688,9 +689,9 @@
         (You might need to use the <q>sail</q> for the sensor to see the cart.)</p>
 
         <p>Place the cart on the track.  Capstone, via the sonic ranger, can measure the position and velocity of the cart as a function of time.
-        (This is explained in <xref ref="s-Capstone" text="type-global" />.)
+        (This is explained in <xref ref="s-Capstone" text="type-global" />.)</p>
             <exercisegroup>
-                <exercise>
+                <exercise xml:id="q-frictionless-unlevel">
                     <statement>
                         <p> Assume the track is frictionless and predict how the cart will move if the track is not perfectly level;
                         include a comment about how the velocity versus time graph will look when it goes uphill versus when it goes downhill.
@@ -699,12 +700,12 @@
                     <hint><p>If the track is not level, sending the cart in one direction, it will be going uphill;
                         but in the other direction it will be going downhill.
                         If you measure the motion in both directions, you should be able to see the difference.</p></hint>
-                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-Acc-friction" text="type-global" />.)</p></hint>
+                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-friction-level" text="type-global" />.)</p></hint>
                     <hint><p>It is probably useful to describe this using terms such as <q>speeding up</q> or <q>slowing down</q>.
                         You may also want to practice describing this by comparing how the direction of the acceleration
                         compares to the direction of the velocity.</p></hint>
                 </exercise>
-                <exercise>
+                <exercise xml:id="q-frictionless-level">
                     <statement>
                         <p> What do you expect the graph to look like if the track <em>is</em> perfectly level?
                         Will it be the same going left versus going right?</p>
@@ -713,12 +714,12 @@
                         you should be able to see if there is a difference.
                         You should also be able to predict how the motion in each direction for this case is
                         similar or different from the case when the track is not level.</p></hint>
-                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-Acc-friction" text="type-global" />.)</p></hint>
+                    <hint><p>You may still have an effect due to friction.  (See <xref ref="q-friction-level" text="type-global" />.)</p></hint>
                     <hint><p>It is probably useful to describe this using terms such as <q>speeding up</q> or <q>slowing down</q>.
                         You may also want to practice describing this by comparing how the direction of the acceleration
                         compares to the direction of the velocity.</p></hint>
                 </exercise>
-                <exercise xml:id="q-Acc-friction">
+                <exercise xml:id="q-friction-level">
                     <statement>
                         <p> Now, assuming it is perfectly level, what will friction do to the motion?
                         How do you expect this to affect the graphs?</p>
@@ -736,7 +737,6 @@
                 </exercise>
             </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
-        </p>
 
         <p>We will take four sets of data: a slow, constant velocity towards the ranger; a slow, constant velocity away from the ranger;
         a faster, constant velocity towards the ranger; and a faster, constant velocity away from the ranger.
@@ -759,7 +759,7 @@
 
         <p>We will consider <em>three cases</em> for the sloped track: <em>First</em>, allow the cart to roll
         (without an initial push) down the ramp.  <em>Second</em>, gently push the cart down the ramp.
-        DON'T let it fly off or crash into anything.
+        DON'T let it fly off or crash into anything.</p>
             <exercisegroup>
 <!-- \setcounter{enumi}{\thedave} -->
                 <exercise>
@@ -782,9 +782,9 @@
             </exercisegroup>
 
 <!-- \setcounter{dave}{\theenumi}  -->
-        In the <em>third</em> case, start the cart at the bottom of the incline and roll it up the ramp,
+        <p>In the <em>third</em> case, start the cart at the bottom of the incline and roll it up the ramp,
         allowing it to roll back down on its own.  Push it hard enough to get mostly up the ramp, but
-        not so hard that it hits the sonic ranger.
+        not so hard that it hits the sonic ranger at the top of the incline, because we want to watch it return to the bottom of the ramp.  <em>This case is similar to throwing a ball into the air and allowing it to fall back down.</em></p>
             <exercisegroup>
 <!-- \setcounter{enumi}{\thedave} -->
                 <exercise>
@@ -807,7 +807,6 @@
                 </exercise>
             </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
-        </p>
 
         <p>In Capstone, you should be able to display all three graphs (position v time, velocity v time, and acceleration v time).
         You should also be able to display all three cases of data on each of these graphs.
@@ -835,7 +834,7 @@
         <p>Based on the results of <xref ref="sss-FlatTrack" text="type-global" />,
         write a short analysis of the relationship between these two graphs (x and v versus time).
         From the velocity versus time graph (specifically from the trendline) determine the value of the acceleration of the cart down the track;
-        be sure to include the uncertainty of the acceleration and the units.
+        be sure to include the uncertainty of the acceleration and the units.</p>
             <exercisegroup>
                 <exercise>
                     <statement>
@@ -858,14 +857,14 @@
                         If the slopes are (essentially) the same, then find an average and a standard deviation of the four values.</p>
                     </statement>
                 </exercise>
-                <exercise>
+                <exercise xml:id="q-speed-acc">
                     <statement>
-                        <p> Does it matter how fast the cart travels?</p>
+                        <p> Does the speed of the cart affect the slope of the velocity vs time graph?</p>
                     </statement>
                 </exercise>
             </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
-        Discuss any evidence observed in your data when answering these questions.
+        <p>Discuss any evidence observed in your data when answering these questions.
         Also consider the magnitude of the uncertainties when writing your conclusions.</p>
 
         </subsection>
@@ -873,7 +872,7 @@
         <subsection><title>Cart and Sloped Track</title>
 
         <p>Based on the results of <xref ref="sss-SlopedTrack" text="type-global" />, write an analysis of the relationship between the two graphs
-        (x and v versus time).  From the velocity versus time graph determine the value of the acceleration of the cart down the track.
+        (x and v versus time).  From the velocity versus time graph determine the value of the acceleration of the cart down the track.</p>
 <!-- \setcounter{enumi}{\thedave} -->
             <exercisegroup>
                 <exercise>
@@ -900,7 +899,7 @@
                 </exercise>
             </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
-        Inspect the line/curve that is defined by the data on the Distance traveled vs. time graph.
+        <p>Inspect the line/curve that is defined by the data on the Distance traveled vs. time graph.</p>
 <!-- \setcounter{enumi}{\thedave} -->
             <exercisegroup>
                 <exercise>
@@ -927,7 +926,7 @@
                 </exercise>
             </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
-        Now consider the Instantaneous Velocity  vs. Time graph.
+        <p>Now consider the Instantaneous Velocity  vs. Time graph.</p>
 <!-- \setcounter{enumi}{\thedave} -->
             <exercisegroup>
                 <exercise>
@@ -944,13 +943,12 @@
                     <hint><p>Think carefully about what you plotted on the X-axis!</p></hint>
                 </exercise>
             </exercisegroup>
-        </p>
 
         </subsection>
     </section>
 
     <conclusion>
-    <p>(Updated: September 6, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>(Updated: September 13, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf</url></p>
     </conclusion>
 
@@ -1030,7 +1028,7 @@
 
     <p><ul>
     <li><p> Based on your understanding of <xref ref="NII-Setup" text="type-global" />, draw a free-body force diagram for the cart and for the hanging mass.</p></li>
-    <li><p> Derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging body.   </p></li>
+    <li><p> You should be prepared to derive an equation for the acceleration of the system, in terms of, the mass of the cart and the hanging mass, while assuming that the cart has no friction with the track.  (Hint: There is only one force accelerating the system.) </p></li>
     </ul></p>
 
 </section>
@@ -1059,20 +1057,44 @@
         with a constant velocity down the horizontal track, if there are no other forces acting on the cart.
         Carry out  a couple of constant velocity runs on the track, to check for the effects of friction and
         to see how level the track is. The track may need a level adjustment.  Do runs in both directions.
-        Maybe the track can be tilted so that the friction is countered by the tilt of the track.</p></li>
-    <li><p> Connect a string to the cart and run it through the hole at the end of the track, then over a pulley.
-        Make sure that the string is horizontal.  Measure the height of the string at both ends of the track,
-        to see if the string is horizontal.</p></li>
+        Maybe the track can be tilted so that the friction is countered by the tilt of the track.</p>
+        <p>It might help to review Exercises <xref ref="q-frictionless-unlevel" text="global" />, <xref ref="q-frictionless-level" text="global" />, and <xref ref="q-friction-level" text="global" /> from the previous lab.</p></li>
+    <li><p> Connect a string to the cart and run it over a pulley.
+        Measure the height of the string at both ends of the track, to ensure that the string is as level as the track.</p></li>
+    </ul>
+    </p>
+    <exercise>
+    	<statement><p>If the pulley has a very large wheel or is set so that the string is low at the cart, but high at the pulley, then the force pulling the cart is not horizontal.  Draw the free-body diagram for the cart in this case.  Comment on if this increases, decreases, or does not affect each of the other forces ($F_\mathrm{normal}$, $F_\mathrm{gravity}$, $F_\mathrm{friction}$). </p>
+    	</statement>
+    	<hint><p>If the tension pulls up, then the normal force does not need to support all of the weight.</p></hint>
+    	<hint><p>If the tension pulls slightly up, is there a convenient way to find then angle at which it pulls?  Will that angle depend on how close the cart is to the pulley?</p></hint>
+    	<answer><p>Based on the hints, decide how important it is for you to ensure that the string pulls horizontally.</p></answer>
+    </exercise>
+    <p>
+    <ul>
     <li><p> The hanging mass should be much less than the mass of the cart.  Use a small plastic cup to hold the hanging masses.
         Measure the mass of  this cup.  The total mass of the system must be kept constant for all parts of the experiment.
         The hanging mass and the mass of the cart should vary, but their total must be kept constant, by moving small mass
         amounts from the cart to the hanging cup.  Record the mass of the cart, the hanging cup mass, and the extra masses
         which are to be transferred from the cart to the cup.</p></li>
-    <li><aside><title>Note</title> <p>The Pasco Capstone interface is also used in <xref ref="c-acceleration" text="type-hybrid" />, <xref ref="c-friction" text="type-hybrid" />, and <xref first="c-energy-1" last="c-energy-2" text="global">Labs</xref>.  You should start becoming familiar with the hardware and software.</p></aside>
-        <p> Take data with Capstone and the motion sensor as the cart travels with constant acceleration down the track.
+    </ul>
+    </p>
+    <exercise>
+    	<statement><p>If the hanging mass is not <q>much less</q> than the mass of the cart, then the acceleration will be very large and the cart will move too quickly.</p>
+    	<p>Your total mass should include the mass of the string because it is also being accelerated.  As an interesting thought experiment, you might notice that the amount of string that hangs off the pulley is contributing to the mass of the basket (the amount pulling the cart).  But this changes as the cart moves!  Without using calculus it is impossible to include this consideration, so we <em>hope</em> this is a small effect.  Do you have a way of ensuring that this is a small effect?</p>
+    	</statement>
+    	<hint><p>How many significant digits do you have in the mass of the cart?  Is the mass of the basket large enough to be a <em>significant</em> effect in the overall mass?</p></hint>
+    	<hint><p>How many significant digits do you have in the mass of the cart?  Is the mass of the string large enough to be a <em>significant</em> effect in the overall mass?</p></hint>
+    	<hint><p>What percentage of the total mass of the system is the mass of the string?  What percentage of the mass of the cart is the mass of the string?</p></hint>
+    	<answer><p>The effect of the mass of the string in the measured acceleration will be <em>insignificant</em>.</p></answer>
+    </exercise>
+    <aside><title>Note</title> <p>The Pasco Capstone interface is also used in <xref ref="c-acceleration" text="type-hybrid" />, <xref ref="c-friction" text="type-hybrid" />, and <xref first="c-energy-1" last="c-energy-2" text="global">Labs</xref>.  You should start becoming familiar with the hardware and software.</p></aside>
+    <p>
+    <ul>
+    <li><p> Take data with Capstone and the motion sensor as the cart travels with constant acceleration down the track.
         Determine the acceleration of the cart from a linear regression using the velocity vs time data (a linear fit line in Capstone).
         Record the acceleration value and its uncertainty.</p></li>
-    <li><p> Collect  7 data runs, where about 5 grams is transferred each time from the cart to the hanging mass.
+    <li><p> Collect  7 data runs, where about 2-5 grams is transferred each time from the cart to the hanging mass.
         Determine the acceleration of the cart (and the uncertainty for the acceleration) for each of these 7 runs.</p></li>
     </ul>
     </p>
@@ -1082,46 +1104,81 @@
 <section><title>Analysis</title>
 
     <p><ul>
-    <li><p> Make a graph of the acceleration of the system (y-axis) versus the weight <m>(mg)</m> of the hanging body (x-axis),
-        should include 7 data points.    Do this in Excel.   Carry out a linear regression for this data set.
+    <li><p> In Excel, make a graph of the acceleration of the system (y-axis) versus the weight <m>(mg)</m> of the <em>hanging</em> body (x-axis).
+        You should include at least 7 data points.    Carry out a linear regression for this data set.
         Quote the  slope and intercept values, their uncertainties, their p-values, and the <m>R^2</m> value.
         Show a sample error bar (on the graph) for at least one of the points of this graph.</p></li>
     <li><p> Derive (show it completely)  an equation for the acceleration of the system versus the weight of the hanging body.
         Plot this theory equation on your graph (as a second series, a line but no points).</p></li>
-    <li><p> Compare your graph to the predicted theoretical equation, that is compare the values of the slopes and intercepts.
-        What is the physical significance of the slope and of the intercept from the graph?
-        That is, what physical quantity does the slope of this graph equal?</p></li>
+    <li><p> Compare your graph to the predicted theoretical equation, that is compare the values of the slopes and intercepts.</p></li>
+    </ul>
+    </p>
+    <exercise>
+    	<statement><p>What is the physical significance of the slope and of the intercept from the graph?
+        That is, what physical quantity does the slope of this graph equal? </p>
+    	</statement>
+    	<hint><p>It should help to recall that Newton's second law looks very similar to the generic equation of a line: <m>y = mx+b</m>.</p></hint>
+    </exercise>
+        <aside><title>Note:</title><p>In almost every lab you will be comparing a theoretical equation to the equation of a line and interpreting what the slope and intercept mean.</p></aside>
+    <p>
+    <ul>
     <li><p> In many mechanics experiments, there may be deviations from the expected or theoretical results because of the effects of friction.
         Frictional forces are sometimes difficult to take into consideration.
         If there are deviations between your results and the predicted theory then try to distinguish whether they are
-        caused by a tilt of the track, friction between the cart and the track or the friction between the string and the pulley.
-        What might be expected in the results from these different systematic effects?
-        That is, would the slope be expected to increase or decrease slightly because of the effects of friction?</p></li>
-    <li><p> When designing experiments, it is important to keep control parameters; in this case a parameter which is kept constant.
-        What parameter held this role in this experiment?</p></li>
+        caused by a tilt of the track, friction between the cart and the track or the friction between the string and the pulley.</p>
+        </li>
+    </ul>
+    </p>
+    <exercise>
+    	<statement><p>What might be expected in the results from these different systematic effects?
+        That is, would the slope be expected to increase or decrease slightly because of the effects of friction?
+        Would the slope be expected to increase or decrease slightly because of the effects of an unlevel track?</p>
+    	</statement>
+    </exercise>
+        <aside><title>Note:</title><p>In almost every lab you will be comparing a theoretical equation to the equation of a line and interpreting what the slope and intercept mean.</p></aside>
+    <p>
+    <ul>
+    <li><p> When designing experiments, it is important to keep control parameters; in this case a parameter which is kept constant.</p></li>
     </ul></p>
+    <exercise>
+    	<statement><p>What parameter is held constant in this experiment?  Is there an obvious reason for keeping this constant?</p>
+    	</statement>
+    </exercise>
 
 </section> <exercises><title>Questions</title>
 
     <exercisegroup>
         <exercise><statement>
             <p> Why is it important to keep the total mass of the system constant?
-            What would happen if the total mass of the system was not held constant?
+            What would happen if the total mass of the system were not held constant?
             If one simply added mass to the hanger without keeping the system's mass constant,
-            how would their data appear on the graph of the acceleration vs <m>mg</m>?</p>
+            how would the data appear on the graph of the acceleration vs <m>mg</m>?</p>
         </statement></exercise>
         <exercise><statement>
             <p> What would happen if the track was not level?   If the beginning end of the track is higher,
             how would the acceleration of the system be affected?</p>
-        </statement></exercise>
+        </statement>
+        <hint><p>This describes the cart going downhill during the experiment.</p></hint>
+        <hint><p>Would your measured acceleration be equal to, larger than, or smaller than expected?</p></hint></exercise>
         <exercise><statement>
-            <p> If your group has a discrepancy between the results and the theory, could friction be used to explain your results?
-            Explain how.   In this case, how much of a tilt in the air track would be needed to explain the discrepancy?
+            <p> If your group has a discrepancy between the results and the theory, could friction be used to explain why your results differ from what is expected?
+            Explain how. </p>
+        </statement>
+        <hint><p>Would friction tend to make the measured acceleration larger then or smaller than the expected value?</p></hint>
+        <hint><p>Is your result larger than or smaller than the expected result?</p></hint>
+        <hint><p>Would tilting the track one way or the other help overcome (or counter-act) the effect of friction?  If so, which way would you tilt the track to do so?  Is there a way to gauge how much the track would need to tilt?</p></hint>
+        </exercise> 
+        <exercise><statement> 
+            <p>If your group has a discrepancy between the results and the theory, would a tilt in the track explain the discrepancy?
             Show this calculation.</p>
-        </statement></exercise>
+        </statement>
+        <hint><p>Would you need the cart to be going uphill or downhill to explain whichever discrepancy you see?</p></hint>
+        </exercise>
         <exercise><statement>
-            <p> What would happen to the cart's acceleration if the cart was given an initial push?</p>
-        </statement></exercise>
+            <p> How would the cart's acceleration change, if at all, if the cart was given an initial push?</p>
+        </statement>
+        <hint><p>Recall <xref ref="q-speed-acc" text="type-global" />.</p></hint>
+        </exercise>
         <exercise><statement>
             <p> What are the two greatest sources of uncertainty in this experiment?   Are they random or systematic errors?
             Be specific and quantify your answer.</p>
@@ -3225,26 +3282,27 @@
     <p> The rules for <term>significant figures</term>:
     <!-- These need to be conventions, not asides -->
     <ol>
-    <li><p>Significant figures include all certain digits plus the first of the doubtful digits.</p>
+    <li><sidebyside><paragraphs><p>Significant figures include all certain digits plus the first of the doubtful digits.</p>
 
-    <p><convention><p>The reading obtained from the meter stick would be written as 52.4 mm;
+    <convention><p>The reading obtained from the meter stick would be written as 52.4 mm;
     all digits up to and including the first doubtful digit.  The reading from the micrometer would be written as 52.430 mm.
     The first doubtful digit in the case of the meter stick is .4 mm.  The first doubtful digit in the case of the micrometer
     is zero-thousandths of a millimeter.  Note that the number of significant figures is related to the precision of the
     measuring instrument -- it is not an abstraction about the number.</p>
 
     <p>Sometimes the character zero is confusing.  See <xref ref="sig-rule-zero">Rule</xref>.</p>
-    </convention></p>
+    </convention>
+    </paragraphs></sidebyside>
     </li>
-    <li xml:id="sig-rule-zero"><p>Zeros to the right of the number are significant; zeros on the left are not.</p>
+    <li xml:id="sig-rule-zero"><sidebyside><paragraphs><p>Zeros to the right of the number are significant; zeros on the left are not.</p>
 
-    <p><convention><p>In the example above, the reading of the micrometer was given as 52.430 mm.
+    <convention><p>In the example above, the reading of the micrometer was given as 52.430 mm.
     The zero is a significant figure, it communicates the fact that the micrometer measurement is good to a thousandth of a millimeter.
     Zeros used to the left of significant digits to position the decimal point are not significant.
     They are not communicating the precision of the measurement.  For example, if the measurement from the meter stick were
     written as 0.0524 meter, the zeros would not be significant digits.  Because of the units (meters instead of millimeters),
     the decimal point had to be moved to the left.  This measurement still has only three significant figures.
-    </p></convention></p>
+    </p></convention>
 
     <example>
     <statement><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
@@ -3271,15 +3329,17 @@
     Form the habit of rejecting all figures which will have no influence in the final result and report the result with only
     the number of significant digits allowed by the data.  The following rules will help you do this successfully.
     </p></statement></example>
+    </paragraphs></sidebyside>
     </li>
-    <li><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.</p>
+    <li><sidebyside><paragraphs><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.</p>
 
-    <p><convention><p>Because the use of significant digits is meant to be an approximation to the more precise
+    <convention><p>Because the use of significant digits is meant to be an approximation to the more precise
     use of measurement uncertainty, the convention for the rounding of the final digit is not critical and is treated a little
     differently by different scientists.  Some round-up anything five-or-more.  Some round-down anything five-or-less.
     Some round the five up or down based on whether the next digit is even or odd.  This third choice is intended to express that
     we don't actually know which way to round it and letting the randomness of the next digit make the determination is like
-    flipping a coin. <alert>You should ask your instructor, which approach they prefer.</alert></p></convention></p></li>
+    flipping a coin. <alert>You should ask your instructor, which approach they prefer.</alert></p></convention>
+    </paragraphs></sidebyside></li>
 
     <li><p>In addition and subtraction, carry the result only up to the first doubtful decimal place of any of the starting numbers.</p></li>
 

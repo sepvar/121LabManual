@@ -220,7 +220,7 @@
 
         <aside><title>Verify</title> <p>Are the carts at AF22 or AF32?</p></aside>
         <table xml:id="t-acceleration">
-        <caption>Equipment Needed: Acceleration</caption>
+                <caption>Equipment Needed: <xref ref="s-acceleration" text="title" /></caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
@@ -263,43 +263,45 @@
 <section xml:id="s-Newton"><title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
 
         <table xml:id="t-Newton">
-        <caption>Equipment Needed: Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</caption>
+        <caption>Equipment Needed: <xref ref="s-Newton" text="title" /></caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
                         <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell>
+                                <cell><p>Should have a black-yellow plug</p></cell></row>
                         <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell>
                                 <cell><p>.</p></cell></row>
-                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (same as <q>sonic ranger</q>)</p></cell>
-                                <cell><p>Should have a black-yellow plug</p></cell></row>
                         <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell>
                                 <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
-                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>2 wooden cart-block</p></cell>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 wooden cart-block</p></cell>
                                 <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
-                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell>
-                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
-                        <row bottom="minor"><cell>???</cell><cell><p>string</p></cell>
-                                <cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long</p></cell></row>
                         <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell>
                                 <cell><p>These might already be attached to the string</p></cell></row>
-                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell>
-                                <cell><p>used to level the track</p></cell></row>
-                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell>
-                                <cell><p>Computer</p></cell></row>
-                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>weights</p></cell>
-                                <cell><p>these are to ride the cart.  Should be an assortment of 100-500 grams to ride the cart and an assortment of very small masses (1-2 grams); pennies work well for the small masses.</p></cell></row>
+                        <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell>
+                                <cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
                         <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell>
                                 <cell><p>used to level the string</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell>
+                                <cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell>
+                                <cell><p>These are to ride the cart.  <alert>Check with instructor: EITHER</alert> an assortment of 100-500 gram, cylindrical masses <alert>OR</alert> 2 black rectangular masses that fit into the cart (like the 1-wooden block above).</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44 or AL32-5</p></cell><cell><p>tiny weights</p></cell>
+                                <cell><p>These are to transfer between the cart and the basket.  <alert>Check with instructor: EITHER</alert> an assortment of 7-10 very small masses (2-5 grams) <alert>OR</alert> 10 pennies.</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell>
+                                <cell><p>Computer</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
-                        <row bottom="minor"><cell><p>.</p></cell><cell>.</cell>
-                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
+                                <cell><p>(please verify that these function and are set to metric)</p></cell></row>
                 </tabular>
         </table>
 
 
-    <p>(Updated: September 8, 2017)</p>
+    <p>(Updated: September 13, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-Newton.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf</url></p>
 
