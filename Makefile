@@ -55,7 +55,9 @@ setup: setup-h setup-l
 
 121-l: ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
 	xsltproc ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
-	echo "Use WindEdt to pdflatex"
+	@echo "Use WindEdt to pdflatex"
+	@echo "Change the tocdepth to zero"
+	@echo "Remove the Capstone assemblage"
 
 121: 121-h 121-l
 
