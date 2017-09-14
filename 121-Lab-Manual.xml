@@ -1153,42 +1153,60 @@
 
         <exercise><statement>
             <p> Why is it important to keep the total mass of the system constant?
-            What would happen if the total mass of the system were not held constant?
             If one simply added mass to the hanger without keeping the system's mass constant,
             how would the data appear on the graph of the acceleration vs <m>mg</m>?</p>
-        </statement></exercise>
-        <exercise><statement>
-            <p> What would happen if the track was not level?   If the beginning end of the track is higher,
-            how would the acceleration of the system be affected?</p>
         </statement>
-        <hint><p>This describes the cart going downhill during the experiment.</p></hint>
-        <hint><p>Would your measured acceleration be equal to, larger than, or smaller than expected?</p></hint></exercise>
-        <exercise><statement>
-            <p> If your group has a discrepancy between the results and the theory, could friction be used to explain why your results differ from what is expected?
+        <hint><p>In the equation <m>F_\mathrm{net}=ma</m>, <m>m</m> is the mass of the objects being accelerated.  Is this the mass that is important to keep constant? </p></hint>
+        <hint><p>In the equation <m>F_\mathrm{net}=ma</m>, <m>F_\mathrm{net}</m> is the weight of the object doing the pulling.  Is this the mass that is important to keep constant? </p></hint>
+        <hint><p>When you draw a graph on 2-dimensional graph paper, you have two axes, one for each variable.  If you change the weight that is pulling and the overall mass being accelerated and you have a new acceleration, then think about which variables would you graph and what that would look like.</p></hint>
+        <hint><p>The equation <m>F_\mathrm{net}=ma</m> looks like (has the same form as) <m>y=mx+b</m> if <m>\cancelto{0}{b}</m>.  Which variable goes in the place of <m>y</m>? of <m>x</m>? of the slope?  What happens to <m>y=mx+b</m> if the slope is not a constant?</p></hint>
+        </exercise>
+        <exercise xml:id="q-newton-tilt"><statement>
+            <p> How would the motion (and therefore your results) be different if the track was 
+            <!-- Re Tom Neal, both was and were are correct.  
+            		https://english.stackexchange.com/questions/30090/if-it-were-possible-vs-if-it-was-possible -->
+            not level?   Consider both cases: if the pulley end were higher and if the pulley end were lower.</p>
+        </statement>
+        <hint><p>One situation describes the cart going downhill during the experiment; the other, uphill.</p></hint>
+        <hint><p>In each case, would your measured acceleration be equal to, larger than, or smaller than expected?</p></hint>
+        <hint><p>Is your result different from the expected result in a way consistent with either of these situations (uphill or downhill)?</p></hint></exercise>
+        <exercise xml:id="q-newton-friction"><statement>
+            <p> If your group has a discrepancy between the results and the theory, could the presence of friction explain why your results differ from what is expected?
             Explain how. </p>
         </statement>
         <hint><p>Would friction tend to make the measured acceleration larger then or smaller than the expected value?</p></hint>
         <hint><p>Is your result larger than or smaller than the expected result?</p></hint>
-        <hint><p>Would tilting the track one way or the other help overcome (or counter-act) the effect of friction?  If so, which way would you tilt the track to do so?  Is there a way to gauge how much the track would need to tilt?</p></hint>
         </exercise>
+        <exercisegroup>
+        	<introduction>
+            		<p><alert>Some sources of uncertainty</alert>: When answering this next subset of Questions, consider your responses to Questions <xref ref="q-newton-tilt" text="local" /> and <xref ref="q-newton-friction" text="local" />.  <xref ref="p-source-of-error" text="title">Recall</xref> also that physicists often use the terms <q>source of error</q> and <q>source of uncertainty</q> interchangeably and do <em>not</em> mean error-as-in-mistake.</p>
+            	</introduction>
+	        <exercise><statement>
+	            <p>When considering possible sources of uncertainty, is it possible for tilt and friction to combine to make your observed result  different from the expected result in the same way (i.e., both making your result too large or both making your result too small)?</p>
+	        </statement>
+	        </exercise>
+	        <exercise><statement>
+	            <p>When considering possible sources of uncertainty, is it possible for tilt and friction to act against each other to make your observed result  closer to the expected result (i.e., friction causing an error one way and the tilt causing an error the other way)?</p>
+	        </statement>
+	        </exercise>
+	        <exercise><statement>
+	            <p>Regardless of how well your observed result agrees with the expected result, indicate how the possible tilt and friction might have impacted your results.  If you are able to determine that one source of uncertainty clearly did not affect your result then comment on how the pattern of your data reveal this to you.</p>
+	        </statement></exercise>
+        </exercisegroup>
         <exercise><statement>
-            <p>If your group has a discrepancy between the results and the theory, would a tilt in the track explain the discrepancy?</p>
-        </statement>
-        <hint><p>Would you need the cart to be going uphill or downhill to explain whichever discrepancy you see?</p></hint>
-        </exercise>
-        <exercise><statement>
-            <p> How would the cart's acceleration change, if at all, if the cart was given an initial push?</p>
+            <p> How would the cart's acceleration change, if at all, if the cart was given an initial push?  Decide if this is a source of uncertainty.</p>
         </statement>
         <hint><p>Recall <xref ref="q-speed-acc" text="type-global" />.</p></hint>
         </exercise>
         <exercise><statement>
-            <p> What are the two greatest sources of uncertainty in this experiment?   Are they random or systematic errors?
+            <p> What are the two greatest sources of uncertainty in this experiment?   Are they <xref ref="p-random-systematic" text="title">random or systematic</xref> errors?
             Be specific and quantify your answer.</p>
         </statement></exercise>
 
 </exercises>
     <conclusion>
-    <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>(Revised: Sep 14, 2017)</p> <!-- rewrote the Questions -->
+    <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (209 kB)</url></p>
     </conclusion>
 </chapter>
@@ -3011,7 +3029,7 @@
             impact the percent error), the limitations and restrictions of the instruments used (what factors impact the
             uncertainty), and the legitimacy of the assumptions.</p>
 
-            <p>Physicists usually use the phrase <q>sources of error</q> (or <q>sources of uncertainty</q>) to describe
+            <p xml:id="p-source-of-error">Physicists usually use the phrase <q>sources of error</q> (or <q>sources of uncertainty</q>) to describe
             how the limits of measurement propagate through a calculation (see <xref ref="ss-propagation" text="title" />)
             to impact the <term>uncertainty</term> in the final result.  This type of <q>error analysis</q> gives insight into the
             <term>accuracy</term> of the result.  <xref ref="sss-considerations" text="title" /> provides questions that can help you
@@ -3037,7 +3055,7 @@
             (roughly <m>68\%</m>, as explained in <xref ref="sss-multiple-precision" text="title" />) of the cutting of an apple in this way
             will result in having between <m>0.29</m> to <m>0.37</m> of an apple for any given slice.</p>
 
-            <p>When describing the cause of an error (difference from the theoretical value) or of an uncertainty
+            <p xml:id="p-random-systematic">When describing the cause of an error (difference from the theoretical value) or of an uncertainty
             (the extent you trust a number), you can usually categorize this source of error as a random error
             (a cause that could skew the result too large <em>or</em> too small) or as a systematic error
             (a cause that tends to skew the result in one particular direction).
