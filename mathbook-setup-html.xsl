@@ -16,5 +16,6 @@
 <xsl:param name="author-tools" select="'no'" />
 <xsl:param name="toc.level" select="'1'" />
 <xsl:param name="numbering.maximum.level" select="'2'" />
+<xsl:param name="html.css.file"   select="'mathbook-3.css'" />
 
 </xsl:stylesheet>

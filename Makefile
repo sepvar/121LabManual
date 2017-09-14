@@ -41,7 +41,7 @@ ${BEE}/user/mathbook-121-html.xsl: mathbook-121-html.xsl
 	cp mathbook-121-html.xsl ${BEE}/user/
 
 setup-h: ${BEE}/user/mathbook-setup-html.xsl Lab-setup-121.xml 
-	xsltproc -stringparam html.css.file mathbook-5.css ${BEE}/user/mathbook-setup-html.xsl Lab-setup-121.xml
+	xsltproc ${BEE}/user/mathbook-setup-html.xsl Lab-setup-121.xml
 
 setup-l: ${BEE}/user/mathbook-setup-latex.xsl Lab-setup-121.xml 
 	xsltproc ${BEE}/user/mathbook-setup-latex.xsl Lab-setup-121.xml
@@ -51,7 +51,7 @@ setup: setup-h setup-l
 
 
 121-h: ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
-	xsltproc -stringparam html.css.file mathbook-5.css ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
+	xsltproc ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
 
 121-l: ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
 	xsltproc ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
