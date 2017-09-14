@@ -52,7 +52,7 @@
 
 <frontmatter xml:id="set-up-index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
 
-    <titlepage>
+    <titlepage xml:id="setup-title">
 
         <author>
             <personname>Joe Christensen</personname>
@@ -73,7 +73,7 @@
 
     </titlepage>
 
-    <colophon>
+    <colophon xml:id="setup-colophon">
 
         <edition>Annual Edition 2017</edition>
 
@@ -95,7 +95,7 @@
 
     </colophon>
 
-    <acknowledgement>
+    <acknowledgement xml:id="setup-ack">
 
         <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions. </p>
 
@@ -115,8 +115,8 @@
 
     </acknowledgement>
 
-    <preface><title>Download the PDF here</title>
-    <p>A PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/TMC-lab-setup.pdf" />.</p>
+    <preface xml:id="setup-PDF"><title>Download the PDF here</title>
+    <p>A PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/TMC-lab-setup.pdf" />. (288 kB)</p>
     </preface>
 
 </frontmatter>

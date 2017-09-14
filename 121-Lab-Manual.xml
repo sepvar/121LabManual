@@ -36,9 +36,24 @@
 
 
         <latex-image-preamble>
-        \usepackage{hmwk,color}
+        \usepackage{color}
         \usepackage{graphicx}
+        \usepackage{cancel}
         </latex-image-preamble>
+
+        <latex-preamble>
+                <package>hmwk</package>
+<!--
+                <package>html</package>
+                <package>color</package>
+                <package>graphicx</package>
+                <package>xpicture</package>
+                <package>xcolor</package>
+                <package>coordsys</package>
+        -->
+                <package>cancel</package>
+        </latex-preamble>
+
 
         <cross-references text="global" />
 
@@ -53,7 +68,7 @@
 
 <frontmatter xml:id="index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
 
-    <titlepage>
+    <titlepage xml:id="general-fall-title">
 
         <author>
             <personname>Joe Christensen</personname>
@@ -85,7 +100,7 @@
 
     </titlepage>
 
-    <colophon>
+    <colophon xml:id="general-fall-colophon">
 
         <edition>Annual Edition 2017</edition>
 
@@ -110,7 +125,7 @@
     <!-- A section of its own in HTML, migrates to copyright-page in LaTeX -->
     <!-- Titles are optional, presumably none for single author,           -->
     <!-- or for every author, even if we test a mix here                   -->
-    <biography>
+    <biography xml:id="general-fall-bio">
     <!-- I've done this as a single section, but we can have a <biography> for each person -->
         <title>About the Authors</title>
 
@@ -148,7 +163,7 @@
 
     <!-- Each paragraph gets centered and has some vertical separatation -->
     <!-- A line element may be used here with a single paragraph   -->
-    <dedication>
+    <dedication xml:id="general-fall-dedication">
         <p>
             <line>To students of physics everywhere</line>
             <line>they are the reason</line>
@@ -156,7 +171,7 @@
         <p>And to those who teach them</p>
     </dedication>
 
-    <acknowledgement>
+    <acknowledgement xml:id="general-fall-ack">
 
         <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions.
         <ul>
@@ -168,12 +183,17 @@
 
     </acknowledgement>
 
-    <preface>
+    <preface xml:id="general-fall-preface">
 
         <p>This text is intended for a one or two-semester undergraduate course in introductory algebra-based physics.
         </p>
 
     </preface>
+
+    <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
+    <p>A full PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf" /> (854 kB).</p>
+    </preface>
+
 </frontmatter>
 
 
@@ -241,9 +261,15 @@
         <ul>
             <li><p> Measure the dimensions of two of the objects with each of the three instruments: the ruler,
             the vernier caliper, and the micrometer caliper.   Take all measurements minimizing any parallax errors. </p></li>
-            <li><sidebyside><paragraphs><p>   Estimate the experimental uncertainties of your measurements.</p>
-            <exercisegroup>
-                <exercise>
+            <li><p>   Estimate the experimental uncertainties of your measurements.  Do Exercises <xref ref="q-zero-pt" text="global" />, <xref ref="q-parallax" text="global" />, and <xref ref="q-random" text="global" />.</p></li>
+            <li><p> Repeat the measurements at several positions and orientations around the object, compute the average
+            and the relative uncertainty. </p></li>
+        </ul></p></li>
+        <li><p> As outlined in the <xref ref="measurement-analysis" text="title" />, compute the volume and the density. </p></li>
+    </ul>
+    </p>
+
+                <exercise xml:id="q-zero-pt">
                         <title>Zero-Point Errors</title>
                         <statement>
                             <p>You should verify the calibration of your instruments.
@@ -272,7 +298,7 @@
                                 (Recall <xref ref="sss-mistakes" text="type-global" />.)</p>
                         </solution>
                 </exercise>
-                <exercise>
+                <exercise xml:id="q-parallax">
                         <title>Parallax</title>
                         <statement>
                             <p>Determine if the value you are reading depends on the location of your eye.  </p>
@@ -293,7 +319,7 @@
                             <p>In the case of the meterstick, the object being measured should be as close as possible (touching?) the tick-marks of the meterstick in order to minimize parallax.</p>
                         </solution>
                 </exercise>
-                <exercise>
+                <exercise xml:id="q-random">
                         <title>Random or Systematic</title>
                         <statement>
                             <p>When you measure the diameter of a sphere, it might be difficult to get the caliper precisely at the full diameter.
@@ -317,14 +343,8 @@
                             causes your result to be more likely too big or more likely too small.</p>
                         </solution>
                 </exercise>
-                </exercisegroup>
-                </paragraphs></sidebyside></li>
-            <li><p> Repeat the measurements at several positions and orientations around the object, compute the average
-            and the relative uncertainty. </p></li>
-        </ul></p></li>
-        <li><p> As outlined in the <xref ref="measurement-analysis" text="title" />, compute the volume and the density. </p></li>
-    </ul>
-    </p>
+
+
     </introduction>
 
     <subsection>
@@ -345,7 +365,7 @@
         <title>The Vernier Caliper</title>
         <caption>
         The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
-        The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m>.
+        The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m> because we can distinguish <m>1.35</m> from <m>1.34</m> and <m>1.36</m>, but we cannot gauge the result any more precisely.
         </caption>
         <image source="vernier.JPG" width="100%" />
         </figure>
@@ -354,11 +374,7 @@
     <p> To move the vernier scale relative to the main scale press down on the thumb-lock, this releases the lock and then
     move the vernier scale.   Do not try to move the vernier scale without releasing the lock. </p>
 
-    <aside><title></title><p>The reading of the caliper from <xref ref="f-vernier" text="type-global" /> is <m>1.35 \unit{mm} \pm .01 \unit{mm}</m>
-    because we can distinguish <m>1.35</m> from <m>1.34</m> and <m>1.36</m>, but we cannot gauge the result any more precisely.</p>
-    </aside>
-
-    </subsection>
+     </subsection>
 
     <subsection>
     <title>The Micrometer Caliper</title>
@@ -381,15 +397,16 @@
         coarse scale (6.5 mm).  The center line of the coarse scale tells you where to read the fine scale.
         This is 23.0 (in units of <m>\times 10^{-2}</m> mm), but not 23.5 and not 22.5 so the precision is 0.5 (in these units).
         This measurement in mm reads <m>6.5 \unit{mm} + 0.230\unit{mm} = 6.730 \pm 0.005 \unit{mm}</m>.
-        </caption>
+        Since each mark corresponds to <m>0.01 \unit{mm}</m> and you can probably gauge a distance about half-way between the lines,
+	the precision of this instrument is <m>0.005\unit{mm}</m>.
+	</caption>
         <image source="micrometer.JPG" width="100%" />
         </figure>
         </assemblage>
 
     <aside><title></title><p>
     The reading of the micrometer from <xref ref="f-micrometer" text="type-global" /> is <m>6.730 \pm .005 \unit{mm}</m>.
-    Since each mark corresponds to <m>0.01 \unit{mm}</m> and you can probably gauge a distance about half-way between the lines,
-    the precision of this instrument is <m>0.005\unit{mm}</m>.</p>
+</p>
     </aside>
 
     </subsection>
@@ -402,14 +419,16 @@
     <p><ul>
         <li><p> After finding the relevant dimensions of the object, calculate the volume of the object three times:
         once using the measurements from the ruler, once from the caliper, and once with the micrometer.  </p></li>
-        <li><p> Using the rules of propagation of uncertainty, compute the uncertainty in the volume for each.
+        <li><p> Using the rules of propagation of uncertainty, compute the uncertainty in the volume for each.</p></li>
+    </ul></p>
             <exercise>
             <statement><p>Which instrument is the most precise?</p></statement>
             <hint><p>For which instrument can you measure to the most decimal places?</p></hint>
             <answer><p>Your data should give you this answer.  Your report should indicate how your data tells you the answer to this question.</p></answer>
             </exercise>
-            </p></li>
-        <li><p> Measure the volume directly with the graduated cylinder.
+    <p><ul>
+        <li><p> Measure the volume directly with the graduated cylinder.</p></li>
+    </ul></p>
             <exercise>
             <statement>
                 <p>Are any of the volume measurements inconsistent?
@@ -422,12 +441,13 @@
             <hint><p>Keep in mind that <q>imprecise</q> means <q>a large range in the uncertainty</q>, whereas <q>inaccurate</q> means <q>inconsistent with the true value</q>.  (You might not know the true value.)</p></hint>
             <answer><p>It is possible that your data do not give consistent results for the volume.  You should notice if one result in particular is different than the others and then speculate on why <em>that</em> measurement is different.  If all of your results are inconsistent with each other, then you might want to check your measurements.  If they are again inconsistent, then you should check your results against a friend or the instructor.</p></answer>
             </exercise>
-            </p></li>
+    <p><ul>
         <li><p> Measure the mass and then, using the overall most precise measurement of volume, compute the density
         with its uncertainty. </p></li>
         <li><p> Using your best density value, find the percent-error against the appropriate value given by the text,
         or the <em>Handbook of Physics <ampersand /> Chemistry</em>.</p></li>
-        <li><p> Other considerations that might help with your analysis:
+        <li><p> Other considerations that might help with your analysis:</p></li>
+    </ul></p>
             <exercise>
             <statement><p>What would be the best method to measure the volume of an irregularly shaped object?  Why?</p></statement>
             <hint><p>To answer this, it might help to think about <em>how</em> you would measure something that is irregularly shaped with each of the instruments you used today.  Is one of them particularly good at conforming to the shape of an irregularly shaped object?</p></hint>
@@ -437,13 +457,12 @@
      What is the function of the vernier scale on the vernier caliper?
      Describe the simple principle used in the construction of the vernier scale.
   -->
-            </p></li>
-    </ul></p>
 
     </section>
 
     <conclusion>
-    <p>(Updated: Aug 14, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and made the exercises visible -->
+    <!-- <p>(Revised: Aug 14, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
     </conclusion>
 </chapter>
@@ -594,7 +613,6 @@
     <exercises>
     <title>Questions</title>
 
-    <exercisegroup>
         <exercise>
             <statement><p> What is the probability of flipping the 20 pennies and getting 5 heads, or 8 heads, or 10 heads, or 15 heads?
             Answer this question by analyzing your data, the entire class' data and the normal distribution curve fit to your data.
@@ -629,7 +647,6 @@
                 significantly as the number of tosses increase?
                 What can you infer about the accuracy and about the precision of the data as more and more observations are made?</p></statement>
         </exercise>
-        </exercisegroup>
 
     </exercises>
 
@@ -640,7 +657,7 @@
 
         <conclusion>
         <p>Revised: Aug 24, 2017</p>
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (232kB)</url></p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (233 kB)</url></p>
         </conclusion>
 </chapter>
 
@@ -680,7 +697,7 @@
         <subsection xml:id="sss-FlatTrack"><title>Cart and Flat Track</title>
         <aside><title>Note</title> <p>The Pasco Capstone interface is also used in <xref ref="c-Newton" text="type-hybrid" />, <xref ref="c-friction" text="type-hybrid" />, and <xref first="c-energy-1" last="c-energy-2" text="global">Labs</xref>.  You should start becoming familiar with the hardware and software.</p></aside>
         <p>Log into the computer (so you can save your data to your network drive) and then open Pasco Capstone.
-        (<xref ref="s-Capstone" text="type-global" /> will provide some instructions for setting up the software and connecting the equipment.)
+        (<xref ref="s-capstone" text="type-global" /> will provide some instructions for setting up the software and connecting the equipment.)
         Connect the motion sensor to the computer interface.
         Set the data rate of the motion sensor at <m>50 \unit{Hz}</m>.
         Place a steel ball on the track and adjust the leveling screw at one end of the track to see if the ball rolls one way or the other.
@@ -689,8 +706,7 @@
         (You might need to use the <q>sail</q> for the sensor to see the cart.)</p>
 
         <p>Place the cart on the track.  Capstone, via the sonic ranger, can measure the position and velocity of the cart as a function of time.
-        (This is explained in <xref ref="s-Capstone" text="type-global" />.)</p>
-            <exercisegroup>
+        (This is explained in <xref ref="s-capstone" text="type-global" />.)</p>
                 <exercise xml:id="q-frictionless-unlevel">
                     <statement>
                         <p> Assume the track is frictionless and predict how the cart will move if the track is not perfectly level;
@@ -735,7 +751,6 @@
                         using the phrases <q>speeding up</q> or <q>slowing down</q>.
                         You should be able to indicate how you would see each effect in the graphs of the motion.</p></hint>
                 </exercise>
-            </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
 
         <p>We will take four sets of data: a slow, constant velocity towards the ranger; a slow, constant velocity away from the ranger;
@@ -760,7 +775,6 @@
         <p>We will consider <em>three cases</em> for the sloped track: <em>First</em>, allow the cart to roll
         (without an initial push) down the ramp.  <em>Second</em>, gently push the cart down the ramp.
         DON'T let it fly off or crash into anything.</p>
-            <exercisegroup>
 <!-- \setcounter{enumi}{\thedave} -->
                 <exercise>
                     <statement>
@@ -779,13 +793,11 @@
                         <p>Do the graphs have the same intercept?</p>
                     </hint>
                 </exercise>
-            </exercisegroup>
 
 <!-- \setcounter{dave}{\theenumi}  -->
         <p>In the <em>third</em> case, start the cart at the bottom of the incline and roll it up the ramp,
         allowing it to roll back down on its own.  Push it hard enough to get mostly up the ramp, but
         not so hard that it hits the sonic ranger at the top of the incline, because we want to watch it return to the bottom of the ramp.  <em>This case is similar to throwing a ball into the air and allowing it to fall back down.</em></p>
-            <exercisegroup>
 <!-- \setcounter{enumi}{\thedave} -->
                 <exercise>
                     <statement>
@@ -805,7 +817,6 @@
                         while it goes down the ramp) as the previous two cases of rolling down the ramp?</p>
                     </statement>
                 </exercise>
-            </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
 
         <p>In Capstone, you should be able to display all three graphs (position v time, velocity v time, and acceleration v time).
@@ -835,7 +846,6 @@
         write a short analysis of the relationship between these two graphs (x and v versus time).
         From the velocity versus time graph (specifically from the trendline) determine the value of the acceleration of the cart down the track;
         be sure to include the uncertainty of the acceleration and the units.</p>
-            <exercisegroup>
                 <exercise>
                     <statement>
                         <p> Do you see any evidence that the track was not perfectly level?</p>
@@ -862,7 +872,6 @@
                         <p> Does the speed of the cart affect the slope of the velocity vs time graph?</p>
                     </statement>
                 </exercise>
-            </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
         <p>Discuss any evidence observed in your data when answering these questions.
         Also consider the magnitude of the uncertainties when writing your conclusions.</p>
@@ -874,7 +883,6 @@
         <p>Based on the results of <xref ref="sss-SlopedTrack" text="type-global" />, write an analysis of the relationship between the two graphs
         (x and v versus time).  From the velocity versus time graph determine the value of the acceleration of the cart down the track.</p>
 <!-- \setcounter{enumi}{\thedave} -->
-            <exercisegroup>
                 <exercise>
                     <statement>
                         <p> For the two downhill cases, use your uncertainty analysis to determine
@@ -897,11 +905,9 @@
                         <p>If the track were frictionless, then the acceleration should be <m>a=(9.81\unitfrac{m}{s^2})(\sin\theta)</m>, where <m>\theta</m> is the angle that the incline makes.</p>
                     </hint>
                 </exercise>
-            </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
         <p>Inspect the line/curve that is defined by the data on the Distance traveled vs. time graph.</p>
 <!-- \setcounter{enumi}{\thedave} -->
-            <exercisegroup>
                 <exercise>
                     <statement>
                         <p> What is its shape?
@@ -924,11 +930,9 @@
                         <p> What does the slope (whether it's constant or not) of the line on this graph signify?</p>
                     </statement>
                 </exercise>
-            </exercisegroup>
 <!-- \setcounter{dave}{\theenumi} -->
         <p>Now consider the Instantaneous Velocity  vs. Time graph.</p>
 <!-- \setcounter{enumi}{\thedave} -->
-            <exercisegroup>
                 <exercise>
                     <statement>
                         <p> Does the curve/line on this graph have the shape you would expect for an object undergoing constant acceleration?
@@ -942,14 +946,14 @@
                     </statement>
                     <hint><p>Think carefully about what you plotted on the X-axis!</p></hint>
                 </exercise>
-            </exercisegroup>
 
         </subsection>
     </section>
 
     <conclusion>
-    <p>(Updated: September 13, 2017)</p> <!-- Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf</url></p>
+    <p>(Revised: September 13, 2017)</p> <!-- Validated and fixed the exercises -->
+    <!-- <p>(Revised: September 8, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf (207 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -960,7 +964,7 @@
 <chapter xml:id="c-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
 <!--    Revisions \revised{Sept. 14, 2015}
         \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
-        \revision{Sept.~23, 2008}{}
+        \revision{Sept.3, 2008}{}
         -->
 
     <objectives>
@@ -1058,7 +1062,7 @@
         Carry out  a couple of constant velocity runs on the track, to check for the effects of friction and
         to see how level the track is. The track may need a level adjustment.  Do runs in both directions.
         Maybe the track can be tilted so that the friction is countered by the tilt of the track.</p>
-        <p>It might help to review Exercises <xref ref="q-frictionless-unlevel" text="global" />, <xref ref="q-frictionless-level" text="global" />, and <xref ref="q-friction-level" text="global" /> from the previous lab.</p></li>
+        <p>It might help to review Exercises <xref ref="q-frictionless-unlevel" text="global" />, <xref ref="q-frictionless-level" text="global" />, and <xref ref="q-friction-level" text="global" /> from the <xref ref="c-acceleration" text="title" /> lab.</p></li>
     <li><p> Connect a string to the cart and run it over a pulley.
         Measure the height of the string at both ends of the track, to ensure that the string is as level as the track.</p></li>
     </ul>
@@ -1114,12 +1118,13 @@
     </ul>
     </p>
     <exercise>
-    	<statement><p>What is the physical significance of the slope and of the intercept from the graph?
+    	<statement><aside><title>Note:</title><p>In almost every lab you will be comparing a theoretical equation to the equation of a line and interpreting what the slope and intercept mean.</p></aside>
+    <p>What is the physical significance of the slope and of the intercept from the graph?
         That is, what physical quantity does the slope of this graph equal? </p>
     	</statement>
     	<hint><p>It should help to recall that Newton's second law looks very similar to the generic equation of a line: <m>y = mx+b</m>.</p></hint>
     </exercise>
-        <aside><title>Note:</title><p>In almost every lab you will be comparing a theoretical equation to the equation of a line and interpreting what the slope and intercept mean.</p></aside>
+
     <p>
     <ul>
     <li><p> In many mechanics experiments, there may be deviations from the expected or theoretical results because of the effects of friction.
@@ -1135,7 +1140,6 @@
         Would the slope be expected to increase or decrease slightly because of the effects of an unlevel track?</p>
     	</statement>
     </exercise>
-        <aside><title>Note:</title><p>In almost every lab you will be comparing a theoretical equation to the equation of a line and interpreting what the slope and intercept mean.</p></aside>
     <p>
     <ul>
     <li><p> When designing experiments, it is important to keep control parameters; in this case a parameter which is kept constant.</p></li>
@@ -1147,7 +1151,6 @@
 
 </section> <exercises><title>Questions</title>
 
-    <exercisegroup>
         <exercise><statement>
             <p> Why is it important to keep the total mass of the system constant?
             What would happen if the total mass of the system were not held constant?
@@ -1167,8 +1170,8 @@
         <hint><p>Would friction tend to make the measured acceleration larger then or smaller than the expected value?</p></hint>
         <hint><p>Is your result larger than or smaller than the expected result?</p></hint>
         <hint><p>Would tilting the track one way or the other help overcome (or counter-act) the effect of friction?  If so, which way would you tilt the track to do so?  Is there a way to gauge how much the track would need to tilt?</p></hint>
-        </exercise> 
-        <exercise><statement> 
+        </exercise>
+        <exercise><statement>
             <p>If your group has a discrepancy between the results and the theory, would a tilt in the track explain the discrepancy?
             Show this calculation.</p>
         </statement>
@@ -1183,9 +1186,12 @@
             <p> What are the two greatest sources of uncertainty in this experiment?   Are they random or systematic errors?
             Be specific and quantify your answer.</p>
         </statement></exercise>
-    </exercisegroup>
 
 </exercises>
+    <conclusion>
+    <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (209 kB)</url></p>
+    </conclusion>
 </chapter>
 
 
@@ -1363,7 +1369,6 @@
         <introduction>
             <p>For all questions, and when possible, use your experimental or theoretical results to demonstrate your answers to the questions.</p>
         </introduction>
-        <exercisegroup>
         <exercise>
             <statement><p> Does the coefficient of friction depend on the area of contact?</p></statement>
         </exercise>
@@ -1385,7 +1390,6 @@
         <exercise>
             <statement><p> What would happen to the coefficient of friction if the surfaces were lubricated with oil?</p></statement>
         </exercise>
-        </exercisegroup>
 
 </exercises>
 </chapter>
@@ -1691,8 +1695,9 @@
         -->
     <li><p> Before drawing conclusions about the validity of the conservation of mechanical energy,
         consider <xref ref="q-1missing" text="type-global" />. </p></li>
+    </ul></p>
 
-    <li><exercise xml:id="q-1missing">
+        <exercise xml:id="q-1missing">
             <statement><p> We need to look for the energy lost in each graph.
             <ol>
                 <li><p> When you look at the graph from <xref ref="sss-1flat" text="type-global" /> for <m>E</m>,
@@ -1715,7 +1720,8 @@
                     Can these effects be minimized?  Is it possible to run the experiment again minimizing this effect?</p></li>
             </ol></p></statement>
         </exercise>
-        </li>
+
+    <p><ul>
     <!-- <li><p> As you evaluate <xref ref="sss-1sloped" text="type-global" />, you might be asked to re-run the experiment with a force transducer
         placed at the bottom of the track.  (This should imply where the motion sensor will go.)
         Make sure that the cart will bounce from the force sensor. Make sure that the force sensor is zeroed before the start.
@@ -1731,21 +1737,24 @@
         <xref ref="q-1accel" text="type-global" /> will help you determine the expected acceleration and the variable necessary to find it.
         <xref ref="q-1fracc" text="type-global" /> will help decide on the relationship between the friction and the acceleration.
         </p></li>
+    </ul></p>
 
-    <li><exercise xml:id="q-1accel">
+        <exercise xml:id="q-1accel">
             <statement><p> Given an ramp inclined at some angle <m>\theta</m>,
                 what is the component of the gravitational force aimed down the ramp?
                 Assuming that there is no friction, what is the net force?  Since <m>F_{\rm net} = m a</m>,
                 the acceleration should be <ellipsis /> ?<fn><m>a=g \sin\theta</m>.</fn>
                 From your expression, what do you need to measure in order to find the expected value of <m>a</m>?
                 (Recall <xref ref="q-1anglemeasurement" text="type-global" />.)</p></statement>
-        </exercise></li>
-    <li><exercise xml:id="q-1fracc">
+        </exercise>
+        <exercise xml:id="q-1fracc">
             <statement><p> If there is friction, then how do you expect the actual acceleration to
                 compare to the expected acceleration?  If there is no friction?
                 So, how would you interpret finding an acceleration that is exactly equal to the expected value?
                 less than the expected value?  Larger than the expected value?</p></statement>
-        </exercise></li>
+        </exercise>
+
+    <p><ul>
     <li><p> A second explanation for the loss of energy is that some component is gaining rotational kinetic energy.
         The formula for this is <m>K_R = \frac{1}{2} I \omega^2</m>, where <m>I</m> is the moment of
         inertia<fn>In this case, the moment of inertia is probably a little less than <m>\frac{1}{2} m r^2</m>,
@@ -1763,7 +1772,6 @@
 </section>
 <exercises><title>Questions</title>
 
-    <exercisegroup>
         <exercise xml:id="q1-mass">
             <statement><p>  Does the mass of the cart matter?
             If you run it again at a different value of mass, would you expect the overall conclusion to be different?
@@ -1779,7 +1787,6 @@
             What do you notice about the mass now?
             Does your graph support or conflict with the idea that the total mechanical energy is conserved?</p></statement>
         </exercise>
-    </exercisegroup>
 
 
 </exercises>
@@ -2010,8 +2017,10 @@
         </p></li>
     <li><p> Before drawing conclusions about the validity of the conservation of mechanical energy,
         consider <xref ref="q-missing" text="type-global" />. </p></li>
+    </ul>
+    </p>
 
-    <li><exercise xml:id="q-missing">
+        <exercise xml:id="q-missing">
             <statement><p> We need to look for the energy lost in each graph.
             <ol>
                 <li><p> When you look at the graph from <xref ref="sss-flat" text="type-global" /> for <m>E</m>,
@@ -2034,7 +2043,9 @@
                     Can these effects be minimized?  Is it possible to run the experiment again minimizing this effect?</p></li>
             </ol></p></statement>
         </exercise>
-        </li>
+
+    <p>
+    <ul>
     <li><p> As you evaluate <xref ref="sss-sloped" text="type-global" />, you might be asked to re-run the experiment with a force transducer
         placed at the bottom of the track.  (This should imply where the motion sensor will go.)
         Make sure that the cart will bounce from the force sensor. Make sure that the force sensor is zeroed before the start.
@@ -2049,21 +2060,23 @@
         <xref ref="q-accel" text="type-global" /> will help you determine the expected acceleration and the variable necessary to find it.
         <xref ref="q-fracc" text="type-global" /> will help decide on the relationship between the friction and the acceleration.
         </p></li>
+    </ul></p>
 
-    <li><exercise xml:id="q-accel">
+        <exercise xml:id="q-accel">
             <statement><p> Given an ramp inclined at some angle <m>\theta</m>,
                 what is the component of the gravitational force aimed down the ramp?
                 Assuming that there is no friction, what is the net force?  Since <m>F_{\rm net} = m a</m>,
                 the acceleration should be <ellipsis /> ?<fn><m>a=g \sin\theta</m>.</fn>
                 From your expression, what do you need to measure in order to find the expected value of <m>a</m>?
                 (Recall <xref ref="q-anglemeasurement" text="type-global" />.)</p></statement>
-        </exercise></li>
-    <li><exercise xml:id="q-fracc">
+        </exercise>
+        <exercise xml:id="q-fracc">
             <statement><p> If there is friction, then how do you expect the actual acceleration to
                 compare to the expected acceleration?  If there is no friction?
                 So, how would you interpret finding an acceleration that is exactly equal to the expected value?
                 less than the expected value?  Larger than the expected value?</p></statement>
-        </exercise></li>
+        </exercise>
+    <p><ul>
     <li><p> A second explanation for the loss of energy is that some component is gaining rotational kinetic energy.
         The formula for this is <m>K_R = \frac{1}{2} I \omega^2</m>, where <m>I</m> is the moment of
         inertia<fn>In this case, the moment of inertia is probably a little less than <m>\frac{1}{2} m r^2</m>,
@@ -2307,7 +2320,6 @@
     </section>
     <exercises><title>Questions</title>
 
-    <exercisegroup>
         <exercise>
             <statement><p> Why should the amplitude of vibration be kept as small as possible?</p></statement>
         </exercise>
@@ -2324,7 +2336,6 @@
             <statement><p> If this experiment were conducted on the moon, would either method give a different result for the value of <m>k</m>?
                 Explain.</p></statement>
         </exercise>
-        </exercisegroup>
 
     </exercises>
 </chapter>
@@ -2394,7 +2405,6 @@
 
 </section> <exercises><title>Questions</title>
 
-    <exercisegroup>
         <exercise>
             <statement><p> Was Galileo's statement precise?</p></statement>
         </exercise>
@@ -2426,7 +2436,6 @@
         <exercise>
             <statement><p> Where to and how should the pendulum length be measured?</p></statement>
         </exercise>
-        </exercisegroup>
 
 </exercises>
 
@@ -2563,7 +2572,6 @@
 
 </section> <exercises><title>Questions</title>
 
-    <exercisegroup>
         <exercise>
             <statement><p> Under what conditions are the laws of momentum and energy conserved in this experiment?
                 State why.    Why is the mechanical energy not conserved during the collision?
@@ -2583,7 +2591,6 @@
         <exercise>
             <statement><p> Does the air resistance on the ball have a significant effect on the results of this experiment?</p></statement>
         </exercise>
-        </exercisegroup>
 
 </exercises>
 
@@ -2809,7 +2816,6 @@
 
 </section> <exercises><title>Questions</title>
 
-    <exercisegroup>
         <exercise>
             <statement><p> Is it necessary to have the meter stick horizontal for the system to be in equilibrium?
                 Why did we want to keep the arm horizontal?</p></statement>
@@ -2832,7 +2838,6 @@
                 the muscle tension force needed to move the limb (which is a small mass) in a short time period.</p></hint>
         </exercise>
     -->
-    </exercisegroup>
 
 </exercises> </chapter>
 
@@ -3444,25 +3449,25 @@
 
 <!-- ********************************************************************************************** -->
 
-<appendix xml:id="s-Capstone"><title>Using Capstone</title>
+<appendix xml:id="s-capstone"><title>Using Capstone</title>
         <assemblage>
         <figure xml:id="f-capstone">
         <title>Using Capstone</title>
         <caption>This is a PDF of a Power-Point description for how to use the important features of Capstone.</caption>
-        <sidebyside width="100%">
-        <image source="Capstone-1.jpg" width="100%" />
-        <image source="Capstone-2.jpg" width="100%" />
-        <image source="Capstone-3.jpg" width="100%" />
-        <image source="Capstone-4.jpg" width="100%" />
-        <image source="Capstone-5.jpg" width="100%" />
-        <image source="Capstone-6.jpg" width="100%" />
-        <image source="Capstone-7.jpg" width="100%" />
-        <image source="Capstone-8.jpg" width="100%" />
-        <image source="Capstone-9.jpg" width="100%" />
-        <image source="Capstone-10.jpg" width="100%" />
-        <image source="Capstone-11.jpg" width="100%" />
-        <image source="Capstone-12.jpg" width="100%" />
-        </sidebyside>
+        <sbsgroup width="100%">
+        <sidebyside><image source="Capstone-1.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-2.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-3.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-4.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-5.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-6.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-7.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-8.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-9.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-10.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-11.jpg" width="100%" /></sidebyside>
+        <sidebyside><image source="Capstone-12.jpg" width="100%" /></sidebyside>
+        </sbsgroup>
         </figure>
         </assemblage>
 
