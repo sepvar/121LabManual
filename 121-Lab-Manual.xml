@@ -1162,8 +1162,8 @@
         <hint><p>The equation <m>F_\mathrm{net}=ma</m> looks like (has the same form as) <m>y=mx+b</m> if <m>\cancelto{0}{b}</m>.  Which variable goes in the place of <m>y</m>? of <m>x</m>? of the slope?  What happens to <m>y=mx+b</m> if the slope is not a constant?</p></hint>
         </exercise>
         <exercise xml:id="q-newton-tilt"><statement>
-            <p> How would the motion (and therefore your results) be different if the track was 
-            <!-- Re Tom Neal, both was and were are correct.  
+            <p> How would the motion (and therefore your results) be different if the track was
+            <!-- Re Tom Neal, both was and were are correct.
             		https://english.stackexchange.com/questions/30090/if-it-were-possible-vs-if-it-was-possible -->
             not level?   Consider both cases: if the pulley end were higher and if the pulley end were lower.</p>
         </statement>
@@ -1174,7 +1174,7 @@
             <p> If your group has a discrepancy between the results and the theory, could the presence of friction explain why your results differ from what is expected?
             Explain how. </p>
         </statement>
-        <hint><p>Would friction tend to make the measured acceleration larger then or smaller than the expected value?</p></hint>
+        <hint><p>Would friction tend to make the measured acceleration larger than or smaller than the expected value?</p></hint>
         <hint><p>Is your result larger than or smaller than the expected result?</p></hint>
         </exercise>
         <exercisegroup>
@@ -1262,24 +1262,26 @@
     <me>
     F_f = \mu_s F_N
     </me>
-    where the subscript <m>s</m> stands for static (non-moving) friction.
+    where the subscript <m>s</m> stands for static (non-moving) friction, and <m>\mu_s</m> is <term>the coefficient of static friction</term>.
     This equation can only be used at this maximum static point also called the point of impending motion.
-    At the instant that the applied force becomes greater than the maximum fs, the body is set into motion
+    At the instant that the applied force becomes greater than the maximum <m>f_s</m>, the body is set into motion
     and this motion is opposed by a frictional force called the kinetic (sliding) frictional force and is given by
     <me>
     F_f = \mu_k F_N
     </me>
-    where the subscript <m>k</m> stands for the kinetic (moving) friction.
-    In general, <m>\mu_k \lt \mu_s</m>; that is, it takes more force to overcome the static friction than to over come the kinetic friction.
+    where the subscript <m>k</m> stands for the kinetic (moving) friction, and <m>\mu_k</m> is <term>the coefficient of kinetic friction</term>.
+    In general, <m>\mu_k \lt \mu_s</m>; that is, it takes more force to overcome the static friction than to overcome the kinetic friction.
     The coefficients of friction are generally less than one, but may be greater than one, and they depend on the nature of both surfaces.</p>
 
 
 	<p>Consider a system comprised of a block on a horizontal surface being pulled horizontally by a string connected to a hanging weight.
-    Assume that the system is accelerating with a constant acceleration.  Then the <m>\mu_k</m> can be solved for by the following equation:
+    We can use <m>M</m> is the mass of the block on the horizontal surface and <m>m</m> is the hanging mass.  The force that accelerates the system forward is <m>mg</m>.  The frictional force depends on the normal force of the block <m>\mu_k (Mg)</m>.  Then, the whole system is accelerating with a constant acceleration so that Newton's second law gives:
+    <me> (mg) + [-(\mu_kMg)] = (M+m)a </me>.
+    Form this, <m>\mu_k</m> can be solved for, giving:
     <me>
-    \mu_k  = \frac{ mg - (M+m) a }{ Mg},
-    </me>
-    where <m>M</m> is the mass of the block and <m>m</m> is the hanging mass.</p>
+    \mu_k  = \frac{ mg - (M+m) a }{ Mg}
+    </me>.
+    </p>
 
 
     </introduction>
@@ -1409,6 +1411,12 @@
         </exercise>
 
 </exercises>
+
+    <conclusion>
+    <p>(Revised: Sep 21, 2017)</p> <!-- Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (214 kB)</url></p>
+    </conclusion>
+
 </chapter>
 
 
