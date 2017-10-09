@@ -11,9 +11,7 @@
         \newcommand{\ten}[1]{\times 10^{#1}}
 
         \newcommand{\deq}{\displaystyle}
-<!-- </macros>
-        <latex-preamble>
--->
+
         \setlength{\evensidemargin}{0in}
         \setlength{\oddsidemargin}{-.15in}
         \setlength{\textwidth}{6.6in}
@@ -26,12 +24,9 @@
         \setlength{\textheight}{9.2in}
         \setlength{\footskip}{0.5in}
 
-<!-- must fix by hand, Mathbook sets it to 1, if you change mathbook-common to 0, then it removes the TOC. -->
+% must fix by hand, Mathbook sets it to 1, if you change mathbook-common to 0, then it removes the TOC. -->
         \setcounter{tocdepth}{0}
-<!-- <latex-preamble>
--->
 
-<!-- -->
         </macros>
 
 
@@ -237,7 +232,7 @@
     </p>
     </introduction>
 
-    <section>
+    <section xml:id="s-mm-outcomes">
     <title>Student Outcomes</title>
 
     <p>In this exercise, students should learn how to to make precise and accurate length measurements with a meter stick and
@@ -246,7 +241,7 @@
     </p>
     </section>
 
-    <section>
+    <section xml:id="s-mm-pro">
     <title>Procedure</title>
 
     <introduction>
@@ -265,7 +260,7 @@
             <li><p> Repeat the measurements at several positions and orientations around the object, compute the average
             and the relative uncertainty. </p></li>
         </ul></p></li>
-        <li><p> As outlined in the <xref ref="measurement-analysis" text="title" />, compute the volume and the density. </p></li>
+        <li><p> As outlined in the <xref ref="s-measurement-analysis" text="title" />, compute the volume and the density. </p></li>
     </ul>
     </p>
 
@@ -413,7 +408,7 @@
     </section>
 
 
-    <section xml:id="measurement-analysis">
+    <section xml:id="s-measurement-analysis">
     <title>Analysis</title>
 
     <p><ul>
@@ -538,7 +533,7 @@
 
     </introduction>
 
-    <section>
+    <section xml:id="s-stdev-outcomes">
     <title>Student Outcomes</title>
 
     <p>In this experiment, you should learn
@@ -551,7 +546,7 @@
     </ol></p>
 
     </section>
-    <section>
+    <section xml:id="s-stdev-pre">
     <title>Pre-Lab Considerations</title>
     <p><ul>
     <li><p> Define the following, both in a sentence and with a mathematical formula:  mean, standard deviation
@@ -565,7 +560,7 @@
     </ul></p>
 
     </section>
-    <section>
+    <section xml:id="s-stdev-procedure">
     <title>Procedure</title>
 
         <paragraphs><title>Materials</title>
@@ -581,7 +576,7 @@
     </paragraphs>
     </section>
 
-    <section>
+    <section xml:id="s-stdev-analysis">
     <title>Analysis</title>
 
     <p><ul>
@@ -680,7 +675,7 @@
     </ul>
     </objectives>
 
-    <section><title>Student Outcomes</title>
+    <section xml:id="s-acceleration-outcomes"><title>Student Outcomes</title>
     <p>In this exercise, the student should develop an understanding of the relationships between the position and the
         instantaneous velocity of an object, as well as how each of these can vary as functions of time.
         We will only consider the special case where the object experiences constant acceleration.</p>
@@ -1028,7 +1023,7 @@
 </introduction>
 
 
-<section><title>Pre-Lab Considerations</title>
+<section xml:id="s-newton-pre"><title>Pre-Lab Considerations</title>
 
     <p><ul>
     <li><p> Based on your understanding of <xref ref="NII-Setup" text="type-global" />, draw a free-body force diagram for the cart and for the hanging mass.</p></li>
@@ -1036,7 +1031,7 @@
     </ul></p>
 
 </section>
-<section><title>Procedure</title>
+<section xml:id="s-newton-procedure"><title>Procedure</title>
 
 <subsection xml:id="NII-Setup"><title>The Experimental Setup</title>
 
@@ -1098,16 +1093,18 @@
     <li><p> Take data with Capstone and the motion sensor as the cart travels with constant acceleration down the track.
         Determine the acceleration of the cart from a linear regression using the velocity vs time data (a linear fit line in Capstone).
         Record the acceleration value and its uncertainty.</p></li>
-    <li><p> Collect  7 data runs, where about 2-5 grams is transferred each time from the cart to the hanging mass.
+    <li><p> Collect 7 data runs, where about 2-5 grams<fn xml:id="fn-penny-date">Pennies are a reasonable mass to be moving.  If you are provided with pennies as the mass being transferred, then (after finding the individual mass of each) you might consider using the date of minting to distinguish which penny was transferred in order to determine the specific mass each time.</fn>
+     is transferred each time from the cart to the hanging mass.
         Determine the acceleration of the cart (and the uncertainty for the acceleration) for each of these 7 runs.</p></li>
     </ul>
     </p>
 </subsection>
 </section>
 
-<section><title>Analysis</title>
+<section xml:id="s-newton-analysis"><title>Analysis</title>
 
-    <p><ul>
+    <p>You should note that velocity-versus-time graphs are only useful for computing the acceleration in each case.  Once you have the values for the acceleration, your attention should be on the graph of acceleration-versus-weight.
+    <ul>
     <li><p> In Excel, make a graph of the acceleration of the system (y-axis) versus the weight <m>(mg)</m> of the <em>hanging</em> body (x-axis).
         You should include at least 7 data points.    Carry out a linear regression for this data set.
         Quote the  slope and intercept values, their uncertainties, their p-values, and the <m>R^2</m> value.
@@ -1123,11 +1120,13 @@
         That is, what physical quantity does the slope of this graph equal? </p>
     	</statement>
     	<hint><p>It should help to recall that Newton's second law looks very similar to the generic equation of a line: <m>y = mx+b</m>.</p></hint>
+        <answer><p>When you figure out which physical quantity the slope <em>should</em> compare to, compute the <percent />-difference to that value.</p></answer>
     </exercise>
 
     <p>
     <ul>
     <li><p> In many mechanics experiments, there may be deviations from the expected or theoretical results because of the effects of friction.
+        (If you are lucky, you will get to investigate this effect in detail in <xref ref="c-friction" text="type-global" />!)
         Frictional forces are sometimes difficult to take into consideration.
         If there are deviations between your results and the predicted theory then try to distinguish whether they are
         caused by a tilt of the track, friction between the cart and the track or the friction between the string and the pulley.</p>
@@ -1205,7 +1204,8 @@
 
 </exercises>
     <conclusion>
-    <p>(Revised: Sep 14, 2017)</p> <!-- rewrote the Questions -->
+    <p>(Revised: Oct 9, 2017)</p> <!-- Minor revisions based on actual experiment -->
+    <!-- <p>(Revised: Sep 14, 2017)</p> rewrote the Questions -->
     <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (214 kB)</url></p>
     </conclusion>
@@ -1286,7 +1286,7 @@
 
     </introduction>
 
-<section><title>Pre-Lab Considerations</title>
+<section xml:id="s-friction-pre"><title>Pre-Lab Considerations</title>
 
     <p><ul>
     <li><p> Draw force diagrams for the following case:
@@ -1301,7 +1301,7 @@
     </ul></p>
 
 
-</section> <section><title>Procedure</title>
+</section> <section xml:id="s-friction-procedure"><title>Procedure</title>
 
     <introduction>
         <p>For the block on the horizontal plane:	
@@ -1310,6 +1310,7 @@
             <li><p>Make sure the track is level, as in previous labs.</p></li>
         </ol>
 <!-- \setcounter{dave}{\theenumi} -->
+        You will use the force transducer to measure the force directly in <xref ref="sss-staticfriction" text="type-local" /> and <xref ref="sss-friction-area" text="type-local" />.  However, <xref ref="sss-friction-accelerating" text="type-local" /> will require an indirect measurement (calculation) of the force by measuring the velocity and using the velocity-versus-time graph to get the acceleration.
         </p>
     </introduction>
 
@@ -1353,24 +1354,33 @@
         </p>
 
     </subsection>
-    <subsection><title>Friction while Accelerating</title>
+    <subsection xml:id="sss-friction-accelerating"><title>Friction while Accelerating</title>
 
         <p><ol>
 <!-- \setcounter{enumi}{\thedave}  -->
             <li><p> Apply a force (hanging mass, pulley, and string) large enough to accelerate the block.
-                Use the Sonic Ranger to collect data.</p></li>
+                Use the Sonic Ranger to collect data.  Note: This should accelerate fast enough to measure the acceleration, but not so fast that it crashes at the end of the track.  (Depending on the normal forces being used, you might try <m>300 \unit g</m> as the hanging mass.)</p></li>
             <li><p> Graph the velocity vs time.  Determine the acceleration of the block from the slope of the line.</p></li>
             <li><p> Repeat this part four or five times with a different normal forces.  (You may use any hanging mass.)</p></li>
+            <li><p> Since we are not measuring the frictional force, you will need to calculate it; See <xref ref="ex-friction-while-accelerating" text="type-global" />.</p></li>
             <li><p> Add the plot of this <m>F_f</m> versus <m>F_N</m> as a new series to the graph of <xref ref="sss-staticfriction" text="type-global" />
                 and <xref ref="sss-friction-area" text="type-global" />.</p></li>
             <li><p> Calculate the coefficient of kinetic friction from the slope.</p></li>
         </ol>
         </p>
+        <exercise xml:id="ex-friction-while-accelerating">
+                <statement>
+                        <p>Draw the free-body diagram for the cart being dragged by the hanging mass. Set-up Newton's second law for the forces involved.  Solve this for the frictional force in terms of quantities you can measure.</p>
+                </statement>
+                <hint><p><xref ref="c-Newton" text="type-global" /> might help you set-up the free-body diagram and equation.  In that lab, we made a point of keeping the total mass constant.  In this lab, that is not important because that lab allows us to trust Newton's second law and we are now testing a different relationship. </p></hint>
+                <hint><p>You can measure the total mass directly.  You can measure the hanging mass directly.  You can compute (an indirect measurement) the acceleration from the velocity-versus-time graph.</p></hint>
+                <answer><p>Do not compute the frictional force using the normal force, that is the relationship you are trying to investigate!</p></answer>
+        </exercise>
 
     </subsection>
 </section>
 
-<section><title>Analysis</title>
+<section xml:id="s-friction-analysis"><title>Analysis</title>
 
     <p><ul>
         <li><p> The experimental precision should be estimated for all parts of this experiment and care should be taken for all of the measurements, but it is more important to investigate the relationships than it is to repeat the experiment many times or to try to achieve high precision in the data.
@@ -1463,7 +1473,7 @@
 
     </introduction>
 
-<section><title>Pre-Lab Considerations</title>
+<section xml:id="s-centripetal-pre"><title>Pre-Lab Considerations</title>
 
     <p><ol>
     <li><p> Why do we say that an object moving with <em>constant speed</em> in a circular path is being accelerated? </p></li>
@@ -1472,7 +1482,7 @@
     </ol>
     </p>
 
-</section> <section><title>Procedure</title>
+</section> <section xml:id="s-centripetal-procedure"><title>Procedure</title>
 
     <p>The centripetal force is supplied by a spring.  Since we cannot directly measure
     <q>the force exerted by the spring while it is rotating</q> while it is rotating,
@@ -1502,7 +1512,7 @@
     </ul>
     </p>
 
-</section> <section><title>Analysis</title>
+</section> <section xml:id="s-centripetal-analysis"><title>Analysis</title>
 
     <p>From measurements of <m>m</m>, <m>\omega</m>, and <m>r</m>, calculate the theoretical centripetal force on
     the mass (which experimentally is supplied by the spring).  The (unmeasurable) amount
@@ -1564,7 +1574,7 @@
 
     </introduction>
 
-<section><title>Procedure</title>
+<section xml:id="s-energy1-procedure"><title>Procedure</title>
 
     <introduction>
     <p>We would like for you to verify the conservation of mechanical energy in two different situations;
@@ -1704,7 +1714,7 @@
     Relate the information in <xref ref="q-1EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
     </subsection>
-</section> <section><title>Analysis</title>
+</section> <section xml:id="s-energy1-analysis"><title>Analysis</title>
 
     <p>
 <!-- For the second week, you should already have your graphs from the experiment and you should have written a
@@ -1868,7 +1878,7 @@
 
     </introduction>
 
-<section><title>Procedure</title>
+<section xml:id="s-energy2-procedure"><title>Procedure</title>
 
     <introduction>
     <p>We would like for you to verify the conservation of mechanical energy in two different situations;
@@ -2028,7 +2038,7 @@
     </aside>
 
     </subsection>
-</section> <section><title>Analysis</title>
+</section> <section xml:id="s-energy2-analysis"><title>Analysis</title>
 
     <p>
     For the second week, you should already have your graphs from the experiment and you should have written a
@@ -2162,7 +2172,7 @@
     by working off of each others' ideas.</p>
 
     </introduction>
-    <section><title>The Assignment</title>
+    <section xml:id="s-peer-assignment"><title>The Assignment</title>
 
     <p>In order to manage the double-blind review process, before you leave lab today you will all turn in your
     (personally selected) code name.  Do not tell anybody what you selected and do not use a nickname that is easily
@@ -2262,7 +2272,7 @@
 
 </introduction>
 
-<section><title>Pre-Lab Considerations</title>
+<section xml:id="s-hooke-pre"><title>Pre-Lab Considerations</title>
 
     <p>
     <ul>
@@ -2274,7 +2284,7 @@
     </ul>
     </p>
 
-</section> <section><title>Procedure</title>
+</section> <section xml:id="s-hooke-procedure"><title>Procedure</title>
 
     <subsection xml:id="sss-hooke"><title>Hooke's law</title>
 
@@ -2310,7 +2320,7 @@
     </p>
 
     </subsection>
-</section> <section><title>Analysis</title>
+</section> <section xml:id="s-hooke-analysis"><title>Analysis</title>
 
     <p>
     <ul>
@@ -2406,7 +2416,7 @@
 
 </introduction>
 
-<section><title>Procedure</title>
+<section xml:id="s-pendulum-procedure"><title>Procedure</title>
 
     <p>You will have available for your use:  pendulum bobs, string, timers, and a protractor.
     Be careful to fix the string to a point of support which will not move or vibrate as the pendulum swings.
@@ -2518,7 +2528,7 @@
 
     </introduction>
 
-<section><title>Pre-Lab Considerations</title>
+<section xml:id="s-ballistic-pre"><title>Pre-Lab Considerations</title>
 
     <p>
     <ul>
@@ -2545,7 +2555,7 @@
     </ul>
     </p>
 
-</section> <section><title>Procedure</title>
+</section> <section xml:id="s-ballistic-procedure"><title>Procedure</title>
 
     <subsection><title>Projectile Motion</title>
 
@@ -2588,7 +2598,7 @@
     </p>
 
     </subsection>
-</section> <section><title>Analysis</title>
+</section> <section xml:id="s-ballistic-analysis"><title>Analysis</title>
 
 	<p>Quantitatively compare the two methods. Calculate a percent difference between the two methods.
     Calculate the uncertainties for the velocity in both methods (propagation of error), and also write these
@@ -2655,7 +2665,7 @@
 
     </introduction>
 
-<section><title>Prelab Work</title>
+<section xml:id="s-equilibrium-pre"><title>Prelab Work</title>
 
     <p>
     <ul>
@@ -2671,7 +2681,7 @@
     </ul>
     </p>
 
-</section> <section><title>Procedure</title>
+</section> <section xml:id="s-equilibrium-procedure"><title>Procedure</title>
 
     <subsection><title>Determine the Spring Constant of the Bicep Muscle</title>
 
@@ -2815,7 +2825,7 @@
 
     </subsection>
 
-</section> <section><title>Analysis</title>
+</section> <section xml:id="s-equilibrium-analysis"><title>Analysis</title>
 
     <p><ul>
     <li><p> For the forces measured or calculated in <xref ref="ss-equilib" text="type-global" />, test each of the conditions of equilibrium:

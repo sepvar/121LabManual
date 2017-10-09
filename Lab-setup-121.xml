@@ -279,14 +279,16 @@
                         <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 wooden cart-block</p></cell>
                                 <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
                         <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell>
-                                <cell><p>These might already be attached to the string</p></cell></row>
+                                <cell><p>These might already be attached to the string in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
                         <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell>
-                                <cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long</p></cell></row>
+                                <cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long.  This is likely in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
                         <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell>
                                 <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
                         <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell>
                                 <cell><p>used to level the string</p></cell></row>
                         <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell>
+                                <cell><p>used to check the level of the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF15</p></cell><cell><p>2-3 small wooden squares</p></cell>
                                 <cell><p>used to level the track</p></cell></row>
                         <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell>
                                 <cell><p>These are to ride the cart.  <alert>Check with instructor: EITHER</alert> an assortment of 100-500 gram, cylindrical masses <alert>OR</alert> 2 black rectangular masses that fit into the cart (like the 1-wooden block above).</p></cell></row>
@@ -297,13 +299,118 @@
                         <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
                         <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
                                 <cell><p>(please verify that these function and are set to metric)</p></cell></row>
+                        <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF4-4</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
                 </tabular>
         </table>
 
 
-    <p>(Updated: September 13, 2017)</p>
+    <p>(Updated: October 9, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-Newton.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-friction"><title>Dry Sliding Friction</title>
+
+        <p>Most of this equipment is the same as <xref ref="s-Newton" text="title" />, but it is not exactly the same.</p>
+        <table xml:id="t-friction">
+        <caption>Equipment Needed: <xref ref="s-friction" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell>
+                                <cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 force transducer</p></cell>
+                                <cell><p>Should be the thing shaped to sit on top of the wooden cart-block and it has a loop-screw at one side to tie a string to</p></cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 wooden cart-block</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell>
+                                <cell><p>These might already be attached to the string in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell>
+                                <cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long.  This is likely in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell>
+                                <cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>AE21</p></cell><cell><p>string</p></cell>
+                                <cell><p>This string is for pulling the force transducer, not the same as the string that is attached to the plastic bucket</p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell>
+                                <cell><p>used to level the string</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell>
+                                <cell><p>used to check the level of the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF15</p></cell><cell><p>2-3 small wooden squares</p></cell>
+                                <cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AG15</p></cell><cell><p>1 thermal glove</p></cell>
+                                <cell><p><alert>Check with the instructor.</alert>  This is only used as a soft glove to catch the cart in case it accelerates too quickly.  Not all instructors want this.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell>
+                                <cell><p>These are to ride the cart.  <alert>Check with instructor: EITHER</alert> cylindrical masses (2 500-g, 4 200-g, 2 100-g) <alert>OR</alert> 2 black rectangular masses that fit into the cart (like the 1-wooden block above).</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44 or AL32-5</p></cell><cell><p>tiny weights</p></cell>
+                                <cell><p>These are to transfer between the cart and the basket.  <alert>Check with instructor: EITHER</alert> an assortment of 7-10 very small masses (2-5 grams) <alert>OR</alert> 10 pennies.</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell>
+                                <cell><p>Computer</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
+                        <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
+                                <cell><p>(please verify that these function and are set to metric)</p></cell></row>
+                        <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF4-4</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                </tabular>
+        </table>
+
+
+    <p>(Updated: October 9, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-friction.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-centripetal"><title>Centripetal Force</title>
+
+        <p>This describes the old equipment.  New equipment (that plugs into the PASCO interface) has been purchased, but that equipment list has not been itemized yet.</p>
+        <table xml:id="t-centripetal">
+        <caption>Equipment Needed: <xref ref="s-centripetal" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>AF14-1-6</cell><cell>1 centripetal force apparatus</cell>
+                                <cell><p>(with card?)</p></cell></row>
+                        <row bottom="minor"><cell>AF46</cell><cell>1 0.5-kg hanger</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF46</cell><cell><p>Large cylindrical masses: 1 2-kg, 2 1-kg, 1 0.5-kg</p></cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF44</cell><cell><p>Additional small cylindrical masses of various sizes</p></cell>
+                                <cell><p>include at least one of each: 200-g, 100-g, 50-g, 20-g</p></cell></row>
+                        <row bottom="minor"><cell>AA13</cell><cell>1 caliper</cell>
+                                <cell><p><alert>Ask instructor</alert> if they want digital or analog (they might not care)</p></cell></row>
+                        <row bottom="minor"><cell>AA12</cell><cell>1 stop watch</cell>
+                                <cell><p>Verify that they work and have good batteries.</p> <p><alert>You might need to purchase new batteries for department!!</alert> </p></cell></row>
+                        <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
+                                <cell><p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell>-</cell><cell>1 thick metal rod</cell>
+                                <cell><p>Mount horizontally off the table to hang the (spinning) carriage</p></cell></row>
+                </tabular>
+        </table>
+
+
+    <p>(Updated: October 9, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-centripetal.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf</url></p>
 
 </section>
 
@@ -315,7 +422,7 @@
 <section xml:id="s-labname"><title>Next Lab</title>
 
         <table xml:id="t-labname">
-        <caption>Equipment Needed: Next Lab</caption>
+        <caption>Equipment Needed: <xref ref="s-labname" text="title" /></caption>
                 <tabular>
                         <col width="10%" />
                         <col width="30%" />
@@ -325,7 +432,7 @@
                         <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
                                 <cell><p>.</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="left">At the front for students to share</cell></row>
-                        <row bottom="minor"><cell><p>.</p></cell><cell>.</cell>
+                        <row bottom="minor"><cell><p>.</p></cell><cell><p>.</p></cell>
                                 <cell><p>.</p></cell></row>
                 </tabular>
         </table>

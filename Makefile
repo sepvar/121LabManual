@@ -9,6 +9,9 @@ default:
 git: 
 	git diff-index --stat master
 
+view: 
+	/c/Program\ Files/Mozilla\ Firefox/firefox.exe TMC-lab-setup.html fall-lab-manual.html > \dev\null &
+
 mathbook-setup-latex.xsl: 
 	git diff-index --name-only master | grep mathbook-setup-latex.xsl && git diff-index --stat master 
 
@@ -45,9 +48,11 @@ setup-h: ${BEE}/user/mathbook-setup-html.xsl Lab-setup-121.xml
 
 setup-l: ${BEE}/user/mathbook-setup-latex.xsl Lab-setup-121.xml 
 	xsltproc ${BEE}/user/mathbook-setup-latex.xsl Lab-setup-121.xml
-	echo "Use WindEdt to pdflatex"
 
-setup: setup-h setup-l
+setup-p: setup-l
+	pdflatex TMC-lab-setup.tex
+
+setup: setup-h setup-p
 
 
 121-h: ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
@@ -55,15 +60,20 @@ setup: setup-h setup-l
 
 121-l: ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
 	xsltproc ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
-	@echo "Use WindEdt to pdflatex"
-	@echo "Change the tocdepth to zero"
-	@echo "Remove the Capstone assemblage"
+	sed -i.sedfix -f 121-Lab-Manual.sed fall-lab-manual.tex
+
+121-p: 121-l
+	pdflatex fall-lab-manual.tex
 
 121: 121-h 121-l
 
 html: setup-h 121-h
 
 latex: setup-l 121-l
+
+pdf: latex
+	pdflatex 121-Lab-Manual.tex  
+	pdflatex fall-lab-manual.tex
 
 images: 121-Lab-Manual.xml Lab-setup-121.xml
 	${BEE}/script/mbx -v -c latex-image -f svg -d images ${AIY}/121-Lab-Manual.xml
