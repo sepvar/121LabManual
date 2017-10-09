@@ -71,9 +71,7 @@ html: setup-h 121-h
 
 latex: setup-l 121-l
 
-pdf: latex
-	pdflatex 121-Lab-Manual.tex  
-	pdflatex fall-lab-manual.tex
+pdf: 121-p setup-p
 
 images: 121-Lab-Manual.xml Lab-setup-121.xml
 	${BEE}/script/mbx -v -c latex-image -f svg -d images ${AIY}/121-Lab-Manual.xml

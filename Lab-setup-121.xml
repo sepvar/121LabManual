@@ -26,15 +26,10 @@
         \setlength{\textheight}{9.2in}
         \setlength{\footskip}{0.5in}
 
-<!-- <latex-preamble>
--->
-
-<!-- -->
         </macros>
 
 
         <latex-image-preamble>
-<!--        \usepackage{hmwk,color} -->
         \usepackage{color}
         \usepackage{graphicx}
         </latex-image-preamble>

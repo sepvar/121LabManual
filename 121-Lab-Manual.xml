@@ -36,8 +36,6 @@
         \usepackage{cancel}
         </latex-image-preamble>
 
-        <latex-preamble>
-                <package>hmwk</package>
 <!--
                 <package>html</package>
                 <package>color</package>
@@ -46,6 +44,9 @@
                 <package>xcolor</package>
                 <package>coordsys</package>
         -->
+
+        <latex-preamble>
+                <package>hmwk</package>
                 <package>cancel</package>
         </latex-preamble>
 
@@ -1207,7 +1208,7 @@
     <p>(Revised: Oct 9, 2017)</p> <!-- Minor revisions based on actual experiment -->
     <!-- <p>(Revised: Sep 14, 2017)</p> rewrote the Questions -->
     <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (214 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (224 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -1424,7 +1425,7 @@
 
     <conclusion>
     <p>(Revised: Sep 21, 2017)</p> <!-- Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (214 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (203 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -1508,7 +1509,12 @@
         </ul></p>
         <p> As the mass rotates, its period of rotation can be measured.
             This allows you to calculate the angular speed using the hints above.</p></li>
-    <li><p> Repeat the entire procedure for a second value of r.</p></li>
+    <li><p> Repeat the entire procedure for a second value of F.</p>
+        <ul>
+        <li><p>To change the force used, you have to adjust the spring as follows.</p></li>
+        <li><p>There is a small dial at the end of the spring away from the mass.  If you turn it one way, it tightens the spring (increasing the force).  If you turn it the other way, it loosens the spring (decreasing the force).</p></li>
+        <li><p>When you change this dial, it is unlikely that you will be able to put it back to where you originally had it, so you should be certain that you have all the information you need from the first measurements before you turn this dial!</p></li>
+        </ul></li>
     </ul>
     </p>
 
@@ -1522,6 +1528,12 @@
     of centripetal force calculated above.</p>
 
 </section>
+
+    <conclusion>
+    <p>(Revised: Oct 9, 2017)</p> <!-- Clarified how to repeat the measurement for a second value of force -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (179 kB)</url></p>
+    </conclusion>
+
 </chapter>
 
 <!-- ********************************************************************************************** -->
