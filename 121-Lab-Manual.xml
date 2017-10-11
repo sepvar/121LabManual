@@ -1277,11 +1277,11 @@
 
 	<p>Consider a system comprised of a block on a horizontal surface being pulled horizontally by a string connected to a hanging weight.
     We can use <m>M</m> is the mass of the block on the horizontal surface and <m>m</m> is the hanging mass.  The force that accelerates the system forward is <m>mg</m>.  The frictional force depends on the normal force of the block <m>\mu_k (Mg)</m>.  Then, the whole system is accelerating with a constant acceleration so that Newton's second law gives:
-    <me> (mg) + [-(\mu_kMg)] = (M+m)a </me>.
-    Form this, <m>\mu_k</m> can be solved for, giving:
-    <me>
+    <men xml:id="eq-Newton-second"> (mg) + [-(\mu_kMg)] = (M+m)a </men>.
+    From this, <m>\mu_k</m> can be solved for, giving:
+    <men xml:id="eq-Newton-mu">
     \mu_k  = \frac{ mg - (M+m) a }{ Mg}
-    </me>.
+    </men>.
     </p>
 
 
@@ -1374,6 +1374,7 @@
                         <p>Draw the free-body diagram for the cart being dragged by the hanging mass. Set-up Newton's second law for the forces involved.  Solve this for the frictional force in terms of quantities you can measure.</p>
                 </statement>
                 <hint><p><xref ref="c-Newton" text="type-global" /> might help you set-up the free-body diagram and equation.  In that lab, we made a point of keeping the total mass constant.  In this lab, that is not important because that lab allows us to trust Newton's second law and we are now testing a different relationship. </p></hint>
+                <hint><p><xref ref="eq-Newton-second" text="type-global">Equation</xref> wrote out Newton's second law for you; but you want to solve it for <m>F_f</m>, not for <m>\mu</m> and not in terms of <m>\mu</m>.</p></hint>
                 <hint><p>You can measure the total mass directly.  You can measure the hanging mass directly.  You can compute (an indirect measurement) the acceleration from the velocity-versus-time graph.</p></hint>
                 <answer><p>Do not compute the frictional force using the normal force, that is the relationship you are trying to investigate!</p></answer>
         </exercise>
@@ -1383,9 +1384,67 @@
 
 <section xml:id="s-friction-analysis"><title>Analysis</title>
 
-    <p><ul>
-        <li><p> The experimental precision should be estimated for all parts of this experiment and care should be taken for all of the measurements, but it is more important to investigate the relationships than it is to repeat the experiment many times or to try to achieve high precision in the data.
-        </p></li> <li><p> Explain why the normal force on the block by the surface rather than the weight of the object is related to the frictional force.
+    <p>The experimental precision should be estimated for all parts of this experiment and care should be taken for all of the measurements.  , but it is more important to investigate the relationships than it is to repeat the experiment many times or to try to achieve high precision in the data.  In <xref ref="ex-friction-while-accelerating" text="type-global" /> you found an equation for <m>F_f</m> in terms of measured values.  You should track the uncertainties from measurement, through the calculation, to the result (this is called the <xref ref="ss-propagation" text="title" />) so that you can see how the uncertainty in the measurements impact the uncertainty of the final result.  The following will step you through how it would work for <xref ref="eq-Newton-mu" text="type-global">Equation</xref>, which is much more complicated than your equation.</p>
+    <example>
+        <statement>
+        <p>In order to propagate the uncertainty for <m>\displaystyle \mu_k  = \frac{ mg - (M+m) a }{ Mg}</m> we should notice that it has both addition (See <xref ref="add" text="type-global">Rule</xref>) and multiplication (See <xref ref="mult" text="type-global">Rule</xref>).
+        I will assume some values with uncertainty; I will also list the relative uncertainty:
+        <ul>
+          <li><m>m=0.30 \pm 0.01 \unit{kg}</m>, <m>\displaystyle \frac{0.01 \unit{kg}}{0.30\unit{kg}} = 0.033 = 3.3\%</m></li>
+          <li><m>M=2.50 \pm 0.02 \unit{kg}</m>, <m>\displaystyle \frac{0.02 \unit{kg}}{2.50\unit{kg}} = 0.008 = 0.8\%</m></li>
+          <li><m>a=0.45 \pm 0.04 \unitfrac{m}{s^2}</m>, <m>\displaystyle \frac{0.04 \unitfrac{m}{s^2}}{0.45\unitfrac{m}{s^2}} = 0.089 = 8.9\%</m></li>
+          <li><m>g=9.81 \pm 0.01 \unitfrac{m}{s^2}</m>, <m>\displaystyle \frac{0.01 \unitfrac{m}{s^2}}{9.81\unitfrac{m}{s^2}} = 0.001 = 0.1\%</m></li>
+        </ul>
+        You should note that while the uncertainty of <m>m</m> and <m>M</m> are about the same, the relative uncertainty of <m>m</m> is much larger than the relative uncertainty of <m>M</m> (and similarly for <m>a</m> and <m>g</m>).  While the uncertainty for <m>m</m> and <m>g</m> have the same numeric value, they cannot be meaningfully compared because they have different units.</p>
+
+        <p> Recall the <q>order of operations</q> implies that we <alert>first</alert> add <m>(M+m)</m>, <alert>then</alert> multiply that value by <m>a</m>, <alert>then</alert> add that value to (the product of) <m>mg</m>, and <alert>finally</alert> divide by (the product of) <m>Mg</m>.  We do the propagation of uncertainty in the same order.</p>
+        
+        <p>Using <xref ref="add" text="type-global">Rule</xref>, add the masses <m>(M+m)</m>:
+                <md>
+                <mrow>(0.30 \pm 0.01 \unit{kg}) + (2.50 \pm 0.02 \unit{kg}) \amp = [(0.30+2.50) \pm (0.01+0.02)]\unit{kg} </mrow>
+                <mrow> \amp = 2.80 \pm 0.03 \unit{kg}</mrow>
+                </md>
+                <me>\displaystyle \frac{0.03 \unit{kg}}{2.80\unit{kg}} = 0.011 = 1.1\%</me>
+        This overall uncertainty is affected a little bit more by <m>M</m> (in this case) because we are adding uncertainty (not relative uncertainty).</p>
+        
+        <p>Using <xref ref="mult" text="type-global">Rule</xref>, multiply by the acceleration <m>(M+m)a</m>:
+                <md>
+                <mrow>(2.80 \pm 0.03 \unit{kg})(0.45 \pm 0.04 \unitfrac{m}{s^2}) \amp = [(2.80\unit{kg})(0.45\unitfrac{m}{s^2}] \pm [(0.011+0.089)] </mrow>
+                <mrow> \amp = 1.26 \unit{N} \pm [0.10]</mrow>
+                </md>,
+        since <m>(1.26\unit{N})(0.10) = 0.126\unit{N}</m>, this is <m>1.26 \pm 0.13 \unit{N}</m>.<fn>If this were the final answer, you should report it as <m>1.3 \pm 0.1\unit{N}</m>; but since we are continuing to use it in calculations, for the purpose of managing appropriate rounding errors, you can keep an extra insignificant digit, which will maintain consistency.  Please be sure to round your final answer to the appropriate number of significant digits.</fn> In this case, <m>a</m> contributed about <m>8</m> times as much uncertainty.<fn xml:id="fn-precision-of-a">To improve this answer we should focus on a more precise measurement of <m>a</m>, rather than improving the precision of <m>m</m> or <m>M</m>!</fn>
+        </p>
+        
+        <p>We also need to use <xref ref="mult" text="type-global">Rule</xref> to find the uncertainty for <m>mg</m> before combining the numerator:
+                <md>
+                <mrow>(0.30 \pm 0.01 \unit{kg})(9.81 \pm 0.01 \unitfrac{m}{s^2}) \amp = [(0.30\unit{kg})(9.81\unitfrac{m}{s^2}] \pm [(0.033+0.001)] </mrow>
+                <mrow> \amp = 2.94 \unit{N} \pm [0.034]</mrow>
+                </md>,
+        since <m>(2.94\unit{N})(0.034) = 0.10\unit{N}</m>, this is <m>2.94 \pm 0.10 \unit{N}</m>.<fn>If this were the final answer, you should report it as <m>2.9 \pm 0.1\unit{N}</m>; but since we are continuing to use it in calculations, for the purpose of managing appropriate rounding errors, you can keep an extra insignificant digit, which will maintain consistency.  Please be sure to round your final answer to the appropriate number of significant digits.</fn> Notice that the mass had a larger impact on the uncertainty of this term.</p>
+
+        <p>Using <xref ref="add" text="type-global">Rule</xref>, subtract<fn>Remember the rule is to <alert>add</alert> the uncertainty even if you are <alert>subtracting</alert> the values!</fn> the two terms in the numerator [<m>mg</m> and <m>(M+m)a</m>]:
+                <md>
+                <mrow>(2.94 \pm 0.10 \unit{N}) - (1.26 \pm 0.13 \unit{N}) \amp = [(2.94-1.26) \pm (0.10+0.13)]\unit{N} </mrow>
+                <mrow> \amp = 1.68 \pm 0.23 \unit{N}</mrow>
+                </md>
+                <me>\displaystyle \frac{0.23 \unit{N}}{1.68\unit{N}} = 0.14 = 14\%</me>
+        Notice that both terms had a similar contribution to the uncertainty.<fn xml:id="fn-fixing-precision">Even if we improved the precision of <m>a</m>, as mentioned in <xref ref="fn-precision-of-a" text="type-global" />, the uncertainty of <m>mg</m> would keep this uncertainty near the <m>0.1</m> to <m>0.2</m> range.  So we need to be more precise with <m>m</m> for the <m>mg</m> term <em>and</em> with <m>a</m> for the <m>(M+m)a</m> term.</fn></p>
+        
+        <p>Finally, use <xref ref="mult" text="type-global">Rule</xref> to find the uncertainty for the final combination<fn>Remember the rule is to <alert>add</alert> the relative uncertainty whether you are multiplying <alert>or</alert> dividing the values!</fn> of the numerator/denominator:
+                <md>
+                <mrow>\frac{(1.68 \pm 0.23 \unit{N})}{(2.50 \pm 0.02 \unit{kg})(9.81 \pm 0.01 \unitfrac{m}{s^2})} \amp = [\frac{1.68\unit{N}}{(2.50\unit{kg})(9.81\unitfrac{m}{s^2})}] \pm [(0.14+0.008+0.001)] </mrow>
+                <mrow> \amp = 0.0685 \pm [0.15]</mrow>
+                </md>,
+        since <m>(0.0685\unit{N})(0.15) = 0.010\unit{N}</m>, this is <m>0.07 \pm 0.01 = (7 \pm 1)\ten{-2}</m>, rounded to the appropriate number of significant digits.</p>
+        
+        <p>You should note that the uncertainty of the numerator swamps by far the uncertainty of the denominator.  In order to make this measurement more precise, we should focus on improving the precision of <m>m</m> and <m>a</m>, as indicated in <xref ref="fn-fixing-precision" text="type-global" />.</p>
+
+        </statement>
+    </example>
+    
+    <p>The graphs and data should also be evaluated as usual.  In this particular experiment, you should
+    <ul>
+        <li><p> Explain why the normal force on the block by the surface rather than the weight of the object is related to the frictional force.
         </p></li> <li><p> Interpret the slope and intercept of the graphs.
         </p></li> <li><p> Compare the slopes from each of the three parts.  Decide which should be the same and which should be different.
         </p></li> <li><p> Calculate the <percent /> decrease of the static to kinetic coefficient of friction.
@@ -1509,12 +1568,12 @@
         </ul></p>
         <p> As the mass rotates, its period of rotation can be measured.
             This allows you to calculate the angular speed using the hints above.</p></li>
-    <li><p> Repeat the entire procedure for a second value of F.</p>
+    <li><p> Repeat the entire procedure for a second value of F.
         <ul>
         <li><p>To change the force used, you have to adjust the spring as follows.</p></li>
         <li><p>There is a small dial at the end of the spring away from the mass.  If you turn it one way, it tightens the spring (increasing the force).  If you turn it the other way, it loosens the spring (decreasing the force).</p></li>
         <li><p>When you change this dial, it is unlikely that you will be able to put it back to where you originally had it, so you should be certain that you have all the information you need from the first measurements before you turn this dial!</p></li>
-        </ul></li>
+        </ul></p></li>
     </ul>
     </p>
 
@@ -2254,7 +2313,7 @@
     </p>
 
         <p>We can investigate Hooke's law by hanging a mass on a spring, measuring the stretch, and plotting the mass versus the elongation.
-        If we rewrite <xref ref="eq-hooke" text="type-global" /> relating the mass to the elongation
+        If we rewrite <xref ref="eq-hooke" text="type-global">Equation</xref> relating the mass to the elongation
         <me> m = \left[ \frac{k}{g} \right] x </me>
         then we see an equation of the form <m>y=mx+\cancelto{0}{b}</m>, where the slope depends on both <m>k</m> and <m>g</m>.</p>
 

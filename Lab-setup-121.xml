@@ -411,6 +411,47 @@
 
 <!-- ********************************************************************************************** -->
 
+<section xml:id="s-equilibrium"><title>Human Forearm</title>
+
+        <table xml:id="t-equilibrium">
+        <caption>Equipment Needed: <xref ref="s-equilibrium" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="left">For Each Lab Station</cell></row>
+                        <row bottom="minor"><cell>AF42</cell><cell>1 spring</cell>
+                                <cell><p>(any color)</p></cell></row>
+                        <row bottom="minor"><cell>End of aisle F</cell><cell><p>3 rods (2 long, 1 short)</p></cell>
+                                <cell><p>Note that one rod goes in the table, so you need to notice if each table has a hole or a screw for this rod.  The short rod is for stability.</p>
+                                <p><alert>Option</alert> You might use the rod with a base (and lead bricks at AG16) or a rod with a C-clamp (AD71), but the clamp might get in the way.</p></cell></row>
+                        <row bottom="minor"><cell>AD??</cell><cell><p>2 rod clamps (size depends on the rods you picked)</p></cell>
+                                <cell><p>These connect the vertical rods to the horizontal rod</p></cell></row>
+                         <row bottom="minor"><cell>AF44</cell><cell>hangers and various masses</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF34</cell><cell>1 meter stick</cell>
+                                <cell><p>(might need a 1/2-meter stick)</p></cell></row>
+                        <row bottom="minor"><cell>End of F</cell><cell>1 2-meter stick</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>aisle E??</cell><cell>clamps for the meter-sticks</cell>
+                                <cell><p>These are the little black things that slide onto a meter-stick and have a metal piece that a mass-hanger can hang off of.</p></cell></row>
+               </tabular>
+        </table>
+
+        <figure xml:id="f-equilibrium">
+                <caption>The setup</caption>
+                <image xml:id="i-equilibrium" source="setup-equilibrium.jpg" />
+        </figure>
+
+    <p>(Updated: February 27, 2013)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-equilibrium.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
 <!-- Search-replace  [labname] with the xml:id
         Search-replace  [Next Lab] with lab title
         -->

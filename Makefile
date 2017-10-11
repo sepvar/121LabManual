@@ -10,7 +10,7 @@ git:
 	git diff-index --stat master
 
 view: 
-	/c/Program\ Files/Mozilla\ Firefox/firefox.exe TMC-lab-setup.html fall-lab-manual.html > \dev\null &
+	/c/Program\ Files/Mozilla\ Firefox/firefox.exe TMC-lab-setup.html fall-lab-manual.html > /dev/null &
 
 mathbook-setup-latex.xsl: 
 	git diff-index --name-only master | grep mathbook-setup-latex.xsl && git diff-index --stat master 
