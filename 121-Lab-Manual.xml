@@ -187,7 +187,7 @@
     </preface>
 
     <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
-    <p>A full PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf" /> (854 kB).</p>
+    <p>A full PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf" /> (924 kB).</p>
     </preface>
 
 </frontmatter>
@@ -236,9 +236,17 @@
     <section xml:id="s-mm-outcomes">
     <title>Student Outcomes</title>
 
-    <p>In this exercise, students should learn how to to make precise and accurate length measurements with a meter stick and
+    <p>Knowledge Developed: In this exercise, students should learn how to make precise and accurate length measurements with a meter stick and
     two types of calipers, how to read a vernier scale, and how to estimate uncertainty in a measurement.   Students will make
     use of the relationship of the fundamental properties of mass and length to the derived concepts of volume and density.
+    </p>
+    
+    <p>Skills Developed:
+    <ul>
+    <li><p>Proper use of a vernier caliper and scale</p></li>
+    <li><p>Proper use of a micrometer caliper</p></li>
+    <li><p>Evaluating and propagating uncertainties</p></li>
+    </ul>
     </p>
     </section>
 
@@ -415,7 +423,7 @@
     <p><ul>
         <li><p> After finding the relevant dimensions of the object, calculate the volume of the object three times:
         once using the measurements from the ruler, once from the caliper, and once with the micrometer.  </p></li>
-        <li><p> Using the rules of propagation of uncertainty, compute the uncertainty in the volume for each.</p></li>
+        <li><p> Using the <xref ref="ss-propagation" text="title">rules of propagation of uncertainty</xref>, compute the uncertainty in the volume for each.</p></li>
     </ul></p>
             <exercise>
             <statement><p>Which instrument is the most precise?</p></statement>
@@ -427,10 +435,10 @@
     </ul></p>
             <exercise>
             <statement>
-                <p>Are any of the volume measurements inconsistent?
-                What can you infer about the accuracy of these instruments?
-                Using the most precise indirect measurement of volume (those calculated from other measurements),
-                calculate a percent-difference with the direct measurement of volume.</p>
+                <p>Are any of the volume measurements inconsistent (See <xref ref="uncertainty-compare" text="type-global" /> about comparing values)?</p>
+                <p>What can you infer about the accuracy of these instruments?</p>
+                <p>Using the most precise indirect measurement of volume (those calculated from other measurements),
+                calculate a <xref ref="difference" text="title">percent-difference</xref> with the direct measurement of volume.</p>
             </statement>
             <hint><p>When you measure the volume of (let's say the cylinder) with a meterstick, with a caliper, with a micrometer, and with a graduated cylinder, they are all measuring the volume of the same object, which does not change volume.  You <em>expect</em> these to all give the same number.  The question is whether or not <em>your data</em> do actually give the <q>same</q> values.</p></hint>
             <hint><p>Since you are using measurement techniques that have different precision, you will have different ranges of uncertainty.  Numbers are considered to be <q>the same</q> when their uncertainty ranges overlap.</p></hint>
@@ -440,7 +448,7 @@
     <p><ul>
         <li><p> Measure the mass and then, using the overall most precise measurement of volume, compute the density
         with its uncertainty. </p></li>
-        <li><p> Using your best density value, find the percent-error against the appropriate value given by the text,
+        <li><p> Using your best density value, find the <xref ref="error" text="title">percent-error</xref> against the appropriate value given by the text,
         or the <em>Handbook of Physics <ampersand /> Chemistry</em>.</p></li>
         <li><p> Other considerations that might help with your analysis:</p></li>
     </ul></p>
@@ -459,7 +467,7 @@
     <conclusion>
     <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and made the exercises visible -->
     <!-- <p>(Revised: Aug 14, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (291 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Measurement.pdf">Measurement.pdf (295 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -653,7 +661,7 @@
 
         <conclusion>
         <p>Revised: Aug 24, 2017</p>
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (233 kB)</url></p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (235 kB)</url></p>
         </conclusion>
 </chapter>
 
@@ -677,15 +685,23 @@
     </objectives>
 
     <section xml:id="s-acceleration-outcomes"><title>Student Outcomes</title>
-    <p>In this exercise, the student should develop an understanding of the relationships between the position and the
+    <p>Knowledge developed: In this exercise, the student should develop an understanding of the relationships between the position and the
         instantaneous velocity of an object, as well as how each of these can vary as functions of time.
         We will only consider the special case where the object experiences constant acceleration.</p>
+    
+    <p>Skills developed:
+        <ul>
+        <li><p>Evaluate the data for sources of uncertainty. Can you see an effect, such as a level track or the presence of friction, in the result?</p></li>
+        <li><p>Using Pasco Capstone software</p></li>
+        <li><p>Interpreting the slope and intercept of graphs</p></li>
+        </ul>
+        </p>
     </section>
 
     <section xml:id="ss-AccProcedure"><title>Procedure</title>
 
         <introduction>
-                <p><alert>Materials</alert>An aluminum track, a low-friction cart, computer interface with PASCO Capstone<m>^{\rm tm}</m> software, a sonic motion sensor, a small steel ball.</p>
+                <p><alert>Materials</alert>: An aluminum track, a low-friction cart, computer interface with PASCO Capstone<m>^{\rm tm}</m> software, a sonic motion sensor, a small steel ball.</p>
 
                 <p>You should notice that the subsections in this section parallel the subsections in <xref ref="ss-AccAnalysis" text="title" />.</p>
         </introduction>
@@ -949,7 +965,7 @@
     <conclusion>
     <p>(Revised: September 13, 2017)</p> <!-- Validated and fixed the exercises -->
     <!-- <p>(Revised: September 8, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf (207 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Acceleration.pdf">Acceleration.pdf (210 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -1032,6 +1048,24 @@
     </ul></p>
 
 </section>
+
+    <section xml:id="s-newton-outcomes">
+    <title>Student Outcomes</title>
+
+    <p>Knowledge Developed: In this exercise, students should learn how forces are related to the motion of a cart, how to use a free-body diagram, and gain a visceral understanding of Newton's second law.
+    </p>
+
+    <p>Skills Developed:
+    <ul>
+        <li><p>Evaluate the data for sources of uncertainty. Can you see an effect, such as a level track or the presence of friction, in the result?</p></li>
+        <li><p>Using Pasco Capstone software</p></li>
+        <li><p>Interpreting slope and intercept of graphs</p></li>
+    </ul>
+    </p>
+    </section>
+
+
+
 <section xml:id="s-newton-procedure"><title>Procedure</title>
 
 <subsection xml:id="NII-Setup"><title>The Experimental Setup</title>
@@ -1064,7 +1098,7 @@
     </ul>
     </p>
     <exercise>
-    	<statement><p>If the pulley has a very large wheel or is set so that the string is low at the cart, but high at the pulley, then the force pulling the cart is not horizontal.  Draw the free-body diagram for the cart in this case.  Comment on if this increases, decreases, or does not affect each of the other forces ($F_\mathrm{normal}$, $F_\mathrm{gravity}$, $F_\mathrm{friction}$). </p>
+    	<statement><p>If the pulley has a very large wheel or is set so that the string is low at the cart, but high at the pulley, then the force pulling the cart is not horizontal.  Draw the free-body diagram for the cart in this case.  Comment on if this increases, decreases, or does not affect each of the other forces (<m>F_\mathrm{normal}</m>, <m>F_\mathrm{gravity}</m>, <m>F_\mathrm{friction}</m>). </p>
     	</statement>
     	<hint><p>If the tension pulls up, then the normal force does not need to support all of the weight.</p></hint>
     	<hint><p>If the tension pulls slightly up, is there a convenient way to find then angle at which it pulls?  Will that angle depend on how close the cart is to the pulley?</p></hint>
@@ -1205,10 +1239,10 @@
 
 </exercises>
     <conclusion>
-    <p>(Revised: Oct 9, 2017)</p> <!-- Minor revisions based on actual experiment -->
+    <p>(Revised: Oct 11, 2017)</p> <!-- Minor revisions based on actual experiment, added outcomes -->
     <!-- <p>(Revised: Sep 14, 2017)</p> rewrote the Questions -->
     <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (224 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (231 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -1302,7 +1336,26 @@
     </ul></p>
 
 
-</section> <section xml:id="s-friction-procedure"><title>Procedure</title>
+</section> 
+
+    <section xml:id="s-friction-outcomes">
+    <title>Student Outcomes</title>
+
+    <p>Knowledge Developed: In this exercise, students should learn how forces are related to the motion of a cart, how to use a free-body diagram, and gain a visceral understanding of Newton's second law with the (more realistic) inclusion of the effects of friction.
+    </p>
+
+    <p>Skills Developed:
+    <ul>
+        <li><p>Evaluate the data for sources of uncertainty. Can you see an effect, such as a level track or the presence of friction, in the result?</p></li>
+        <li><p>Using Pasco Capstone software</p></li>
+        <li><p>Interpreting slope and intercept of graphs</p></li>
+        <li><p>Evaluating and propagating uncertainties</p></li>
+    </ul>
+    </p>
+    </section>
+
+
+<section xml:id="s-friction-procedure"><title>Procedure</title>
 
     <introduction>
         <p>For the block on the horizontal plane:	
@@ -1398,7 +1451,7 @@
         You should note that while the uncertainty of <m>m</m> and <m>M</m> are about the same, the relative uncertainty of <m>m</m> is much larger than the relative uncertainty of <m>M</m> (and similarly for <m>a</m> and <m>g</m>).  While the uncertainty for <m>m</m> and <m>g</m> have the same numeric value, they cannot be meaningfully compared because they have different units.</p>
 
         <p> Recall the <q>order of operations</q> implies that we <alert>first</alert> add <m>(M+m)</m>, <alert>then</alert> multiply that value by <m>a</m>, <alert>then</alert> add that value to (the product of) <m>mg</m>, and <alert>finally</alert> divide by (the product of) <m>Mg</m>.  We do the propagation of uncertainty in the same order.</p>
-        
+
         <p>Using <xref ref="add" text="type-global">Rule</xref>, add the masses <m>(M+m)</m>:
                 <md>
                 <mrow>(0.30 \pm 0.01 \unit{kg}) + (2.50 \pm 0.02 \unit{kg}) \amp = [(0.30+2.50) \pm (0.01+0.02)]\unit{kg} </mrow>
@@ -1406,7 +1459,7 @@
                 </md>
                 <me>\displaystyle \frac{0.03 \unit{kg}}{2.80\unit{kg}} = 0.011 = 1.1\%</me>
         This overall uncertainty is affected a little bit more by <m>M</m> (in this case) because we are adding uncertainty (not relative uncertainty).</p>
-        
+
         <p>Using <xref ref="mult" text="type-global">Rule</xref>, multiply by the acceleration <m>(M+m)a</m>:
                 <md>
                 <mrow>(2.80 \pm 0.03 \unit{kg})(0.45 \pm 0.04 \unitfrac{m}{s^2}) \amp = [(2.80\unit{kg})(0.45\unitfrac{m}{s^2}] \pm [(0.011+0.089)] </mrow>
@@ -1414,7 +1467,7 @@
                 </md>,
         since <m>(1.26\unit{N})(0.10) = 0.126\unit{N}</m>, this is <m>1.26 \pm 0.13 \unit{N}</m>.<fn>If this were the final answer, you should report it as <m>1.3 \pm 0.1\unit{N}</m>; but since we are continuing to use it in calculations, for the purpose of managing appropriate rounding errors, you can keep an extra insignificant digit, which will maintain consistency.  Please be sure to round your final answer to the appropriate number of significant digits.</fn> In this case, <m>a</m> contributed about <m>8</m> times as much uncertainty.<fn xml:id="fn-precision-of-a">To improve this answer we should focus on a more precise measurement of <m>a</m>, rather than improving the precision of <m>m</m> or <m>M</m>!</fn>
         </p>
-        
+
         <p>We also need to use <xref ref="mult" text="type-global">Rule</xref> to find the uncertainty for <m>mg</m> before combining the numerator:
                 <md>
                 <mrow>(0.30 \pm 0.01 \unit{kg})(9.81 \pm 0.01 \unitfrac{m}{s^2}) \amp = [(0.30\unit{kg})(9.81\unitfrac{m}{s^2}] \pm [(0.033+0.001)] </mrow>
@@ -1429,19 +1482,19 @@
                 </md>
                 <me>\displaystyle \frac{0.23 \unit{N}}{1.68\unit{N}} = 0.14 = 14\%</me>
         Notice that both terms had a similar contribution to the uncertainty.<fn xml:id="fn-fixing-precision">Even if we improved the precision of <m>a</m>, as mentioned in <xref ref="fn-precision-of-a" text="type-global" />, the uncertainty of <m>mg</m> would keep this uncertainty near the <m>0.1</m> to <m>0.2</m> range.  So we need to be more precise with <m>m</m> for the <m>mg</m> term <em>and</em> with <m>a</m> for the <m>(M+m)a</m> term.</fn></p>
-        
+
         <p>Finally, use <xref ref="mult" text="type-global">Rule</xref> to find the uncertainty for the final combination<fn>Remember the rule is to <alert>add</alert> the relative uncertainty whether you are multiplying <alert>or</alert> dividing the values!</fn> of the numerator/denominator:
                 <md>
                 <mrow>\frac{(1.68 \pm 0.23 \unit{N})}{(2.50 \pm 0.02 \unit{kg})(9.81 \pm 0.01 \unitfrac{m}{s^2})} \amp = [\frac{1.68\unit{N}}{(2.50\unit{kg})(9.81\unitfrac{m}{s^2})}] \pm [(0.14+0.008+0.001)] </mrow>
                 <mrow> \amp = 0.0685 \pm [0.15]</mrow>
                 </md>,
         since <m>(0.0685\unit{N})(0.15) = 0.010\unit{N}</m>, this is <m>0.07 \pm 0.01 = (7 \pm 1)\ten{-2}</m>, rounded to the appropriate number of significant digits.</p>
-        
+
         <p>You should note that the uncertainty of the numerator swamps by far the uncertainty of the denominator.  In order to make this measurement more precise, we should focus on improving the precision of <m>m</m> and <m>a</m>, as indicated in <xref ref="fn-fixing-precision" text="type-global" />.</p>
 
         </statement>
     </example>
-    
+
     <p>The graphs and data should also be evaluated as usual.  In this particular experiment, you should
     <ul>
         <li><p> Explain why the normal force on the block by the surface rather than the weight of the object is related to the frictional force.
@@ -1483,8 +1536,9 @@
 </exercises>
 
     <conclusion>
-    <p>(Revised: Sep 21, 2017)</p> <!-- Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (203 kB)</url></p>
+    <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Exercise for propagating uncertainty -->
+<!-- <p>(Revised: Sep 21, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (277 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -1496,7 +1550,7 @@
 <!--    Revisions \revised{Fall 2006}
         -->
 
-    <objectives>
+    <objectives xml:id="centripetal-objective">
     <ul>
     <li><p>It is our purpose to experimentally verify the equation for centripetal force by
         <ul>
@@ -1525,7 +1579,7 @@
     <p>From Newton's second law, <m>\vec F = m \vec a</m>.
     Therefore, the force required to keep the particle of mass <m>m</m> moving in a circle
     with constant speed is
-    <me> F = ma_c = \frac{mv^2}{r} = m\omega^2r </me>
+    <men xml:id="eq-centripetal"> F = ma_c = \frac{mv^2}{r} = m\omega^2r </men>
     Recall that the centripetal force is not a force applied <em>in addition</em> to
     other existing forces.
     The centripetal force is <em>whatever combination</em> of existing force act to
@@ -1542,7 +1596,23 @@
     </ol>
     </p>
 
-</section> <section xml:id="s-centripetal-procedure"><title>Procedure</title>
+</section> 
+
+    <section xml:id="s-centripetal-outcomes">
+    <title>Student Outcomes</title>
+
+    <p>Knowledge Developed: In this exercise, students should learn how the forces required to hold spinning objects in place changes with the speed.
+    </p>
+
+    <p>Skills Developed:
+    <ul>
+        <li><p>Evaluating and propagating uncertainties from the source of uncertainty to the result</p></li>
+    </ul>
+    </p>
+    </section>
+
+
+<section xml:id="s-centripetal-procedure"><title>Procedure</title>
 
     <p>The centripetal force is supplied by a spring.  Since we cannot directly measure
     <q>the force exerted by the spring while it is rotating</q> while it is rotating,
@@ -1580,17 +1650,22 @@
 </section> <section xml:id="s-centripetal-analysis"><title>Analysis</title>
 
     <p>From measurements of <m>m</m>, <m>\omega</m>, and <m>r</m>, calculate the theoretical centripetal force on
-    the mass (which experimentally is supplied by the spring).  The (unmeasurable) amount
+    the mass (which experimentally is supplied by the spring).  You can, of course use <xref ref="mult" text="global">Rule</xref> to determine the uncertainty of this centripetal force (as expected from the theory).</p>
+    
+    <p>The (unmeasurable) amount
     of force exerted by the spring to hold the spinning mass at a particular radius is
     equal to the (measurable) force required to stretch the spring to that radius.  Experimentally determine
-    the force necessary to stretch the spring to a specific radius and compare that with the amount
-    of centripetal force calculated above.</p>
+    the force necessary to stretch the spring to a specific radius.  You should, of course, find the uncertainty in this value as well.</p>
+    
+    <p> In order to verify the theory of centripetal force, and <xref ref="eq-centripetal">Equation</xref> in particular, <xref ref="considerations-compare" text="title">compare</xref> the force needed to stretch the spring with the amount
+    of theoretical centripetal force calculated above.  </p>
 
 </section>
 
     <conclusion>
-    <p>(Revised: Oct 9, 2017)</p> <!-- Clarified how to repeat the measurement for a second value of force -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (179 kB)</url></p>
+    <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Clarified analysis -->
+<!--    <p>(Revised: Oct 9, 2017)</p> Clarified how to repeat the measurement for a second value of force, added outcomes -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (181 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -2256,6 +2331,12 @@
     <em>and</em> your secret code name.  The other copy will have <em>only</em> your secret identity.</p>
 
     </section>
+
+    <conclusion>
+    <p>(Revised: Sep 1, 2008)</p> <!-- Linked to appendix for linearizing.  Suggested using T/2\pi. -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/peer.pdf">peer.pdf (100 kB)</url></p>
+    </conclusion>
+
 </chapter>
 
 <!-- ********************************************************************************************** -->
@@ -2314,7 +2395,7 @@
 
         <p>We can investigate Hooke's law by hanging a mass on a spring, measuring the stretch, and plotting the mass versus the elongation.
         If we rewrite <xref ref="eq-hooke" text="type-global">Equation</xref> relating the mass to the elongation
-        <me> m = \left[ \frac{k}{g} \right] x </me>
+        <men xml:id="eq-hooke-stretching"> m = \left[ \frac{k}{g} \right] x </men>
         then we see an equation of the form <m>y=mx+\cancelto{0}{b}</m>, where the slope depends on both <m>k</m> and <m>g</m>.</p>
 
 <!-- <p>Notice that for the previous equation to be valid,  the acceleration must have the same functional form as the displacement.
@@ -2334,10 +2415,10 @@
     <men xml:id="eq-hookeperiod"> T=2\pi \sqrt{\frac{m}{k}} </men>
     </p>
 
-        <p>We can investigate this relationship by bouncing a mass on a spring, measuring the period, and plotting the mass versus the period.
-        If we rewrite <xref ref="eq-hookeperiod" text="type-global" /> relating the mass to the period
-        <me> m = \left[ k \right] \left( \frac{T}{2\pi} \right)^2 </me>
-        then we see an equation of the form <m>y=ax^2+\cancelto{0}{b}x+\cancelto{0}{c}</m>, where the coefficient only depends on <m>k</m>.</p>
+        <p xml:id="p-hooke-bouncing">We can investigate this relationship by bouncing a mass on a spring, measuring the period, and plotting the mass versus the period.
+        If we rewrite <xref ref="eq-hookeperiod" text="global">Equation</xref> relating the mass to the period
+        <men xml:id="eq-hooke-bouncing"> m = \left[ k \right] \left( \frac{T}{2\pi} \right)^2 </men>
+        then we see an equation of the form <m>y=ax^2+\cancelto{0}{b}x+\cancelto{0}{c}</m>, where the coefficient only depends on <m>k</m>.  Although this is a nonlinear relationship, we can <xref ref="quadratic" text="title">linearize</xref> the expression to find the parameter (slope with uncertainty) more easily.  (See <xref ref="nonlinear" text="type-global" /> for more discussion.)  You may also note that <m>T/2\pi</m> is a more convenient variable than <m>T</m> by itself because it produces a slope equal to <m>k</m> rather than <m>k/(2\pi)^2</m>.</p>
 
         <p>When you compare these relationships of the spring, you should be able to find a value for the acceleration due to gravity as a verification of these two equations.</p>
 
@@ -2365,10 +2446,11 @@
                 Hang various masses and measure the elongation of the spring, to a maximum of 60 cm.
                 Do not over stretch the spring.  Record the bottom end of the mass hanger for the initial reference position.
                 If a tapered spring is used, the small end should be at the top.</p></li>
-            <li><p> Measure the elongation both when the masses are added and then when they are removed.
-                Perfectly elastic objects (possibly your spring) will return to the exact same location when pulled
-                with the same force whether they are being stretched out or being allowed to relax back after stretching.</p></li>
-            <li><p> You will be graphing the relationship between the mass and the displacement.</p></li>
+            <li><p> Measure the elongation both when the masses are added and then when they are removed.</p>
+                <p><em>Perfectly elastic</em> objects (possibly your spring) will return to the exact same location when pulled
+                with the same force whether they are being stretched out or being allowed to relax back after stretching.</p>
+                <p>Objects that are elastic, but not perfectly elastic, will return to approximately the same location, but might retain some deformation.</p></li>
+            <li><p> You will be graphing the relationship between the mass and the displacement, <xref ref="eq-hooke-stretching" text="title">Equation</xref>.</p></li>
         </ul>
         </p>
 
@@ -2380,11 +2462,11 @@
         <li><p> With the same range of masses as in <xref ref="sss-hooke" text="type-global" />,  measure the period of oscillation for each mass.
         You <em>can</em> but do not <em>have to</em> use the same values of mass, as long as the set of masses sampled are in the same range.
         </p></li>
-        <li><p> You will be graphing the relationship between the mass and the period.
-            I recommend using <m>T/(2\pi)</m> as the variable representing the period
+        <li><p> You will be graphing the relationship between the mass and the period, <xref ref="eq-hooke-bouncing" text="title">Equation</xref>.
+            I <xref ref="p-hooke-bouncing" text="title">recommend</xref> using <m>T/(2\pi)</m> as the variable representing the period
             (because it gives nice results for the graphical parameters -- slope and intercept).
         </p></li>
-        <li><p> Advice: Keep the amplitude of vibration small,  because there is a small but measurable effect
+        <li><p> <alert>Advice</alert>: Keep the amplitude of vibration small,  because there is a small but measurable effect
             with the period as a function of the amplitude.
         </p></li>
     </ul>
@@ -2396,29 +2478,29 @@
     <p>
     <ul>
         <li><p> Graph both data sets (<xref ref="sss-hooke" text="type-global" /> and <xref ref="sss-bounce" text="type-global" />)
-            in such a way that the spring constant can be determined graphically (from a linear fit model).
+            in such a way that the spring constant can be determined graphically (from a <xref ref="quadratic" text="title">linear fit</xref> model).
         <ul>
             <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" text="type-global">Equation</xref>
-                depends on two specific variables.</p></li>
+                depends on two specific parameters.</p></li>
             <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" text="type-global">Equation</xref>
-                depends on one specific variable.</p></li>
-            <li><p> With some effort, you should be able to recognize the units of the slope and intercept and find the relevant values.</p></li>
+                depends on one specific parameter.</p></li>
+            <li><p> With some effort, you should be able to recognize the units of the slope and intercept and find the relevant values of those parameters.</p></li>
             </ul>
         </p></li>
         <li><p> Physically interpret the meaning and value for the slopes, and the x and y intercepts for both graphs.</p></li>
         <li><p> Calculate the spring constant for both data sets, using a linear regression method.</p></li>
         <li><p> So far in the analysis, the mass of the spring has been neglected.  How would including the spring mass
-            (or a partial <percent />) affect the slopes or intercepts of the two graphs?
-            For the period graph one would expect to get a zero period with a zero mass.  Why?  What was your observation for the  y-intercept?
+            (or a partial <percent />) affect the slopes or intercepts of the two graphs?</p>
+            <p>For the period graph, one would expect to get a zero period with a zero mass.  Why?  What was your observation for the  y-intercept?
             If the data was modified by adding a constant amount of mass to each mass value  (say 1/3 the mass of the spring)
             and then re-compute the linear regression, then  what happens to the slope and intercept values?
             And do you get a higher linear correlation coefficient?</p></li>
         <li><p> If you assume a value for <m>g</m>, then both graphs will give you <m>k</m>.
-            Compare the precision for these two methods.</p></li>
+            <xref ref="considerations-compare" text="title">Compare</xref> the precision for these two methods.</p></li>
         <li><p> If you do not assume a value for <m>g</m>, then you can use one graph to find <m>k</m> and
             use this calculated value and the other graph to compute <m>g</m>.  How does this value of <m>g</m> compare to
             your expectations?</p></li>
-        <li><p> Compare the elongations when the masses were added and then removed.  Explain any differences.</p></li>
+        <li><p> Compare the elongations when the masses were added and then removed.  Explain any differences.  Is your spring perfectly elastic?</p></li>
         <li><p> Quantify the major sources of uncertainty in this experiment.  Which of the experimental measurements has
             the largest relative uncertainty?</p></li>
     </ul></p>
@@ -2433,7 +2515,7 @@
             <statement><p> Is the spring totally elastic?  (Does the elongation return to the same position when the masses are removed?)</p></statement>
         </exercise>
         <exercise>
-            <statement><p> Which method do you think is more precise?</p></statement>
+            <statement><p> Based on the data, which method do you think is more precise?</p></statement>
         </exercise>
         <exercise>
             <statement><p> Does the force of gravity affect the value of  <m>k</m> (as derived from each method)?  Why or  why not?</p></statement>
@@ -2444,6 +2526,12 @@
         </exercise>
 
     </exercises>
+
+    <conclusion>
+    <p>(Revised: Oct 11, 2017)</p> <!-- Clarified linearization, added cross-referencing links. -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/springs.pdf">springs.pdf (232 kB)</url></p>
+    </conclusion>
+
 </chapter>
 
 
@@ -2497,14 +2585,15 @@
 
     <p>Some considerations while doing this lab:
     <ul>
-        <li><p> The amplitude of oscillation is the maximum angle which the string makes with the vertical.</p></li>
+        <li><p> It turns out that the convenient quantity when graphing is not the period, <m>T</m>, but rather <m>T/(2\pi)</m>.</p></li>
+        <li><p> The amplitude of oscillation is the maximum angle which the string makes from the vertical.</p></li>
         <li><p> In general when testing the mass or the length, it is best to keep the amplitude of oscillation small.</p></li>
         <li><p> When testing any of the relationships, you should measure a few widely-separated values.  If these seem to vary
             significantly, then fill in the gaps between those measurements to make a reliable graph.
-            See <xref ref="q-howmany" text="type-global" />.</p></li>
+            See <xref ref="q-howmany" text="global">Question</xref>.</p></li>
         <li><p> If you can prove that the period is not affected by one of these variables, then you do not need to worry about
             keeping it constant while you measure the other variables.</p></li>
-        <li><p> Your graphical analysis will be better if your graph is linear.  Consider <xref ref="q-linpend" text="type-global" /> for advice on
+        <li><p> Your graphical analysis will be better if your graph is linear.  Consider <xref ref="q-linpend" text="global">Question</xref> for advice on
             making your graphs.</p></li>
     </ul>
     </p>
@@ -2533,7 +2622,7 @@
         </exercise>
         <exercise xml:id="q-linpend">
             <statement><p> If you have a parabolic graph, such as <m>y=ax^2</m>,
-                then you might consider graphing <m>y</m> versus <m>x^2</m> to get a linear graph.
+                then you might consider graphing <m>y</m> versus <m>x^2</m> to get a linear graph.  (See also <xref ref="nonlinear" text="type-global" />.)
                 What is the physical meaning of the slope and the intercept of each of your graphs?</p></statement>
         </exercise>
         <exercise>
@@ -2544,6 +2633,11 @@
         </exercise>
 
 </exercises>
+
+    <conclusion>
+    <p>(Revised: Oct 11, 2017)</p> <!-- Linked to appendix for linearizing.  Suggested using T/2\pi. -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/pendulum.pdf">pendulum.pdf (167 kB)</url></p>
+    </conclusion>
 
 </chapter>
 
@@ -3028,8 +3122,8 @@
     <introduction>
         <p>One of the fundamental aspects of science is knowing the reliability of results.
         The mechanism for gaining this knowledge is first to gauge how well one knows any given measurement
-        and then to propogate this to an indication of the reliability of the results that depend on those
-        measurements.  The primary goal in attending to the propogation of the uncertainty is that it allows
+        and then to propagate this to an indication of the reliability of the results that depend on those
+        measurements.  The primary goal in attending to the propagation of the uncertainty is that it allows
         scientists to determine which measurement is causing the most uncertainty in the result so that
         future experimenters know which measurement to improve to get an improved result.</p>
 
@@ -3065,8 +3159,19 @@
             <p> How well you trust the measurement.
             This is vaguely expressed by the number of decimals, or clearly expressed by the size of the (absolute or relative) uncertainty.
             </p></li>
-            <li><title>error</title>
-            <p> a number that expresses the accuracy.
+            <li><title>uncertainty</title>
+            <p> The <term>uncertainty in a number</term> expresses the precision of a measurement or of a computed result.
+            This can be expressed as the <term>absolute uncertainty</term> (explained in <xref ref="ss-precision" text="title" />), the <term>relative uncertainty</term>,
+            or the <term>percent uncertainty</term>.
+            <md>
+                <mrow> \mbox{relative uncertainty}
+                    &amp;= \left| \frac{\left(\mbox{absolute uncertainty}\right)}{\mbox{measured value}} \right| </mrow>
+                <mrow> \%\mbox{-uncertainty}
+                    &amp;= 100\% * \left| \frac{\left(\mbox{absolute uncetainty}\right)}{\mbox{measured value}} \right| </mrow>
+            </md>
+            </p></li>
+            <li xml:id="error"><title>error</title>
+            <p> The <term>error</term> is a number that expresses the accuracy by comparing the measurement to an accepted (<q>true</q>) value.
             This can be expressed as the <term>absolute error</term>, the <term>relative error</term>, or the <term>percent error</term>.
             <md>
                 <mrow> \mbox{absolute error}
@@ -3077,22 +3182,11 @@
                     &amp;= 100\% * \left| \frac{\left(\mbox{true value} - \mbox{measured value}\right)}{\mbox{true value}} \right| </mrow>
             </md>
             </p></li>
-            <li><title>uncertainty</title>
-            <p> a number that expresses the precision of a measurement or of a computed result.
-            This can be expressed as the <term>absolute uncertainty</term> (explained in <xref ref="ss-precision" text="title" />), the <term>relative uncertainty</term>,
-            or the <term>percent uncertainty</term>.
-            <md>
-                <mrow> \mbox{relative uncertainty}
-                    &amp;= \left| \frac{\left(\mbox{absolute uncertainty}\right)}{\mbox{measured value}} \right| </mrow>
-                <mrow> \%\mbox{-uncertainty}
-                    &amp;= 100\% * \left| \frac{\left(\mbox{absolute uncetainty}\right)}{\mbox{measured value}} \right| </mrow>
-            </md>
-            </p></li>
-            <li><title>difference</title>
-            <p> a number that expresses the consistency of a multiple measurements.
+            <li xml:id="difference"><title>difference</title>
+            <p> The <term>difference</term> is a number that expresses the consistency of a multiple measurements by comparing one measurement to another.
             This can be expressed as the <term>absolute difference</term>, the <term>relative difference</term>, or the <term>percent difference</term>.
             You should notice that since we don't know <em>which</em> measurement to trust, we take the absolute difference relative
-            to the <em>average</em> of the measurements (rather than choosing one measurement as <q>ntrue</q>).
+            to the <em>average</em> of the measurements (rather than choosing one measurement as <q>true</q>).
             <md>
                 <mrow> \mbox{absolute difference}
                     &amp;= \left(\mbox{measurement}_1 - \mbox{measurement}_2\right) </mrow>
@@ -3103,6 +3197,10 @@
             </md>
             </p></li>
             </dl></p>
+
+    <note xml:id="uncertainty-compare"><title>compare</title>
+        <p>Whenever you are asked to <q>compare</q> values, it is expected that you will not only compute a <percent />-error or <percent />-difference (as appropriate, according to the above considerations); but will also comment on if the uncertainty of the values overlap.  Recall that the uncertainty means that your measurement does not distinguish between values within that range, so if the uncertainties overlap, then the values are <q>the same to within your ability to measure them.</q></p>
+    </note>
 
 
         </section>
@@ -3205,6 +3303,11 @@
             </ol> </p></li>
         <li><p> Is the error (deviation) in the experiment reasonable? </p></li>
         </ol></p>
+        
+    <note xml:id="considerations-compare"><title>compare</title>
+        <p>Whenever you are asked to <q>compare</q> values, it is expected that you will not only compute a <percent />-error or <percent />-difference (<xref ref="s-uncertainty" text="title">as appropriate</xref>); but will also comment on if the uncertainty of the values overlap.  Recall that the uncertainty means that your measurement does not distinguish between values within that range, so if the uncertainties overlap, then the values are <q>the same to within your ability to measure them.</q></p>
+    </note>
+
 
         </subsection>
     </section>
@@ -3511,17 +3614,25 @@
 
     <p>Most relationships which are not linear, can be graphed so that the graph is a straight line.
     This process is called a linearization of the data.  This does not change the fundamental relationship or what it represents,
-    but it does change how the graph looks. The goal of this method is that it gives an excellent and easy method for obtaining
-    a mathematical representation of the data.
+    but it does change how the graph looks. The advantage of linearizing non-linear data is that the analysis of the parameters (slope and intercept) becomes significantly easier.
+    Linear regression, which allows us to compute uncertainties in the slope and intercept as well as evaluating deviations from the equation (with residual plots), can be done by Pasco Capstone and Microsoft Excel; but, nonlinear regression requires specialized statistical software or lots of additional formulaic computations.
     </p>
 
-    <p>For example, the equation
+    <p xml:id="inverse">For example, the equation
     <me> X \times Y = \mbox{constant} </me>
     represents an <em>inverse proportion</em> between <m>X</m> and <m>Y</m>.
     A graph of this equation is not a straight line with a negative slope.  Think about this and sketch the curve for yourself.
     This relationship can be graphed in such a way so that the new graph is a straight line.  This change is accomplished by
     choosing a new set of axes, and plotting new numbers which are related to the original set.  In this case if we would plot
     <m>1/X</m> on the x-axis instead of just <m>X</m>, this will yield a straight line graph.  Try it.
+    </p>
+
+    <p xml:id="quadratic">As another example, the equation
+    <me> y = a x^2 </me>
+    represents (a special case of) a <em>quadratic relationship </em> between <m>x</m> and <m>y</m>.
+    A graph of this equation is not a straight line; however, this relationship can be graphed in such a way so that the new graph is a straight line.  
+    This change is accomplished by choosing a new set of axes, and plotting new numbers which are related to the original set.  In this case, if we would plot
+    <m>(x^2)</m> on the x-axis instead of just <m>x</m>, this will yield a straight line graph.  Try it.
     </p>
 
 
@@ -3531,7 +3642,7 @@
     </p>
 
     <sidebyside widths="47% 47%" >
-        <p>To linearize the <em>power relationship</em>
+        <p xml:id="power">To linearize the <em>power relationship</em>
         <me> Y = Bx^M,</me>
         take the natural logarithms of both sides to obtain
         <me> \ln(Y) = \ln(B) + M \ln(X).</me>
@@ -3539,7 +3650,7 @@
         then the graph of this function yields a straight line with slope <m>M</m> and intercept <m>\ln(B)</m>.
         </p>
 
-        <p>To linearize the <em>exponential relationship</em>,
+        <p xml:id="exponential">To linearize the <em>exponential relationship</em>,
         <me> Y = B e^{MX},</me>
         take the logarithm of both sides to obtain
         <me> \ln(Y) = \ln(B) + MX,</me>

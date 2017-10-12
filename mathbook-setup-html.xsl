@@ -13,7 +13,7 @@
 <!-- <xsl:output method="html" /> -->
 
 <xsl:param name="chunk.level" select="'2'" />
-<xsl:param name="author-tools" select="'no'" />
+<xsl:param name="author-tools" select="'yes'" />
 <xsl:param name="toc.level" select="'2'" />
 <xsl:param name="html.css.file"   select="'mathbook-5.css'" />
 

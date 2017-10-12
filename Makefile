@@ -57,6 +57,7 @@ setup: setup-h setup-p
 
 121-h: ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
 	xsltproc ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
+	@echo ""
 
 121-l: ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
 	xsltproc ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
