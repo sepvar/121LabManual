@@ -5,6 +5,7 @@ default:
 	@echo "make -s ... to not display commands when running them"
 	@echo "Choices: setup-h, setup-l, 121-h, 121-l, images, list (prints copy-paste select image creation), counterr, toperr, typeerr, allerr"
 	@echo "make all will make all html, all latex, and images"
+	@echo -e "Suggested process: \nmake 121-p\nmake labdpdf (fix with PDFsam as instructed)\nmake checksize (then if different, continue)\nmake fixsize\nREPEAT ONCE"
 
 git: 
 	git diff-index --stat master
@@ -73,6 +74,54 @@ html: setup-h 121-h
 latex: setup-l 121-l
 
 pdf: 121-p setup-p
+
+checksize:
+	@echo "Building list.one and list.two..."
+	@echo "#!/bin/sh" > list.one
+	@echo "#!/bin/sh" > list.two
+	@grep "PDF version" 121-Lab-Manual.xml | sed 's#.*\">\(.*\)\.pdf (\([0-9][0-9]*\) kB.*#echo "echo -e \\\"\1\\\\tclaim: \2\\\\tactual:\\\" \\\\`expr `stat --printf=%s \1.pdf` / 1000\\\\`" >> list.two#g' >> list.one 
+	./list.one 
+	./list.two
+
+fixsize:
+	@echo "Building step.one and step.two..."
+	@echo "#!/bin/sh" > step.one
+	@echo "#!/bin/sh" > step.two
+	@grep "PDF version" 121-Lab-Manual.xml | sed 's#.*\">\(.*\)\.pdf (\([0-9][0-9]*\) kB.*#echo "echo \\"s^\1.pdf (\2 kB)^\1.pdf (\\\\`expr `stat --printf=%s \1.pdf` / 1000\\\\` kB)^g\\"" >> step.two#g' >> step.one 
+	./step.one 
+	./step.two > step.sed
+	sed -i.size -f step.sed 121-Lab-Manual.xml
+
+buildpdfs: 
+	@echo "Creating scripttolistbyname... (print at end)"
+	@echo "#!/bin/sh" > scripttolistbyname
+	@grep "chapter" fall-lab-manual.toc | \
+		sed -n 'N;l;D' | \
+		sed ':x ; $$!N ; s/\\\\\n// ; tx ; P ; D' | \
+		grep -v "chapter\*" | \
+		sed 's/\(.*\)\$$/\1/g' | \
+		sed 's/.*{.*}{.*{.*}.\{3\}\(.*\)}{\([0-9][0-9]*\)}{\(.*\)}.*{.*}{.*{.*}.*}{\([0-9][0-9]*\)}{.*}/grep \"\1\\}\\\\\\\\\\\\\\\\label\" fall-lab-manual.tex \| sed \x22s#.\*label{\\\\(.\*\\\\)}#\3: `expr \2 + 14`..`expr \4 + 13`\\\\t\\\\1#g\x22 \| sed \x27s#c-##g\x27/g' \
+		>> scripttolistbyname
+	@echo "Creating buildscript..."
+	@echo "#!/bin/sh" > buildscript
+	@grep "chapter" fall-lab-manual.toc | \
+		sed -n 'N;l;D' | \
+		sed ':x ; $$!N ; s/\\\\\n// ; tx ; P ; D' | \
+		grep -v "chapter\*" | \
+		sed 's/\(.*\)\$$/\1/g' | \
+		sed 's/.*{.*}{.*{.*}.\{3\}\(.*\)}{\([0-9][0-9]*\)}{\(.*\)}.*{.*}{.*{.*}.*}{\([0-9][0-9]*\)}{.*}/grep \"\1\\}\\\\\\\\\\\\\\\\label\" fall-lab-manual.tex \| sed \x22s#c-##g\x22 \| sed \x22s#.\*label{\\\\(.\*\\\\)}#pdfseparate -f `expr \2 + 14` -l `expr \4 + 13` fall-lab-manual.pdf \\\\1.\%d.pdf ; rm \\\\1_big.pdf \\\\1.pdf ; pdfunite \\\\1.*.pdf \\\\1_big.pdf ; rm \\\\1.*.pdf ; ps2pdf \\\\1_big.pdf \\\\1.pdf#g\x22/g' \
+		>> buildscript
+	@echo "#!/bin/sh" > buildpdfs
+	@echo "Using buildscript to create buildpdfs..."
+	./buildscript >> buildpdfs
+	@echo "Running buildpdfs to create the lab pdfs."
+	./buildpdfs 2> /dev/null
+	./scripttolistbyname
+	@echo "You need to use PDFsam to fix the labs with pictures: measurement and StDev."
+	@echo -e "I am going to run PDFsam, you should do this:\nextract pages listed\nmv PDFsam_fall-lab_manual.pdf measurement.pdf\nextract pages for StDev\nmv PDFsam_fall_lab_manual.pdf StDev.pdf\nmake checksize\nmake fixsize\n./scripttolistbyname"
+	@/c/Program\ Files\ \(x86\)/PDFsam\ Basic/bin/pdfsam.sh -e ./fall-lab-manual.pdf &
+
+labpdf: buildpdfs
 
 images: 121-Lab-Manual.xml Lab-setup-121.xml
 	${BEE}/script/mbx -v -c latex-image -f svg -d images ${AIY}/121-Lab-Manual.xml
