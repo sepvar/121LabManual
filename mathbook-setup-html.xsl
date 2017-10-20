@@ -16,5 +16,6 @@
 <xsl:param name="author-tools" select="'yes'" />
 <xsl:param name="toc.level" select="'2'" />
 <xsl:param name="html.css.file"   select="'mathbook-5.css'" />
+<xsl:param name="directory.images" select="'.'" />
 
 </xsl:stylesheet>

@@ -25,4 +25,6 @@
     <xsl:text>\setlength{\footskip}{0.5in}</xsl:text>
 </xsl:param>
 
+<xsl:param name="directory.images" select="'.'" />
+
 </xsl:stylesheet>
