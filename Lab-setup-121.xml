@@ -129,7 +129,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>AA13</cell><cell><p>1 Vernier caliper (<xref ref="f-vernier" text="type-global" />)</p></cell><cell><p>Ask faculty if they want digit or analog</p><p>before and after lab, verify
                         digital calipers are turned off</p></cell></row>
                         <row bottom="minor"><cell>AA14</cell><cell><p>1 micrometer (<xref ref="f-vernier" text="type-global" />)</p></cell><cell><p>before and after lab verify jaws are not tight</p></cell></row>
@@ -139,7 +139,7 @@
                         <row bottom="minor"><cell>AE82</cell><cell><p>3 objects to measure</p></cell><cell><p>Ask faculty which objects they want (smooth sphere, rough sphere, cube, block of metal, irregular shape,
                         etc)</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">At the front for students to share</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>S224</p><p>AF36-4</p></cell><cell>at least 1 digital scale</cell><cell><p>the available scale(s) should be able to weigh the chosen objects</p></cell></row>
                 </tabular>
         </table>
@@ -194,7 +194,7 @@
                         <row bottom="medium">
                                 <cell colspan="3" halign="center"></cell></row>
                         <row bottom="medium">
-                                <cell colspan="3"  halign="left">At the front for students to share</cell></row>
+                                <cell colspan="3"  halign="left"><alert>At the front for students to share</alert></cell></row>
                         <row bottom="minor"><cell>AL32-5</cell><cell>several boxes/bags of pennies</cell>
                                 <cell><p>in sufficient number for each student to have up to 50 pennies</p></cell></row>
                 </tabular>
@@ -218,7 +218,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (same as <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
                         <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
                         <row bottom="minor"><cell>AF15</cell><cell><p>Wood Squares</p></cell><cell><p>probably 2-3, used to prop up one end of track</p></cell></row>
@@ -227,9 +227,11 @@
                         <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell><cell><p>used to level the track</p></cell></row>
                         <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">At the front for students to share</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>AA41 or AA42 (drawers)</p></cell><cell>1 gravity protractor</cell><cell><p>This is the large yellow protractor </p></cell></row>
-                        <row bottom="minor"><cell><p>AF44</p></cell><cell>1 pendulum bob</cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
                 </tabular>
         </table>
         <todo>(1) Need a picture of equipment laid out
@@ -254,7 +256,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
                         <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
                         <row bottom="minor"><cell>AF15</cell><cell><p>2-3 small wooden squares</p></cell><cell><p>used to level the track</p></cell></row>
@@ -271,10 +273,12 @@
                                 pennies.</p></cell></row>
                         <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">At the front for students to share</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell><cell><p>(please verify that these function and are set to metric)</p></cell></row>
                         <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell><cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
-                        <row bottom="minor"><cell><p>AF4-4</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell><cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
                 </tabular>
         </table>
         <todo>(1) This picture does not show everything.  Maybe get a picture of equipment laid out clearly?
@@ -304,7 +308,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
                         <row bottom="minor"><cell>S224</cell><cell><p>1 force transducer</p></cell><cell><p>Should be the thing shaped to sit on top of the wooden cart-block and it has a loop-screw at one side to tie a string to</p></cell></row>
                         <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
@@ -324,13 +328,14 @@
                         <row bottom="minor"><cell><p>AG15</p></cell><cell><p>1 thermal glove</p></cell><cell><p><alert>Check with the instructor.</alert>  This is only used as a soft glove to catch the cart in case it accelerates too quickly.  Not all instructors want this.</p></cell></row>
                         <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">At the front for students to share</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
                                 <cell><p>(please verify that these function and are set to metric)</p></cell></row>
                         <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell>
                                 <cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
-                        <row bottom="minor"><cell><p>AF4-4</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
-                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
                 </tabular>
         </table>
         <todo>(1) Check location of string (AE21?)
@@ -340,6 +345,9 @@
         <figure xml:id="f-friction">
                 <caption>The equipment setup.</caption>
                 <image xml:id="i-friction-detail" source="i-friction-detail.jpg" />
+        </figure>
+        <figure xml:id="f-friction-2">
+                <caption>The equipment setup.</caption>
                 <image xml:id="i-friction-overall" source="i-friction-overall.jpg" />
         </figure>
 
@@ -361,7 +369,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>AA13</cell><cell>1 caliper</cell>
                                 <cell><p><alert>Ask instructor</alert> if they want digital or analog (they might not care)</p></cell></row>
                         <row bottom="minor"><cell>AA12</cell><cell>1 stop watch</cell>
@@ -408,7 +416,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>AD41</cell><cell>1 2-slot-perpendicular clamp</cell>
                                 <cell><p>This is used to connect the vertical thick rod to the horizontal small rod</p></cell></row>
                         <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
@@ -426,7 +434,7 @@
                                 <cell><p>each table should have a similar distribution of large and small mass sizes (<alert>Check with instructor</alert>: Your instructor might prefer to use the AF34 box of black hanging
                                 cylinders.)</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">At the front for students to share</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>AF43</p></cell><cell><p>2 boxes of colored springs</p></cell>
                                 <cell><p>Students will be allowed to select their spring.  <alert>Check with instructor</alert>: Your instructor might want specific springs distributed to the tables</p></cell></row>
                 </tabular>
@@ -436,6 +444,9 @@
         <figure xml:id="f-springs">
                 <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
                 <image xml:id="i-springs-overall-A" source="i-springs-overall-A.jpg" />
+        </figure>
+        <figure xml:id="f-springs-2">
+                <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
                 <image xml:id="i-springs-clamps-A" source="i-springs-clamp-A.jpg" />
         </figure>
 
@@ -460,7 +471,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>AA??, maybe AA41?</p></cell><cell>1 plastic protractor</cell>
                                 <cell><p>To measure the amplitude of the pendulum swing.</p></cell></row>
                         <row bottom="minor"><cell>AA12</cell><cell>1 stop watch</cell>
@@ -484,12 +495,73 @@
         <figure xml:id="f-pendulum">
                 <caption>The equipment setup.</caption>
                 <image xml:id="i-pendulum-overall" source="i-pendulum-overall.jpg" />
+        </figure>
+        <figure xml:id="f-pendulum-2">
+                <caption>The equipment setup.</caption>
                 <image xml:id="i-pendulum-clamp" source="i-pendulum-clamp.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-pendulum.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/pendulum.pdf">pendulum.pdf</url></p>
+
+</section>
+
+<!-- ********************************************************************************************** -->
+
+<section xml:id="s-energy"><title>Conservation of Energy</title>
+
+        <p><alert>Check with the instructor:</alert>  There are two versions of this lab.  One is designed for a single week; the other is designed to do over two-weeks.  All of the equipment used in the first week would also be used in the second week, but if you are doing the 2-week version, there are two additional items needed during the second week.</p>
+
+        <p><alert>Check with the instructor:</alert>  This lab is written with the intention of having students decide how to measure certain variables.  This arrangement of equipment assumes that some equipment will be at the front of the room available for students to select; however, your instructor might prefer to have all of it at each lab station.  Please confirm with your specific instructor.</p>
+
+        <table xml:id="t-energy">
+        <caption>Equipment Needed: <xref ref="s-energy" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AF12 (tube)</cell><cell>1 track</cell><cell><p>.</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 cart</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell><cell><p>These might already be attached to the string in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>(attached to plastic bucket?)</p></cell><cell><p>string</p></cell><cell><p>There should be pre-cut string that is long enough to reach from the cart, over the pulley and to a hanging mass. About one meter long.  This is likely in a large box labelled <q>DYNAMIC CARTS
+                                AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>1 pulley</p></cell><cell><p>these are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell><p>AF22</p></cell><cell><p>C-shaped magnetic for the track</p></cell><cell><p>used in the second part of the lab (it will replace the pulley)</p></cell></row>
+                        <row bottom="minor"><cell><p>either AF35 (shelf) or AE82 (drawer)</p></cell><cell><p>1 metal ball (any size)</p></cell><cell><p>used to check the level of the track</p></cell></row>
+                        <row bottom="minor"><cell><p>AF15</p></cell><cell><p>2-3 small wooden squares</p></cell><cell><p>used to level the track</p></cell></row>
+                        <row bottom="minor"><cell><p>-</p></cell><cell><p>Pasco</p></cell><cell><p>Computer</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>S224</p></cell><cell><p>functioning digital scales</p></cell>
+                                <cell><p>(please verify that these function and are set to metric)</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 motion sensor (AKA <q>sonic ranger</q>)</p></cell><cell><p>Should have a black-yellow plug</p></cell></row>
+                        <row bottom="minor"><cell>S224</cell><cell><p>1 force transducer</p></cell><cell><p><alert>This is only needed in the second week</alert> (if you are doing a second week)</p></cell></row>
+                        <row bottom="minor"><cell><p>AD91</p></cell><cell><p>meterstick</p></cell><cell><p>used to measure the height of the hanging basket</p></cell></row>
+                        <row bottom="minor"><cell><p>AF34-14</p></cell><cell><p>ruler</p></cell><cell><p>used to level the string</p></cell></row>
+                        <row bottom="minor"><cell><p>AA41, AA42</p></cell><cell><p>Gravity Protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>Pendulum bob to hang with the gravity-protractor</p></cell>
+                                <cell><p>Used to level the track. (There are enough protractors to give these to everybody, but it is not clear if there are enough pendulua strings and bobs for everybody.)</p>
+                                        <p><em>This really only needs to be a short string with a washer or other small mass tied to it.</em></p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell><cell><p>These are to ride the cart.  A few cylindrical masses in the 200-g to 500-g range.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44</p></cell><cell><p>larger weights</p></cell><cell><p>These are to ride the cart. Two black rectangular masses that fit into the cart.</p></cell></row>
+                        <row bottom="minor"><cell><p>AF44 or AL32-5</p></cell><cell><p>tiny weights</p></cell><cell><p>They will only need one or two to accelerate the basket.  Provide an assortment of 7-10 very small masses (2-5 grams). (Pennies would work, too.)</p></cell></row>
+                </tabular>
+        </table>
+
+        <figure xml:id="f-energy">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-energy-overall" source="i-energy-overall.jpg" />
+        </figure>
+
+    <p>(Updated: October 25, 2017)</p>
+    <p>A digital version of the 1-week version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-energy-1.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-1.pdf">energy-1.pdf</url></p>
+    <p>A digital version of the 2-week version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-energy-2.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-2.pdf">energy-2.pdf</url></p>
 
 </section>
 
@@ -507,23 +579,23 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
                                 <cell><p>.</p></cell></row>
                         <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">At the front for students to share</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell><p>.</p></cell><cell><p>.</p></cell>
                                 <cell><p>.</p></cell></row>
                 </tabular>
         </table>
         <todo>Need a picture of equipment laid out.</todo>
 
+<!--
         <figure xml:id="f-labname">
                 <caption>The equipment setup.</caption>
-<!--
                 <image xml:id="i-labname-overall" source="i-labname-overall.jpg" />
--->
         </figure>
+-->
 
     <p>(Updated: October 12, 2017)</p>
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-labname.html" /></p>
@@ -542,7 +614,7 @@
                         <col width="30%" />
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center">For Each Lab Station</cell><cell></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>AD??</cell><cell><p>2 rod clamps (size depends on the rods you picked)</p></cell>
                                 <cell><p>These connect the vertical rods to the horizontal rod</p></cell></row>
                         <row bottom="minor"><cell>AE??</cell><cell>clamps for the meter-sticks</cell>
@@ -560,7 +632,7 @@
                                 <cell><p>(might need a 1/2-meter stick)</p></cell></row>
                </tabular>
         </table>
-        <todo> (1) Need a picture of equipment laid out. 
+        <todo> (1) Need a picture of equipment laid out.
                 (2) Need a better picture (neutral background) of the equipment setup.
                 (3) Get specific location of clamps (AD??, AE??).</todo>
 

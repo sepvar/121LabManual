@@ -114,9 +114,9 @@
             <shortlicense>
                 <p><url rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-nc-sa-4.0-88x31.png" width="15%" /></url>
                 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHY121 Lab Manual: Thomas More College</span> by
-                <url xmlns:cc="http://creativecommons.org/ns#" href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.html" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url> 
+                <url xmlns:cc="http://creativecommons.org/ns#" href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.html" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url>
                 is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</url>.</p>
-                <p>Permissions beyond the scope of this license may be available by contacting somebody listed at 
+                <p>Permissions beyond the scope of this license may be available by contacting somebody listed at
                 <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" rel="cc:morePermissions">http://www.thomasmore.edu/physics/faculty.cfm</url>.
                 </p></shortlicense>
         </copyright>
@@ -472,7 +472,7 @@
     <conclusion>
     <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and made the exercises visible -->
     <!-- <p>(Revised: Aug 14, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (193 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (300 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -666,7 +666,7 @@
 
         <conclusion>
         <p>Revised: Aug 24, 2017</p>
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (125 kB)</url></p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (238 kB)</url></p>
         </conclusion>
 </chapter>
 
@@ -2060,22 +2060,33 @@
         <xref ref="q-2or1" text="type-global" /> should help you determine how to finish setting up the equipment.</p>
 
         <exercise xml:id="q-KE">
-            <statement><p> In order to verify <m>\Delta E=0</m>, we will need to calculate <m>E</m> as <m>E=K+P</m>.
+            <statement>
+                <p> In order to verify <m>\Delta E=0</m>, we will need to calculate <m>E</m> as <m>E=K+P</m>.
                 Therefore, we need to know the kinetic energy, <m>K=\frac{1}{2} m v^2</m>, the energy of <em>some mass</em>,
-                <m>m</m>, moving at a speed <m>v</m>.  Which mass do you need to measure?  How can you measure the velocity?</p></statement>
+                <m>m</m>, moving at a speed <m>v</m>.  You will have to decide which mass you need to measure.
+                You will also have to decide how to measure the velocity.</p>
+            </statement>
+            <hint><p>The mass that should be used for the kinetic energy is the mass that is moving at this speed.</p></hint>
+            <hint><p>You have measured the speed of these carts several times in previous labs.  Do you recall how you did it then?</p></hint>
+            <hint><p>How does the velocity of the basket compare to the velocity of the block?  Is velocity the quantity you need in this equation?</p></hint>
         </exercise>
         <exercise xml:id="q-PE">
-            <statement><p> In order to verify <m>\Delta E=0</m>, we will need to calculate <m>E</m> as <m>E=K+P</m>.
-            Therefore, we need to know the potential energy, <m>P=m g y</m>, the energy of <em>some mass</em>, <m>m</m>,
-            located some height, <m>y</m>, above the ground.  Which mass do you need to measure?
-            How can you measure the position?</p></statement>
+            <statement>
+                <p> In order to verify <m>\Delta E=0</m>, we will need to calculate <m>E</m> as <m>E=K+P</m>.
+                Therefore, we need to know the potential energy, <m>P=m g y</m>, the energy of <em>some mass</em>, <m>m</m>,
+                located some height, <m>y</m>, above the ground.  You will have to decide which mass you need to measure.
+                You will also have to decide how to measure the <stale>position</stale> height.</p></statement>
+            <hint><p>The mass that should be used for the potential energy is all of the mass that is changing its vertical position.</p></hint>
+            <hint><p>You have measured the position of these carts several times in previous labs.  Do you recall how you did it then?  In this case, which position do you need to know to compute the potential energy?</p></hint>
+            <hint><p>The location that you need in order to compute the potential energy is the height of the thing that is moving vertically.  See also <xref ref="q-2or1" text="type-global" />.</p></hint>
         </exercise>
         <exercise xml:id="q-2or1">
-            <statement><p> In order to measure the position of the falling mass and the velocity of the system,
-            do you need two motion sensors?  Can you manage with one?  Considering that it is a fairly expensive piece of equipment,
-            where should you NOT put the sonic ranger?  Where could you put it?  Depending on where you put the ranger,
-            decide if you need to <q>translate</q> the position or velocity data in order to find the specific values
-            that you actually need.</p></statement>
+            <statement>
+                <p> In order to measure the position of the falling mass and the velocity of the system, do you need two motion sensors?  Can you manage with one?  </p>
+            </statement>
+            <hint><p>The cart and the basket both move the same distance and move with the same speed.</p></hint>
+            <hint><p>If you the position/speed of the basket directly, then, considering that the motion sensor is a fairly expensive piece of equipment, where should you NOT put the sonic ranger?  Where could you put it so that it will not get hit?</p></hint>
+            <hint><p>Depending on where you put the ranger, decide if you need to <q>translate</q> the position or velocity data in order to find the specific values that you actually need.</p></hint>
         </exercise>
 
         <p>Once you decide what variables to measure, run the experiment for one set of masses while measuring the appropriate variables.
@@ -2084,19 +2095,26 @@
         Relate the information in <xref ref="q-EKP" text="type-global" /> to the statement you are trying to verify.</p>
 
         <exercise xml:id="q-plots">
-            <statement><p> To verify <m>\Delta E=0</m>, we will need to graph <m>E</m>, the total mechanical energy,
-            as a function of time.  What do you expect this graph to look like, if the law is valid?  If not?
-            <ol>
-                <li><p> Does the kinetic energy change during this motion?  Is <m>\Delta K=0</m>?
-                    Considering the initial and final values of the kinetic energy, <m>K_i</m> and <m>K_f</m>,
-                    what would a graph of <m>K</m> versus time look like?</p></li>
-                <li><p> Does the potential energy change during this motion?  Is <m>\Delta P=0</m>?
-                    Considering the initial and final values of the potential energy, <m>P_i</m> and <m>P_f</m>,
-                    what would a graph of <m>P</m> versus time look like?</p></li>
-                <li><p> Assuming that the mechanical energy is conserved, what would a graph look like if it included <m>E</m>, <m>K</m>,
-                    and <m>P</m>?  What if the mechanical energy is not conserved?
-                    How would <m>K</m> and <m>P</m> be affected in these two cases?</p></li>
-                <li xml:id="q-bounce"><p> (<xref ref="sss-sloped" text="type-global" /> only)
+            <statement>
+                <p> To verify <m>\Delta E=0</m>, we will need to graph <m>E</m>, the total mechanical energy, as a function of time.  What do you expect this graph to look like, if the law is valid?  If not?</p>
+                <p> See <xref ref="h-plots-KE" text="type-local" /> to think about the graph of kinetic energy.
+                        See <xref ref="h-plots-PE" text="type-local" /> to think about the graph of potential energy.
+                        See <xref ref="h-plots-E" text="type-local" /> to think about the graph of mechanical energy.</p>
+                <p><xref ref="q-bounce" text="type-local" /> is only relevant to <xref ref="sss-sloped" text="type-global" />.</p>
+            </statement>
+            <hint xml:id="h-plots-KE"><p>Does the kinetic energy change during this motion?  Is <m>\Delta K=0</m>?
+                    Considering the initial and final values of the kinetic energy, <m>K_i</m> and <m>K_f</m>, what would a graph of <m>K</m> versus time look like?</p>
+                    <p>See <xref ref="h-plots-v" text="type-local" /> to think about how a graph of velocity might help.</p></hint>
+            <hint xml:id="h-plots-PE"><p>Does the potential energy change during this motion?  Is <m>\Delta P=0</m>?
+                    Considering the initial and final values of the potential energy, <m>P_i</m> and <m>P_f</m>, what would a graph of <m>P</m> versus time look like?</p>
+                    <p>See <xref ref="h-plots-x" text="type-local" /> to think about how a graph of position might help.</p></hint>
+            <hint xml:id="h-plots-E"><p>Assuming that the mechanical energy is conserved, what would a graph look like if it included <m>E</m>, <m>K</m>, and <m>P</m>?  What if the mechanical energy is not conserved?
+                    How would <m>K</m> and <m>P</m> be affected in these two cases?</p></hint>
+            <hint xml:id="h-plots-v"><p>Can you think of an equation of motion that relates the velocity to the time?  Does this produce a linear or quadratic (parabolic) dependence on the time?
+                Since the <m>K \sim v^2</m>, what dependence should <m>K</m> have with the time?</p></hint>
+            <hint xml:id="h-plots-x"><p>Can you think of an equation of motion that relates the position to the time?  Does this produce a linear or quadratic (parabolic) dependence on the time?
+                Since the <m>P \sim y</m>, what dependence should <m>P</m> have with the time?</p></hint>
+            <hint xml:id="q-bounce"><p> (<xref ref="sss-sloped" text="type-global" /> only)
                     When the cart is at the bottom of the track during the motion,
                     the values of position become negative (less than zero!).  Why?  Is there some other place where the energy might go?
                     <ol>
@@ -2109,9 +2127,7 @@
                         <m>\Delta x</m> is the distance from the spring's equilibrium position, not the height (derivable from the position data).
                         Be sure to match up the force values and the <m>x</m> values at those same times.
                         </p></li>
-                    </ol></p>
-                    </li>
-                </ol></p></statement>
+                    </ol></p></hint>
         </exercise>
         <exercise xml:id="q-EKP">
             <statement><p> Please note the overall change in potential energy, <m>\Delta P</m>, and the
@@ -2278,6 +2294,11 @@
     </p>
 
 </section>
+
+    <conclusion>
+    <p>(Revised: Oct 25, 2017)</p> <!-- made some exercises into hints -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-2.pdf">energy-2.pdf (157 kB)</url></p>
+    </conclusion>
 
 </chapter>
 
