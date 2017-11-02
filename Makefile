@@ -65,7 +65,7 @@ setup: setup-h setup-p
 	sed -i.sedfix -f 121-Lab-Manual.sed fall-lab-manual.tex
 
 121-p: 121-l
-	pdflatex fall-lab-manual.tex
+	pdflatex fall-lab-manual.tex && pdflatex fall-lab-manual.tex || pdflatex fall-lab-manual.tex
 
 121: 121-h 121-l
 
@@ -79,7 +79,7 @@ checksize:
 	@echo "Building list.one and list.two..."
 	@echo "#!/bin/sh" > list.one
 	@echo "#!/bin/sh" > list.two
-	@grep "PDF version" 121-Lab-Manual.xml | sed 's#.*\">\(.*\)\.pdf (\([0-9][0-9]*\) kB.*#echo "echo -e \\\"\1\\\\tclaim: \2\\\\tactual:\\\" \\\\`expr `stat --printf=%s \1.pdf` / 1000\\\\`" >> list.two#g' >> list.one 
+	@grep "PDF version" 121-Lab-Manual.xml | sed 's#.*\">\(.*\)\.pdf (\([0-9][0-9]*\) kB.*#echo "echo -e \\\"claim: \2\\\\tactual:\\\" \\\\`expr `stat --printf=%s \1.pdf` / 1000\\\\`\\\\\t\1" >> list.two#g' >> list.one 
 	./list.one 
 	./list.two
 
@@ -92,7 +92,7 @@ fixsize:
 	./step.two > step.sed
 	sed -i.size -f step.sed 121-Lab-Manual.xml
 
-buildpdfs: 
+buildpdfs: fall-lab-manual.tex
 	@echo "Creating scripttolistbyname... (print at end)"
 	@echo "#!/bin/sh" > scripttolistbyname
 	@grep "chapter" fall-lab-manual.toc | \
@@ -100,7 +100,7 @@ buildpdfs:
 		sed ':x ; $$!N ; s/\\\\\n// ; tx ; P ; D' | \
 		grep -v "chapter\*" | \
 		sed 's/\(.*\)\$$/\1/g' | \
-		sed 's/.*{.*}{.*{.*}.\{3\}\(.*\)}{\([0-9][0-9]*\)}{\(.*\)}.*{.*}{.*{.*}.*}{\([0-9][0-9]*\)}{.*}/grep \"\1\\}\\\\\\\\\\\\\\\\label\" fall-lab-manual.tex \| sed \x22s#.\*label{\\\\(.\*\\\\)}#\3: `expr \2 + 14`..`expr \4 + 13`\\\\t\\\\1#g\x22 \| sed \x27s#c-##g\x27/g' \
+		sed 's/.*{.*}{.*{.*}.\{3\}\(.*\)}{\([0-9][0-9]*\)}{\(.*\)}.*{.*}{.*{.*}.*}{\([0-9][0-9]*\)}{.*}/grep \"\1\\}\\\\\\\\\\\\\\\\label\" fall-lab-manual.tex \| sed \x22s#.\*label{\\\\(.\*\\\\)}#\3: `expr \2 + 12`..`expr \4 + 11`\\\\t\\\\1#g\x22 \| sed \x27s#c-##g\x27/g' \
 		>> scripttolistbyname
 	@echo "Creating buildscript..."
 	@echo "#!/bin/sh" > buildscript
@@ -109,7 +109,7 @@ buildpdfs:
 		sed ':x ; $$!N ; s/\\\\\n// ; tx ; P ; D' | \
 		grep -v "chapter\*" | \
 		sed 's/\(.*\)\$$/\1/g' | \
-		sed 's/.*{.*}{.*{.*}.\{3\}\(.*\)}{\([0-9][0-9]*\)}{\(.*\)}.*{.*}{.*{.*}.*}{\([0-9][0-9]*\)}{.*}/grep \"\1\\}\\\\\\\\\\\\\\\\label\" fall-lab-manual.tex \| sed \x22s#c-##g\x22 \| sed \x22s#.\*label{\\\\(.\*\\\\)}#pdfseparate -f `expr \2 + 14` -l `expr \4 + 13` fall-lab-manual.pdf \\\\1.\%d.pdf ; rm \\\\1_big.pdf \\\\1.pdf ; pdfunite \\\\1.*.pdf \\\\1_big.pdf ; rm \\\\1.*.pdf ; ps2pdf \\\\1_big.pdf \\\\1.pdf#g\x22/g' \
+		sed 's/.*{.*}{.*{.*}.\{3\}\(.*\)}{\([0-9][0-9]*\)}{\(.*\)}.*{.*}{.*{.*}.*}{\([0-9][0-9]*\)}{.*}/grep \"\1\\}\\\\\\\\\\\\\\\\label\" fall-lab-manual.tex \| sed \x22s#c-##g\x22 \| sed \x22s#.\*label{\\\\(.\*\\\\)}#pdfseparate -f `expr \2 + 12` -l `expr \4 + 11` fall-lab-manual.pdf \\\\1.\%d.pdf ; rm \\\\1_big.pdf \\\\1.pdf ; pdfunite \\\\1.*.pdf \\\\1_big.pdf ; rm \\\\1.*.pdf ; ps2pdf \\\\1_big.pdf \\\\1.pdf#g\x22/g' \
 		>> buildscript
 	@echo "#!/bin/sh" > buildpdfs
 	@echo "Using buildscript to create buildpdfs..."
@@ -118,7 +118,7 @@ buildpdfs:
 	./buildpdfs 2> /dev/null
 	./scripttolistbyname
 	@echo "You need to use PDFsam to fix the labs with pictures: measurement and StDev."
-	@echo -e "I am going to run PDFsam, you should do this:\nextract pages listed\nmv PDFsam_fall-lab_manual.pdf measurement.pdf\nextract pages for StDev\nmv PDFsam_fall_lab_manual.pdf StDev.pdf\nmake checksize\nmake fixsize\n./scripttolistbyname"
+	@echo -e "I am going to run PDFsam, you should do this:\nextract pages listed\nmv PDFsam_fall-lab-manual.pdf measurement.pdf\nextract pages for StDev\nmv PDFsam_fall-lab-manual.pdf StDev.pdf\nmake checksize\nmake fixsize\n./scripttolistbyname"
 	@/c/Program\ Files\ \(x86\)/PDFsam\ Basic/bin/pdfsam.sh -e ./fall-lab-manual.pdf &
 
 labpdf: buildpdfs

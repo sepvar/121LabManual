@@ -46,10 +46,10 @@
                 <package>xpicture</package>
                 <package>xcolor</package>
                 <package>coordsys</package>
+                <package>hmwk</package>
         -->
 
         <latex-preamble>
-                <package>hmwk</package>
                 <package>cancel</package>
         </latex-preamble>
 
@@ -88,13 +88,6 @@
             <email>RyleW@ThomasMore.edu</email>
         </author>
 
-        <credit>
-            <title>Credit for MathBookXML / <pretext /> format:</title>
-            <author>
-                <personname>Robert A. Beezer</personname>
-            </author>
-        </credit>
-
         <date>Latest update: <today /></date>
 
     </titlepage>
@@ -112,11 +105,11 @@
             <year>2017<ndash />2018</year>
             <holder>J. Christensen, J. Wells, W. Ryle</holder>
             <shortlicense>
-                <p><url rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-nc-sa-4.0-88x31.png" width="15%" /></url>
+                <p><url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-sa-4-0-88x31.png" width="15%" /></url>
                 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHY121 Lab Manual: Thomas More College</span> by
-                <url xmlns:cc="http://creativecommons.org/ns#" href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.html" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url>
-                is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</url>.</p>
-                <p>Permissions beyond the scope of this license may be available by contacting somebody listed at
+                <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url>
+                is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</url>.</p>
+                <p>Permissions beyond the scope of this license may be available by contacting one of the authors listed at
                 <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" rel="cc:morePermissions">http://www.thomasmore.edu/physics/faculty.cfm</url>.
                 </p></shortlicense>
         </copyright>
@@ -164,6 +157,7 @@
 
     <!-- Each paragraph gets centered and has some vertical separatation -->
     <!-- A line element may be used here with a single paragraph   -->
+<!--
     <dedication xml:id="general-fall-dedication">
         <p>
             <line>To students of physics everywhere</line>
@@ -171,16 +165,17 @@
         </p>
         <p>And to those who teach them</p>
     </dedication>
+-->
 
     <acknowledgement xml:id="general-fall-ack">
 
-        <p>I would like to acknowledge the following reviewers for their helpful comments and suggestions.
+        <p>We would like to acknowledge the following reviewers and users for their helpful comments and suggestions.
         <ul>
             <li><p>Tom Neal, Physics Adjunct</p></li>
             <li><p>Dr. Jeremy Huber, Physics Sabbatical Replacement</p></li>
         </ul></p>
 
-        <p>I would also like to thank <ellipsis /></p>
+        <p>I would also like to thank Robert A. Beezer and David Farmer for their hard work and guidance with the MathBookXML / <pretext /> format.</p>
 
     </acknowledgement>
 
@@ -192,7 +187,7 @@
     </preface>
 
     <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
-    <p>A full PDF of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf" /> (924 kB).</p>
+    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (661 kB)</url></p>
     </preface>
 
 </frontmatter>
@@ -472,7 +467,7 @@
     <conclusion>
     <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and made the exercises visible -->
     <!-- <p>(Revised: Aug 14, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (300 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (302 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -666,7 +661,7 @@
 
         <conclusion>
         <p>Revised: Aug 24, 2017</p>
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (238 kB)</url></p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (239 kB)</url></p>
         </conclusion>
 </chapter>
 
@@ -1247,7 +1242,7 @@
     <p>(Revised: Oct 11, 2017)</p> <!-- Minor revisions based on actual experiment, added outcomes -->
     <!-- <p>(Revised: Sep 14, 2017)</p> rewrote the Questions -->
     <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (158 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (161 kB)</url></p>
     </conclusion>
 </chapter>
 
@@ -1543,7 +1538,7 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Exercise for propagating uncertainty -->
 <!-- <p>(Revised: Sep 21, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (174 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (175 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -2066,9 +2061,9 @@
                 <m>m</m>, moving at a speed <m>v</m>.  You will have to decide which mass you need to measure.
                 You will also have to decide how to measure the velocity.</p>
             </statement>
-            <hint><p>The mass that should be used for the kinetic energy is the mass that is moving at this speed.</p></hint>
-            <hint><p>You have measured the speed of these carts several times in previous labs.  Do you recall how you did it then?</p></hint>
-            <hint><p>How does the velocity of the basket compare to the velocity of the block?  Is velocity the quantity you need in this equation?</p></hint>
+            <hint><title>mass</title><p>The mass that should be used for the kinetic energy is the mass that is moving at this speed.</p></hint>
+            <hint><title>how to measure velocity</title><p>You have measured the speed of these carts several times in previous labs.  Do you recall how you did it then?</p></hint>
+            <hint><title>where to measure velocity</title><p>How does the velocity of the basket compare to the velocity of the block?  Is velocity the quantity you need in this equation?</p></hint>
         </exercise>
         <exercise xml:id="q-PE">
             <statement>
@@ -2076,9 +2071,9 @@
                 Therefore, we need to know the potential energy, <m>P=m g y</m>, the energy of <em>some mass</em>, <m>m</m>,
                 located some height, <m>y</m>, above the ground.  You will have to decide which mass you need to measure.
                 You will also have to decide how to measure the <stale>position</stale> height.</p></statement>
-            <hint><p>The mass that should be used for the potential energy is all of the mass that is changing its vertical position.</p></hint>
-            <hint><p>You have measured the position of these carts several times in previous labs.  Do you recall how you did it then?  In this case, which position do you need to know to compute the potential energy?</p></hint>
-            <hint><p>The location that you need in order to compute the potential energy is the height of the thing that is moving vertically.  See also <xref ref="q-2or1" text="type-global" />.</p></hint>
+            <hint><title>mass</title><p>The mass that should be used for the potential energy is all of the mass that is changing its vertical position.</p></hint>
+            <hint><title>how to measure position</title><p>You have measured the position of these carts several times in previous labs.  Do you recall how you did it then?  In this case, which position do you need to know to compute the potential energy?</p></hint>
+            <hint><title>where to measure position</title><p>The location that you need in order to compute the potential energy is the height of the thing that is moving vertically.  See also <xref ref="q-2or1" text="type-global" />.</p></hint>
         </exercise>
         <exercise xml:id="q-2or1">
             <statement>
@@ -2097,24 +2092,26 @@
         <exercise xml:id="q-plots">
             <statement>
                 <p> To verify <m>\Delta E=0</m>, we will need to graph <m>E</m>, the total mechanical energy, as a function of time.  What do you expect this graph to look like, if the law is valid?  If not?</p>
+<!-- Now that we have titled hints, I don't think I need this direction
                 <p> See <xref ref="h-plots-KE" text="type-local" /> to think about the graph of kinetic energy.
                         See <xref ref="h-plots-PE" text="type-local" /> to think about the graph of potential energy.
                         See <xref ref="h-plots-E" text="type-local" /> to think about the graph of mechanical energy.</p>
-                <p><xref ref="q-bounce" text="type-local" /> is only relevant to <xref ref="sss-sloped" text="type-global" />.</p>
+-->
+                <p><alert>Note:</alert> <xref ref="q-bounce" text="type-local" /> is only relevant to <xref ref="sss-sloped" text="type-global" />.</p>
             </statement>
-            <hint xml:id="h-plots-KE"><p>Does the kinetic energy change during this motion?  Is <m>\Delta K=0</m>?
+            <hint xml:id="h-plots-KE"><title>KE-graph</title><p>Does the kinetic energy change during this motion?  Is <m>\Delta K=0</m>?
                     Considering the initial and final values of the kinetic energy, <m>K_i</m> and <m>K_f</m>, what would a graph of <m>K</m> versus time look like?</p>
                     <p>See <xref ref="h-plots-v" text="type-local" /> to think about how a graph of velocity might help.</p></hint>
-            <hint xml:id="h-plots-PE"><p>Does the potential energy change during this motion?  Is <m>\Delta P=0</m>?
+            <hint xml:id="h-plots-PE"><title>PE-graph</title><p>Does the potential energy change during this motion?  Is <m>\Delta P=0</m>?
                     Considering the initial and final values of the potential energy, <m>P_i</m> and <m>P_f</m>, what would a graph of <m>P</m> versus time look like?</p>
                     <p>See <xref ref="h-plots-x" text="type-local" /> to think about how a graph of position might help.</p></hint>
-            <hint xml:id="h-plots-E"><p>Assuming that the mechanical energy is conserved, what would a graph look like if it included <m>E</m>, <m>K</m>, and <m>P</m>?  What if the mechanical energy is not conserved?
+            <hint xml:id="h-plots-E"><title>E-graph</title><p>Assuming that the mechanical energy is conserved, what would a graph look like if it included <m>E</m>, <m>K</m>, and <m>P</m>?  What if the mechanical energy is not conserved?
                     How would <m>K</m> and <m>P</m> be affected in these two cases?</p></hint>
-            <hint xml:id="h-plots-v"><p>Can you think of an equation of motion that relates the velocity to the time?  Does this produce a linear or quadratic (parabolic) dependence on the time?
+            <hint xml:id="h-plots-v"><title>velocity-graph</title><p>Can you think of an equation of motion that relates the velocity to the time?  Does this produce a linear or quadratic (parabolic) dependence on the time?
                 Since the <m>K \sim v^2</m>, what dependence should <m>K</m> have with the time?</p></hint>
-            <hint xml:id="h-plots-x"><p>Can you think of an equation of motion that relates the position to the time?  Does this produce a linear or quadratic (parabolic) dependence on the time?
+            <hint xml:id="h-plots-x"><title>position-graph</title><p>Can you think of an equation of motion that relates the position to the time?  Does this produce a linear or quadratic (parabolic) dependence on the time?
                 Since the <m>P \sim y</m>, what dependence should <m>P</m> have with the time?</p></hint>
-            <hint xml:id="q-bounce"><p> (<xref ref="sss-sloped" text="type-global" /> only)
+            <hint xml:id="q-bounce"><title>Negative PE?</title><p> (<xref ref="sss-sloped" text="type-global" /> only)
                     When the cart is at the bottom of the track during the motion,
                     the values of position become negative (less than zero!).  Why?  Is there some other place where the energy might go?
                     <ol>
@@ -2297,7 +2294,7 @@
 
     <conclusion>
     <p>(Revised: Oct 25, 2017)</p> <!-- made some exercises into hints -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-2.pdf">energy-2.pdf (157 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-2.pdf">energy-2.pdf (166 kB)</url></p>
     </conclusion>
 
 </chapter>
@@ -2350,7 +2347,7 @@
     (personally selected) code name.  Do not tell anybody what you selected and do not use a nickname that is easily
     recognizable by others -- the point of a secret identity is to keep the secret!</p>
 
-    <p>In this week's lab, one lab section will do <xref ref="c-Hooke" text="title" /> and the other lab section will do
+    <p>In this week's lab, one lab section will do <xref ref="c-springs" text="title" /> and the other lab section will do
     <xref ref="c-pendulum" text="title" />.  The underlying ideas are similar to each other and will help you next week when you
     review an article submitted by a colleague who did the other experiment.  When you submit your lab this week,
     you will submit your notebook and two (almost identical) copies of your report.  One copy will have your name
@@ -2367,7 +2364,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="c-Hooke"><title>Hooke's Law and Simple Harmonic Motion</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+<chapter xml:id="c-springs"><title>Hooke's Law and Simple Harmonic Motion</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
 
     <objectives>
     <introduction>
