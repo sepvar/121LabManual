@@ -19,11 +19,11 @@ mathbook-setup-latex.xsl:
 mathbook-setup-html.xsl: 
 	git diff-index --name-only master | grep mathbook-setup-html.xsl && git diff-index --stat master
 
-mathbook-121-latex.xsl: 
-	git diff-index --name-only master | grep mathbook-121-latex.xsl && git diff-index --stat master 
+mathbook-lab-latex.xsl: 
+	git diff-index --name-only master | grep mathbook-lab-latex.xsl && git diff-index --stat master 
 
-mathbook-121-html.xsl: 
-	git diff-index --name-only master | grep mathbook-121-html.xsl && git diff-index --stat master
+mathbook-lab-html.xsl: 
+	git diff-index --name-only master | grep mathbook-lab-html.xsl && git diff-index --stat master
 
 Lab-setup-121.xml:
 	git diff-index --name-only master | grep Lab-setup-121.xml && git diff-index --stat master
@@ -38,11 +38,11 @@ ${BEE}/user/mathbook-setup-latex.xsl: mathbook-setup-latex.xsl
 ${BEE}/user/mathbook-setup-html.xsl: mathbook-setup-html.xsl
 	cp mathbook-setup-html.xsl ${BEE}/user/
 
-${BEE}/user/mathbook-121-latex.xsl: mathbook-121-latex.xsl
-	cp mathbook-121-latex.xsl ${BEE}/user/
+${BEE}/user/mathbook-lab-latex.xsl: mathbook-lab-latex.xsl
+	cp mathbook-lab-latex.xsl ${BEE}/user/
 
-${BEE}/user/mathbook-121-html.xsl: mathbook-121-html.xsl
-	cp mathbook-121-html.xsl ${BEE}/user/
+${BEE}/user/mathbook-lab-html.xsl: mathbook-lab-html.xsl
+	cp mathbook-lab-html.xsl ${BEE}/user/
 
 setup-h: ${BEE}/user/mathbook-setup-html.xsl Lab-setup-121.xml 
 	xsltproc ${BEE}/user/mathbook-setup-html.xsl Lab-setup-121.xml
@@ -56,12 +56,12 @@ setup-p: setup-l
 setup: setup-h setup-p
 
 
-121-h: ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
-	xsltproc ${BEE}/user/mathbook-121-html.xsl 121-Lab-Manual.xml
+121-h: ${BEE}/user/mathbook-lab-html.xsl 121-Lab-Manual.xml
+	xsltproc ${BEE}/user/mathbook-lab-html.xsl 121-Lab-Manual.xml
 	@echo ""
 
-121-l: ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
-	xsltproc ${BEE}/user/mathbook-121-latex.xsl 121-Lab-Manual.xml
+121-l: ${BEE}/user/mathbook-lab-latex.xsl 121-Lab-Manual.xml
+	xsltproc ${BEE}/user/mathbook-lab-latex.xsl 121-Lab-Manual.xml
 	sed -i.sedfix -f 121-Lab-Manual.sed fall-lab-manual.tex
 
 121-p: 121-l
