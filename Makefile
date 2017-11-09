@@ -51,7 +51,7 @@ setup-l: ${BEE}/user/mathbook-setup-latex.xsl Lab-setup-121.xml
 	xsltproc ${BEE}/user/mathbook-setup-latex.xsl Lab-setup-121.xml
 
 setup-p: setup-l
-	pdflatex TMC-lab-setup.tex
+	pdflatex TMC-lab-setup.tex && pdflatex TMC-lab-setup.tex || pdflatex TMC-lab-setup.tex
 
 setup: setup-h setup-p
 
@@ -64,8 +64,11 @@ setup: setup-h setup-p
 	xsltproc ${BEE}/user/mathbook-lab-latex.xsl 121-Lab-Manual.xml
 	sed -i.sedfix -f 121-Lab-Manual.sed fall-lab-manual.tex
 
-121-p: 121-l
+fall-lab-manual.tex: 121-l
+
+121-p: fall-lab-manual.tex
 	pdflatex fall-lab-manual.tex && pdflatex fall-lab-manual.tex || pdflatex fall-lab-manual.tex
+	@echo "\nYou should probably run [make labpdf] to make individual pdfs for each of the lab exercises."
 
 121: 121-h 121-l
 
@@ -92,7 +95,9 @@ fixsize:
 	./step.two > step.sed
 	sed -i.size -f step.sed 121-Lab-Manual.xml
 
-buildpdfs: fall-lab-manual.tex
+fall-lab-manual.pdf: 121-p
+
+buildpdfs: fall-lab-manual.pdf
 	@echo "Creating scripttolistbyname... (print at end)"
 	@echo "#!/bin/sh" > scripttolistbyname
 	@grep "chapter" fall-lab-manual.toc | \
@@ -118,8 +123,8 @@ buildpdfs: fall-lab-manual.tex
 	./buildpdfs 2> /dev/null
 	./scripttolistbyname
 	@echo "You need to use PDFsam to fix the labs with pictures: measurement and StDev."
-	@echo -e "I am going to run PDFsam, you should do this:\nextract pages listed\nmv PDFsam_fall-lab-manual.pdf measurement.pdf\nextract pages for StDev\nmv PDFsam_fall-lab-manual.pdf StDev.pdf\nmake checksize\nmake fixsize\n./scripttolistbyname"
-	@/c/Program\ Files\ \(x86\)/PDFsam\ Basic/bin/pdfsam.sh -e ./fall-lab-manual.pdf &
+	@/c/Program\ Files\ \(x86\)/PDFsam\ Basic/bin/pdfsam.sh -e ./fall-lab-manual.pdf 2> /dev/null &
+	@echo -e "I am running PDFsam, you should do this:\nextract pages listed\nmv PDFsam_fall-lab-manual.pdf measurement.pdf\nextract pages for StDev\nmv PDFsam_fall-lab-manual.pdf StDev.pdf\nextract all pages (to compress the full manual)\nmv PDFsam_fall-lab-manual.pdf fall-lab-manual.pdf\nmake checksize\nmake fixsize\n./scripttolistbyname"
 
 labpdf: buildpdfs
 

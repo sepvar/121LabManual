@@ -187,7 +187,7 @@
     </preface>
 
     <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
-    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (661 kB)</url></p>
+    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (679 kB)</url></p>
     </preface>
 
 </frontmatter>
@@ -334,11 +334,11 @@
                             Clearly for an egg, there is no reasonable single value to use as The Diameter.
                             In this case, the question of finding the diameter does not make sense, and by measuring in a systematic pattern,
                             you can determine that the shape is not spherical.</p>
-                            <p>Determine if the zero-point error and the parallax error are random or systematic.</p>
+                            <p>Determine if the zero-point error and the parallax error are <xref ref="p-random-systematic" text="title">random or systematic</xref>.</p>
                         </statement>
                         <hint><p>If a meterstick is worn down at the zero-value, then is it more likely to be measuring too short or too long?
-                        Is that systematic or random?</p></hint>
-                        <hint><p>For a measurement affected by parallax, is that systematic or random?</p></hint>
+                        Is that <xref ref="p-random-systematic" text="title">systematic or random</xref>?</p></hint>
+                        <hint><p>For a measurement affected by parallax, is that <xref ref="p-random-systematic" text="title">systematic or random</xref>?</p></hint>
                         <solution>
                             <p>Since random errors might give a result too big or too small,
                             measuring many times and averaging should minimize these errors.</p>
@@ -467,7 +467,7 @@
     <conclusion>
     <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and made the exercises visible -->
     <!-- <p>(Revised: Aug 14, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (302 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (304 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
@@ -1245,7 +1245,7 @@
     <p>(Revised: Oct 11, 2017)</p> <!-- Minor revisions based on actual experiment, added outcomes -->
     <!-- <p>(Revised: Sep 14, 2017)</p> rewrote the Questions -->
     <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (161 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (162 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
@@ -1542,7 +1542,7 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Exercise for propagating uncertainty -->
 <!-- <p>(Revised: Sep 21, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (175 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (176 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
@@ -1670,7 +1670,7 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Clarified analysis -->
 <!--    <p>(Revised: Oct 9, 2017)</p> Clarified how to repeat the measurement for a second value of force, added outcomes -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (82 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (83 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
@@ -2363,7 +2363,7 @@
     </section>
 
     <conclusion>
-    <p>(Revised: Sep 1, 2008)</p> <!-- Linked to appendix for linearizing.  Suggested using T/2\pi. -->
+    <p>(Revised: Sep 1, 2008)</p> <!-- Linked to appendix for linearizing.  Suggested using <m>T/2\pi<m>. -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/peer.pdf">peer.pdf (47 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -2560,7 +2560,7 @@
 
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Clarified linearization, added cross-referencing links. -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/springs.pdf">springs.pdf (236 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/springs.pdf">springs.pdf (122 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
@@ -2682,7 +2682,7 @@
 
     <objectives>
     <ul>
-    <li><p>To verify that the equations of conservation of momentum and conservation of mechanical energy give the same results as the equations of two-dimensional motion by comparing the initial velocity of the ballistic projectile from two different sets of experimental measurements:
+    <li><p>To verify that the equations of conservation of momentum and conservation of mechanical energy give the same results as the equations of two-dimensional motion by comparing the initial velocity (the <q>muzzle velocity</q>) of the ballistic projectile from two different sets of experimental measurements:
         <ul>
             <li><p>the range and vertical height measurements of the projectile motion, and</p></li>
             <li><p>through the use of the ballistic pendulum.</p></li>
@@ -2692,35 +2692,39 @@
 
 <introduction><title>Introduction</title>
 
-    <p>Conservation laws will again play a significant part in this ballistic pendulum experiment.
-    A ballistic pendulum is a devise which has a cavity in the pendulum bob, and a small ball will be
-    fired into and captured in this cavity.  When this happens, the initially stationary pendulum will
-    swing about the pendulum's point of support.  During this collision between the ball and the
+    <p>Conservation laws play a significant part in this ballistic pendulum experiment.
+    A ballistic pendulum is a pendulum that swings after catching a small ball that has been fired into it.
+    The amount of swing depends on the energy and momentum transfer of the collision.
+    During this collision between the ball and the
     pendulum, the momentum of the total system should be conserved from the instant just prior, to the
-    instant just after the collision.  Physicist's hold true a general conservation law for momentum
+    instant just after the collision.  Physicists recognize a general conservation law for momentum
     which applies in all interactions of two or more objects where there are no other outside forces
-    acting on the system.  For collisions on the earth, the force of gravity is an outside force but
+    acting on the system.  For collisions on the Earth, the force of gravity is an outside force but
     momentum is still considered to be conserved if the time of the interaction is small.</p>
 
-    <p>The collision in this experiment is called a totally inelastic collision because after the
-    collision the two objects are held together, they move together with a single velocity, and the
-    kinetic energy of the system is not conserved during the collision.  Using the general
-    conservation of momentum law for the collision described an equation can be written for the
-    initial velocity of the ball in terms of the velocity of the system at the instant after the
-    collision and the individual masses of the ball and the pendulum.  After the collision the
+    <p>There are three categories of collisions: <term>elastic collisions</term>, <term>inelastic collisions</term>, and <term> totally inelastic collisions</term>.
+    The <q>elasticity</q> of the collision refers to whether or not the total kinetic energy of the objects involved is conserved (remains the same before and after).
+    Totally inelastic collisions are those inelastic collisions in which either the objects start together and end apart (some form of spontaneous separation, like throwing) or the objects start apart and end together (some form of connecting, like catching).
+    Since the pendulum bob catches the ball, they move off with the same velocity <m>(\vec v_{1f} = \vec v_{2f})</m> and the
+    kinetic energy of the system is cannot be conserved during the collision.  Using the general
+    conservation of momentum law for the collision described,
+    <me>m_1 \vec v_{1i} + M_2 \vec v_{2i} = m_1 \vec v_{1f} + M_2 \vec v_{2f} = (m_1+M_2) \vec v_f </me>
+    an equation can be written for the
+    initial velocity of the ball <m>(v_{1i})</m> in terms of the velocity of the system at the instant after the
+    collision <m>(v_f)</m> and the individual masses of the ball <m>(m_1)</m> and the pendulum <m>(M_2)</m>.  After the collision the
     pendulum and ball will swing and at the highest point in the swing they will be caught.  The
-    KE of the system at the instant after the collision is converted totally to PE at the highest
-    point in the swing.  The velocity of the system at the instant after the collision can then be
+    <em>KE of the system at the instant after the collision</em> is converted totally to the <em>PE of the system at the highest
+    point in the swing</em>.  The velocity of the system <em>at the instant after the collision</em> can therefore be
     determined using the law of conservation of energy.  Then with these two conservation laws, the
     initial velocity of the ball can be determined.</p>
 
     <p>The initial velocity of the ball can also be determined by firing the ball horizontally
-    off the edge of the table and analyzing the 2-dimensional projectile motion of  the ball moving
+    off the edge of the table and analyzing the 2-dimensional projectile motion of the ball moving
     under the influence of the gravitational force. This analysis involves separating the motion
     into its component directions, using the standard kinematic equations of motion and an
     appropriate set of measurements.</p>
 
-    <p>For these two very different techniques calculate the same initial velocity of the projectile.
+    <p>For these two very different techniques, calculate the same initial velocity of the projectile.
     An analysis and comparison of the two methods will help to illustrate the interconnections between
     these physics topics.</p>
 
@@ -2728,86 +2732,132 @@
 
 <section xml:id="s-ballistic-pre"><title>Pre-Lab Considerations</title>
 
-    <p>
-    <ul>
-        <li><p> Draw before and after pictures for a totally inelastic collision between two masses,  <m>m_1</m> and <m>M_2</m>.
+    <p>You can do the two parts of this lab in any order; but it will help lab go more smoothly if you answer the following questions before you come to lab.</p>
+
+    <paragraphs xml:id="p-ballistic-conservation"><title>conservation principles</title>
+    <p>To prepare for the calculation of the muzzle velocity using conservation principles, consider the following questions:</p>
+    <exercise>
+        <statement><p> Draw before and after pictures for a totally inelastic collision between two masses,  <m>m_1</m> and <m>M_2</m>.
             Assume that <m>M_2</m> is initially stationary, and that <m>m_1</m> is initially moving horizontally
-            with a velocity of  <m>v</m>.</p></li>
-        <li><p> For this collision, write out the conservation of momentum equation.  Solve for the shared
-            velocity of the pair after the collision.</p></li>
-        <li><p> After the collision, the pendulum and ball will swing.  The KE of the pair at the instant
+            with a muzzle velocity of  <m>v</m>.</p></statement>
+        <hint><p>The <q>before</q> is intended to be the instant before they make contact.  The <q>after</q> is intended to be the instant after they combine, but before they have had time to move off.  You should bear in mind that they do not first hit, then combine, and then move off; rather the <q>combining</q> takes some small amount of time, during which the one object is slowing down and the other is speeding up until their velocities match each other.</p></hint>
+        <hint><p>It will be useful to bear in mind that the <q>final</q> state for the collision (conservation of momentum) is <em>the same</em> instant as the <q>initial</q> for the pendulum swing (conservation of energy).</p></hint>
+    </exercise>
+    <exercise>
+        <statement><p> Draw before and after pictures for the pendulum swing of the masses,  <m>m_1</m> and <m>M_2</m>.
+            Assume that they travel back until the speed is zero as they are just about to swing back down.</p></statement>
+        <hint><p>The <q>before</q> is intended to be the instant before they begin swinging after having just collided.  You should bear in mind that this is a slight approximation because they do not first hit, then combine, and then move off; rather the <q>combining</q> takes some small amount of time, during which the one object is slowing down and the other is speeding up until their velocities match each other, so the swing will have already begun during the collision.  However, this is a small effect.  The <q>after</q> is intended to be the instant that they reach peak height and before they begin to swing back down. </p></hint>
+        <hint><p>You <em>should</em> consider the <q>final</q> state for the collision (conservation of momentum) to be <em>the same</em> instant as the <q>initial</q> for the pendulum swing (conservation of energy).</p></hint>
+    </exercise>
+    <exercise xml:id="ex-conserve-p">
+        <statement><p> For this collision, write out the conservation of momentum equation.  Identify which velocity in this equation is the <q>muzzle velocity</q>.  Identify which velocity in this equation is related to the velocity in <xref ref="ex-conserve-E" text="type-local" />.  Be prepared to solve this equation for the appropriate velocity.</p></statement>
+        <hint><p>It will be useful to bear in mind that the <q>final</q> state for the collision (conservation of momentum) is <em>the same</em> instant as the <q>initial</q> for the pendulum swing (conservation of energy).</p></hint>
+    </exercise>
+    <exercise xml:id="ex-conserve-E">
+        <statement><p> After the collision, the pendulum and ball will swing together.  The KE of the pair at the instant
             after the collision will be converted to PE as it swings.  Write out a conservation of energy
             equation for this process, in terms of the mass of the pendulum and ball, the change in height of
-            the system and the velocity of the system at the instant after the collision.</p></li>
-        <li><p> Combine these two conservation laws to derive an expression for the initial velocity of the
-            ball (before the collision) to the final height of the ball and pendulum system.</p></li>
-        <li><p> Draw a picture of the ball's path when  fired horizontally off of a table.
-            Draw the ball in its initial position (at the moment it begins its free fall), and in its final
-            position (at the moment just before it hits the floor).   Make the ball larger than its scale
-            size so that it size can be easily seen in your picture.  On the picture label the height and
-            the range of the projectile.  Think about whether the measurements should be taken from the top,
-            bottom or the middle of the ball.  What part of the ball will hit the floor?  Think about this
-            for both the horizontal and the vertical measurements.</p></li>
-        <li><p> For this projectile motion, use the kinematic equations of motion to derive an equation for
-            the initial velocity of the ball in terms of the height and range measurements.</p></li>
-    </ul>
-    </p>
+            the system and the velocity of the system at the instant after the collision.  Identify which velocity in this equation is related to the velocity in <xref ref="ex-conserve-p" text="type-local" />.</p></statement>
+        <hint><p>It will be useful to bear in mind that the <q>final</q> state for the collision (conservation of momentum) is <em>the same</em> instant as the <q>initial</q> for the pendulum swing (conservation of energy).</p></hint>
+        <hint><p>You might have some trouble calling one state <q>initial</q>and another state <q>final</q>.  You might consider <q>before the collision</q> as <q>time 1</q>, <q>after the collision</q> as <q>time 2</q>, <q>before the swing</q> as <q><alert>time 2</alert></q>, and <q>after the swing</q> as <q>time 3</q>.</p></hint>
+    </exercise>
+    <exercise>
+        <statement><p> Combine these two conservation laws (<xref ref="ex-conserve-p" text="type-local" /> and <xref ref="ex-conserve-E" text="type-local" />) to derive an expression for the initial velocity of the
+            ball (before the collision) to the final height of the ball and pendulum system.  <alert>List those quantities</alert> that you will need to measure during the lab in order to compute this number.</p></statement>
+    </exercise>
+    </paragraphs>
+
+    <paragraphs xml:id="p-ballistic-motion"><title>ballistic motion</title>
+    <p>To prepare for the calculation of the muzzle velocity using 2-dimensional (ballistic) motion principles, consider the following questions:</p>
+    <exercise>
+        <statement><p> Draw a picture of the ball's path when fired horizontally off of a table.
+            Draw the ball in its initial position (at the moment it begins its free fall) and in its final
+            position (at the moment just before it hits the floor).
+            Label the relevant quantities that you should measure during the lab in order to compute the muzzle velocity.
+            (You might need to do <xref ref="ex-ballistic-motion" text="type-local" /> first.)</p></statement>
+        <hint><p>Make the ball larger than its scale size so that it size can be easily seen in your picture.</p></hint>
+        <hint><p>On the picture, label the height and the range of the projectile. </p></hint>
+        <hint><p>Think about whether the measurements should be taken from the top, bottom, or the middle of the ball.  What part of the ball will hit the floor?  Think about this
+            for both the horizontal and the vertical measurements.</p></hint>
+    </exercise>
+    <exercise xml:id="ex-ballistic-motion">
+        <statement><p> For this projectile motion, use the kinematic equations of motion to derive an equation for
+            the initial velocity of the ball in terms of the height and range measurements.
+            <alert>List those quantities</alert> that you will need to measure during the lab in order to compute this number.</p></statement>
+        <hint xml:id="hint-ballistic-level"><p>If the gun is not level, such as if it shoots slightly upwards, then decide if this changes your resulting equation and the quantities you would need to measure.</p></hint>
+    </exercise>
+    </paragraphs>
 
 </section> <section xml:id="s-ballistic-procedure"><title>Procedure</title>
 
-    <subsection><title>Projectile Motion</title>
+        <introduction>
+                <p>The ballistic pendulum apparatus consists of three parts:
+                (1) a ballistic spring-loaded gun for the firing of the projectile (used in both parts),
+                (2) a hollow pendulum bob suspended by a light rod for catching the fired projectile, and
+                (3) an angled platform for catching the pendulum bob at the highest position of the bob's swing.
+                The pendulum bob can be lifted to rest in the angled platform so that it is out of the way for <xref ref="ss-ballistic-motion" text="type-local" />.</p>
+
+                <p>Notice that the initial velocity of the projectile can be changed by adjusting the spring tension. (Your instructor can explain how to do this.) </p>
+                <warning>
+                        <p>You should <alert>not change</alert> this tension for the trials that compare the projectile motion to the pendular motion because <alert>you want the muzzle velocity to be the same</alert> in those cases. </p>
+                </warning>
+                <p>However, you might be asked to run this experiment for two different tensions.  Alternatively, you might change the tension to make it easier to cock the gun.  If you do loosen the spring to make it easier to cock the gun, be sure that the gun fires strongly enough to actually cause the pendulum to swing up to the available notches.</p>
+
+                <p>The two parts of this experiment can be done in either order. Before doing each part, be sure to clamp the apparatus to the table, using cardboard pads so that the table does not develop dents, so that the apparatus does not move due to the kick when firing the gun.</p>
+        </introduction>
+
+    <subsection xml:id="ss-ballistic-conservation"><title>The Ballistic Pendulum</title>
+
+    <p>Some versions of the apparatus have a metal <q>lip</q> in the pendulum bob to hold the ball in.  Other versions have a rubber O-ring.  If you have the version with the lip, then when you are removing the ball from the pendulum, be sure to push up on the spring catch (the lip) in the pendulum bob so as to not to damage the equipment.
+    <ul>
+        <li><p> The pointy arm attached to the side of the pendulum indicates the position of the center of mass of the system.</p></li>
+        <li><p> Do not try to take the apparatus apart, the instructor will give you the mass of the pendulum.  (It might be written on a piece of tape attached to the apparatus.)</p></li>
+        <li><p> Clamp the apparatus to the table, using cardboard pads so that the table does not develop dents, so that the apparatus does not move due to the kick when firing the gun.</p></li>
+        <li><p> Fire the ball into the pendulum bob and mark the final notch position of the pendulum.</p></li>
+        <li><p> Repeat the experiment with a sufficient number of trials (15) so that an average and a standard
+            deviation of the notch positions can be obtained.</p></li>
+        <li><p> Measure the change in height of the pendulum's pointer from its initial position to the
+            average notch position.  Calculate the uncertainty in this distance.</p></li>
+        <li><p> Calculate  (using <xref ref="p-ballistic-conservation" text="title" /> pre-lab work) the initial velocity (and uncertainty) of the projectile ball.</p></li>
+    </ul>
+    </p>
+
+    </subsection>
+    <subsection xml:id="ss-ballistic-motion"><title>Projectile Motion</title>
 
     <p>
     <ul>
         <li><p> Set-up the ballistic spring gun so that it will fire the projectile ball horizontally off
-            the edge of the table.  Use a bubble level or the ball itself to make sure that the gun is level.
-            Move the pendulum out of the way.  Clamp the apparatus to the table, and use cardboard pads.
-            The initial velocity of the projectile can be changed by adjusting the spring tension.</p></li>
-        <li><p> Tape a piece of paper to the floor where the ball will land, then tape a sheet of carbon paper at this spot.</p></li>
+            the edge of the table.
+            <ul>
+                <li><p>Clamp the apparatus to the table, using cardboard pads so that the table does not develop dents, so that the apparatus does not move due to the kick when firing the gun.</p></li>
+                <li><p>Use a bubble level (or by seeing if the ball itself rolls) to make sure that the gun is level. (Recall <xref ref="hint-ballistic-level" text="type-local" />.)</p></li>
+                <li><p>Move the pendulum out of the way.</p></li>
+            </ul></p></li>
+        <li><p> Tape a piece of paper to the floor where the ball will land, then tape a sheet of carbon paper at this spot.  Consider taping a second piece of paper above the carbon paper to keep the carbon paper from tearing.</p></li>
         <li><p> Be careful not to hit anything or anybody with the ballistic projectile!   Use larger pads or
         boxes to protect the tables and the walls.</p></li>
-        <li><p> Repeat the experiment for a sufficient number of trials (15-20), and calculate a standard deviation of the range.</p></li>
-        <li><p> Calculate the initial velocity (and uncertainty) of the projectile after taking the appropriate measurements.</p></li>
+        <li><p> Repeat the experiment for a sufficient number of trials (15-20), and calculate an average and a standard deviation of the range.</p></li>
+        <li><p> Calculate (using <xref ref="p-ballistic-motion" text="title" /> pre-lab work) the initial velocity (and uncertainty) of the projectile after taking the appropriate measurements.</p></li>
     </ul>
     </p>
 
     </subsection>
-    <subsection><title>The Ballistic Pendulum</title>
 
-    <p>The ballistic pendulum apparatus consists of three parts:
-    1) a ballistic spring-loaded gun for the firing of the projectile,
-    2) a hollow pendulum bob suspended by a light rod for catching the fired projectile, and
-    3) an angled platform for catching the pendulum bob at the highest position of the bob's swing.</p>
-
-    <p>
-    <ul>
-        <li><p> When removing the ball from the pendulum, be sure to push up on the spring catch  in the
-            pendulum so as to not to damage the pendulum.</p></li>
-        <li><p> The pointer on the side of the pendulum indicates the position of the center of mass of the system.</p></li>
-        <li><p> Do not try to take the apparatus apart, the instructor will give you the mass of the pendulum.</p></li>
-        <li><p> Clamp the base to the table, so that there is no relative motion of the base.</p></li>
-        <li><p> Fire the ball into the pendulum bob and mark the final notch position of the pendulum.</p></li>
-        <li><p> Repeat the experiment with a sufficient number of trials (15) so that a standard
-            deviation of the notch positions can be obtained.</p></li>
-        <li><p> Measure the change in height of the pendulum's pointer from its initial position to the
-            average notch position.  Calculate the uncertainty in this distance.</p></li>
-        <li><p> Calculate the initial velocity (and uncertainty) of the projectile ball.</p></li>
-    </ul>
-    </p>
-
-    </subsection>
 </section> <section xml:id="s-ballistic-analysis"><title>Analysis</title>
 
-	<p>Quantitatively compare the two methods. Calculate a percent difference between the two methods.
-    Calculate the uncertainties for the velocity in both methods (propagation of error), and also write these
-    in a <percent /> form.  Which method is more precise?   Decide whether this experiment has random or
-    systematic errors.  Discuss and show  your experimental evidence.</p>
+	<p>Quantitatively compare the two methods by considering the following: Calculate a percent difference between the two methods.
+    Calculate the uncertainties for the velocity in both methods (<xref ref="ss-propagation" text="title" />) and, also, write these
+    in a <percent /> form.  Which method is more precise?   Decide whether this experiment has <xref ref="p-random-systematic" text="title">random or
+    systematic errors</xref>.  Discuss and show your experimental evidence for this decision.</p>
+
+    <p>Determine if the kinetic energy is conserved during the collision.  (Recall the introductory discussion.)  If it is not conserved, then calculate the percentage of energy lost
+    <m>\frac{(E_f-E_i)}{E_i} \times (100\%)</m>.  Comment on the size of this number.</p>
 
 </section> <exercises><title>Questions</title>
 
         <exercise>
-            <statement><p> Under what conditions are the laws of momentum and energy conserved in this experiment?
-                State why.    Why is the mechanical energy not conserved during the collision?
+            <statement><p> For each portion of the motion in this experiment (ballistic motion, during the collision, and after the collision during the upward swing), indicate if the momentum and/or energy should be conserved and why.
                 Conclude whether the collision between the steel ball and the pendulum bob is elastic or inelastic.</p></statement>
         </exercise>
         <exercise>
@@ -2822,10 +2872,16 @@
             <statement><p> What effect does the force of gravity have on the horizontal velocity of the projectile?</p></statement>
         </exercise>
         <exercise>
-            <statement><p> Does the air resistance on the ball have a significant effect on the results of this experiment?</p></statement>
+            <statement><p> Does the air resistance on the ball have a significant effect on the results of this experiment?  If it does, which result would be different without air resistance?  For each part of the experiment, determine if your estimate of the initial velocity is too large or too small due to the effects of air resistance.</p></statement>
         </exercise>
 
 </exercises>
+
+    <conclusion>
+    <p>(Revised: Nov 9, 2017)</p> <!-- revised a lot of wording.  made pre-lab exercises and paragraphs. -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/ballistic.pdf">ballistic.pdf (138 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
 
 </chapter>
 
@@ -3727,5 +3783,5 @@
 
 <!-- ********************************************************************************************** -->
 </backmatter>
-</book> </mathbook>
-
+</book>
+</mathbook>
