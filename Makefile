@@ -68,9 +68,9 @@ fall-lab-manual.tex: 121-l
 
 121-p: fall-lab-manual.tex
 	pdflatex fall-lab-manual.tex && pdflatex fall-lab-manual.tex || pdflatex fall-lab-manual.tex
-	@echo "\nYou should probably run [make labpdf] to make individual pdfs for each of the lab exercises."
+	@echo "\\n\\nYou should probably run [make labpdf] to make individual pdfs for each of the lab exercises."
 
-121: 121-h 121-l
+121: 121-h 121-p
 
 html: setup-h 121-h
 
@@ -176,6 +176,7 @@ allerr: ${BEE}/../jing-trang/build/jing.jar ${BEE}/schema/pretext.rng 121-Lab-Ma
 		sort -k4  
 	@echo "*************************"
 	java -jar ${BEE}/../jing-trang/build/jing.jar ${BEE}/schema/pretext.rng 121-Lab-Manual.xml | \
+		grep -v `grep -n "known tag abuse 1" 121-Lab-Manual.xml | sed 's/:.*//g'` | \
 		sort -k4  
 
 all: setup-h 121-h setup-l 121-l images

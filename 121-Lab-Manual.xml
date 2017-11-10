@@ -105,13 +105,8 @@
             <year>2017<ndash />2018</year>
             <holder>J. Christensen, J. Wells, W. Ryle</holder>
             <shortlicense>
-                <p><url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-sa-4-0-88x31.png" width="15%" /></url>
-                <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHY121 Lab Manual: Thomas More College</span> by
-                <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url>
-                is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</url>.</p>
-                <p>Permissions beyond the scope of this license may be available by contacting one of the authors listed at
-                <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" rel="cc:morePermissions">http://www.thomasmore.edu/physics/faculty.cfm</url>.
-                </p></shortlicense>
+<!-- Keep all of this on a single line to ignore the known tag abuse 1 --> <p><url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-sa-4-0-88x31.png" width="15%" /></url>  <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHY121 Lab Manual: Thomas More College</span> by <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url> is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</url>.</p> <p>Permissions beyond the scope of this license may be available by contacting one of the authors listed at <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" rel="cc:morePermissions">http://www.thomasmore.edu/physics/faculty.cfm</url>.</p>
+        </shortlicense>
         </copyright>
 
     </colophon>
@@ -187,7 +182,7 @@
     </preface>
 
     <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
-    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (679 kB)</url></p>
+    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (704 kB)</url></p>
     </preface>
 
 </frontmatter>
@@ -196,14 +191,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-measurement"> <title>Meaningful Measurements</title>
-
-<!-- Revisions
-    \revision{August 14, 2017}{added answers to questions (now exercises)}
-    \revision{August 25, 2015}{Revised the uncertainty measurements to more accurately reflect how these are used.  Clarified the description.  Note: There are seven, not three, fundamental quantities.}
-    \revision{August 29, 2011}{Took out ``batteries'' and inserted cylinder, cube, and sphere.}
-    \revision{August 25, 2009}{Added JPG pictures.  Changed Procedure such that they only do a cylinder (to get both length and diameter) and stop at stages to consider \%-diff and \%-error.}
-    \revision{August 24, 2009}{Intro list as an enumerated TeX list.}
-    -->
 
     <objectives>
     <ul><li><p>Determine the material of the objects by calculating their density and matching it to the accepted values for
@@ -467,23 +454,24 @@
     <conclusion>
     <p>(Revised: Sep 13, 2017)</p> <!-- Validated the code and made the exercises visible -->
     <!-- <p>(Revised: Aug 14, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (304 kB)</url></p>
+<!-- Revisions
+    \revision{August 14, 2017}{added answers to questions (now exercises)}
+    \revision{August 25, 2015}{Revised the uncertainty measurements to more accurately reflect how these are used.  Clarified the description.  Note: There are seven, not three, fundamental quantities.}
+    \revision{August 29, 2011}{Took out ``batteries'' and inserted cylinder, cube, and sphere.}
+    \revision{August 25, 2009}{Added JPG pictures.  Changed Procedure such that they only do a cylinder (to get both length and diameter) and stop at stages to consider \%-diff and \%-error.}
+    \revision{August 24, 2009}{Intro list as an enumerated TeX list.}
+    -->
+
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (308 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
-
 
 <!-- ********************************************************************************************** -->
 
 
 
 <chapter xml:id="c-StDev"> <title>Standard Deviation</title>
-
-    <!-- Revisions
-        \revised{Aug. 28, 2009}
-        \revision{Aug. 28, 2009}{Added Jack's picture back in}
-        \revision{Jan. 7, 1997}{Jack}
-    -->
 
     <objectives>
         <ul>
@@ -662,7 +650,12 @@
 
         <conclusion>
         <p>Revised: Aug 24, 2017</p>
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (239 kB)</url></p>
+    <!-- Revisions
+        \revised{Aug. 28, 2009}
+        \revision{Aug. 28, 2009}{Added Jack's picture back in}
+        \revision{Jan. 7, 1997}{Jack}
+    -->
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (243 kB)</url></p>
         <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
         </conclusion>
 </chapter>
@@ -671,10 +664,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-acceleration"><title>Constant Acceleration</title>
-<!--    Revisions \revised{Sept. 14, 2015}
-        \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
-        \revision{Sept. 16, 2008}{Created?}
-        -->
 
     <objectives>
     <ul>
@@ -967,6 +956,10 @@
     <conclusion>
     <p>(Revised: September 13, 2017)</p> <!-- Validated and fixed the exercises -->
     <!-- <p>(Revised: September 8, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
+    <!--    Revisions \revised{Sept. 14, 2015}
+        \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
+        \revision{Sept. 16, 2008}{Created?}
+        -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/acceleration.pdf">acceleration.pdf (115 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -977,10 +970,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-Newton"> <title>Newton's <m>2^{\rm nd}</m> Law on a Linear Track with the Sonic Ranger</title>
-<!--    Revisions \revised{Sept. 14, 2015}
-        \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
-        \revision{Sept.3, 2008}{}
-        -->
 
     <objectives>
     <introduction><p>In this experiment, we will assume that Newton's first law is true and focus on Newton's second law.</p></introduction>
@@ -1245,6 +1234,10 @@
     <p>(Revised: Oct 11, 2017)</p> <!-- Minor revisions based on actual experiment, added outcomes -->
     <!-- <p>(Revised: Sep 14, 2017)</p> rewrote the Questions -->
     <!-- <p>(Revised: Sep 13, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
+<!--    Revisions \revised{Sept. 14, 2015}
+        \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
+        \revision{Sept.3, 2008}{}
+        -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (162 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -1254,10 +1247,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-friction"><title>Dry Sliding Friction</title>
-<!--    Revisions \revised{Sept.~28, 2015}
-        \revision{Sept.~28, 2015}{}
-        \revision{Sept.~23, 2008}{}
-        -->
 
     <objectives>
     <ul>
@@ -1542,6 +1531,10 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Exercise for propagating uncertainty -->
 <!-- <p>(Revised: Sep 21, 2017)</p> Validated the code and Provided <hint>s and <answers>s to the <exercise>s -->
+    <!--    Revisions \revised{Sept.~28, 2015}
+        \revision{Sept.~28, 2015}{}
+        \revision{Sept.~23, 2008}{}
+        -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (176 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -1552,8 +1545,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-centripetal"><title>Centripetal Force</title>
-<!--    Revisions \revised{Fall 2006}
-        -->
 
     <objectives xml:id="centripetal-objective">
     <ul>
@@ -1670,6 +1661,8 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Clarified analysis -->
 <!--    <p>(Revised: Oct 9, 2017)</p> Clarified how to repeat the measurement for a second value of force, added outcomes -->
+    <!--    Revisions \revised{Fall 2006}
+        -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (83 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -1679,11 +1672,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-energy-1"><title>Conservation of Energy on a Linear Track -- (Single Week Version)</title>
-<!--    Revisions
-        \revised{October 24, 2015}
-        \revision{October 24, 2015}{made it a one week lab}
-        \revision{August 24, 2009}{}
-        -->
 
     <objectives>
     <ul>
@@ -1978,16 +1966,17 @@
 
 </exercises>
 
-</chapter>
-
-<!-- ********************************************************************************************** -->
-
-<chapter xml:id="c-energy-2"><title>Conservation of Energy on a Linear Track -- (Two Week Version)</title>
 <!--    Revisions
         \revised{October 24, 2015}
         \revision{October 24, 2015}{made it a one week lab}
         \revision{August 24, 2009}{}
         -->
+
+</chapter>
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-energy-2"><title>Conservation of Energy on a Linear Track -- (Two Week Version)</title>
 
     <objectives>
     <ul>
@@ -2300,6 +2289,11 @@
 
     <conclusion>
     <p>(Revised: Oct 25, 2017)</p> <!-- made some exercises into hints -->
+<!--    Revisions
+        \revised{October 24, 2015}
+        \revision{October 24, 2015}{made it a one week lab}
+        \revision{August 24, 2009}{}
+        -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-2.pdf">energy-2.pdf (166 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -2309,9 +2303,6 @@
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-peer"><title>Peer Review</title>
-<!--    Revisions
-        \revised{Sep 1, 2008}
-        -->
 
 <introduction>
     <p>The most important part of doing science is the peer-review process.
@@ -2363,7 +2354,10 @@
     </section>
 
     <conclusion>
-    <p>(Revised: Sep 1, 2008)</p> <!-- Linked to appendix for linearizing.  Suggested using <m>T/2\pi<m>. -->
+    <p>(Revised: Sep 1, 2008)</p>
+<!--    Revisions
+        \revised{Sep 1, 2008}
+        -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/peer.pdf">peer.pdf (47 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -2372,7 +2366,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="c-springs"><title>Hooke's Law and Simple Harmonic Motion</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+<chapter xml:id="c-springs"><title>Hooke's Law and Simple Harmonic Motion</title>
 
     <objectives>
     <introduction>
@@ -2560,6 +2554,7 @@
 
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Clarified linearization, added cross-referencing links. -->
+<!-- Revisions \revised{(Aug 27, 2012)} -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/springs.pdf">springs.pdf (122 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -2569,7 +2564,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="c-pendulum"><title>The Simple Pendulum</title> <!-- Revisions \revised{(Aug 27, 2012)} -->
+<chapter xml:id="c-pendulum"><title>The Simple Pendulum</title>
 
     <objectives>
     <ul>
@@ -2667,7 +2662,8 @@
 </exercises>
 
     <conclusion>
-    <p>(Revised: Oct 11, 2017)</p> <!-- Linked to appendix for linearizing.  Suggested using T/2\pi. -->
+    <p>(Revised: Oct 11, 2017)</p> <!-- Linked to appendix for linearizing.  Suggested using <m>T/2\pi</m>. -->
+<!-- Revisions \revised{(Aug 27, 2012)} -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/pendulum.pdf">pendulum.pdf (67 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -2678,7 +2674,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="c-ballistic"><title>Ballistic Pendulum</title> <!-- Revisions \revised{(Jack)} -->
+<chapter xml:id="c-ballistic"><title>Ballistic Pendulum</title>
 
     <objectives>
     <ul>
@@ -2879,6 +2875,7 @@
 
     <conclusion>
     <p>(Revised: Nov 9, 2017)</p> <!-- revised a lot of wording.  made pre-lab exercises and paragraphs. -->
+<!-- Revisions \revised{(Jack)} -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/ballistic.pdf">ballistic.pdf (138 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
@@ -2888,7 +2885,7 @@
 
 <!-- ********************************************************************************************** -->
 
-<chapter xml:id="c-equilibrium"><title>Conditions of Equilibrium -- Model of a Human Forearm</title> <!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
+<chapter xml:id="c-equilibrium"><title>Conditions of Equilibrium -- Model of a Human Forearm</title>
 
     <objectives>
     <ul><li><p>You will verify the equations for translational and rotational equilibrium by
@@ -3116,7 +3113,7 @@
 <!--    <exercise>
             <statement><p> Consider an elephant and a gazelle.  Is either animal likely have their leg muscles connected at 8.6\% of
                 their foreleg distance from the joint, like in humans?  Do you expect their bicep to be connected more closely to or further
-                from their elbow?</p></p></statement>
+                from their elbow?</p></statement>
             <hint><p>Note that large animals like an elephant are built for strength and not for speed.
                 Animals like a gazelle, are built for speed.  These properties are related to the animal's mass and the size of their bones.
                 But these properties are also related to where the muscles are attached to the bones.
@@ -3128,13 +3125,19 @@
         </exercise>
     -->
 
-</exercises> </chapter>
+</exercises>
+
+    <conclusion>
+<!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf (118 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+</chapter>
 
 
 <!-- ********************************************************************************************** -->
 
 <chapter xml:id="c-scaling"><title>Scaling Laws Among Biological Specimens</title>
-<!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
 
     <paragraphs><title>Procedure</title>
     <p>You will be given many animal skulls.  Measure some dimension that can be measured on all skulls.
@@ -3202,8 +3205,308 @@
 
 </paragraphs>
 
+    <conclusion>
+<!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/scaling.pdf">scaling.pdf (59 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
 </chapter>
 
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-Archimedes"><title>Archimedes' Principle</title>
+
+    <objectives>
+    <ul><li><p>After verifying some properties of the buoyant force using Archimedes' principle, each group will predict the maximum amount of cargo (the number of pennies) that a ship (glass beaker) will hold without sinking.</p></li></ul>
+    </objectives>
+
+<introduction>
+
+<p>Archimedes was a Greek scientist who lived from 287-212 BCE.  As the story goes, the king thought that his crown was not pure gold and asked Archimedes to determine if this was true.   Archimedes had previously observed that a totally submerged object displaces a volume of fluid which is equal to the volume of the object, and deduced what is now called Archimedes' principle: that the buoyant force on the submerged object is equal to the weight of the displaced fluid.
+Knowing the weight and density of gold, Archimedes measured the weight of the crown and the weight and volume of the water displaced by the crown, enabling him to determine that the crown was not pure gold.</p>
+
+<p>As any swimmer who has had their head more than about 8 feet deep can tell you, the pressure exerted on the diver by the water increases as the diver swims deeper into the water.  We can express this as: the pressure within a fluid is dependent on the depth at which the object sits <m>(h)</m>, the gravitational acceleration of the earth <m>(g)</m>, and the density of the fluid <m>(\rho_f)</m>: <m>P=\rho_f gh</m>.  Because of this, the bottom surface of any object in a fluid will have more pressure on it than the top surface.  This <m>\Delta P</m> gives rise to a net upward force acting on the submerged object: the buoyant force <m>(F_B)</m>.  The magnitude of the upward force depends on the density of the fluid and the size of the object: <m>F_B=\rho_f g V_o</m>, where <m>V_o</m> is <em>the submerged portion</em> of the volume of the object.  A partially submerged object has a smaller buoyant force than a completely submerged object.  Interestingly, unless the fluid density depends on the depth of the fluid, the <m>F_B</m> is independent of the depth of the object.</p>
+
+<p>Knowing the buoyant force will help you determine if an object will float or sink.  To determine whether an object will sink or float one should use Newton's second law to determine the direction of the net force.  Assuming the simplest case of a submerged object feeling only its weight <m>(F_g=m_og = \rho_o g V_o)</m> and the buoyant force <m>(F_B=\rho_f g V_o)</m>, if the weight of the object is greater than <m>F_B</m> then the net force on the object is down and it will sink.  If <m>F_B</m> is larger than the weight then the net force on the object is up and then it will accelerate upwards.  However, when an object is floating, it is in equilibrium and the object's weight is equal to <m>F_B</m>, which depends on the submerged volume.  While floating, not all of the object is submerged.</p>
+
+
+    </introduction>
+
+<section><title>Pre-Lab Work</title>
+
+<p>
+<ul>
+<li><p> Using the definitions of force as pressure times area, <m>F=PA</m>, and pressure, <m>P=\rho_f g h</m>, derive the equations for the buoyant force <m>F_B=\rho_fgV_o</m> (if totally submerged) and for the object's weight <m>F_g=\rho_o gV_o</m>, where <m>\rho_o</m>  is the object's density.</p></li>
+<li><p> Show that although the pressure on an object does depend on depth within the fluid, the <m>\Delta P = P_{\rm bottom}-P_{\rm top}</m> (and therefore <m>F_B)</m> is independent of the depth within the fluid.</p></li>
+<li><p> Draw a force diagram for a completely submerged object:
+    <dl>
+    <li><title>case 1</title><p>object's density is greater than that of the fluid's,</p></li>
+    <li><title>case 2</title><p>object's density is less than that of the fluid's.</p></li>
+    </dl></p></li>
+<li><p> Using Newton's Second Law show that the object in case 1 will sink, and  that the object in case 2  will accelerate up.</p></li>
+<li><p> Draw a force diagram for a partially submerged object which is floating.</p></li>
+<li><p> Using Newton's Second Law show that if an object has a density <m>\rho_o=.5\rho_f</m>  that only 0.5 of the object's volume is submerged.</p></li>
+<li><p> Look up the density of water.</p></li>
+</ul>
+</p>
+
+</section>
+
+<section><title>Procedure</title>
+
+<subsection><title>Develop Your Understanding</title>
+
+<p>
+<ul>
+<li><p> Select an object for which you can easily measure the volume using a caliper.</p></li>
+<li><p> Measure the dimensions and calculate the volume.</p></li>
+<li><p> Measure the mass using the triple beam balance at your table.</p></li>
+<li><p> Calculate the density with uncertainty.</p></li>
+<li><p> Predict (with uncertainty) what buoyant force this object would have if it were completely submerged.</p></li>
+<li><p> Predict (with uncertainty) what a scale would read if this object were completely submerged.</p></li>
+</ul>
+</p>
+
+</subsection>
+
+<subsection><title>Verify Your Understanding</title>
+
+<p>
+<ol>
+<li><p> Place a balance on top of a support rod so that the side with the string dangling can drop into a container of water.</p></li>
+<li><p> Find the mass of your catch beaker -- this should be a graduated cylinder because you will be using this beaker to measure both the volume and the mass of the fluid that overflows from the overflow container.</p></li>
+<li><p> Place an overflow container under the scale so that the string can dip into the container if the lab jack is raised or lowered.</p></li>
+<li><p> Place a catch beaker next to the overflow container and slowly fill the overflow container until it just starts dripping.  Gently tap the overflow container once.  Be very careful not to bump your table after this.</p></li>
+<li><p> As thoroughly as possible, dry off your catch beaker and put it back in place.  If you cannot dry it off completely, you will not be able to accurately complete all of the necessary steps.</p></li>
+<li><p> Attach your object to the string, measure the mass of the object, <m>m_o</m>, in air while the object dangles.</p></li>
+<li><p> Raise the lab jack until the object is completely submerged.  <em>Be sure to catch all of the water that overflows from the container!</em></p></li>
+<li><p> The scale should now read a reduced mass, <m>m_s</m>, for the submerged object.  Record this value.</p></li>
+<li><p> You now have three ways of calculating the buoyant force:  (Pay attention to which is the most precise and why.)
+    <ol>
+     <li xml:id="i-deltam"><p> The water (via the buoyant force) supports the difference in weights between not submerged and totally submerged.  Calculate the buoyant force, with uncertainty, as the difference in these <em>weights</em>.  Does it agree with your prediction?</p></li>
+     <li xml:id="i-V_f"><p> Measure the volume of the overflow water.  This is equal to the volume of the object submerged, <m>V_f = V_o</m>.  Calculate (with uncertainty) the buoyant force from this volume, <m>F_B = \rho_f g V_o</m>.  Does this agree with your prediction?</p></li>
+     <li xml:id="i-m_f"><p> Note that <m>\rho_f V_f = m_f</m>, so instead of measuring <m>V_f</m>, we can measure the mass of the overflow water.  The buoyant force can also be found from:  <m>F_B = m_f g</m>, the weight of the fluid.  Does this agree with your prediction?</p></li>
+    </ol></p></li>
+</ol>
+
+You should ensure that you understand these results <em>with uncertainty</em> before continuing.  If this doesn't make sense, then check your numbers, check your units, remeasure quantities that you thought you were sure of, and ask your instructor.
+</p>
+
+</subsection>
+
+<subsection><title>Consider How the Buoyant Force Changes as an Object is Submerged</title>
+
+<p>For this part, you are going to repeat the previous procedure, with three modifications.  First, you won't be able to measure the volume with a caliper.  Second, based on the previous procedure, we now know which measurement provides the best estimate (smallest uncertainty) for the buoyant force, so you should only need to do one of <xref ref="i-deltam" text="local">Step</xref>, <xref ref="i-V_f" text="local">Step</xref>, or <xref ref="i-m_f" text="local">Step</xref> from the previous section.  Finally, we will consider an object in air, partially submerged, and fully submerged.
+<ul>
+<li><p> Select a fairly large object for which you cannot easily measure the volume using a caliper.  This must fit within the overflow container without touching the sides.</p></li>
+<li><p> Refill the overflow container, as before, until is just starts to overflow.</p></li>
+<li><p> As thoroughly as possible, dry off your catch beaker.  If you cannot dry it off, you will have to measure its mass with whatever water is in it and you will not be able to use the previous section technique <xref ref="i-V_f" text="type-local">Step</xref> because you cannot accurately measure the volume of new water.</p></li>
+<li><p> Attach it to the string hanging from the balance and find the mass in air, <m>m_o</m>.</p></li>
+<li><p> <em>You will need to do the rest of this <em>very</em> carefully.  Go slowly and do not bump the table.</em></p></li>
+<li><p> Raise the lab jack until the object is about half submerged.  Catch the overflow water.</p></li>
+<li><p> Measure the apparent mass of the object and the mass or volume of the overflow water, as appropriate
+    <ul>
+    <li><p> Calculate the buoyant force with uncertainty.    </p></li>
+    <li><p> Calculate the volume (with uncertainty) of the object that is submerged.    </p></li>
+    </ul></p></li>
+<li><p> Without removing any of the water from the catch beaker, continue to submerge the object and catch the overflow water until the object is completely submerged.</p></li>
+<li><p> Measure the new apparent mass of the object and the mass or volume of the overflow water, as appropriate.
+    <ul>
+    <li><p> Calculate the buoyant force with uncertainty.    </p></li>
+    <li><p> Calculate the volume (with uncertainty) of the object that is submerged.    </p></li>
+    <li><p> Calculate the density (with uncertainty) of the object.    </p></li>
+    </ul></p></li>
+</ul>
+</p>
+
+</subsection>
+
+<subsection><title>Fill the Cargo-Hold</title>
+
+<p>
+You have been provided with a beaker and some pennies.  Use the information in the previous sections to predict the maximum number of pennies that can be gently placed into the beaker without allowing it to sink.  You should measure the mass of the beaker and the dimensions of the beaker.  The volume of a cylinder is <m>V=\pi r^2 h</m>.  You should also measure about 30 pennies (all at once) to find an average mass for the pennies.
+
+After you have calculated your prediction with uncertainty, prepare the overflow canister with water and dry the catch beaker.  Invite the instructor to your table and allow the instructor to test your prediction.
+</p>
+
+</subsection>
+</section>
+
+<exercises><title>Questions</title>
+
+<exercise>
+        <statement><p> Why does an object weigh a different amount when in air and when submerged in water?</p></statement>
+</exercise>
+<exercise>
+        <statement><p> If the string was cut on your first object (while submerged), what would be the acceleration of the object?</p></statement>
+</exercise>
+<exercise>
+        <statement><p> Why is it important to make certain that no air bubbles adhere to the object during the submerged weighing procedures?</p></statement>
+</exercise>
+<exercise>
+        <statement><p> What would the buoyant force be for an object that was immersed in a fluid with the same density as the object?</p></statement>
+</exercise>
+<exercise>
+        <statement><p> A floating barge filled with coal is in a lock along the Ohio River.   If the barge accidentally dumps its load into the water, will the water level in the lock rise or fall?</p></statement>
+</exercise>
+<exercise>
+        <statement><p> Does the mass of displaced water depend on the mass of the totally submerged object or on the volume of the submerged object?</p></statement>
+</exercise>
+<exercise>
+        <statement><p> There are two identical cargo ships.  One has a cargo of 5 tons of steel and the other has a cargo of 5 tons of styrofoam.  Which ship floats lower in the water?</p></statement>
+</exercise>
+
+</exercises>
+
+    <conclusion><p>Last revised: Nov. 23, 2008 </p>
+<!-- Revisions
+\revised{Nov. 23, 2008}
+-->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Archimedes.pdf">Archimedes.pdf (116 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
+</chapter>
+
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-standingwaves"><title>Standing Waves on a String</title>
+
+<objectives>
+<introduction><p>In this experiment, the conditions required for the production of standing waves in a string will be investigated in order to</p></introduction>
+<ol>
+	<li><p> empirically verify the relationship between the frequency <m>(f)</m>, wavelength <m>(\lambda)</m>, and speed of a standing wave <m>(v)</m>, for a series of normal modes of oscillation, and</p></li>
+        <li><p> use the two relationships of the speed of the wave
+ <mdn>
+        <mrow xml:id="eq-velten">  v \amp = \sqrt{\frac{F_T}{m/L}}   </mrow>
+        <mrow xml:id="eq-velwave">  v \amp = \lambda f  </mrow>
+ </mdn>
+ to empirically relate the string tension <m>(F_T)</m> and the wave velocity <m>(v)</m>, for one mode of oscillation, specifically the fundamental mode.
+</p></li>
+</ol>
+</objectives>
+
+<introduction>
+
+<p>A wave is the propagation of a disturbance in a medium.  In a transverse wave, the disturbance of the medium is perpendicular to the direction of the propagation of the wave.  In this experiment, transverse waves will be propagated along a taut flexible string.  The frequency of the waves is determined by the source, the wave generator, which is connected to one end of the string.   The speed of the waves, <m>v</m>, is determined by the medium itself; namely the linear mass density of the string, <m>(m/L)</m>, and the tension in the string which is determined by the static force of a mass suspended from the other end of the string, <m>F_T</m>.  This is expressed by <xref ref="eq-velten" text="type-global">Equation</xref> above.</p>
+
+<p>Upon hitting at the fixed end of the string, the transverse waves will reflect back along the string.  If the end of the string is rigidly held then the reflected waves will be inverted <m>180^\circ</m>.  The initial propagated waves and the reflected waves will interfere constructively and destructively.  At particular string tensions and/or wave frequencies, this wave superposition will give rise to waves called standing waves or stationary waves.  There are many different standing waves patterns (normal modes) possible which have different wavelengths.  The different modes are characterized by the number of nodes or antinodes in the wave.  At one of the normal modes of oscillation, the amplitude of oscillation can become rather large, much larger than the amplitude of the original propagated wave.  This phenomenon is called resonance.  In this experiment, each end of the string will be close to a node position.  The fundamental frequency (mode n=1) exhibits a wave pattern with one antinode.  The second harmonic (mode n=2) exhibits a wave pattern with two antinodes, and so forth.</p>
+
+</introduction>
+
+<section><title>Pre-Lab Work</title>
+
+<p><ul>
+	<li><p> Define the following terms:   standing wave, node, and antinode.
+</p></li><li><p> Draw a set of pictures of a standing wave on a string with two fixed ends showing the fundamental frequency (n=1), and the harmonics n=2, 3, 4, and 5.  Label a wavelength, the nodes, and the antinodes on each picture.
+</p></li><li><p> Given <xref ref="eq-velten" text="type-global">Equation</xref>, predict what will happen to the velocity of the wave as the static hanging mass (providing the tension) increases, decreases, or stays the same.
+</p></li><li><p> Given <xref ref="eq-velwave" text="type-global">Equation</xref>, how can measurements of <m>\lambda</m> and <m>f</m> be plotted to determine the wave velocity from the graph? (There is more than one way to do this; one way in particular produces a line.)  How should the axes of the graph be labeled?  Explain your reasoning.
+<!-- </p></li><li><p> Given Eqs.~(<xref ref="eq-velten" text="type-global" />) and~(<xref ref="eq-velwave" text="type-global" />), create an equation that relates the tension, <m>F_T</m> to the frequency, <m>f</m>.  How would you graph this to get a line and how would you interpret the slope and intercept? -->
+</p></li>
+</ul>
+</p>
+
+</section>
+
+<section><title>Fixed Tension</title>
+
+<introduction><p>In order to verify <xref ref="eq-velwave" text="type-global">Equation</xref>, you can fix <m>F_T</m> and compare multiple <m>f</m> to the corresponding <m>\lambda</m>.</p></introduction>
+
+<subsection><title>Procedure</title>
+
+<p>
+<ul>
+	<li><p> If you have not already done so, measure the mass and length of the string in order to calculate the linear mass density <m>(m/L)</m>.  You might note <xref ref="q-stretching" text="type-global">Question</xref>.
+</p></li><li><p> A mechanical vibrator, driven with a (variable frequency) function generator, will be the wave source.  Use a string slightly greater than the length of the table.  Connect one end of the string to the vibrator and hang the other end over a pulley, keeping the string horizontal.
+</p></li><li><p> Set up the system with some particular string tension (like 450 grams).  This tension will be kept constant for this entire part.
+</p></li><li><p> Produce 5 different normal modes by changing the frequency of the vibrator.  Adjust the standing wave amplitude until it is at its maximum.  Record the corresponding frequency for each normal mode.
+</p></li><li><p> Measure the corresponding wavelengths for each normal mode, directly from the string with a meter stick.  The vibrator end of the string is not a true node because the string is vibrating a small amount.  Take this into account when measuring the wavelengths.
+</p></li><li><p> Try touching the string at a node and at an antinode.  What happens to the wave in each case?
+</p></li><li><p> Optional:  Try measuring the frequency of the vibrator with a strobe lamp.
+</p></li>
+</ul>
+</p>
+
+</subsection>
+<subsection><title>Analysis</title>
+
+<p>
+<ul>
+	<li><p> Determine the mathematical relation between the wavelength of the standing wave and the frequency of the vibrator that will produce a straight line <m>(y=mx+b)</m> when graphed.
+</p></li><li><p> Comment on the significance (and units) of the slope and intercept of this graph.  Determine both the precision and the accuracy of the slope and of the intercept; are they consistent with what you expect?  (Your expectation should be based on the <q>other</q> equation which we are not testing here.)
+</p></li><li><p> Use one or both of these (slope and intercept) to determine the velocity (with uncertainty) of the standing wave.  Relate this (<percent />-error) to the expected value based on the tension you chose for your specific string.
+</p></li>
+</ul>
+</p>
+</subsection>
+
+
+</section>
+<section><title>Fixed Wavelength</title>
+
+<introduction><p>In order to verify <xref ref="eq-velten" text="type-global">Equation</xref>, you can fix <m>\lambda</m> and compare multiple <m>F_T</m> to the corresponding <m>v</m>.</p></introduction>
+
+<subsection><title>Procedure</title>
+
+<p>
+<ul>
+	<li><p> If you have not already done so, measure the mass and length of the string in order to calculate the linear mass density <m>(m/L)</m>.  You might note <xref ref="q-stretching" text="type-global">Question</xref>.
+</p></li><li><p> A mechanical vibrator, driven with a (variable frequency) function generator, will be the wave source.  Use a string slightly greater than the length of the table.  Connect one end of the string to the vibrator and hang the other end over a pulley, keeping the string horizontal.
+</p></li><li><p> Place 150 grams (including the hanger) on the end of the string.  (If you start with too little mass, the string stretches different amounts -- changing the string's effective density -- during the experiment, causing unaccounted for curving in the graph.)
+</p></li><li><p> Adjust the frequency of the generator until the n=2 mode is observed and is at its maximum amplitude.  Record the frequency and corresponding wave velocity.
+</p></li><li><p> Repeat the previous step for 6 hanging masses up to about 1200 grams.
+</p></li>
+</ul>
+</p>
+
+</subsection>
+<subsection><title>Analysis</title>
+
+<p>
+<ul>
+<li><p> Determine the mathematical relation between the hanging mass <m>(F_T)</m> and the wave velocity <m>(v)</m> that will produce a straight line <m>(y=mx+b)</m> when graphed.
+</p></li><li><p> Determine which variables the slope and intercept of this graph should be related to.  Determine both the precision and the accuracy of the slope and of the intercept; are they consistent with what you expect?  (The equation we are testing should imply what to expect.)
+</p></li>
+</ul>
+</p>
+
+</subsection>
+</section>
+<exercises><title>Questions</title>
+
+<exercise>
+        <statement><p> What are the necessary and sufficient conditions for the production of standing waves?</p></statement></exercise>
+<exercise>
+        <statement><p> Is it valid to consider the tightening of the string to be the same as a change of medium?  (Does tightening the string change the way waves move or the way standing waves are produced on the string?) Why or why not?</p></statement></exercise>
+<exercise xml:id="q-stretching">
+        <statement><p> When you measure the length of string, remember that the string will be under tension (pulled on) and may have some <q>give</q> to it.  It may be possible for it to stretch by nearly 10<percent />. If you don't account for this (if you measure the un-stretched length) will your value of density be incorrect too large or incorrect too small?  Can you account for this either in the value of the length or in the uncertainty of the length.  Will this affect comparison to either of your graphs?</p></statement></exercise>
+<exercise>
+        <statement><p> Consider the Fixed Tension graph.  We noted that the vibrator end of the string should not be considered to be a node.  This means that the node might be a little in front of the post or a little behind the post and therefore your wavelength values might be a little wrong, but your error bars should already include the amount the values could be off.  Based on the error bars on your Fixed Tension graph, would shifting the wavelength data a little larger or a little smaller have made a difference to the values of slope or intercept that you calculated?  If so, would it have increased the value or decreased the value?  If not, why not?</p></statement></exercise>
+<exercise>
+        <statement><p> If the tension and the linear density of the string remain constant, but the pulley is shifted further from the post (so that the region which is vibrating lengthens), how is the resonant wavelength affected?  How is the velocity of the wave affected?</p></statement></exercise>
+<exercise>
+        <statement><p> What was the experimental velocity (and uncertainty) of the waves in part I of the experiment?</p></statement></exercise>
+<exercise>
+        <statement><p> What will happen to the velocity of the wave if the tension is fixed but the frequency is changed.</p></statement></exercise>
+
+</exercises>
+
+
+    <conclusion><p>Last revised: (Jan, 2012) </p>
+<!-- <p>Previous revisions: ((Jan, 2012)) Fixed Wavelength plots F vs v^2 to get m/L as slope.  Added comments about stretching affecting density. </p>  -->
+<!-- <p>Previous revisions: ((Aug, 2011)) Rearranged equations for clarity. </p>  -->
+<!-- <p>Previous revisions: ((Jan, 2008)) Created </p>  -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/standingwaves.pdf">standingwaves.pdf (98 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
+</chapter>
+
+
+
+<!-- ********************************************************************************************** -->
 <!-- ********************************************************************************************** -->
 <backmatter>
 <appendix xml:id="uncertainties"> <title>Managing Uncertainties</title>
@@ -3353,12 +3656,9 @@
                 Systematic errors can be caused by instruments which are not calibrated correctly, maybe a <term>zero-point error</term>
                 (an error with the zero reading of the instrument).  This type of error can usually be found and corrected.
                 Systematic errors also often arise because the experimental setup is somehow different from that assumed in the theory.
-                If the acceleration due to gravity was measured to be
-<quantity><mag>9.52</mag><unit base="meter" /><per base="second" exp="2" /></quantity>
-                with an experimental uncertainty (precision) of
-<quantity><mag>0.05</mag><unit base="meter" /><per base="second" exp="2" /></quantity>,
-                rather than the textbook value of
-<quantity><mag>9.81</mag><unit base="meter" /><per base="second" exp="2" /></quantity>,
+                If the acceleration due to gravity was measured to be <m>9.52\unitfrac{m}{s^2}</m>
+                with an experimental uncertainty (precision) of <m>0.05\unitfrac{m}{s^2}</m>,
+                rather than the textbook value of <m>9.81\unitfrac{m}{s^2}</m>,
                 then we should be concerned with why the accuracy is
                 not as good as the precision.  This is most likely to mean that there is a significant systematic error in the experiment,
                 where one of the initial assumptions may not be valid.  The textbook value does not consider the effects of the air.
@@ -3783,5 +4083,7 @@
 
 <!-- ********************************************************************************************** -->
 </backmatter>
+
+
 </book>
 </mathbook>
