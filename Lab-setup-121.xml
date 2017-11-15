@@ -600,6 +600,7 @@
                                 <li><p>The south east and south west tables might be aligned long-ways east-west (rather than long-ways north-south as they are now).  In this case, the south west table (apparatus clamped on the NW corner) shoots west (back of the room) and the south east table (apparatus clamped on the SE corner) shoots east (towards the white board).  These should be pulled to the north-south middle of the room so that the south middle table can be aligned long-ways east-west to the south of these tables and can shoot either east (apparatus clamped on the SE corner) or west (apparatus clamped on the NW corner).</p></li>
                                 <li><p>The south east and south west tables might be aligned long-ways north-south (as they are now); but they should be squeezed to abut the south middle table.  In this case, the tables should be slightly off-set in order to allow students to access their guns and the location their gun fires to, without interfering with their neighbor.  In this case, the south west table (apparatus clamped on the NW corner) shoots west (back of the room) and the south east table (apparatus clamped on the SE corner) shoots east (towards the white board).  The south-west and south-east tables should be moved slightly towards the north-south middle of the room so that the south middle table can stick out a bit to the south of these tables.  The south middle table should shoot east (towards the white board) specifically so that it can be clamped to the south-east corner of the table.</p></li>
                                 <li><p>It is possible to arrange the room so that the southern table shoot to the south, but then the students have to crawl under the counter and they are shooting towards the computers along the south wall.  I recommend against this option.</p></li>
+                                <li><p>When you move the tables, <alert>be aware</alert> that the tables have electrical outlets in them and <alert>all have plugs</alert> that are in the floor or in the wall.  <alert>Be careful not to pull the plugs out of the floor</alert> when moving the tables.  If you get a small screw driver, then you can unwind some extra cable and relocate the stopper that keeps the cable from being re-wound. (See <xref ref="f-ballistic-rearrange" text="type-local" /> below.)</p></li>
                         </ul></p></li>
                         <li><p>All tables will need to be adjusted so that there is sufficient room to shoot and land far enough from the wall that a box can be placed between the landing spot and the wall.  If the landing spot is too close to the box, then the ball <em>could</em> bounce off the wall and back onto the carbon paper, which makes the lab more difficult than necessary.  Please leave enough room between the landing spot and the box that protects the wall that the ball does not immediately drop back onto the carbon paper that will be positioned at the landing site.</p></li>
                 </ul></p></li>
@@ -615,7 +616,7 @@
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
                         <row bottom="minor"><cell>AF26</cell><cell>Ballistic Pendulum apparatus</cell>
                                 <cell><p>One is missing a foot and uses a black rubber cork as a stabilizer. Several have difficulty with keeping the pendulum portion fixed in place.  You are expected to check the maintenance of this equipment early enough before lab that you (or possibly the instructor) can fix any flaws in the equipment before the lab.  <alert>Do not wait until the last minute to set this lab up!</alert> </p></cell></row>
-                        <row bottom="minor"><cell><p>AD91</p></cell><cell><p>1 1-meter stick, 1 2-meter stick</p></cell><cell><p>Note they will need two metersticks</p></cell></row>
+                        <row bottom="minor"><cell><p>AD91, AF34</p></cell><cell><p>1 1/2-meter stick, 1 1-meter stick, 1 2-meter stick</p></cell><cell><p>Note they might want more metersticks.</p></cell></row>
                         <row bottom="minor"><cell><p><stale>AD72</stale> <alert>AD43</alert></p></cell><cell>1 C-clamp</cell>
                                 <cell><p>The AD72 clamps will work for the red ballistic pendulums, because they are short.  The steel ones, though, are too tall and need the AD43 C-clamps.  (I might be wrong about the AD43 bin number; please correct me so I can update this file.)</p>
                                 <p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
@@ -639,6 +640,16 @@
                 <image xml:id="i-ballistic-overall" source="i-ballistic-overall.jpg" />
         </figure>
 
+        <figure xml:id="f-ballistic-rearrange">
+                <caption>When rearranging the tables, but aware that under each table, there is a cord plugged into the floor or the wall.  These can be unwound and, with a screwdriver, the stopper can be moved so that a longer stretch of cord is extended.</caption>
+                <sidebyside widths="49% 49%">
+                        <image xml:id="i-tight-cord" source="i-tight-cord.jpg" />
+                        <image xml:id="i-extend-cord" source="i-extend-cord.jpg" />
+                </sidebyside>
+        </figure>
+
+
+
     <p>(Updated: November 15, 2017)</p>         <!-- Added photo -->
     <!--        <p>(Updated: November 9, 2017)</p>  Created list -->
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-ballistic.html" /></p>
@@ -650,6 +661,8 @@
 
 <section xml:id="s-equilibrium"><title>Human Forearm</title>
 
+        <p>For the instructor:  We do <alert>not</alert> have <url href="https://www.cambridge.edu.au/education/about/terms/">permission</url> to reproduce <url href="http://www.dynamicscience.com.au/tester/solutions1/hydraulicus/bicepcurl.gif">this image</url>, but it might be useful for you to have in your head when explaining the lab.</p>
+        
         <table xml:id="t-equilibrium">
         <caption>Equipment Needed: <xref ref="s-equilibrium" text="title" /></caption>
                 <tabular>
@@ -658,33 +671,48 @@
                         <col width="60%" />
                         <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
                         <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
-                        <row bottom="minor"><cell>AD??</cell><cell><p>2 rod clamps (size depends on the rods you picked)</p></cell>
-                                <cell><p>These connect the vertical rods to the horizontal rod</p></cell></row>
-                        <row bottom="minor"><cell>AE??</cell><cell>clamps for the meter-sticks</cell>
-                                <cell><p>These are the little black things that slide onto a meter-stick and have a metal piece that a mass-hanger can hang off of.</p></cell></row>
-                        <row bottom="minor"><cell><p>End of AD</p></cell><cell><p>3 rods (2 long, 1 short)</p></cell>
-                                <cell><p>Note that one rod goes in the table, so you need to notice if each table has a hole or a screw for this rod.  The short rod is for stability.</p>
-                                <p><alert>Option</alert> You might use the rod with a base (and lead bricks at AG16) or a rod with a C-clamp (AD71), but the clamp might get in the way.</p></cell></row>
-                        <row bottom="minor"><cell>End of AF</cell><cell>1 2-meter stick</cell>
+                        <row bottom="minor"><cell>AD21</cell><cell>3 clamps for the meter-sticks</cell>
+                                <cell><p>These are the little aluminum things that slide onto a meter-stick and have a metal piece that a mass-hanger can hang off of. If the instructor wants you (instead of the students to put these on, notice that two hang down and one hangs up -- see image below.) </p></cell></row>
+                        <row bottom="minor"><cell>AD41</cell><cell>1 2-slot-perpendicular clamp</cell>
+                                <cell><p>This is used to connect the vertical thick rod to the horizontal small rod</p></cell></row>
+                        <row bottom="minor"><cell>AD71</cell><cell>1 C-clamp</cell>
+                                <cell><p><alert>Important:</alert> There are small pieces of cardboard available to place between the clamp and the lab table so that you do not add dents to the table!</p></cell></row>
+                        <row bottom="minor"><cell>AD82</cell><cell>1 clamp</cell>
+                                <cell><p>This is used to hold the track in place.  Note the size of rod that fits through the hole on this clamp. <alert>CAUTION</alert>: Do not over-tighten this clamp.  <em>The track should not be bent
+                                by the clamp!</em></p></cell></row>
+                        <row bottom="minor"><cell>AD91</cell><cell>1 1-meter stick</cell>
                                 <cell><p>.</p></cell></row>
-                        <row bottom="minor"><cell>AF42</cell><cell>1 spring</cell>
-                                <cell><p>(any color)</p></cell></row>
-                         <row bottom="minor"><cell>AF44</cell><cell>hangers and various masses</cell>
-                                <cell><p>.</p></cell></row>
-                        <row bottom="minor"><cell>AF34</cell><cell>1 meter stick</cell>
+                        <row bottom="minor"><cell><p>end of AD</p></cell><cell>1 thick metal rod</cell>
+                                <cell><p>Mount vertically off the table</p></cell></row>
+                        <row bottom="minor"><cell>end of AD</cell><cell>1 small rod</cell>
+                                <cell><p>This is used to connect the clamp to the thick rod</p></cell></row>
+                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
+                                <cell><p>This is used to measure the elongation of the spring.</p></cell></row>
+                        <row bottom="minor"><cell>AF22-2-13</cell><cell><p>light plastic bucket</p></cell>
+                                <cell><p>These likely have string attached and are in a large box labelled <q>DYNAMIC CARTS AF22-2-13</q></p></cell></row>
+                        <row bottom="minor"><cell>AF34</cell><cell>1 1/2-meter stick</cell>
                                 <cell><p>(might need a 1/2-meter stick)</p></cell></row>
+                        <row bottom="minor"><cell>AF43</cell><cell>1 spring</cell>
+                                <cell><p>(any color)</p></cell></row>
+                        <row bottom="minor"><cell>AF43</cell><cell>1 small rectangular mirror</cell>
+                                <cell><p>These are for minimizing parallax.</p></cell></row>
+                         <row bottom="minor"><cell>AF44</cell><cell>hangers and various masses</cell>
+                                <cell><p>The hangers might be in AF43, but their home is AF44.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for instructor to use</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>AK32</p></cell><cell><p>Model of Human Forearm</p></cell>
+                                <cell><p>This is in a white cardboard box.  The label might or might not be facing outwards.</p></cell></row>
                </tabular>
         </table>
-        <todo> (1) Need a picture of equipment laid out.
-                (2) Need a better picture (neutral background) of the equipment setup.
-                (3) Get specific location of clamps (AD??, AE??).</todo>
 
         <figure xml:id="f-equilibrium">
-                <caption>The equipment setup.</caption>
-                <image xml:id="i-equilibrium" source="i-equilibrium-setup.jpg" />
+                <caption>Three views of the equipment setup.  Recall also <xref ref="f-springs-2" text="type-global" />.</caption>
+                <image xml:id="i-forearm-setup" source="i-forearm-setup.jpg" />
+                <image xml:id="i-forearm-stand" source="i-forearm-stand.jpg" />
         </figure>
 
-    <p>(Updated: February 27, 2013)</p>
+    <p>(Updated: November 15, 2017)</p>  <!-- reconfigured with the track with ruler on it. Added pictures  -->
+<!--     <p>(Updated: February 27, 2013)</p>  -->
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-equilibrium.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf</url></p>
 
