@@ -585,7 +585,7 @@
                                 <li><p>If you clamp the apparatus to the table, the clamp needs to be out of the path of the gun -- this affects the way the tables are arranged in the room.</p></li>
                                 <li><p>Be aware of what the gun might hit if it misses the pendulum bob.  Do not shoot it towards people or expensive equipment!</p></li>
                         </ul></p></li>
-                        <li><p>Your goal while adjusting these screws is to simultaneously allow 
+                        <li><p>Your goal while adjusting these screws is to simultaneously allow
                         <ol>
                                 <li><p>the gun to shoot <em>straight</em> into the pendulum bob AND </p></li>
                                 <li><p>the pendulum to swing back and catch on the notches of the angled platform.</p></li>
@@ -633,56 +633,16 @@
                                 <cell><p>When you find this, tell Dr. Christensen the bin-number so he can update this page.</p></cell></row>
                 </tabular>
         </table>
-        <todo>Need a picture of equipment laid out.</todo>
 
-<!--
         <figure xml:id="f-ballistic">
                 <caption>The equipment setup.</caption>
                 <image xml:id="i-ballistic-overall" source="i-ballistic-overall.jpg" />
         </figure>
--->
 
-    <p>(Updated: November 9, 2017)</p>
+    <p>(Updated: November 15, 2017)</p>         <!-- Added photo -->
+    <!--        <p>(Updated: November 9, 2017)</p>  Created list -->
     <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-ballistic.html" /></p>
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/ballistic.pdf">ballistic.pdf</url></p>
-
-</section>
-
-<!-- ********************************************************************************************** -->
-
-<!-- Search-replace  [labname] with the xml:id
-        Search-replace  [Next Lab] with lab title
-        -->
-<section xml:id="s-labname"><title>Next Lab</title>
-
-        <table xml:id="t-labname">
-        <caption>Equipment Needed: <xref ref="s-labname" text="title" /></caption>
-                <tabular>
-                        <col width="10%" />
-                        <col width="30%" />
-                        <col width="60%" />
-                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
-                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
-                                <cell><p>.</p></cell></row>
-                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
-                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
-                        <row bottom="minor"><cell><p>.</p></cell><cell><p>.</p></cell>
-                                <cell><p>.</p></cell></row>
-                </tabular>
-        </table>
-        <todo>Need a picture of equipment laid out.</todo>
-
-<!--
-        <figure xml:id="f-labname">
-                <caption>The equipment setup.</caption>
-                <image xml:id="i-labname-overall" source="i-labname-overall.jpg" />
-        </figure>
--->
-
-    <p>(Updated: October 12, 2017)</p>
-    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-labname.html" /></p>
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/labname.pdf">labname.pdf</url></p>
 
 </section>
 
@@ -729,6 +689,45 @@
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf</url></p>
 
 </section>
+
+<!-- ********************************************************************************************** -->
+
+<!-- Search-replace  [labname] with the xml:id
+        Search-replace  [Next Lab] with lab title
+        -->
+<section xml:id="s-labname"><title>Next Lab</title>
+
+        <table xml:id="t-labname">
+        <caption>Equipment Needed: <xref ref="s-labname" text="title" /></caption>
+                <tabular>
+                        <col width="10%" />
+                        <col width="30%" />
+                        <col width="60%" />
+                        <row bottom="major"><cell>Location</cell><cell>Equipment</cell><cell>Notes</cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>For Each Lab Station</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell>AF12</cell><cell>1 track</cell>
+                                <cell><p>.</p></cell></row>
+                        <row bottom="medium"><cell colspan="3" halign="center"></cell></row>
+                        <row bottom="medium"><cell colspan="2" halign="center"><alert>At the front for students to share</alert></cell><cell></cell></row>
+                        <row bottom="minor"><cell><p>.</p></cell><cell><p>.</p></cell>
+                                <cell><p>.</p></cell></row>
+                </tabular>
+        </table>
+        <todo>Need a picture of equipment laid out.</todo>
+
+<!--
+        <figure xml:id="f-labname">
+                <caption>The equipment setup.</caption>
+                <image xml:id="i-labname-overall" source="i-labname-overall.jpg" />
+        </figure>
+-->
+
+    <p>(Updated: October 12, 2017)</p>
+    <p>A digital version of the lab should be found at <url href="http://physics.thomasmore.edu/PHY121Lab/c-labname.html" /></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/labname.pdf">labname.pdf</url></p>
+
+</section>
+
 
 </chapter>
 
