@@ -182,7 +182,7 @@
     </preface>
 
     <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
-    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (704 kB)</url></p>
+    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (705 kB)</url></p>
     </preface>
 
 </frontmatter>
@@ -351,7 +351,6 @@
     a movable vernier scale.  The fraction of a millimeter can be read off the vernier scale by choosing the mark on the
     vernier scale which best aligns with a mark on the main scale.</p>
 
-        <assemblage>
         <figure xml:id="f-vernier">
         <title>The Vernier Caliper</title>
         <caption>
@@ -360,7 +359,6 @@
         </caption>
         <image source="vernier.JPG" width="100%" />
         </figure>
-        </assemblage>
 
     <p> To move the vernier scale relative to the main scale press down on the thumb-lock, this releases the lock and then
     move the vernier scale.   Do not try to move the vernier scale without releasing the lock. </p>
@@ -380,7 +378,6 @@
     one revolution moves the rod 0.5 millimeters.  The rotating cylinder has 50 marks on it.  Read the mark on the rotating cylinder
     that aligns with the central line on the main scale.</p>
 
-        <assemblage>
         <figure xml:id="f-micrometer">
         <title>The Micrometer Caliper</title>
         <caption>Notice on the coarse scale, that the lower lines read (1, 2, 3, <ellipsis /> 6 in this picture) and the higher lines read
@@ -393,7 +390,6 @@
 	</caption>
         <image source="micrometer.JPG" width="100%" />
         </figure>
-        </assemblage>
 
     <aside><title></title><p>
     The reading of the micrometer from <xref ref="f-micrometer" text="type-global" /> is <m>6.730 \pm .005 \unit{mm}</m>.
@@ -507,7 +503,6 @@
     <xref ref="f-histogram" text="type-global" />).  The envelope of this graphical data set is bell shaped, and is called a Gaussian or a Normal
     distribution curve.</p>
 
-        <assemblage>
         <figure xml:id="f-histogram">
         <title>A sample histogram</title>
         <caption>
@@ -515,7 +510,6 @@
         </caption>
         <image source="darthistogram.jpg" width="100%" />
         </figure>
-        </assemblage>
 
     <p>The <q>standard deviation</q> is a measure of the spread or width of the histogram data.  A small standard deviation
     means that there is a small spread in the data about the central mean value and implies that the data cluster closely
@@ -655,7 +649,7 @@
         \revision{Aug. 28, 2009}{Added Jack's picture back in}
         \revision{Jan. 7, 1997}{Jack}
     -->
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (243 kB)</url></p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (242 kB)</url></p>
         <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
         </conclusion>
 </chapter>
@@ -2894,22 +2888,22 @@
 
 <introduction><title>Introduction</title>
 
-    <p>Objects that are not accelerating are said to be in a state of equilibrium.  If the object is
-    moving at a constant velocity, then it is in equilibrium.  If the object is at rest, then it is in
-    <q>static equilibrium.</q>  These principles apply to many physical examples in engineering,
+    <p>Objects that are not accelerating are said to be in a state of <term>equilibrium</term>.  If the object is
+    moving at a constant velocity, then it is in <term>dynamic equilibrium</term>.  If the object is at rest, then it is in
+    <term>static equilibrium</term>.  These principles apply to many physical examples in engineering,
     architecture, and biophysics.   In particular, these principles allow one to be able to analyze and
     calculate the forces on the beams or the cables in a bridge or the forces at work in the muscles and
     bones in the human body.</p>
 
     <p>The two conditions for equilibrium can be stated in equation form: First, if the body's center of
-    mass is in translational equilibrium then it will not accelerate in any direction.
-    <me> \sum \vec F = 0 </me>
-    Secondly, if the body is in rotational equilibrium then it will not rotate about any point or axis of rotation.
-    <me> \sum \tau = 0</me>
+    mass is in <term>translational equilibrium</term> then it will not accelerate in any direction.
+    <men xml:id="eq-trans-equil"> \sum \vec F = 0 </men>
+    Secondly, if the body is in <term>rotational equilibrium</term> then it will not rotate about any point or axis of rotation.
+    <men xml:id="eq-rot-equil"> \sum \tau = 0</men>
     </p>
 
-    <p>For all systems such as these there is a special point called the center of mass or center of
-    gravity of the system.  The center of mass calculation is a weighted average of the individual masses
+    <p>For all systems such as these, there is a special point called the <term>center of mass</term> or <term>center of
+    gravity</term> of the system.  The center of mass calculation is a weighted average of the individual masses
     (giving more emphasis to those positions where there is more mass).  The location of this special point
     can be useful in determining whether the system will be in equilibrium.  For an object with uniform
     density, such as a half-meter stick, the center of mass is at the center of the stick.</p>
@@ -2920,13 +2914,13 @@
 
     <p>
     <ul>
-        <li><p> Define the following terms:  torque, lever arm, and center of mass.</p></li>
-        <li><p> State in a sentence, the first and second conditions of equilibrium.</p></li>
+        <li><p> Define the following terms:  <term>torque</term>, <term>lever arm</term>, and <term>center of mass</term>.</p></li>
+        <li><p> State in a sentence, the first [<xref ref="eq-trans-equil" text="title">Equation</xref>] and second [<xref ref="eq-rot-equil" text="title">Equation</xref>] conditions of equilibrium.  Include in your comments the fact that one of these is a vector equation.</p></li>
 <!--    <li><p> For a 2-dimensional system, these two conditions of equilibrium can be written in three equations,
             write these 3 equations.</p></li>
         -->
-        <li><p> For a linear function, the slope can be determined from knowing the values of any two points,
-            <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>.   Using these two points write out a formula for the slope of the line.</p></li>
+        <li><p> In <xref ref="ss-bicep-spring" text="type-global" />, you will use a spring and find two locations associated with two weights.  These measurements have a (familiar) linear relationship and you will be asked to find the coefficient of proportionality (a.k.a., the slope; which in this case is the spring constant). For any linear function, the slope can be determined from knowing the values of any two points,
+            <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>.   Using these two points write out a formula for the slope of the line so that you can more easily find the spring constant in lab.</p></li>
         <li><p> Draw a force diagram for a horizontal forearm as outlined in <xref ref="ss-setup" text="type-global" />.
             Label all of the appropriate forces.</p></li>
     </ul>
@@ -2934,7 +2928,7 @@
 
 </section> <section xml:id="s-equilibrium-procedure"><title>Procedure</title>
 
-    <subsection><title>Determine the Spring Constant of the Bicep Muscle</title>
+    <subsection xml:id="ss-bicep-spring"><title>Determine the Spring Constant of the Bicep Muscle</title>
 
     <p>Before creating the forearm model, we need an equation for the force that the bicep exerts.
     Since the spring models the bicep, we can use Hooke's law: <m>F = k(x-x_0)</m>, where <m>x_0</m>
@@ -2945,13 +2939,14 @@
     <li><p> Hang the spring from the vertical support so that it is easy to measure the position of the bottom of the spring.</p></li>
     <li><p> Measure the position of the bottom hook of the spring, <m>x_1</m>, with about <m>m_1=250\unit{g}</m> placed on the spring.
         Measure the position of the bottom hook of the spring, <m>x_2</m>, with about <m>m_2=850\unit{g}</m> placed on the spring.
-        (If you measure from the floor, which is more convenient, then <m>k</m> will be negative.)
         <ul>
+        <li><p>You can measure from any location <alert>as long as you always measure from the same reference point.</alert>  If you measure from the floor, which is more convenient, then <m>k</m> will be negative.</p></li>
         <li><p> Parallax errors can be very significant with this measurement.  With the use of a mirror, this error can be reduced.
             Hold the mirror vertically along the track and align your line of sight until the bottom hook of the spring and its mirror
             image are at the same level.  Then take the position readings.</p></li>
         <li><p> Each person in the group should carry out these measurements without looking at the other group members' results.
             The average of these locations should be used.</p></li>
+        <li><p> You can likely improve your analysis by considering if any measurement uncertainty is <xref ref="p-random-systematic" text="title">random or systematic</xref>.</p></li>
         </ul></p></li>
     <li><p> With these two measurements, calculate the spring constant <m>k</m> as the slope of the graph of <m>F</m> versus <m>x</m>.
         You do not have to -- and should not -- actually create a graph of <m>F</m> versus <m>x</m> to do this,
@@ -2961,7 +2956,7 @@
             <li><p> <m>b</m> is the intercept.  Using one pair of data and your knowledge of <m>k</m>, find <m>b</m>.</p></li>
             <li><p> Determine the uncertainty in <m>k</m> and <m>b</m>.</p></li>
             <li><p> Now, with values and uncertainties for <m>k</m> and <m>b</m>, you can use <m>F=kx+b</m> to
-                find the force that the spring thinks it is supporting.</p></li>
+                find the force that the spring thinks it is supporting simply by measuring the location of the bottom of the spring.</p></li>
         </ul></p></li>
     </ul>
     </p>
@@ -3059,7 +3054,7 @@
     <activity xml:id="ss-elephant"><title>Comparative Anatomy</title>
 
     <statement>
-    <p>Create a table that allows you to compare the values of force for the elbow, bicep, and
+    <p>Create a table that allows you to compare the values of force for the elbow, bicep, forearm, and
     hand for three different attachment-locations.
     <ul>
         <li><p> Enter the data from <xref ref="ss-equilib" text="type-global" />.  Record each position and each force.</p></li>
@@ -3105,6 +3100,7 @@
         <exercise>
             <statement><p> Is it necessary to have the meter stick horizontal for the system to be in equilibrium?
                 Why did we want to keep the arm horizontal?</p></statement>
+            <hint><p><m>\tau = r \, F \, \sin\theta</m></p></hint>
         </exercise>
         <exercise>
             <statement><p> How was the tension in the muscle affected as the position of attached muscle was moved further from the joint?
@@ -3128,8 +3124,9 @@
 </exercises>
 
     <conclusion>
+    <p> (Revised Nov 15, 2017)</p>  <!-- some wording, some xrefs, added hint on first Question. -->
 <!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf (118 kB)</url></p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf (130 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
@@ -4056,7 +4053,7 @@ After you have calculated your prediction with uncertainty, prepare the overflow
 <!-- ********************************************************************************************** -->
 
 <appendix xml:id="s-capstone"><title>Using Capstone</title>
-        <assemblage>
+
         <figure xml:id="f-capstone">
         <title>Using Capstone</title>
         <caption>This is a PDF of a Power-Point description for how to use the important features of Capstone.</caption>
@@ -4075,7 +4072,6 @@ After you have calculated your prediction with uncertainty, prepare the overflow
         <sidebyside><image source="Capstone-12.jpg" width="100%" /></sidebyside>
         </sbsgroup>
         </figure>
-        </assemblage>
 
         <p>You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version (2.5MB)</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version (2.7MB)</url> of this document.</p>
 
