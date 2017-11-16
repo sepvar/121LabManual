@@ -347,8 +347,9 @@
                 <image xml:id="i-friction-detail" source="i-friction-detail.jpg" />
         </figure>
         <figure xml:id="f-friction-2">
-                <caption>The equipment setup.</caption>
-                <image xml:id="i-friction-overall" source="i-friction-overall.jpg" />
+		<caption>The equipment setup.</caption>
+		<!-- Portrait orientation images need to be reduced for the PDF version -->
+                <image xml:id="i-friction-overall" width="75%" source="i-friction-overall.jpg" />
         </figure>
 
     <p>(Updated: October 12, 2017)</p>
@@ -443,7 +444,8 @@
 
         <figure xml:id="f-springs">
                 <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
-                <image xml:id="i-springs-overall-A" source="i-springs-overall-A.jpg" />
+		<!-- Portrait orientation images need to be reduced for the PDF version -->
+                <image xml:id="i-springs-overall-A" width="50%" source="i-springs-overall-A.jpg" />
         </figure>
         <figure xml:id="f-springs-2">
                 <caption>The equipment setup version <q>A</q>.  Your instructor might want the track setup in a different way.</caption>
@@ -494,10 +496,12 @@
 
         <figure xml:id="f-pendulum">
                 <caption>The equipment setup.</caption>
-                <image xml:id="i-pendulum-overall" source="i-pendulum-overall.jpg" />
+		<!-- Portrait orientation images need to be reduced for the PDF version -->
+                <image xml:id="i-pendulum-overall" width="50%" source="i-pendulum-overall.jpg" />
         </figure>
         <figure xml:id="f-pendulum-2">
                 <caption>The equipment setup.</caption>
+		<!-- ZOOMED Portrait orientation images might need to be reduced for the PDF version -->
                 <image xml:id="i-pendulum-clamp" source="i-pendulum-clamp.jpg" />
         </figure>
 
@@ -705,9 +709,16 @@
                </tabular>
         </table>
 
-        <figure xml:id="f-equilibrium">
-                <caption>Three views of the equipment setup.  Recall also <xref ref="f-springs-2" text="type-global" />.</caption>
+        <figure xml:id="f-equilibrium-1">
+                <caption>The necessary equipment laid out.</caption>
+                <image xml:id="i-forearm-equip" source="i-forearm-equip-landscape.jpg" />
+        </figure>
+        <figure xml:id="f-equilibrium-2">
+		<caption><alert>If</alert> your instructor wants you to set up the <q>arm</q>, then this is how it is connected.  Notice that the two clamps on the outer edges hang down and the clamp connected to the spring <q>hangs</q> up.</caption>
                 <image xml:id="i-forearm-setup" source="i-forearm-setup.jpg" />
+        </figure>
+        <figure xml:id="f-equilibrium-3">
+		<caption>How to set up the support.  Recall also <xref ref="f-springs" text="type-global" /> and <xref ref="f-springs-2" text="type-global" />.</caption>
                 <image xml:id="i-forearm-stand" source="i-forearm-stand.jpg" />
         </figure>
 

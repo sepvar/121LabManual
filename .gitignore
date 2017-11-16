@@ -20,3 +20,27 @@ PASCO-lesson.pdf
 PASCO-lesson.pptx
 # Ignore creation of modified file
 121-Lab-Manual-mod.xml
+# Ignore the 121-Lab-Manual files as output from XML
+121-Lab-Manual.aux
+121-Lab-Manual.bbl
+121-Lab-Manual.blg
+121-Lab-Manual.html
+121-Lab-Manual.log
+121-Lab-Manual.out
+121-Lab-Manual.synctex
+121-Lab-Manual.synctex(busy)
+121-Lab-Manual.toc
+# Ignore the extracted lab pdfs prior to compression
+*_big.pdf
+# Ignore the TMC-lab-setup files as output from XML
+TMC-lab-setup.aux
+TMC-lab-setup.bbl
+TMC-lab-setup.blg
+TMC-lab-setup.html
+TMC-lab-setup.log
+TMC-lab-setup.out
+TMC-lab-setup.synctex
+TMC-lab-setup.synctex(busy)
+TMC-lab-setup.toc
+# Ignore the extracted lab pdfs prior to compression
+*_big.pdf
