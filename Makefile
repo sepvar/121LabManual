@@ -68,7 +68,7 @@ fall-lab-manual.tex: 121-l
 
 121-p: fall-lab-manual.tex
 	pdflatex fall-lab-manual.tex && pdflatex fall-lab-manual.tex || pdflatex fall-lab-manual.tex
-	@echo "\\n\\nYou should probably run [make labpdf] to make individual pdfs for each of the lab exercises."
+	@echo "\\\n\\\nYou should probably run [make labpdf] to make individual pdfs for each of the lab exercises."
 
 121: 121-h 121-p
 

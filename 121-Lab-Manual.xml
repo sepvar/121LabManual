@@ -3,7 +3,7 @@
 
     <docinfo>
 
-        <brandlogo url="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.html" source="images/i-caliper-small.jpg" />
+        <brandlogo url="http://physics.thomasmore.edu/Labs/121/fall-lab-manual.html" source="images/i-caliper-small.jpg" />
 
 	<macros>
         \newcommand{\JC}[1]{}
@@ -61,7 +61,7 @@
 
     </docinfo>
 
-    <book xml:id="fall-lab-manual" xmlns:xi="http://physics.thomasmore.edu/PHY121Lab/">
+    <book xml:id="fall-lab-manual" xmlns:xi="http://physics.thomasmore.edu/Labs/121/">
         <title>PHY 121 Lab Manual</title>
         <subtitle>Thomas More College, Algebra-based Introductory Physics</subtitle>
 
@@ -182,7 +182,7 @@
     </preface>
 
     <preface xml:id="general-fall-PDF"><title>Download the PDF here</title>
-    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/PHY121Lab/fall-lab-manual.pdf">fall-lab-manual.pdf (705 kB)</url></p>
+    <p>A full PDF version of this document can be found at <url href="http://physics.thomasmore.edu/Labs/121/fall-lab-manual.pdf">fall-lab-manual.pdf (705 kB)</url></p>
     </preface>
 
 </frontmatter>
@@ -458,8 +458,8 @@
     \revision{August 24, 2009}{Intro list as an enumerated TeX list.}
     -->
 
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/measurement.pdf">measurement.pdf (308 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/measurement.pdf">measurement.pdf (308 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
 
@@ -649,8 +649,8 @@
         \revision{Aug. 28, 2009}{Added Jack's picture back in}
         \revision{Jan. 7, 1997}{Jack}
     -->
-        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/StDev.pdf">StDev.pdf (242 kB)</url></p>
-        <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+        <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/StDev.pdf">StDev.pdf (242 kB)</url></p>
+        <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
         </conclusion>
 </chapter>
 
@@ -954,8 +954,8 @@
         \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
         \revision{Sept. 16, 2008}{Created?}
         -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/acceleration.pdf">acceleration.pdf (115 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/acceleration.pdf">acceleration.pdf (115 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -1232,8 +1232,8 @@
         \revision{Sept. 14, 2015}{Updated Pasco Reference from DataStudio to Capstone}
         \revision{Sept.3, 2008}{}
         -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Newton.pdf">Newton.pdf (162 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/Newton.pdf">Newton.pdf (162 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
 
@@ -1529,8 +1529,8 @@
         \revision{Sept.~28, 2015}{}
         \revision{Sept.~23, 2008}{}
         -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/friction.pdf">friction.pdf (176 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/friction.pdf">friction.pdf (176 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -1657,8 +1657,8 @@
 <!--    <p>(Revised: Oct 9, 2017)</p> Clarified how to repeat the measurement for a second value of force, added outcomes -->
     <!--    Revisions \revised{Fall 2006}
         -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/centripetal.pdf">centripetal.pdf (83 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/centripetal.pdf">centripetal.pdf (83 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -2288,8 +2288,8 @@
         \revision{October 24, 2015}{made it a one week lab}
         \revision{August 24, 2009}{}
         -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/energy-2.pdf">energy-2.pdf (166 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/energy-2.pdf">energy-2.pdf (166 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -2352,8 +2352,8 @@
 <!--    Revisions
         \revised{Sep 1, 2008}
         -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/peer.pdf">peer.pdf (47 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/peer.pdf">peer.pdf (47 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -2549,8 +2549,8 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Clarified linearization, added cross-referencing links. -->
 <!-- Revisions \revised{(Aug 27, 2012)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/springs.pdf">springs.pdf (122 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/springs.pdf">springs.pdf (122 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -2658,8 +2658,8 @@
     <conclusion>
     <p>(Revised: Oct 11, 2017)</p> <!-- Linked to appendix for linearizing.  Suggested using <m>T/2\pi</m>. -->
 <!-- Revisions \revised{(Aug 27, 2012)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/pendulum.pdf">pendulum.pdf (67 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/pendulum.pdf">pendulum.pdf (67 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -2870,8 +2870,8 @@
     <conclusion>
     <p>(Revised: Nov 9, 2017)</p> <!-- revised a lot of wording.  made pre-lab exercises and paragraphs. -->
 <!-- Revisions \revised{(Jack)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/ballistic.pdf">ballistic.pdf (138 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/ballistic.pdf">ballistic.pdf (138 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -3126,8 +3126,8 @@
     <conclusion>
     <p> (Revised Nov 15, 2017)</p>  <!-- some wording, some xrefs, added hint on first Question. -->
 <!-- Revisions \revised{(Nov 22, 2011)} \revised{(Aug 18, 2011)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/equilibrium.pdf">equilibrium.pdf (130 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/equilibrium.pdf">equilibrium.pdf (130 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 </chapter>
 
@@ -3204,8 +3204,8 @@
 
     <conclusion>
 <!-- Revisions \revised{Oct 12, 2015} \revision{Oct 12, 2015}{changed <q>is</q> to <q>us</q>} \revision{Oct 21, 2008}{} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/scaling.pdf">scaling.pdf (59 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/scaling.pdf">scaling.pdf (59 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -3360,8 +3360,8 @@ After you have calculated your prediction with uncertainty, prepare the overflow
 <!-- Revisions
 \revised{Nov. 23, 2008}
 -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/Archimedes.pdf">Archimedes.pdf (116 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/Archimedes.pdf">Archimedes.pdf (116 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -3495,8 +3495,8 @@ After you have calculated your prediction with uncertainty, prepare the overflow
 <!-- <p>Previous revisions: ((Jan, 2012)) Fixed Wavelength plots F vs v^2 to get m/L as slope.  Added comments about stretching affecting density. </p>  -->
 <!-- <p>Previous revisions: ((Aug, 2011)) Rearranged equations for clarity. </p>  -->
 <!-- <p>Previous revisions: ((Jan, 2008)) Created </p>  -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/PHY121Lab/standingwaves.pdf">standingwaves.pdf (98 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/PHY121Lab/general-fall-colophon.html">here</url>.</p>
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/standingwaves.pdf">standingwaves.pdf (98 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
 </chapter>
@@ -4073,7 +4073,7 @@ After you have calculated your prediction with uncertainty, prepare the overflow
         </sbsgroup>
         </figure>
 
-        <p>You may also download the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pdf">PDF-version (2.5MB)</url> or the <url href="http://physics.thomasmore.edu/PHY121Lab/Capstone.pptx">power-point version (2.7MB)</url> of this document.</p>
+        <p>You may also download the <url href="http://physics.thomasmore.edu/Labs/121/Capstone.pdf">PDF-version (2.5MB)</url> or the <url href="http://physics.thomasmore.edu/Labs/121/Capstone.pptx">power-point version (2.7MB)</url> of this document.</p>
 
 </appendix>
 
