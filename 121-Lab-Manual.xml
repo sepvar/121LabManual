@@ -3888,71 +3888,68 @@ After you have calculated your prediction with uncertainty, prepare the overflow
     <p> The rules for <term>significant figures</term>:
     <!-- These need to be conventions, not asides -->
     <ol>
-    <li><sidebyside><paragraphs><p>Significant figures include all certain digits plus the first of the doubtful digits.</p>
-
-    <convention><p>The reading obtained from the meter stick would be written as 52.4 mm;
-    all digits up to and including the first doubtful digit.  The reading from the micrometer would be written as 52.430 mm.
-    The first doubtful digit in the case of the meter stick is .4 mm.  The first doubtful digit in the case of the micrometer
-    is zero-thousandths of a millimeter.  Note that the number of significant figures is related to the precision of the
-    measuring instrument -- it is not an abstraction about the number.</p>
-
-    <p>Sometimes the character zero is confusing.  See <xref ref="sig-rule-zero">Rule</xref>.</p>
-    </convention>
-    </paragraphs></sidebyside>
-    </li>
-    <li xml:id="sig-rule-zero"><sidebyside><paragraphs><p>Zeros to the right of the number are significant; zeros on the left are not.</p>
-
-    <convention><p>In the example above, the reading of the micrometer was given as 52.430 mm.
-    The zero is a significant figure, it communicates the fact that the micrometer measurement is good to a thousandth of a millimeter.
-    Zeros used to the left of significant digits to position the decimal point are not significant.
-    They are not communicating the precision of the measurement.  For example, if the measurement from the meter stick were
-    written as 0.0524 meter, the zeros would not be significant digits.  Because of the units (meters instead of millimeters),
-    the decimal point had to be moved to the left.  This measurement still has only three significant figures.
-    </p></convention>
-
-    <example>
-    <statement><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
-    (1 micron = 1 millionth of a meter).   We determined that the meter stick reading has 3 sig. figs.,
-    one good way to write this  is to use scientific notation.  Write the number as <m>5.24\ten{4}\unit{microns}</m>.
-    The factor of <m>10^4</m> shows the order of magnitude, while the <m>5.24</m> retains the proper number of significant figures.
-    Study the following examples:</p>
-        <sidebyside width="75%">
-        <tabular>
-                <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row>
-                <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row>
-                <row><cell> <m>0.0524 \unit{m}</m> </cell><cell> 3 significant figures </cell></row>
-                <row><cell> <m>5.24\ten{4}\unit{\mu m}</m> </cell><cell> 3 significant figures </cell></row>
-                <row><cell> <m>52.430 \unit{mm}</m> </cell><cell> 5 significant figures </cell></row>
-                <row><cell> <m>0.052430 \unit{m}</m> </cell><cell> 5 significant figures </cell></row>
-                <row><cell> <m>5.2430\ten{4}\unit{\mu m}</m> </cell><cell> 5 significant figures </cell></row>
-                <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row>
-                <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row>
-        </tabular>
-        </sidebyside>
-    <p>Because all measurements are limited in their precision, then all results derived from these measurements are also
-    limited in their precision.  Many students get carried away with the number of digits produced by a calculator and
-    mislead the reader by reporting their results with more significant figures than their data permits.
-    Form the habit of rejecting all figures which will have no influence in the final result and report the result with only
-    the number of significant digits allowed by the data.  The following rules will help you do this successfully.
-    </p></statement></example>
-    </paragraphs></sidebyside>
-    </li>
-    <li><sidebyside><paragraphs><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.</p>
-
-    <convention><p>Because the use of significant digits is meant to be an approximation to the more precise
-    use of measurement uncertainty, the convention for the rounding of the final digit is not critical and is treated a little
-    differently by different scientists.  Some round-up anything five-or-more.  Some round-down anything five-or-less.
-    Some round the five up or down based on whether the next digit is even or odd.  This third choice is intended to express that
-    we don't actually know which way to round it and letting the randomness of the next digit make the determination is like
-    flipping a coin. <alert>You should ask your instructor, which approach they prefer.</alert></p></convention>
-    </paragraphs></sidebyside></li>
-
+    <li xml:id="sig-rule-first-digit"><p>Significant figures include all certain digits plus the first of the doubtful digits. (Note <xref ref="convention-first-digit" text="type-global" />.) </p></li>
+    <li xml:id="sig-rule-zero"><p>Zeros to the right of the number are significant; zeros on the left are not.  (Note <xref ref="convention-zero" text="type-global" /> and <xref ref="ex-zero" text="type-global" />.) </p></li>
+    <li xml:id="sig-rule-rounding"><p>Round the number, increasing by one the last digit retained if the following digit is greater than five.  (Note <xref ref="convention-rounding" text="type-global" />.) </p></li>
     <li><p>In addition and subtraction, carry the result only up to the first doubtful decimal place of any of the starting numbers.</p></li>
-
-    <li><p>In multiplication and division, retain as many significant figures in the answer as there are in the
-    starting number with the smallest number of significant figures.</p></li>
+    <li><p>In multiplication and division, retain as many significant figures in the answer as there are in the starting number with the smallest number of significant figures.</p></li>
     </ol>
     </p>
+
+    <convention xml:id="convention-first-digit"><title>One doubtful digit</title>
+            <p>(Note <xref ref="sig-rule-first-digit" text="global">Rule</xref>.) The reading obtained from the meter stick would be written as 52.4 mm;
+            all digits up to and including the first doubtful digit.  The reading from the micrometer would be written as 52.430 mm.
+            The first doubtful digit in the case of the meter stick is .4 mm.  The first doubtful digit in the case of the micrometer
+            is zero-thousandths of a millimeter.  Note that the number of significant figures is related to the precision of the
+            measuring instrument -- it is not an abstraction about the number.</p>
+            <p>Sometimes the character zero is confusing.  See <xref ref="sig-rule-zero">Rule</xref>.</p>
+    </convention>
+
+    <convention xml:id="convention-zero"><title>Dealing with Zero</title>
+            <p>(Note <xref ref="sig-rule-zero" text="global">Rule</xref> and <xref ref="ex-zero" text="type-global" />.) In the example above, the reading of the micrometer was given as 52.430 mm.
+            The zero is a significant figure, it communicates the fact that the micrometer measurement is good to a thousandth of a millimeter.
+            Zeros used to the left of significant digits to position the decimal point are not significant.
+            They are not communicating the precision of the measurement.  For example, if the measurement from the meter stick were
+            written as 0.0524 meter, the zeros would not be significant digits.  Because of the units (meters instead of millimeters),
+            the decimal point had to be moved to the left.  This measurement still has only three significant figures.</p>
+    </convention>
+
+    <example xml:id="ex-zero"><title>Handling Zero</title>
+            <statement><p>Suppose that you wished to give the meter stick measurement in terms of microns <m>(\mu)</m>
+            (1 micron = 1 millionth of a meter).   We determined that the meter stick reading has 3 sig. figs.,
+            one good way to write this  is to use scientific notation.  Write the number as <m>5.24\ten{4}\unit{microns}</m>.
+            The factor of <m>10^4</m> shows the order of magnitude, while the <m>5.24</m> retains the proper number of significant figures.
+            Study the following examples:</p>
+                <sidebyside width="75%">
+                <tabular>
+                        <row><cell> <m>5.24 \unit{cm}</m> </cell><cell> 3 significant figures </cell></row>
+                        <row><cell> <m>52.4 \unit{mm}</m> </cell><cell> 3 significant figures </cell></row>
+                        <row><cell> <m>0.0524 \unit{m}</m> </cell><cell> 3 significant figures </cell></row>
+                        <row><cell> <m>5.24\ten{4}\unit{\mu m}</m> </cell><cell> 3 significant figures </cell></row>
+                        <row><cell> <m>52.430 \unit{mm}</m> </cell><cell> 5 significant figures </cell></row>
+                        <row><cell> <m>0.052430 \unit{m}</m> </cell><cell> 5 significant figures </cell></row>
+                        <row><cell> <m>5.2430\ten{4}\unit{\mu m}</m> </cell><cell> 5 significant figures </cell></row>
+                        <row><cell> <m>52430 \unit{\mu m}</m>  </cell><cell> 4 significant figures </cell></row>
+                        <row><cell> <m>52430.\unit{\mu m}</m>  </cell><cell> 5 significant figures </cell></row>
+                </tabular>
+                </sidebyside>
+            <p>Because all measurements are limited in their precision, then all results derived from these measurements are also
+            limited in their precision.  Many students get carried away with the number of digits produced by a calculator and
+            mislead the reader by reporting their results with more significant figures than their data permits.
+            Form the habit of rejecting all figures which will have no influence in the final result and report the result with only
+            the number of significant digits allowed by the data.  The following rules will help you do this successfully.
+            </p></statement>
+    </example>
+
+
+    <convention xml:id="convention-rounding"><title>Rounding</title>
+            <p>(Note <xref ref="sig-rule-rounding" text="global">Rule</xref>.) Because the use of significant digits is meant to be an approximation to the more precise
+            use of measurement uncertainty, the convention for the rounding of the final digit is not critical and is treated a little
+            differently by different scientists.  Some round-up anything five-or-more.  Some round-down anything five-or-less.
+            Some round the five up or down based on whether the next digit is even or odd.  This third choice is intended to express that
+            we don't actually know which way to round it and letting the randomness of the next digit make the determination is like
+            flipping a coin. <alert>You should ask your instructor, which approach they prefer.</alert></p>
+    </convention>
 
     <p>When determining or estimating the experimental uncertainty, the precision of the measuring instrument is important,
     as shown in the above examples.  But you must also be aware of other experimental factors.  For example, a good stopwatch

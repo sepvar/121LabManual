@@ -30,6 +30,9 @@ PASCO-lesson.pptx
 121-Lab-Manual.synctex
 121-Lab-Manual.synctex(busy)
 121-Lab-Manual.toc
+121-Lab-Manual.idx
+121-Lab-Manual.sed
+121-Lab-Manual.xml.*
 # Ignore the extracted lab pdfs prior to compression
 *_big.pdf
 # Ignore the TMC-lab-setup files as output from XML
@@ -44,3 +47,7 @@ TMC-lab-setup.synctex(busy)
 TMC-lab-setup.toc
 # Ignore the extracted lab pdfs prior to compression
 *_big.pdf
+minimal-*
+step*
+list*
+build*
