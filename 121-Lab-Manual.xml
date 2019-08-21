@@ -357,7 +357,7 @@
         The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
         The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m> because we can distinguish <m>1.35</m> from <m>1.34</m> and <m>1.36</m>, but we cannot gauge the result any more precisely.
         </caption>
-        <image source="vernier.JPG" width="100%" />
+        <image source="calmeas1.jpg" width="100%" />
         </figure>
 
     <p> To move the vernier scale relative to the main scale press down on the thumb-lock, this releases the lock and then
@@ -388,7 +388,7 @@
         Since each mark corresponds to <m>0.01 \unit{mm}</m> and you can probably gauge a distance about half-way between the lines,
 	the precision of this instrument is <m>0.005\unit{mm}</m>.
 	</caption>
-        <image source="micrometer.JPG" width="100%" />
+        <image source="micromeas.jpg" width="100%" />
         </figure>
 
     <aside><title></title><p>
