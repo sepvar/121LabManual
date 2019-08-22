@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mathbook xml:lang="en-US">
+<!-- mathbook xml:lang="en-US" -->
+<mathbook>
 
     <docinfo>
 
@@ -56,8 +57,12 @@
 
         <cross-references text="global" />
 
+<!--
         <rename element="chapter" lang="en-US">Lab</rename>
         <rename element="objectives" lang="en-US">Experimental Objectives</rename>
+-->
+        <rename element="chapter">Lab</rename>
+        <rename element="objectives">Experimental Objectives</rename>
 
     </docinfo>
 
@@ -65,7 +70,7 @@
         <title>PHY 121 Lab Manual</title>
         <subtitle>Thomas More College, Algebra-based Introductory Physics</subtitle>
 
-<frontmatter xml:id="index"> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
+<frontmatter> <!-- xml:id="index" --> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
 
     <titlepage xml:id="general-fall-title">
 
@@ -357,7 +362,7 @@
         The location of the zero on the vernier scale tells you where to read the centimeter scale (1.3 cm).
         The vernier-scale line that lines up tells you the next digit (5).  This picture measures <m>1.35\pm 0.01 \unit{cm}</m> because we can distinguish <m>1.35</m> from <m>1.34</m> and <m>1.36</m>, but we cannot gauge the result any more precisely.
         </caption>
-        <image source="calmeas1.jpg" width="100%" />
+        <image source="images/calmeas1.jpg" width="100%" />
         </figure>
 
     <p> To move the vernier scale relative to the main scale press down on the thumb-lock, this releases the lock and then
@@ -388,7 +393,7 @@
         Since each mark corresponds to <m>0.01 \unit{mm}</m> and you can probably gauge a distance about half-way between the lines,
 	the precision of this instrument is <m>0.005\unit{mm}</m>.
 	</caption>
-        <image source="micromeas.jpg" width="100%" />
+        <image source="images/micromeas.jpg" width="100%" />
         </figure>
 
     <aside><title></title><p>
@@ -432,7 +437,7 @@
         <li><p> Measure the mass and then, using the overall most precise measurement of volume, compute the density
         with its uncertainty. </p></li>
         <li><p> Using your best density value, find the <xref ref="error" text="title">percent-error</xref> against the appropriate value given by the text,
-        or the <em>Handbook of Physics <ampersand /> Chemistry</em>.</p></li>
+        or the <em>Handbook of Physics &amp; Chemistry</em>.</p></li>
         <li><p> Other considerations that might help with your analysis:</p></li>
     </ul></p>
             <exercise>
@@ -544,7 +549,7 @@
     <li><p> Define the following, both in a sentence and with a mathematical formula:  mean, standard deviation
     (sometimes called the standard deviation of a single observation), and standard deviation of the mean.
     Be sure to describe the difference between these two terms.</p></li>
-    <li><p> Define the following:  histogram, probability, <ampersand /> probability distribution (Normal distribution).</p></li>
+    <li><p> Define the following:  histogram, probability, &amp; probability distribution (Normal distribution).</p></li>
     <li><p> What does the total area under the Normal distribution curve represent?</p></li>
     <li><p> How should the axes of the histogram of the data you will take for this lab be labeled?
     Give a very specific scale for the x-axis.  (Hint: Read the procedure below.)</p></li>
@@ -1141,7 +1146,7 @@
         That is, what physical quantity does the slope of this graph equal? </p>
     	</statement>
     	<hint><p>It should help to recall that Newton's second law looks very similar to the generic equation of a line: <m>y = mx+b</m>.</p></hint>
-        <answer><p>When you figure out which physical quantity the slope <em>should</em> compare to, compute the <percent />-difference to that value.</p></answer>
+        <answer><p>When you figure out which physical quantity the slope <em>should</em> compare to, compute the %-difference to that value.</p></answer>
     </exercise>
 
     <p>
@@ -1487,7 +1492,7 @@
         <li><p> Explain why the normal force on the block by the surface rather than the weight of the object is related to the frictional force.
         </p></li> <li><p> Interpret the slope and intercept of the graphs.
         </p></li> <li><p> Compare the slopes from each of the three parts.  Decide which should be the same and which should be different.
-        </p></li> <li><p> Calculate the <percent /> decrease of the static to kinetic coefficient of friction.
+        </p></li> <li><p> Calculate the % decrease of the static to kinetic coefficient of friction.
         </p></li> <li><p> Comment on the validity of the empirical rules of friction.
         </p></li>
     </ul>
@@ -2509,7 +2514,7 @@
         <li><p> Physically interpret the meaning and value for the slopes, and the x and y intercepts for both graphs.</p></li>
         <li><p> Calculate the spring constant for both data sets, using a linear regression method.</p></li>
         <li><p> So far in the analysis, the mass of the spring has been neglected.  How would including the spring mass
-            (or a partial <percent />) affect the slopes or intercepts of the two graphs?</p>
+            (or a partial %) affect the slopes or intercepts of the two graphs?</p>
             <p>For the period graph, one would expect to get a zero period with a zero mass.  Why?  What was your observation for the  y-intercept?
             If the data was modified by adding a constant amount of mass to each mass value  (say 1/3 the mass of the spring)
             and then re-compute the linear regression, then  what happens to the slope and intercept values?
@@ -2838,7 +2843,7 @@
 
 	<p>Quantitatively compare the two methods by considering the following: Calculate a percent difference between the two methods.
     Calculate the uncertainties for the velocity in both methods (<xref ref="ss-propagation" text="title" />) and, also, write these
-    in a <percent /> form.  Which method is more precise?   Decide whether this experiment has <xref ref="p-random-systematic" text="title">random or
+    in a % form.  Which method is more precise?   Decide whether this experiment has <xref ref="p-random-systematic" text="title">random or
     systematic errors</xref>.  Discuss and show your experimental evidence for this decision.</p>
 
     <p>Determine if the kinetic energy is conserved during the collision.  (Recall the introductory discussion.)  If it is not conserved, then calculate the percentage of energy lost
@@ -3433,7 +3438,7 @@ After you have calculated your prediction with uncertainty, prepare the overflow
 <ul>
 	<li><p> Determine the mathematical relation between the wavelength of the standing wave and the frequency of the vibrator that will produce a straight line <m>(y=mx+b)</m> when graphed.
 </p></li><li><p> Comment on the significance (and units) of the slope and intercept of this graph.  Determine both the precision and the accuracy of the slope and of the intercept; are they consistent with what you expect?  (Your expectation should be based on the <q>other</q> equation which we are not testing here.)
-</p></li><li><p> Use one or both of these (slope and intercept) to determine the velocity (with uncertainty) of the standing wave.  Relate this (<percent />-error) to the expected value based on the tension you chose for your specific string.
+</p></li><li><p> Use one or both of these (slope and intercept) to determine the velocity (with uncertainty) of the standing wave.  Relate this (%-error) to the expected value based on the tension you chose for your specific string.
 </p></li>
 </ul>
 </p>
@@ -3478,7 +3483,7 @@ After you have calculated your prediction with uncertainty, prepare the overflow
 <exercise>
         <statement><p> Is it valid to consider the tightening of the string to be the same as a change of medium?  (Does tightening the string change the way waves move or the way standing waves are produced on the string?) Why or why not?</p></statement></exercise>
 <exercise xml:id="q-stretching">
-        <statement><p> When you measure the length of string, remember that the string will be under tension (pulled on) and may have some <q>give</q> to it.  It may be possible for it to stretch by nearly 10<percent />. If you don't account for this (if you measure the un-stretched length) will your value of density be incorrect too large or incorrect too small?  Can you account for this either in the value of the length or in the uncertainty of the length.  Will this affect comparison to either of your graphs?</p></statement></exercise>
+        <statement><p> When you measure the length of string, remember that the string will be under tension (pulled on) and may have some <q>give</q> to it.  It may be possible for it to stretch by nearly 10%. If you don't account for this (if you measure the un-stretched length) will your value of density be incorrect too large or incorrect too small?  Can you account for this either in the value of the length or in the uncertainty of the length.  Will this affect comparison to either of your graphs?</p></statement></exercise>
 <exercise>
         <statement><p> Consider the Fixed Tension graph.  We noted that the vibrator end of the string should not be considered to be a node.  This means that the node might be a little in front of the post or a little behind the post and therefore your wavelength values might be a little wrong, but your error bars should already include the amount the values could be off.  Based on the error bars on your Fixed Tension graph, would shifting the wavelength data a little larger or a little smaller have made a difference to the values of slope or intercept that you calculated?  If so, would it have increased the value or decreased the value?  If not, why not?</p></statement></exercise>
 <exercise>
@@ -3588,7 +3593,7 @@ After you have calculated your prediction with uncertainty, prepare the overflow
             </dl></p>
 
     <note xml:id="uncertainty-compare"><title>compare</title>
-        <p>Whenever you are asked to <q>compare</q> values, it is expected that you will not only compute a <percent />-error or <percent />-difference (as appropriate, according to the above considerations); but will also comment on if the uncertainty of the values overlap.  Recall that the uncertainty means that your measurement does not distinguish between values within that range, so if the uncertainties overlap, then the values are <q>the same to within your ability to measure them.</q></p>
+        <p>Whenever you are asked to <q>compare</q> values, it is expected that you will not only compute a %-error or %-difference (as appropriate, according to the above considerations); but will also comment on if the uncertainty of the values overlap.  Recall that the uncertainty means that your measurement does not distinguish between values within that range, so if the uncertainties overlap, then the values are <q>the same to within your ability to measure them.</q></p>
     </note>
 
 
@@ -3691,7 +3696,7 @@ After you have calculated your prediction with uncertainty, prepare the overflow
         </ol></p>
 
     <note xml:id="considerations-compare"><title>compare</title>
-        <p>Whenever you are asked to <q>compare</q> values, it is expected that you will not only compute a <percent />-error or <percent />-difference (<xref ref="s-uncertainty" text="title">as appropriate</xref>); but will also comment on if the uncertainty of the values overlap.  Recall that the uncertainty means that your measurement does not distinguish between values within that range, so if the uncertainties overlap, then the values are <q>the same to within your ability to measure them.</q></p>
+        <p>Whenever you are asked to <q>compare</q> values, it is expected that you will not only compute a %-error or %-difference (<xref ref="s-uncertainty" text="title">as appropriate</xref>); but will also comment on if the uncertainty of the values overlap.  Recall that the uncertainty means that your measurement does not distinguish between values within that range, so if the uncertainties overlap, then the values are <q>the same to within your ability to measure them.</q></p>
     </note>
 
 
