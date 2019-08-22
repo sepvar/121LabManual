@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- mathbook xml:lang="en-US" -->
-<mathbook>
+<pretext>
 
     <docinfo>
 
@@ -2996,7 +2996,7 @@
     at the elbow, exerting a downward force on the forearm at the joint.</p>
 
     <table>
-        <caption>Building the model of the human forearm</caption>
+        <title>Building the model of the human forearm</title>
         <tabular top="major">
         <col width="25%" /><col width="25%" /><col width="50%" />
             <row bottom="medium">
@@ -4090,4 +4090,4 @@ After you have calculated your prediction with uncertainty, prepare the overflow
 
 
 </book>
-</mathbook>
+</pretext>
