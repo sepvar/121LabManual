@@ -265,7 +265,11 @@
     </ul>
     </p>
 
-                <exercise xml:id="q-zero-pt">
+
+    </introduction>
+
+    <subsection><title>Exercises</title>
+                <exercise xml:id="q-zero-pt" number="joe1">
                         <title>Zero-Point Errors</title>
                         <statement>
                             <p>You should verify the calibration of your instruments.
@@ -294,7 +298,7 @@
                                 (Recall <xref ref="sss-mistakes" text="type-global" />.)</p>
                         </solution>
                 </exercise>
-                <exercise xml:id="q-parallax">
+                <exercise xml:id="q-parallax" number="joe2">
                         <title>Parallax</title>
                         <statement>
                             <p>Determine if the value you are reading depends on the location of your eye.  </p>
@@ -315,7 +319,7 @@
                             <p>In the case of the meterstick, the object being measured should be as close as possible (touching?) the tick-marks of the meterstick in order to minimize parallax.</p>
                         </solution>
                 </exercise>
-                <exercise xml:id="q-random">
+                <exercise xml:id="q-random" number="joe3">
                         <title>Random or Systematic</title>
                         <statement>
                             <p>When you measure the diameter of a sphere, it might be difficult to get the caliper precisely at the full diameter.
@@ -339,10 +343,7 @@
                             causes your result to be more likely too big or more likely too small.</p>
                         </solution>
                 </exercise>
-
-
-    </introduction>
-
+    </subsection>
     <subsection>
     <title>The Vernier Caliper</title>
 
