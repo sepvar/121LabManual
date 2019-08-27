@@ -17,6 +17,6 @@
 <xsl:param name="toc.level" select="'2'" />
 <xsl:param name="numbering.theorems.level" select="'1'" />
 <!-- <xsl:param name="html.css.file"   select="'mathbook-5.css'" /> -->
-<xsl:param name="html.css.colorfile"   select="'green_blue.css'" />
+<xsl:param name="html.css.colorfile"   select="'colors_green_blue.css'" />
 
 </xsl:stylesheet>

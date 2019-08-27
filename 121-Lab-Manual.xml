@@ -68,7 +68,7 @@
 
     <book xml:id="fall-lab-manual" xmlns:xi="http://physics.thomasmore.edu/Labs/121/">
         <title>PHY 121 Lab Manual</title>
-        <subtitle>Thomas More College, Algebra-based Introductory Physics</subtitle>
+        <subtitle>Thomas More University, Algebra-based Introductory Physics</subtitle>
 
 <frontmatter> <!-- xml:id="index" --> <!-- xmlns:xi="http://www.w3.org/2001/XInclude" -->
 
@@ -77,19 +77,19 @@
         <author>
             <personname>Joe Christensen</personname>
             <department>Department of Physics and Mathematics</department>
-            <institution>Thomas More College</institution>
+            <institution>Thomas More University</institution>
             <email>ChristJ@ThomasMore.edu</email>
         </author>
         <author>
             <personname>Jack Wells</personname>
             <department>Department of Physics and Mathematics</department>
-            <institution>Thomas More College</institution>
+            <institution>Thomas More University</institution>
             <email>WellsJ@ThomasMore.edu</email>
         </author>
         <author>
             <personname>Wes Ryle</personname>
             <department>Department of Physics and Mathematics</department>
-            <institution>Thomas More College</institution>
+            <institution>Thomas More University</institution>
             <email>RyleW@ThomasMore.edu</email>
         </author>
 
@@ -99,18 +99,18 @@
 
     <colophon xml:id="general-fall-colophon">
 
-        <edition>Annual Edition 2017</edition>
+        <edition>Annual Edition 2019</edition>
 
         <website>
-            <name><c>TMC Physics</c></name>
+            <name><c>TMU Physics</c></name>
             <address>http://www.thomasmore.edu/physics/</address>
         </website>
 
         <copyright>
-            <year>2017<ndash />2018</year>
+            <year>2017<ndash />2019</year>
             <holder>J. Christensen, J. Wells, W. Ryle</holder>
             <shortlicense>
-<!-- Keep all of this on a single line to ignore the known tag abuse 1 --> <p><url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-sa-4-0-88x31.png" width="15%" /></url>  <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHY121 Lab Manual: Thomas More College</span> by <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url> is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</url>.</p> <p>Permissions beyond the scope of this license may be available by contacting one of the authors listed at <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" rel="cc:morePermissions">http://www.thomasmore.edu/physics/faculty.cfm</url>.</p>
+<!-- Keep all of this on a single line to ignore the known tag abuse 1 --> <p><url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><image alt="Creative Commons License" style="border-width:0" source="images/creativecommons-by-sa-4-0-88x31.png" width="15%" /></url>  <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">PHY121 Lab Manual: Thomas More University</span> by <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" property="cc:attributionName" rel="cc:attributionURL">Joe Christensen, Jack Wells, and Wes Ryle</url> is licensed under a <url rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</url>.</p> <p>Permissions beyond the scope of this license may be available by contacting one of the authors listed at <url xmlns:cc="http://creativecommons.org/ns#" href="http://www.thomasmore.edu/physics/faculty.cfm" rel="cc:morePermissions">http://www.thomasmore.edu/physics/faculty.cfm</url>.</p>
         </shortlicense>
         </copyright>
 
@@ -131,20 +131,20 @@
                 <row><cell />
                     <cell><line>B.S. Mathematics and Physics, Bradley University, IL (1990)</line>
                           <line>Ph.D. Physics, University of Kentucky, KY (1997)</line>
-                          <line>first came to Thomas More College in 2007</line></cell></row>
+                          <line>first came to Thomas More University in 2007</line></cell></row>
                 <row><cell /><cell /></row>
                 <row><cell colspan="2">Wes Ryle: </cell></row>
                 <row><cell />
                     <cell><line>B.S. Mathematics and Physics, Western Kentucky University, KY (2003)</line>
                           <line>M.S. Physics, Georgia State University, GA (2006)</line>
                           <line>Ph.D. Astronomy, Georgia State University, GA (2008)</line>
-                          <line>first came to Thomas More College in 2008</line></cell></row>
+                          <line>first came to Thomas More University in 2008</line></cell></row>
                 <row><cell /><cell /></row>
                 <row><cell colspan="2">Jack Wells: </cell></row>
                 <row><cell />
                     <cell><line>B.S. Physics, State University of New York at Oneonta, Oneonta, NY (1975) </line>
                           <line>M.S. Physics, University of Toledo, Toledo, OH (1978)</line>
-                          <line>first came to Thomas More College in 1980</line></cell></row>
+                          <line>first came to Thomas More University in 1980</line></cell></row>
             </tabular>
         </sidebyside>
 
@@ -587,6 +587,7 @@
     the following data sets:
     <ol>
         <li><p> your lab group,  </p></li>
+        <li><p> about 1/4 of the class, </p></li>
         <li><p> about 1/2 of the class, and </p></li>
         <li><p> the entire class.   </p></li>
     </ol>
@@ -598,8 +599,13 @@
     change as the number of data items in the set increases.  What can you infer about the accuracy and about the precision of the
     data as more and more observations are made?</p></li>
     <li><p> Show that the standard deviation of the mean varies inversely as the square root of the number of data items in the sample.
-    How well does the data in this lab agree with this prediction?   (Make a graph of the standard deviation of the mean versus the
-    square root of the number of data items in the sample.)</p></li>
+    How well does the data in this lab agree with this prediction? 
+    <ul>
+          <li><p>If you are drawing graphs by hand, you can do this by graphing the standard deviation of the mean versus the
+                          inverse square root of the number of data items in the sample. If this is the dependence, then it should be linear.</p></li>
+          <li><p>If you are using Excel, you can do this by fitting your graph of the standard deviation of the mean versus the
+                           number of data items in the sample to a power-fit. If this is the dependence, then the power should be <m>-0.5</m>.</p></li>
+    </ul></p></li>
     </ul></p>
 
     </section>
@@ -646,11 +652,14 @@
     <references>
         <title>References and Suggested Readings</title>
         <biblio type="raw">Meyer, <title>Data Analysis for Scientists and Engineers</title>. John Wiley, 1975; p.19-48, 223-253</biblio>
+        <biblio type="raw">Taylor, <title>An Introduction to Error Analysis</title>. University Science Books, 1997; p.93-105, 121-140</biblio>
     </references>
 
         <conclusion>
-        <p>Revised: Aug 24, 2017</p>
+        <p>Revised: Aug 28, 2019</p>
     <!-- Revisions
+	<p>Revised: Aug 28, 2019</p> Added 1/4 class and reference to Taylor
+	<p>Revised: Aug 24, 2017</p> Changed Format to xml online
         \revised{Aug. 28, 2009}
         \revision{Aug. 28, 2009}{Added Jack's picture back in}
         \revision{Jan. 7, 1997}{Jack}
@@ -756,16 +765,20 @@
                 </exercise>
 <!-- \setcounter{dave}{\theenumi} -->
 
-        <p>We will take four sets of data: a slow, constant velocity towards the ranger; a slow, constant velocity away from the ranger;
-        a faster, constant velocity towards the ranger; and a faster, constant velocity away from the ranger.
-        The two slow speeds should be about the same and the two faster speeds should be about the same.
+	<p>Before taking data for the lab, develop your familiarity with the equipment by playing with making velocity versus time measurements.  
+	Make a graph of a slow cart moving forwards and a fast cart moving backwards to see what the difference looks like on a graph.
+	Push a cart forwards and backwards to see what this looks like on the graph.  These trial-runs should help you take your actual data
+	more efficiently and effectively.</p>
+
+        <p>For your lab report, take two sets of data: a constant velocity towards the ranger and a constant velocity away from the ranger.
+        The two speeds should be, to the best of your ability, about the same.
         For each case, start the sonic ranger and then bump the cart firmly, but not violently(!).</p>
 
-        <p>On Capstone, you should have four curves of velocity versus time.
+        <p>On Capstone, you should have two curves of velocity versus time.
         Fit each with a trendline and display the equation of the trendline on the screen.
         Interpret the coefficients (slope and intercept) by noting their units, values, and uncertainties.
-        You should also print out (in landscape mode) the position versus time graph, the velocity versus time graph,
-        and the acceleration versus time graph.  (You should notice that the acceleration versus time graph is <em>very</em> noisy.)</p>
+        You should also print out (in landscape mode) the position versus time graph and the velocity versus time graph.
+        (Although you should not include the acceleration versus time graph, if you view it in Capstone, you should notice that it is <em>very</em> noisy.)</p>
 
         </subsection>
 
@@ -822,9 +835,9 @@
                 </exercise>
 <!-- \setcounter{dave}{\theenumi} -->
 
-        <p>In Capstone, you should be able to display all three graphs (position v time, velocity v time, and acceleration v time).
+        <p>In Capstone, you should be able to display both the position vs time graph and the velocity vs time graph.
         You should also be able to display all three cases of data on each of these graphs.
-        On the velocity versus time graph, fit each of the three graphs with a linear trendline.
+        On the velocity versus time graph, fit each of the graphs with a linear trendline.
         The next section will ask you to analyze how well the data match up to these lines.
         (It might be interesting to also fit the position vs time curves to parabolas.
         Be sure to print out copies of your three graphs.</p>
@@ -867,7 +880,7 @@
                 <exercise>
                     <statement>
                         <p> If the slopes are different, then discuss any pattern that you see.
-                        If the slopes are (essentially) the same, then find an average and a standard deviation of the four values.</p>
+				If the slopes are (essentially) the same, then find an average and a standard deviation of the different values.</p>
                     </statement>
                 </exercise>
                 <exercise xml:id="q-speed-acc">
@@ -876,7 +889,7 @@
                     </statement>
                 </exercise>
 <!-- \setcounter{dave}{\theenumi} -->
-        <p>Discuss any evidence observed in your data when answering these questions.
+        <p>In answering these questions, discuss any evidence observed in your data.
         Also consider the magnitude of the uncertainties when writing your conclusions.</p>
 
         </subsection>
@@ -954,7 +967,8 @@
     </section>
 
     <conclusion>
-    <p>(Revised: September 13, 2017)</p> <!-- Validated and fixed the exercises -->
+    <p>(Revised: August 27, 2019)</p> <!-- Revised expectations.  Procedure does fast and slow as getting used to the equipment (not actual data).  -->
+    <!-- <p>(Revised: September 13, 2017)</p> Validated and fixed the exercises -->
     <!-- <p>(Revised: September 8, 2017)</p> Provided <hint>s and <answers>s to the <exercise>s -->
     <!--    Revisions \revised{Sept. 14, 2015}
         \revision{Sept. 14, 2015}{Commented out Graphs and Tracks.  Updated Pasco Reference from DataStudio to Capstone}
@@ -1243,6 +1257,505 @@
     </conclusion>
 </chapter>
 
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-peer"><title>Peer Review</title>
+
+<introduction>
+    <p>The most important part of doing science is the peer-review process.
+    After one completes a research project, the report is submitted for publication.
+    The publisher has a number of reviewer (usually made up of respected authors) and
+    the submission is sent to two (sometimes three) reviewers who advise the publisher on the merits of the work.
+    Once you make a submission, it might be two months before the reviewers finish reviewing the work.
+    Generally the publisher will return the reviewers' comments to the author.
+    If all reviewers agree that the paper is viable, then the publisher accepts it.
+    If they agree not to accept a paper, then it is rejected.
+    If the reviewers are split, then the decision is at the discretion of the publisher.
+    In most cases, the reviewer makes suggestions for how to improve the paper or where to clarify the discussion.
+    In some cases, the author must either significantly revise the entire project or make an argument
+    why the reviewer is either mistaken or is merely pointing out the specific point-of-contention that
+    the author was intending to spark in the readers.  In most cases, the process of an accepted paper is
+    <ol>
+        <li xml:id="i-submit"><p> Author submits article.</p></li>
+        <li xml:id="i-review"><p> Publishers submit to reviewers, who read and return comments to the publisher.</p></li>
+        <li><p> Publisher gives author a chance to respond; most do (!).</p></li>
+        <li><p> Publishers provide authors' response to reviewers, who then give final approval (or not).</p></li>
+        <li><p> Paper goes to Editor, who returns paper to author for grammar, spelling, and formatting corrections.</p></li>
+        <li><p> After the author fixes or refuses to fix the editor's <q>suggestions,</q> the paper goes to publication.</p></li>
+    </ol>
+    This process can take anywhere from 1-2 months to a year and a half.  This week, we will do <xref ref="i-submit" text="type-global" />.
+    Next week, we will do <xref ref="i-review" text="type-global" />.</p>
+
+    <p>Usually during the review process, the reviewer is not informed of the name of the submission author --
+    to minimize influencing the reviewer.  Similarly, the names of the reviewers are not revealed to the submission author.
+    This is called <q>double-blind review.</q>  Some disciplines are specialized enough that all of the active
+    researchers are familiar with each other's work.  In those cases, it is possible to guess who an author is
+    (based on the approach to the project) or to guess who the reviewer is (based on the style of comments).
+    In principle, both sides are civil in their comments and reactions because they are members of the same community
+    and see each other annually at the topic meetings.  Researchers are competitors and collaborators who only progress
+    by working off of each others' ideas.</p>
+
+    </introduction>
+    <section xml:id="s-peer-assignment"><title>The Assignment</title>
+
+    <p>In order to manage the double-blind review process, before you leave lab today you will all turn in your
+    (personally selected) code name.  Do not tell anybody what you selected and do not use a nickname that is easily
+    recognizable by others -- the point of a secret identity is to keep the secret!</p>
+
+    <p>In this week's lab, one lab section will do <xref ref="c-springs" text="title" /> and the other lab section will do
+    <xref ref="c-pendulum" text="title" />.  The underlying ideas are similar to each other and will help you next week when you
+    review an article submitted by a colleague who did the other experiment.  When you submit your lab this week,
+    you will submit your notebook and two (almost identical) copies of your report.  One copy will have your name
+    <em>and</em> your secret code name.  The other copy will have <em>only</em> your secret identity.</p>
+
+    </section>
+
+    <conclusion>
+    <p>(Revised: Sep 1, 2008)</p>
+<!--    Revisions
+        \revised{Sep 1, 2008}
+        -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/peer.pdf">peer.pdf (47 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
+</chapter>
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-springs"><title>Hooke's Law and Simple Harmonic Motion</title>
+
+    <objectives>
+    <introduction>
+    <p>The stiffness of springs can be measured by stretching or by bouncing.  Because we do not have an independent verification of the value of the stiffness of the spring, we will need to be clever about how to verify the relevant equations.  It turns out that the measurement of stiffness through bouncing gives a value for the spring constant, whereas the measurement of stiffness by hanging involves both the spring constant and the acceleration due to gravity.  </p>
+    </introduction>
+    <ul>
+    <li><p>By measuring and graphing
+        <ul>
+        <li><p>the relationship between mass and elongation when stretching a spring and</p></li>
+        <li><p>the relationship between mass and the period of a bouncing spring, </p></li>
+        </ul>
+        we can compute the value of the acceleration due to gravity and thereby verify the relationships describing the stretch of a spring.</p></li>
+    </ul>
+<!--
+    Experimentally determine and compare the spring constant <m>(k)</m> of a spring as determined by Hooke's Law and
+    also with the SHM period formula.
+-->
+    </objectives>
+
+<introduction><title>Introduction</title>
+
+    <p>Oscillatory motion is one of the most common types of motions and can occur in any physical system.
+    Mechanical systems can experience a periodic motion, and then will vibrate at a natural frequency.
+    This phenomenon is called resonance.  Sound is a vibration in the air, which we hear with our ears;
+    light is an oscillation of electric and magnetic fields, which we can see.  The atoms and molecules in
+    all objects are in a state of continual vibration, which we can detect as the temperature of the object,
+    and the atomic vibrations of a quartz crystal can be used as a very accurate timer.  The study of
+    repetitive motion is not just an intellectual exercise, but actually enables us to model complicated
+    systems with simple harmonic motion.</p>
+
+    <p>In this lab, we will consider spring as an example of oscillation.  This oscillation is due to the
+    elasticity of a spring.  We will need to measure the stiffness of the spring and relate this to the rate of oscillation.</p>
+
+    <p>Most systems have <term>elastic</term> properties, such that when the system is deformed or vibrated,
+    there is a force which tries to restore the system to its original state.  Note that measuring how well 
+    a system returns to its original shape is a measure of the system's elasticity. If the restoring
+    force is proportional to the displacement from its equilibrium position, then the object is
+    said to be in simple harmonic motion (SHM).  A linear restoring force can be expressed
+    mathematically by the equation
+    <men xml:id="eq-hooke">
+    \vec F= -k\vec x \hspace{.5cm} \mbox{or as} \hspace{.5cm}  a= \frac{d^2x}{dt^2} = -\frac{kx}{m}
+    </men>
+    where <m>F</m> is the <term>restoring force</term>, <m>x</m> is the <term>elongation</term> (the displacement from the equilibrium position, which is also called the <q>zero position</q>), <m>k</m> is a proportionality constant, and the minus sign indicates that the
+    restoring force is always opposite the direction of the displacement.  For a spring system, <m>k</m>
+    is called the <term>spring constant</term>, and represents the ratio of the applied force to the elongation.
+    The spring constant is an inherent physical property of the spring itself (an elastic property).
+    The value of <m>k</m> gives a relative indication of the stiffness of the spring.  If the spring
+    system is in equilibrium  <m>(\sum F_i =0)</m>  then the restoring force is equal to the force
+    pulling on the spring, and this force is proportional to the extension of the spring from its equilibrium
+    position.  This relationship for elastic behavior is known as Hooke's law, after Robert Hooke (1635-1703).
+    </p>
+
+        <p>We can investigate Hooke's law by hanging a mass on a spring, measuring the stretch, and plotting the mass versus the elongation.
+        If we rewrite <xref ref="eq-hooke" text="type-global">Equation</xref> relating the mass to the elongation
+        <men xml:id="eq-hooke-stretching"> m = \left[ \frac{k}{g} \right] x </men>
+        then we see an equation of the form <m>y=mx+\cancelto{0}{b}</m>, where the slope depends on both <m>k</m> and <m>g</m>.</p>
+
+<!-- <p>Notice that for the previous equation to be valid,  the acceleration must have the same functional form as the displacement.
+    One function for which this would be true is the cosine function, that is, that both the acceleration and the displacement
+    can be represented by cosine functions.</p>
+    -->
+
+    <p>Simple Harmonic Motion (SHM) systems can
+    <!-- therefore -->
+    be described by harmonic functions (cosines), where the displacement as a function of the time <m>x(t)</m> can be written as
+    <me>	x(t) = A \cos(2\pi f t) </me>
+    where <m>A</m> is the amplitude of the motion, and <m>f</m> is the frequency of the motion in units of cycles per second
+    <m>(\mathrm{sec}^{-1})</m> commonly called a hertz (Hz) after Heinrich Hertz.
+    The period (<m>T</m>, in units of seconds per cycle) equals the inverse of the frequency <m>(f)</m>,
+    <m>T=\phantom{1}^1\!\!/_f</m>.  For a mass on a spring, the period <m>T</m> depends on the physical parameters of the system
+    (the mass, and the spring constant), and can be given by
+    <men xml:id="eq-hookeperiod"> T=2\pi \sqrt{\frac{m}{k}} </men>
+    </p>
+
+        <p xml:id="p-hooke-bouncing">We can investigate this relationship by bouncing a mass on a spring, measuring the period, and plotting the mass versus the period.
+        If we rewrite <xref ref="eq-hookeperiod" text="global">Equation</xref> relating the mass to the period
+        <men xml:id="eq-hooke-bouncing"> m = \left[ k \right] \left( \frac{T}{2\pi} \right)^2 </men>
+        then we see an equation of the form <m>y=ax^2+\cancelto{0}{b}x+\cancelto{0}{c}</m>, where the coefficient only depends on <m>k</m>.  Although this is a nonlinear relationship, we can <xref ref="quadratic" text="title">linearize</xref> the expression to find the parameter (slope with uncertainty) more easily.  (See <xref ref="nonlinear" text="type-global" /> for more discussion.)  You may also note that <m>T/2\pi</m> is a more convenient variable than <m>T</m> by itself because it produces a slope equal to <m>k</m> rather than <m>k/(2\pi)^2</m>.</p>
+
+        <p>When you compare these relationships of the spring, you should be able to find a value for the acceleration due to gravity as a verification of these two equations.</p>
+
+</introduction>
+
+<section xml:id="s-hooke-pre"><title>Pre-Lab Considerations</title>
+
+    <p>
+    <ul>
+        <li><p> Make a sketch of your expectation for the displacement of a mass on a spring as a function of the time.</p></li>
+        <li><p> On this graph, locate and label:  the equilibrium positions <m>(x=0)</m>, and the places of
+            maximum and minimum velocity.</p></li>
+        <li><p> Based on the information in the introduction, make a sketch of the pull force as a function
+            of the displacement from the equilibrium position (initial position).</p></li>
+    </ul>
+    </p>
+
+</section> <section xml:id="s-hooke-procedure"><title>Procedure</title>
+
+    <subsection xml:id="sss-hooke"><title>Hooke's law</title>
+
+        <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" text="type-global">Equation</xref>.
+        <ul>
+            <li><p> With the available spring, attach it rigidly and hang it vertically against the Dynamics Track.
+                Hang various masses and measure the elongation of the spring, to a maximum of 60 cm.
+                Do not over stretch the spring.  Record the bottom end of the mass hanger for the initial reference position.
+                If a tapered spring is used, the small end should be at the top.</p></li>
+            <li><p> Measure the elongation both when the masses are added and then when they are removed.</p>
+                <p><em>Perfectly elastic</em> objects (possibly your spring) will return to the exact same location when pulled
+                with the same force whether they are being stretched out or being allowed to relax back after stretching.</p>
+                <p>Objects that are elastic, but not perfectly elastic, will return to approximately the same location, but might retain some deformation.</p></li>
+            <li><p> You will be graphing the relationship between the mass and the displacement, <xref ref="eq-hooke-stretching" text="title">Equation</xref>.</p></li>
+        </ul>
+        </p>
+
+    </subsection>
+    <subsection xml:id="sss-bounce"><title>Oscillating Spring</title>
+
+    <p>We will next consider the periodicity of an oscillating spring.
+    <ul>
+        <li><p> With the same range of masses as in <xref ref="sss-hooke" text="type-global" />,  measure the period of oscillation for each mass.
+        You <em>can</em> but do not <em>have to</em> use the same values of mass, as long as the set of masses sampled are in the same range.
+        </p></li>
+        <li><p> You will be graphing the relationship between the mass and the period, <xref ref="eq-hooke-bouncing" text="title">Equation</xref>.
+            I <xref ref="p-hooke-bouncing" text="title">recommend</xref> using <m>T/(2\pi)</m> as the variable representing the period
+            (because it gives nice results for the graphical parameters -- slope and intercept).
+        </p></li>
+        <li><p> <alert>Advice</alert>: Keep the amplitude of vibration small,  because there is a small but measurable effect
+            with the period as a function of the amplitude.
+        </p></li>
+    </ul>
+    </p>
+
+    </subsection>
+</section> <section xml:id="s-hooke-analysis"><title>Analysis</title>
+
+    <p>
+    <ul>
+        <li><p> Graph both data sets (<xref ref="sss-hooke" text="type-global" /> and <xref ref="sss-bounce" text="type-global" />)
+            in such a way that the spring constant can be determined graphically (from a <xref ref="quadratic" text="title">linear fit</xref> model).
+        <ul>
+            <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" text="type-global">Equation</xref>
+                depends on two specific parameters.</p></li>
+            <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" text="type-global">Equation</xref>
+                depends on one specific parameter.</p></li>
+            <li><p> With some effort, you should be able to recognize the units of the slope and intercept and find the relevant values of those parameters.</p></li>
+            </ul>
+        </p></li>
+        <li><p> Physically interpret the meaning and value for the slopes, and the x and y intercepts for both graphs.</p></li>
+        <li><p> Calculate the spring constant for both data sets, using a linear regression method.</p></li>
+        <li><p> So far in the analysis, the mass of the spring has been neglected.  How would including the spring mass
+            (or a partial %) affect the slopes or intercepts of the two graphs?</p>
+            <p>For the period graph, one would expect to get a zero period with a zero mass.  Why?  What was your observation for the  y-intercept?
+            If the data was modified by adding a constant amount of mass to each mass value  (say 1/3 the mass of the spring)
+            and then re-compute the linear regression, then  what happens to the slope and intercept values?  </p></li>
+        <li><p> If you assume a value for <m>g</m>, then both graphs will give you <m>k</m>.
+            <xref ref="considerations-compare" text="title">Compare</xref> the precision for these two methods.</p></li>
+        <li><p> If you do not assume a value for <m>g</m>, then you can use one graph to find <m>k</m> and
+            use this calculated value and the other graph to compute <m>g</m>.  How does this value of <m>g</m> compare to
+            your expectations?</p></li>
+        <li><p> Compare the elongations when the masses were added and then removed.  Explain any differences.  Is your spring perfectly elastic?</p></li>
+        <li><p> Quantify the major sources of uncertainty in this experiment.  Which of the experimental measurements has
+            the largest relative uncertainty?</p></li>
+    </ul></p>
+
+    </section>
+    <exercises><title>Questions</title>
+
+        <exercise>
+            <statement><p> Why should the amplitude of vibration be kept as small as possible?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Is the spring totally elastic?  (Does the elongation return to the same position when the masses are removed?)</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Based on the data, which method do you think is more precise?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Does the force of gravity affect the value of  <m>k</m> (as derived from each method)?  Why or  why not?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> If this experiment were conducted on the moon, would either method give a different result for the value of <m>k</m>?
+                Explain.</p></statement>
+        </exercise>
+
+    </exercises>
+
+    <conclusion>
+    <p>(Revised: Aug 27, 2019)</p> <!-- Defined Elastic -->
+    <!-- <p>(Revised: Oct 11, 2017)</p> Clarified linearization, added cross-referencing links. -->
+<!-- Revisions \revised{(Aug 27, 2012)} -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/springs.pdf">springs.pdf (122 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
+</chapter>
+
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-pendulum"><title>The Simple Pendulum</title>
+
+    <objectives>
+    <ul>
+        <li><p> Determine the relationship between the period of the pendulum and its amplitude.</p></li>
+        <li><p> Determine the relationship between the period of the pendulum and its mass.</p></li>
+        <li><p> Determine the relationship between the period of the pendulum and the length of the pendulum.</p></li>
+        <li><p> Use a graphical analysis to investigate these relationships, and from the best linear graph
+            determine an empirical equation for the period of a pendulum.</p></li>
+        <li><p> Gravity also plays a part in this experiment, so include gravity into your empirical equation,
+            and use unit analysis to help figure out this relationship.</p></li>
+    </ul>
+    </objectives>
+
+<introduction><title>Introduction</title>
+
+    <p>A simple pendulum consists of a small bob of mass <m>(m)</m> suspended by a light
+    (assumed to be massless) string of length <m>(L)</m>, and the string is firmly attached at its upper end.
+    This pendulum is a mechanical system which we will assume exhibits simple harmonic motion.
+    That is, the restoring force on the pendulum is proportional to the displacement from the equilibrium position.</p>
+
+    <p>Oscillatory motion is one of the most common types of motions and can occur in any physical system.
+    Mechanical systems can experience a periodic motion, and then will vibrate at a natural frequency.
+    This phenomenon is called resonance.  Sound is a vibration in the air, which we hear with our ears;
+    light is an oscillation of electric and magnetic fields, which we can see.  The atoms and molecules in
+    all objects are in a state of continual vibration, which we can detect as the temperature of the object,
+    and the atomic vibrations of a quartz crystal can be used as a very accurate timer.  The study of
+    repetitive motion is not just an intellectual exercise, but actually enables us to model complicated
+    systems with simple harmonic motion.</p>
+
+    <p>Galileo (1564-1642) investigated the natural motions of a simple pendulum.  From his observations he
+    concluded that <q>vibrations of very large and very small amplitude all occupy the same time.</q>
+    Galileo's time interval of measurement was his own pulse rate.  With today's modern technology we have
+    much more precise measuring instruments.   This experiment will investigate the relationships between
+    the physical characteristics of the pendulum and the period of the pendulum.</p>
+
+</introduction>
+
+<section xml:id="s-pendulum-procedure"><title>Procedure</title>
+
+    <p>You will have available for your use:  pendulum bobs, string, timers, and a protractor.
+    Be careful to fix the string to a point of support which will not move or vibrate as the pendulum swings.
+    You will test each of the three relationships above (period vs amplitude, vs mass, and vs length).
+    While measuring one relationship, you should ensure that -- if they matter -- then the other two variables are not varied.
+    For example, when changing the pendulum mass do not vary the pendulum's length or its amplitude.</p>
+
+    <p>Some considerations while doing this lab:
+    <ul>
+        <li><p> It turns out that the convenient quantity when graphing is not the period, <m>T</m>, but rather <m>T/(2\pi)</m>.</p></li>
+        <li><p> The amplitude of oscillation is the maximum angle which the string makes from the vertical.</p></li>
+        <li><p> In general when testing the mass or the length, it is best to keep the amplitude of oscillation small.</p></li>
+        <li><p> When testing any of the relationships, you should measure a few widely-separated values.  If these seem to vary
+            significantly, then fill in the gaps between those measurements to make a reliable graph.
+            See <xref ref="q-howmany" text="global">Question</xref>.</p></li>
+        <li><p> If you can prove that the period is not affected by one of these variables, then you do not need to worry about
+            keeping it constant while you measure the other variables.</p></li>
+        <li><p> Your graphical analysis will be better if your graph is linear.  Consider <xref ref="q-linpend" text="global">Question</xref> for advice on
+            making your graphs.</p></li>
+    </ul>
+    </p>
+
+</section> <exercises><title>Questions</title>
+
+        <exercise>
+            <statement><p> Was Galileo's statement precise?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Does this pendulum follow simple harmonic motion?</p></statement>
+        </exercise>
+        <exercise xml:id="q-howmany">
+            <statement><p> How many observations should you take in order to obtain good data?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Air resistance gradually decreases the amplitude of the pendulum.
+                What effect does this have on the period of the pendulum?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> What effect would stretching of the string have on your results?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> How does gravity affect this experiment?
+                What would happen to the results if this experiment were conducted on the moon?</p></statement>
+        </exercise>
+        <exercise xml:id="q-linpend">
+            <statement><p> If you have a parabolic graph, such as <m>y=ax^2</m>,
+                then you might consider graphing <m>y</m> versus <m>x^2</m> to get a linear graph.  (See also <xref ref="nonlinear" text="type-global" />.)
+                What is the physical meaning of the slope and the intercept of each of your graphs?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Why is it a good idea to keep the amplitude of vibration small?</p></statement>
+        </exercise>
+        <exercise>
+            <statement><p> Where to and how should the pendulum length be measured?</p></statement>
+        </exercise>
+
+</exercises>
+
+    <conclusion>
+    <p>(Revised: Oct 11, 2017)</p> <!-- Linked to appendix for linearizing.  Suggested using <m>T/2\pi</m>. -->
+<!-- Revisions \revised{(Aug 27, 2012)} -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/pendulum.pdf">pendulum.pdf (67 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
+</chapter>
+
+
+<!-- ********************************************************************************************** -->
+
+<chapter xml:id="c-centripetal"><title>Centripetal Force</title>
+
+    <objectives xml:id="centripetal-objective">
+    <ul>
+    <li><p>It is our purpose to experimentally verify the equation for centripetal force by
+        <ul>
+        <li><p>measuring the applied force and </p></li>
+        <li><p>comparing it to the specific combination of variables expressed as either <m>\displaystyle \frac{mv^2}{r}</m> or <m>m\omega^2r</m>.</p></li>
+        </ul></p></li>
+    </ul>
+    </objectives>
+
+<introduction><title>Introduction</title>
+
+    <p>We will be investigating the force which is necessary to maintain the circular motion of an object.
+    The apparatus used will allow you to spin an F-shaped arm which has a mass suspended from the
+    top arm.  This mass will be held in place by a spring which makes up the lower arm.  The spring
+    will provide the centripetal force.  You will need to be familiar with the ideas of circular motion,
+    centripetal versus centrifugal force, centripetal acceleration, and angular velocity.  In addition to
+    these concepts, try to understand how we will measure the angular speed in lab.</p>
+
+    <p>The centripetal acceleration <m>a_c</m> is calculated from the following equation written either
+    <m>\displaystyle a_c=\frac{v^2}{r}</m>
+    or
+    <m>\displaystyle a_c = \omega^2 r</m>
+    where <m>v</m> is the linear velocity of the particle, <m>\omega</m> is the angular velocity,
+    and <m>r</m> is the radius of the circle.  Note that angular velocity is measured in radians per second. </p>
+
+    <p>From Newton's second law, <m>\vec F = m \vec a</m>.
+    Therefore, the force required to keep the particle of mass <m>m</m> moving in a circle
+    with constant speed is
+    <men xml:id="eq-centripetal"> F = ma_c = \frac{mv^2}{r} = m\omega^2r </men>
+    Recall that the centripetal force is not a force applied <em>in addition</em> to
+    other existing forces.
+    The centripetal force is <em>whatever combination</em> of existing force act to
+    maintain circular motion.</p>
+
+    </introduction>
+
+<section xml:id="s-centripetal-pre"><title>Pre-Lab Considerations</title>
+
+    <p><ol>
+    <li><p> Why do we say that an object moving with <em>constant speed</em> in a circular path is being accelerated? </p></li>
+    <li><p> In which direction is that acceleration?  How do you know?   </p></li>
+    <li><p> Is this <m>a_c</m> <q>centripetal</q> or <q>centrifugal?</q> </p></li>
+    </ol>
+    </p>
+
+</section>
+
+    <section xml:id="s-centripetal-outcomes">
+    <title>Student Outcomes</title>
+
+    <p>Knowledge Developed: In this exercise, students should learn how the forces required to hold spinning objects in place changes with the speed.
+    </p>
+
+    <p>Skills Developed:
+    <ul>
+        <li><p>Evaluating and propagating uncertainties from the source of uncertainty to the result</p></li>
+    </ul>
+    </p>
+    </section>
+
+
+<section xml:id="s-centripetal-procedure"><title>Procedure</title>
+
+    <p>The centripetal force is supplied by a spring.  Since we cannot directly measure
+    <q>the force exerted by the spring while it is rotating</q> while it is rotating,
+    determine how we can measure <q>the force exerted by the spring during the rotation</q>
+    when the spring is not rotating.</p>
+
+    <p><ul>
+    <li><p> By means of the lab apparatus, a mass <m>m</m> can be made to rotate with a constant (and measurable)
+        angular speed <m>\omega</m>.  With some practice, it is possible to adjust the speed so that the radius of the path remains constant.
+        The value of the radius, <m>r</m>, is marked on the apparatus and so can be measured easily.</p></li>
+    <li><p> Measuring the mass should be an obvious task.</p></li>
+    <li><p> Measuring the angular speed <m>\omega</m> is straightforward, but may not be obvious.  To do so, consider the following:
+        <ul>
+        <li><p> Angular speed <m>(\omega)</m> is measured in
+<quantity><unit base="radian" /><per base="second" /></quantity>.</p></li>
+        <li><p> <m>\omega</m> is related to the rotational speed which is measured in
+<quantity><unit base="revolution" /><per base="second" /></quantity>.</p></li>
+        <li><p> There are <m>2\pi</m> radians in 1 revolution.</p></li>
+        <li><p> We can count the number of revolutions.</p></li>
+        <li><p> The <q>period of rotation,</q> <m>T</m>, is defined as the number of seconds per revolution.</p></li>
+        <li><p> We measure the period not by timing a single revolution, but by measuring the time for multiple (20)
+            revolutions divided by the number of revolutions. (This averages out any uncertainty due to reaction-time.)</p></li>
+        </ul></p>
+        <p> As the mass rotates, its period of rotation can be measured.
+            This allows you to calculate the angular speed using the hints above.</p></li>
+    <li><p> Repeat the entire procedure for a second value of F.
+        <ul>
+        <li><p>To change the force used, you have to adjust the spring as follows.</p></li>
+        <li><p>There is a small dial at the end of the spring away from the mass.  If you turn it one way, it tightens the spring (increasing the force).  If you turn it the other way, it loosens the spring (decreasing the force).</p></li>
+        <li><p>When you change this dial, it is unlikely that you will be able to put it back to where you originally had it, so you should be certain that you have all the information you need from the first measurements before you turn this dial!</p></li>
+        </ul></p></li>
+    </ul>
+    </p>
+
+</section> <section xml:id="s-centripetal-analysis"><title>Analysis</title>
+
+    <p>From measurements of <m>m</m>, <m>\omega</m>, and <m>r</m>, calculate the theoretical centripetal force on
+    the mass (which experimentally is supplied by the spring).  You can, of course use <xref ref="mult" text="global">Rule</xref> to determine the uncertainty of this centripetal force (as expected from the theory).</p>
+
+    <p>The (unmeasurable) amount
+    of force exerted by the spring to hold the spinning mass at a particular radius is
+    equal to the (measurable) force required to stretch the spring to that radius.  Experimentally determine
+    the force necessary to stretch the spring to a specific radius.  You should, of course, find the uncertainty in this value as well.</p>
+
+    <p> In order to verify the theory of centripetal force, and <xref ref="eq-centripetal">Equation</xref> in particular, <xref ref="considerations-compare" text="title">compare</xref> the force needed to stretch the spring with the amount
+    of theoretical centripetal force calculated above.  </p>
+
+</section>
+
+    <conclusion>
+    <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Clarified analysis -->
+<!--    <p>(Revised: Oct 9, 2017)</p> Clarified how to repeat the measurement for a second value of force, added outcomes -->
+    <!--    Revisions \revised{Fall 2006}
+        -->
+    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/centripetal.pdf">centripetal.pdf (83 kB)</url></p>
+    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
+    </conclusion>
+
+</chapter>
 
 <!-- ********************************************************************************************** -->
 
@@ -1536,134 +2049,6 @@
         \revision{Sept.~23, 2008}{}
         -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/friction.pdf">friction.pdf (176 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
-    </conclusion>
-
-</chapter>
-
-
-<!-- ********************************************************************************************** -->
-
-<chapter xml:id="c-centripetal"><title>Centripetal Force</title>
-
-    <objectives xml:id="centripetal-objective">
-    <ul>
-    <li><p>It is our purpose to experimentally verify the equation for centripetal force by
-        <ul>
-        <li><p>measuring the applied force and </p></li>
-        <li><p>comparing it to the specific combination of variables expressed as either <m>\displaystyle \frac{mv^2}{r}</m> or <m>m\omega^2r</m>.</p></li>
-        </ul></p></li>
-    </ul>
-    </objectives>
-
-<introduction><title>Introduction</title>
-
-    <p>We will be investigating the force which is necessary to maintain the circular motion of an object.
-    The apparatus used will allow you to spin an F-shaped arm which has a mass suspended from the
-    top arm.  This mass will be held in place by a spring which makes up the lower arm.  The spring
-    will provide the centripetal force.  You will need to be familiar with the ideas of circular motion,
-    centripetal versus centrifugal force, centripetal acceleration, and angular velocity.  In addition to
-    these concepts, try to understand how we will measure the angular speed in lab.</p>
-
-    <p>The centripetal acceleration <m>a_c</m> is calculated from the following equation written either
-    <m>\displaystyle a_c=\frac{v^2}{r}</m>
-    or
-    <m>\displaystyle a_c = \omega^2 r</m>
-    where <m>v</m> is the linear velocity of the particle, <m>\omega</m> is the angular velocity,
-    and <m>r</m> is the radius of the circle.  Note that angular velocity is measured in radians per second. </p>
-
-    <p>From Newton's second law, <m>\vec F = m \vec a</m>.
-    Therefore, the force required to keep the particle of mass <m>m</m> moving in a circle
-    with constant speed is
-    <men xml:id="eq-centripetal"> F = ma_c = \frac{mv^2}{r} = m\omega^2r </men>
-    Recall that the centripetal force is not a force applied <em>in addition</em> to
-    other existing forces.
-    The centripetal force is <em>whatever combination</em> of existing force act to
-    maintain circular motion.</p>
-
-    </introduction>
-
-<section xml:id="s-centripetal-pre"><title>Pre-Lab Considerations</title>
-
-    <p><ol>
-    <li><p> Why do we say that an object moving with <em>constant speed</em> in a circular path is being accelerated? </p></li>
-    <li><p> In which direction is that acceleration?  How do you know?   </p></li>
-    <li><p> Is this <m>a_c</m> <q>centripetal</q> or <q>centrifugal?</q> </p></li>
-    </ol>
-    </p>
-
-</section>
-
-    <section xml:id="s-centripetal-outcomes">
-    <title>Student Outcomes</title>
-
-    <p>Knowledge Developed: In this exercise, students should learn how the forces required to hold spinning objects in place changes with the speed.
-    </p>
-
-    <p>Skills Developed:
-    <ul>
-        <li><p>Evaluating and propagating uncertainties from the source of uncertainty to the result</p></li>
-    </ul>
-    </p>
-    </section>
-
-
-<section xml:id="s-centripetal-procedure"><title>Procedure</title>
-
-    <p>The centripetal force is supplied by a spring.  Since we cannot directly measure
-    <q>the force exerted by the spring while it is rotating</q> while it is rotating,
-    determine how we can measure <q>the force exerted by the spring during the rotation</q>
-    when the spring is not rotating.</p>
-
-    <p><ul>
-    <li><p> By means of the lab apparatus, a mass <m>m</m> can be made to rotate with a constant (and measurable)
-        angular speed <m>\omega</m>.  With some practice, it is possible to adjust the speed so that the radius of the path remains constant.
-        The value of the radius, <m>r</m>, is marked on the apparatus and so can be measured easily.</p></li>
-    <li><p> Measuring the mass should be an obvious task.</p></li>
-    <li><p> Measuring the angular speed <m>\omega</m> is straightforward, but may not be obvious.  To do so, consider the following:
-        <ul>
-        <li><p> Angular speed <m>(\omega)</m> is measured in
-<quantity><unit base="radian" /><per base="second" /></quantity>.</p></li>
-        <li><p> <m>\omega</m> is related to the rotational speed which is measured in
-<quantity><unit base="revolution" /><per base="second" /></quantity>.</p></li>
-        <li><p> There are <m>2\pi</m> radians in 1 revolution.</p></li>
-        <li><p> We can count the number of revolutions.</p></li>
-        <li><p> The <q>period of rotation,</q> <m>T</m>, is defined as the number of seconds per revolution.</p></li>
-        <li><p> We measure the period not by timing a single revolution, but by measuring the time for multiple (20)
-            revolutions divided by the number of revolutions. (This averages out any uncertainty due to reaction-time.)</p></li>
-        </ul></p>
-        <p> As the mass rotates, its period of rotation can be measured.
-            This allows you to calculate the angular speed using the hints above.</p></li>
-    <li><p> Repeat the entire procedure for a second value of F.
-        <ul>
-        <li><p>To change the force used, you have to adjust the spring as follows.</p></li>
-        <li><p>There is a small dial at the end of the spring away from the mass.  If you turn it one way, it tightens the spring (increasing the force).  If you turn it the other way, it loosens the spring (decreasing the force).</p></li>
-        <li><p>When you change this dial, it is unlikely that you will be able to put it back to where you originally had it, so you should be certain that you have all the information you need from the first measurements before you turn this dial!</p></li>
-        </ul></p></li>
-    </ul>
-    </p>
-
-</section> <section xml:id="s-centripetal-analysis"><title>Analysis</title>
-
-    <p>From measurements of <m>m</m>, <m>\omega</m>, and <m>r</m>, calculate the theoretical centripetal force on
-    the mass (which experimentally is supplied by the spring).  You can, of course use <xref ref="mult" text="global">Rule</xref> to determine the uncertainty of this centripetal force (as expected from the theory).</p>
-
-    <p>The (unmeasurable) amount
-    of force exerted by the spring to hold the spinning mass at a particular radius is
-    equal to the (measurable) force required to stretch the spring to that radius.  Experimentally determine
-    the force necessary to stretch the spring to a specific radius.  You should, of course, find the uncertainty in this value as well.</p>
-
-    <p> In order to verify the theory of centripetal force, and <xref ref="eq-centripetal">Equation</xref> in particular, <xref ref="considerations-compare" text="title">compare</xref> the force needed to stretch the spring with the amount
-    of theoretical centripetal force calculated above.  </p>
-
-</section>
-
-    <conclusion>
-    <p>(Revised: Oct 11, 2017)</p> <!-- Added Outcomes, Clarified analysis -->
-<!--    <p>(Revised: Oct 9, 2017)</p> Clarified how to repeat the measurement for a second value of force, added outcomes -->
-    <!--    Revisions \revised{Fall 2006}
-        -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/centripetal.pdf">centripetal.pdf (83 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
@@ -2295,376 +2680,6 @@
         \revision{August 24, 2009}{}
         -->
     <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/energy-2.pdf">energy-2.pdf (166 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
-    </conclusion>
-
-</chapter>
-
-<!-- ********************************************************************************************** -->
-
-<chapter xml:id="c-peer"><title>Peer Review</title>
-
-<introduction>
-    <p>The most important part of doing science is the peer-review process.
-    After one completes a research project, the report is submitted for publication.
-    The publisher has a number of reviewer (usually made up of respected authors) and
-    the submission is sent to two (sometimes three) reviewers who advise the publisher on the merits of the work.
-    Once you make a submission, it might be two months before the reviewers finish reviewing the work.
-    Generally the publisher will return the reviewers' comments to the author.
-    If all reviewers agree that the paper is viable, then the publisher accepts it.
-    If they agree not to accept a paper, then it is rejected.
-    If the reviewers are split, then the decision is at the discretion of the publisher.
-    In most cases, the reviewer makes suggestions for how to improve the paper or where to clarify the discussion.
-    In some cases, the author must either significantly revise the entire project or make an argument
-    why the reviewer is either mistaken or is merely pointing out the specific point-of-contention that
-    the author was intending to spark in the readers.  In most cases, the process of an accepted paper is
-    <ol>
-        <li xml:id="i-submit"><p> Author submits article.</p></li>
-        <li xml:id="i-review"><p> Publishers submit to reviewers, who read and return comments to the publisher.</p></li>
-        <li><p> Publisher gives author a chance to respond; most do (!).</p></li>
-        <li><p> Publishers provide authors' response to reviewers, who then give final approval (or not).</p></li>
-        <li><p> Paper goes to Editor, who returns paper to author for grammar, spelling, and formatting corrections.</p></li>
-        <li><p> After the author fixes or refuses to fix the editor's <q>suggestions,</q> the paper goes to publication.</p></li>
-    </ol>
-    This process can take anywhere from 1-2 months to a year and a half.  This week, we will do <xref ref="i-submit" text="type-global" />.
-    Next week, we will do <xref ref="i-review" text="type-global" />.</p>
-
-    <p>Usually during the review process, the reviewer is not informed of the name of the submission author --
-    to minimize influencing the reviewer.  Similarly, the names of the reviewers are not revealed to the submission author.
-    This is called <q>double-blind review.</q>  Some disciplines are specialized enough that all of the active
-    researchers are familiar with each other's work.  In those cases, it is possible to guess who an author is
-    (based on the approach to the project) or to guess who the reviewer is (based on the style of comments).
-    In principle, both sides are civil in their comments and reactions because they are members of the same community
-    and see each other annually at the topic meetings.  Researchers are competitors and collaborators who only progress
-    by working off of each others' ideas.</p>
-
-    </introduction>
-    <section xml:id="s-peer-assignment"><title>The Assignment</title>
-
-    <p>In order to manage the double-blind review process, before you leave lab today you will all turn in your
-    (personally selected) code name.  Do not tell anybody what you selected and do not use a nickname that is easily
-    recognizable by others -- the point of a secret identity is to keep the secret!</p>
-
-    <p>In this week's lab, one lab section will do <xref ref="c-springs" text="title" /> and the other lab section will do
-    <xref ref="c-pendulum" text="title" />.  The underlying ideas are similar to each other and will help you next week when you
-    review an article submitted by a colleague who did the other experiment.  When you submit your lab this week,
-    you will submit your notebook and two (almost identical) copies of your report.  One copy will have your name
-    <em>and</em> your secret code name.  The other copy will have <em>only</em> your secret identity.</p>
-
-    </section>
-
-    <conclusion>
-    <p>(Revised: Sep 1, 2008)</p>
-<!--    Revisions
-        \revised{Sep 1, 2008}
-        -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/peer.pdf">peer.pdf (47 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
-    </conclusion>
-
-</chapter>
-
-<!-- ********************************************************************************************** -->
-
-<chapter xml:id="c-springs"><title>Hooke's Law and Simple Harmonic Motion</title>
-
-    <objectives>
-    <introduction>
-    <p>The stiffness of springs can be measured by stretching or by bouncing.  Because we do not have an independent verification of the value of the stiffness of the spring, we will need to be clever about how to verify the relevant equations.  It turns out that the measurement of stiffness through bouncing gives a value for the spring constant, whereas the measurement of stiffness by hanging involves both the spring constant and the acceleration due to gravity.  </p>
-    </introduction>
-    <ul>
-    <li><p>By measuring and graphing
-        <ul>
-        <li><p>the relationship between mass and elongation when stretching a spring and</p></li>
-        <li><p>the relationship between mass and the period of a bouncing spring, </p></li>
-        </ul>
-        we can compute the value of the acceleration due to gravity and thereby verify the relationships describing the stretch of a spring.</p></li>
-    </ul>
-<!--
-    Experimentally determine and compare the spring constant <m>(k)</m> of a spring as determined by Hooke's Law and
-    also with the SHM period formula.
--->
-    </objectives>
-
-<introduction><title>Introduction</title>
-
-    <p>Oscillatory motion is one of the most common types of motions and can occur in any physical system.
-    Mechanical systems can experience a periodic motion, and then will vibrate at a natural frequency.
-    This phenomenon is called resonance.  Sound is a vibration in the air, which we hear with our ears;
-    light is an oscillation of electric and magnetic fields, which we can see.  The atoms and molecules in
-    all objects are in a state of continual vibration, which we can detect as the temperature of the object,
-    and the atomic vibrations of a quartz crystal can be used as a very accurate timer.  The study of
-    repetitive motion is not just an intellectual exercise, but actually enables us to model complicated
-    systems with simple harmonic motion.</p>
-
-    <p>In this lab, we will consider spring as an example of oscillation.  This oscillation is due to the
-    elasticity of a spring.  We will need to measure the stiffness of the spring and relate this to the rate of oscillation.</p>
-
-    <p>Most systems have elastic properties, such that when the system is deformed or vibrated,
-    there is a force which tries to restore the system to its original state.  If the restoring
-    force is proportional to the displacement from its equilibrium position, then the object is
-    said to be in simple harmonic motion (SHM).  A linear restoring force can be expressed
-    mathematically by the equation
-    <men xml:id="eq-hooke">
-    \vec F= -k\vec x \hspace{.5cm} \mbox{or as} \hspace{.5cm}  a= \frac{d^2x}{dt^2} = -\frac{kx}{m}
-    </men>
-    where <m>F</m> is the <term>restoring force</term>, <m>x</m> is the <term>elongation</term> (the displacement from the equilibrium position, which is also called the <q>zero position</q>), <m>k</m> is a proportionality constant, and the minus sign indicates that the
-    restoring force is always opposite the direction of the displacement.  For a spring system, <m>k</m>
-    is called the <term>spring constant</term>, and represents the ratio of the applied force to the elongation.
-    The spring constant is an inherent physical property of the spring itself (an elastic property).
-    The value of <m>k</m> gives a relative indication of the stiffness of the spring.  If the spring
-    system is in equilibrium  <m>(\sum F_i =0)</m>  then the restoring force is equal to the force
-    pulling on the spring, and this force is proportional to the extension of the spring from its equilibrium
-    position.  This relationship for elastic behavior is known as Hooke's law, after Robert Hooke (1635-1703).
-    </p>
-
-        <p>We can investigate Hooke's law by hanging a mass on a spring, measuring the stretch, and plotting the mass versus the elongation.
-        If we rewrite <xref ref="eq-hooke" text="type-global">Equation</xref> relating the mass to the elongation
-        <men xml:id="eq-hooke-stretching"> m = \left[ \frac{k}{g} \right] x </men>
-        then we see an equation of the form <m>y=mx+\cancelto{0}{b}</m>, where the slope depends on both <m>k</m> and <m>g</m>.</p>
-
-<!-- <p>Notice that for the previous equation to be valid,  the acceleration must have the same functional form as the displacement.
-    One function for which this would be true is the cosine function, that is, that both the acceleration and the displacement
-    can be represented by cosine functions.</p>
-    -->
-
-    <p>Simple Harmonic Motion (SHM) systems can
-    <!-- therefore -->
-    be described by harmonic functions (cosines), where the displacement as a function of the time <m>x(t)</m> can be written as
-    <me>	x(t) = A \cos(2\pi f t) </me>
-    where <m>A</m> is the amplitude of the motion, and <m>f</m> is the frequency of the motion in units of cycles per second
-    <m>(\mathrm{sec}^{-1})</m> commonly called a hertz (Hz) after Heinrich Hertz.
-    The period (<m>T</m>, in units of seconds per cycle) equals the inverse of the frequency <m>(f)</m>,
-    <m>T=\phantom{1}^1\!\!/_f</m>.  For a mass on a spring, the period <m>T</m> depends on the physical parameters of the system
-    (the mass, and the spring constant), and can be given by
-    <men xml:id="eq-hookeperiod"> T=2\pi \sqrt{\frac{m}{k}} </men>
-    </p>
-
-        <p xml:id="p-hooke-bouncing">We can investigate this relationship by bouncing a mass on a spring, measuring the period, and plotting the mass versus the period.
-        If we rewrite <xref ref="eq-hookeperiod" text="global">Equation</xref> relating the mass to the period
-        <men xml:id="eq-hooke-bouncing"> m = \left[ k \right] \left( \frac{T}{2\pi} \right)^2 </men>
-        then we see an equation of the form <m>y=ax^2+\cancelto{0}{b}x+\cancelto{0}{c}</m>, where the coefficient only depends on <m>k</m>.  Although this is a nonlinear relationship, we can <xref ref="quadratic" text="title">linearize</xref> the expression to find the parameter (slope with uncertainty) more easily.  (See <xref ref="nonlinear" text="type-global" /> for more discussion.)  You may also note that <m>T/2\pi</m> is a more convenient variable than <m>T</m> by itself because it produces a slope equal to <m>k</m> rather than <m>k/(2\pi)^2</m>.</p>
-
-        <p>When you compare these relationships of the spring, you should be able to find a value for the acceleration due to gravity as a verification of these two equations.</p>
-
-</introduction>
-
-<section xml:id="s-hooke-pre"><title>Pre-Lab Considerations</title>
-
-    <p>
-    <ul>
-        <li><p> Make a sketch of your expectation for the displacement of a mass on a spring as a function of the time.</p></li>
-        <li><p> On this graph, locate and label:  the equilibrium positions <m>(x=0)</m>, and the places of
-            maximum and minimum velocity.</p></li>
-        <li><p> Based on the information in the introduction, make a sketch of the pull force as a function
-            of the displacement from the equilibrium position (initial position).</p></li>
-    </ul>
-    </p>
-
-</section> <section xml:id="s-hooke-procedure"><title>Procedure</title>
-
-    <subsection xml:id="sss-hooke"><title>Hooke's law</title>
-
-        <p>We will first measure the elasticity of the spring, using <xref ref="eq-hooke" text="type-global">Equation</xref>.
-        <ul>
-            <li><p> With the available spring, attach it rigidly and hang it vertically against the Dynamics Track.
-                Hang various masses and measure the elongation of the spring, to a maximum of 60 cm.
-                Do not over stretch the spring.  Record the bottom end of the mass hanger for the initial reference position.
-                If a tapered spring is used, the small end should be at the top.</p></li>
-            <li><p> Measure the elongation both when the masses are added and then when they are removed.</p>
-                <p><em>Perfectly elastic</em> objects (possibly your spring) will return to the exact same location when pulled
-                with the same force whether they are being stretched out or being allowed to relax back after stretching.</p>
-                <p>Objects that are elastic, but not perfectly elastic, will return to approximately the same location, but might retain some deformation.</p></li>
-            <li><p> You will be graphing the relationship between the mass and the displacement, <xref ref="eq-hooke-stretching" text="title">Equation</xref>.</p></li>
-        </ul>
-        </p>
-
-    </subsection>
-    <subsection xml:id="sss-bounce"><title>Oscillating Spring</title>
-
-    <p>We will next consider the periodicity of an oscillating spring.
-    <ul>
-        <li><p> With the same range of masses as in <xref ref="sss-hooke" text="type-global" />,  measure the period of oscillation for each mass.
-        You <em>can</em> but do not <em>have to</em> use the same values of mass, as long as the set of masses sampled are in the same range.
-        </p></li>
-        <li><p> You will be graphing the relationship between the mass and the period, <xref ref="eq-hooke-bouncing" text="title">Equation</xref>.
-            I <xref ref="p-hooke-bouncing" text="title">recommend</xref> using <m>T/(2\pi)</m> as the variable representing the period
-            (because it gives nice results for the graphical parameters -- slope and intercept).
-        </p></li>
-        <li><p> <alert>Advice</alert>: Keep the amplitude of vibration small,  because there is a small but measurable effect
-            with the period as a function of the amplitude.
-        </p></li>
-    </ul>
-    </p>
-
-    </subsection>
-</section> <section xml:id="s-hooke-analysis"><title>Analysis</title>
-
-    <p>
-    <ul>
-        <li><p> Graph both data sets (<xref ref="sss-hooke" text="type-global" /> and <xref ref="sss-bounce" text="type-global" />)
-            in such a way that the spring constant can be determined graphically (from a <xref ref="quadratic" text="title">linear fit</xref> model).
-        <ul>
-            <li><p> When you graph the relationship between the mass and the displacement, recall that <xref ref="eq-hooke" text="type-global">Equation</xref>
-                depends on two specific parameters.</p></li>
-            <li><p> When you graph the relationship between the mass and the period, recall that <xref ref="eq-hookeperiod" text="type-global">Equation</xref>
-                depends on one specific parameter.</p></li>
-            <li><p> With some effort, you should be able to recognize the units of the slope and intercept and find the relevant values of those parameters.</p></li>
-            </ul>
-        </p></li>
-        <li><p> Physically interpret the meaning and value for the slopes, and the x and y intercepts for both graphs.</p></li>
-        <li><p> Calculate the spring constant for both data sets, using a linear regression method.</p></li>
-        <li><p> So far in the analysis, the mass of the spring has been neglected.  How would including the spring mass
-            (or a partial %) affect the slopes or intercepts of the two graphs?</p>
-            <p>For the period graph, one would expect to get a zero period with a zero mass.  Why?  What was your observation for the  y-intercept?
-            If the data was modified by adding a constant amount of mass to each mass value  (say 1/3 the mass of the spring)
-            and then re-compute the linear regression, then  what happens to the slope and intercept values?
-            And do you get a higher linear correlation coefficient?</p></li>
-        <li><p> If you assume a value for <m>g</m>, then both graphs will give you <m>k</m>.
-            <xref ref="considerations-compare" text="title">Compare</xref> the precision for these two methods.</p></li>
-        <li><p> If you do not assume a value for <m>g</m>, then you can use one graph to find <m>k</m> and
-            use this calculated value and the other graph to compute <m>g</m>.  How does this value of <m>g</m> compare to
-            your expectations?</p></li>
-        <li><p> Compare the elongations when the masses were added and then removed.  Explain any differences.  Is your spring perfectly elastic?</p></li>
-        <li><p> Quantify the major sources of uncertainty in this experiment.  Which of the experimental measurements has
-            the largest relative uncertainty?</p></li>
-    </ul></p>
-
-    </section>
-    <exercises><title>Questions</title>
-
-        <exercise>
-            <statement><p> Why should the amplitude of vibration be kept as small as possible?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Is the spring totally elastic?  (Does the elongation return to the same position when the masses are removed?)</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Based on the data, which method do you think is more precise?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Does the force of gravity affect the value of  <m>k</m> (as derived from each method)?  Why or  why not?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> If this experiment were conducted on the moon, would either method give a different result for the value of <m>k</m>?
-                Explain.</p></statement>
-        </exercise>
-
-    </exercises>
-
-    <conclusion>
-    <p>(Revised: Oct 11, 2017)</p> <!-- Clarified linearization, added cross-referencing links. -->
-<!-- Revisions \revised{(Aug 27, 2012)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/springs.pdf">springs.pdf (122 kB)</url></p>
-    <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
-    </conclusion>
-
-</chapter>
-
-
-<!-- ********************************************************************************************** -->
-
-<chapter xml:id="c-pendulum"><title>The Simple Pendulum</title>
-
-    <objectives>
-    <ul>
-        <li><p> Determine the relationship between the period of the pendulum and its amplitude.</p></li>
-        <li><p> Determine the relationship between the period of the pendulum and its mass.</p></li>
-        <li><p> Determine the relationship between the period of the pendulum and the length of the pendulum.</p></li>
-        <li><p> Use a graphical analysis to investigate these relationships, and from the best linear graph
-            determine an empirical equation for the period of a pendulum.</p></li>
-        <li><p> Gravity also plays a part in this experiment, so include gravity into your empirical equation,
-            and use unit analysis to help figure out this relationship.</p></li>
-    </ul>
-    </objectives>
-
-<introduction><title>Introduction</title>
-
-    <p>A simple pendulum consists of a small bob of mass <m>(m)</m> suspended by a light
-    (assumed to be massless) string of length <m>(L)</m>, and the string is firmly attached at its upper end.
-    This pendulum is a mechanical system which we will assume exhibits simple harmonic motion.
-    That is, the restoring force on the pendulum is proportional to the displacement from the equilibrium position.</p>
-
-    <p>Oscillatory motion is one of the most common types of motions and can occur in any physical system.
-    Mechanical systems can experience a periodic motion, and then will vibrate at a natural frequency.
-    This phenomenon is called resonance.  Sound is a vibration in the air, which we hear with our ears;
-    light is an oscillation of electric and magnetic fields, which we can see.  The atoms and molecules in
-    all objects are in a state of continual vibration, which we can detect as the temperature of the object,
-    and the atomic vibrations of a quartz crystal can be used as a very accurate timer.  The study of
-    repetitive motion is not just an intellectual exercise, but actually enables us to model complicated
-    systems with simple harmonic motion.</p>
-
-    <p>Galileo (1564-1642) investigated the natural motions of a simple pendulum.  From his observations he
-    concluded that <q>vibrations of very large and very small amplitude all occupy the same time.</q>
-    Galileo's time interval of measurement was his own pulse rate.  With today's modern technology we have
-    much more precise measuring instruments.   This experiment will investigate the relationships between
-    the physical characteristics of the pendulum and the period of the pendulum.</p>
-
-</introduction>
-
-<section xml:id="s-pendulum-procedure"><title>Procedure</title>
-
-    <p>You will have available for your use:  pendulum bobs, string, timers, and a protractor.
-    Be careful to fix the string to a point of support which will not move or vibrate as the pendulum swings.
-    You will test each of the three relationships above (period vs amplitude, vs mass, and vs length).
-    While measuring one relationship, you should ensure that -- if they matter -- then the other two variables are not varied.
-    For example, when changing the pendulum mass do not vary the pendulum's length or its amplitude.</p>
-
-    <p>Some considerations while doing this lab:
-    <ul>
-        <li><p> It turns out that the convenient quantity when graphing is not the period, <m>T</m>, but rather <m>T/(2\pi)</m>.</p></li>
-        <li><p> The amplitude of oscillation is the maximum angle which the string makes from the vertical.</p></li>
-        <li><p> In general when testing the mass or the length, it is best to keep the amplitude of oscillation small.</p></li>
-        <li><p> When testing any of the relationships, you should measure a few widely-separated values.  If these seem to vary
-            significantly, then fill in the gaps between those measurements to make a reliable graph.
-            See <xref ref="q-howmany" text="global">Question</xref>.</p></li>
-        <li><p> If you can prove that the period is not affected by one of these variables, then you do not need to worry about
-            keeping it constant while you measure the other variables.</p></li>
-        <li><p> Your graphical analysis will be better if your graph is linear.  Consider <xref ref="q-linpend" text="global">Question</xref> for advice on
-            making your graphs.</p></li>
-    </ul>
-    </p>
-
-</section> <exercises><title>Questions</title>
-
-        <exercise>
-            <statement><p> Was Galileo's statement precise?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Does this pendulum follow simple harmonic motion?</p></statement>
-        </exercise>
-        <exercise xml:id="q-howmany">
-            <statement><p> How many observations should you take in order to obtain good data?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Air resistance gradually decreases the amplitude of the pendulum.
-                What effect does this have on the period of the pendulum?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> What effect would stretching of the string have on your results?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> How does gravity affect this experiment?
-                What would happen to the results if this experiment were conducted on the moon?</p></statement>
-        </exercise>
-        <exercise xml:id="q-linpend">
-            <statement><p> If you have a parabolic graph, such as <m>y=ax^2</m>,
-                then you might consider graphing <m>y</m> versus <m>x^2</m> to get a linear graph.  (See also <xref ref="nonlinear" text="type-global" />.)
-                What is the physical meaning of the slope and the intercept of each of your graphs?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Why is it a good idea to keep the amplitude of vibration small?</p></statement>
-        </exercise>
-        <exercise>
-            <statement><p> Where to and how should the pendulum length be measured?</p></statement>
-        </exercise>
-
-</exercises>
-
-    <conclusion>
-    <p>(Revised: Oct 11, 2017)</p> <!-- Linked to appendix for linearizing.  Suggested using <m>T/2\pi</m>. -->
-<!-- Revisions \revised{(Aug 27, 2012)} -->
-    <p>A PDF version might be found at <url href="http://physics.thomasmore.edu/Labs/121/pendulum.pdf">pendulum.pdf (67 kB)</url></p>
     <p>Copyright and license information can be found <url href="http://physics.thomasmore.edu/Labs/121/general-fall-colophon.html">here</url>.</p>
     </conclusion>
 
